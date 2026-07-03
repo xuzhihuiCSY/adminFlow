@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CalendarDays, Clock, MapPin, SlidersHorizontal } from "lucide-react";
 
 import FavoriteButton from "@/components/FavoriteButton";
 import GoogleAdHolder from "@/components/GoogleAdHolder";
 import { useLanguage } from "@/components/LanguageProvider";
+import PaginationControls from "@/components/PaginationControls";
 import SearchBar from "@/components/SearchBar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -34,6 +35,7 @@ import {
 
 const allStates = Array.from(new Set(programs.map((program) => program.state))).sort();
 const degreeTabs: DegreeGroup[] = ["Undergraduate", "Master", "Doctoral"];
+const schoolCardsPerPage = 8;
 
 export default function HomePage() {
   const [query, setQuery] = useState("");
@@ -235,11 +237,26 @@ function ProgramGroup({
   items: Program[];
   now: Date;
 }) {
+  const [page, setPage] = useState(1);
+  const schoolGroups = useMemo(() => groupProgramsBySchool(items), [items]);
+  const totalPages = Math.max(1, Math.ceil(schoolGroups.length / schoolCardsPerPage));
+  const currentPage = Math.min(page, totalPages);
+  const pageGroups = schoolGroups.slice(
+    (currentPage - 1) * schoolCardsPerPage,
+    currentPage * schoolCardsPerPage
+  );
+
+  useEffect(() => {
+    setPage((current) => Math.min(Math.max(current, 1), totalPages));
+  }, [totalPages]);
+
+  useEffect(() => {
+    setPage(1);
+  }, [items]);
+
   if (items.length === 0) {
     return null;
   }
-
-  const schoolGroups = groupProgramsBySchool(items);
 
   return (
     <section>
@@ -250,9 +267,16 @@ function ProgramGroup({
         </div>
       </div>
       <div className="grid gap-4 lg:grid-cols-2">
-        {schoolGroups.map((group) => (
+        {pageGroups.map((group) => (
           <SchoolProgramCard key={group.school} group={group} now={now} />
         ))}
+      </div>
+      <div className="mt-5">
+        <PaginationControls
+          page={currentPage}
+          totalPages={totalPages}
+          onPageChange={setPage}
+        />
       </div>
     </section>
   );

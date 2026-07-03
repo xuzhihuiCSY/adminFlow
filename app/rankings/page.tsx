@@ -1,9 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ArrowUpDown, ExternalLink, ListFilter, Trophy } from "lucide-react";
 
 import { useLanguage } from "@/components/LanguageProvider";
+import PaginationControls from "@/components/PaginationControls";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { getStateLabel, type Language } from "@/lib/i18n";
@@ -17,6 +18,7 @@ import {
 const rankings = getSchoolRankings();
 const rankingSource = getSchoolRankingSource();
 const allStates = Array.from(new Set(rankings.map((school) => getStateFromCity(school.city)))).sort();
+const rankingRowsPerPage = 10;
 
 const pageCopy = {
   zh: {
@@ -100,6 +102,7 @@ export default function RankingsPage() {
   const [stateFilter, setStateFilter] = useState("All");
   const [schoolTypeFilter, setSchoolTypeFilter] = useState<SchoolTypeFilter>("All");
   const [sortMode, setSortMode] = useState<SortMode>("worldRank");
+  const [page, setPage] = useState(1);
 
   const filteredRankings = useMemo(() => {
     return rankings
@@ -129,6 +132,21 @@ export default function RankingsPage() {
         );
       });
   }, [schoolTypeFilter, sortMode, stateFilter]);
+
+  const totalPages = Math.max(1, Math.ceil(filteredRankings.length / rankingRowsPerPage));
+  const currentPage = Math.min(page, totalPages);
+  const pageRankings = filteredRankings.slice(
+    (currentPage - 1) * rankingRowsPerPage,
+    currentPage * rankingRowsPerPage
+  );
+
+  useEffect(() => {
+    setPage(1);
+  }, [schoolTypeFilter, sortMode, stateFilter]);
+
+  useEffect(() => {
+    setPage((current) => Math.min(Math.max(current, 1), totalPages));
+  }, [totalPages]);
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
@@ -213,15 +231,22 @@ export default function RankingsPage() {
       </section>
 
       {filteredRankings.length > 0 ? (
-        <section className="grid gap-3">
-          {filteredRankings.map((school) => (
-            <RankingRow
-              key={school.school}
-              school={school}
-              language={language}
-              copy={copy}
-            />
-          ))}
+        <section className="grid gap-5">
+          <div className="grid gap-3">
+            {pageRankings.map((school) => (
+              <RankingRow
+                key={school.school}
+                school={school}
+                language={language}
+                copy={copy}
+              />
+            ))}
+          </div>
+          <PaginationControls
+            page={currentPage}
+            totalPages={totalPages}
+            onPageChange={setPage}
+          />
         </section>
       ) : (
         <section className="rounded-lg border border-dashed border-border bg-card p-10 text-center">
