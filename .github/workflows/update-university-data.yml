@@ -27,6 +27,9 @@ jobs:
       - name: Update catalog data
         run: npm run update:data
 
+      - name: Audit deadlines and links
+        run: npm run audit:data
+
       - name: Build
         run: npm run build
 

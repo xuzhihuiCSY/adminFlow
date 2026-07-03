@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "audit:data": "node scripts/audit-program-data.mjs",
     "check:links": "node scripts/check-links.mjs",
     "update:data": "node scripts/update-university-data.mjs",
     "start": "next start",

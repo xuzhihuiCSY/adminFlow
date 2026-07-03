@@ -10,10 +10,13 @@ The workflow:
 
 1. Installs Node dependencies with `npm ci`.
 2. Runs `npm run update:data`.
-3. Builds the app with `npm run build`.
-4. Commits changed `data/*.json` files back to the branch.
+3. Runs `npm run audit:data`.
+4. Builds the app with `npm run build`.
+5. Commits changed `data/*.json` files back to the branch.
 
 `scripts/update-university-data.mjs` currently refreshes CWUR ranking data, validates the local catalog JSON, and writes `data/update-report.json`.
+
+`scripts/audit-program-data.mjs` checks whether program links are reachable, collects deadline-related evidence from public program and admission pages, and writes `data/program-audit-report.json`. Deadline evidence is for review and is not automatically written to `data/application-windows.json`.
 
 ## Amplify Hosting
 
@@ -31,6 +34,7 @@ Run these before pushing deployment changes:
 
 ```bash
 npm run update:data
+npm run audit:data
 npm run build
 npm run lint
 ```
