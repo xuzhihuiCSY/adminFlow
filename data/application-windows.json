@@ -1,0 +1,1158 @@
+{
+  "uw-msds": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-05"
+    }
+  ],
+  "uw-msim": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    }
+  ],
+  "uw-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "11-15"
+    }
+  ],
+  "wsu-mscs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-10"
+    }
+  ],
+  "wsu-mba": [
+    {
+      "intake": "Fall",
+      "opens": null,
+      "deadline": "03-01"
+    }
+  ],
+  "gatech-msanalytics": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "02-01"
+    }
+  ],
+  "gatech-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-15"
+    }
+  ],
+  "gatech-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "10-15"
+    }
+  ],
+  "ut-msds": [
+    {
+      "intake": "Fall",
+      "opens": null,
+      "deadline": "04-01"
+    }
+  ],
+  "ut-mba": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-08"
+    }
+  ],
+  "ut-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "ucb-bs-eecs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "ucla-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "ucd-mscs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "ucd-mba": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "03-08"
+    }
+  ],
+  "ucd-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "uci-mcs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "uci-phd-ics": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-01"
+    }
+  ],
+  "uci-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "ucsd-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "sjsu-msse": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "04-01"
+    }
+  ],
+  "sjsu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "sdsu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "sdsu-mscs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "03-01"
+    }
+  ],
+  "calpoly-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "csulb-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "csulb-mscs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "03-15"
+    }
+  ],
+  "cpp-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "cpp-mscs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "03-01"
+    }
+  ],
+  "csuf-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "csuf-mscs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "03-01"
+    }
+  ],
+  "csun-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "sacstate-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "sfsu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "sfsu-mscs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "04-01"
+    }
+  ],
+  "csueb-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "fresno-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "csumb-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "asu-mscs": [
+    {
+      "intake": "Fall",
+      "opens": null,
+      "deadline": "12-01"
+    }
+  ],
+  "asu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": null,
+      "deadline": "05-01"
+    }
+  ],
+  "neu-mscs": [
+    {
+      "intake": "Fall",
+      "opens": null,
+      "deadline": "04-15"
+    }
+  ],
+  "neu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-01"
+    }
+  ],
+  "mit-sb-eecs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "mit-ms-eecs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "stanford-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "stanford-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-03"
+    }
+  ],
+  "cmu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-03"
+    }
+  ],
+  "cmu-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-10"
+    }
+  ],
+  "uiuc-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "uiuc-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "purdue-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "purdue-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-20"
+    }
+  ],
+  "umich-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "02-01"
+    }
+  ],
+  "umich-ms-cse": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    }
+  ],
+  "umd-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-20"
+    }
+  ],
+  "umd-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "cornell-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-02"
+    }
+  ],
+  "cornell-meng-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-01"
+    }
+  ],
+  "columbia-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-01"
+    }
+  ],
+  "columbia-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-15"
+    }
+  ],
+  "nyu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "nyu-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "03-01"
+    }
+  ],
+  "usc-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "usc-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    }
+  ],
+  "wisc-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "wisc-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "upenn-bse-cis": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "upenn-mse-cis": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-01"
+    }
+  ],
+  "duke-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-02"
+    }
+  ],
+  "duke-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-31"
+    }
+  ],
+  "unc-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "unc-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-10"
+    }
+  ],
+  "uva-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "uva-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "osu-bs-cse": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "02-01"
+    }
+  ],
+  "osu-ms-cse": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "umn-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-01"
+    }
+  ],
+  "umn-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "cu-boulder-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "cu-boulder-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    }
+  ],
+  "uf-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "03-01"
+    }
+  ],
+  "uf-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-31"
+    }
+  ],
+  "rice-ba-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-04"
+    }
+  ],
+  "rice-mcs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-15"
+    }
+  ],
+  "harvard-ab-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-01"
+    }
+  ],
+  "harvard-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "yale-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-02"
+    }
+  ],
+  "yale-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "princeton-ab-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-01"
+    }
+  ],
+  "princeton-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "brown-ab-scb-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "brown-scm-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-01"
+    }
+  ],
+  "brown-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "dartmouth-ab-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-02"
+    }
+  ],
+  "dartmouth-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "dartmouth-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "caltech-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-03"
+    }
+  ],
+  "caltech-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "jhu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-02"
+    }
+  ],
+  "jhu-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-15"
+    }
+  ],
+  "northwestern-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-03"
+    }
+  ],
+  "northwestern-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-28"
+    }
+  ],
+  "uchicago-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-06"
+    }
+  ],
+  "uchicago-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-11"
+    }
+  ],
+  "ucsb-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "11-30"
+    }
+  ],
+  "ucsb-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "ucsc-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "11-30"
+    }
+  ],
+  "ucsc-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "tamu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "tamu-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    }
+  ],
+  "psu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "02-01"
+    }
+  ],
+  "psu-ms-cse": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "rutgers-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "rutgers-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-01"
+    },
+    {
+      "intake": "Spring",
+      "opens": "05-01",
+      "deadline": "09-15"
+    }
+  ],
+  "uarizona-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "05-01"
+    }
+  ],
+  "uarizona-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    }
+  ],
+  "umass-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "umass-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    },
+    {
+      "intake": "Spring",
+      "opens": "08-01",
+      "deadline": "10-01"
+    }
+  ],
+  "umass-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "vt-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "vt-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    },
+    {
+      "intake": "Spring",
+      "opens": "05-01",
+      "deadline": "08-01"
+    }
+  ],
+  "vt-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "vanderbilt-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-01"
+    }
+  ],
+  "vanderbilt-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "vanderbilt-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "ucb-ba-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-01"
+    }
+  ],
+  "ucb-mims": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-06"
+    }
+  ],
+  "ucb-phd-eecs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-01"
+    }
+  ],
+  "ucla-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-15",
+      "deadline": "12-15"
+    }
+  ],
+  "ucla-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-15",
+      "deadline": "12-15"
+    }
+  ],
+  "ucla-ms-applied-stat-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-01"
+    }
+  ],
+  "ucsd-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-03",
+      "deadline": "12-23"
+    }
+  ],
+  "ucsd-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-03",
+      "deadline": "12-23"
+    }
+  ],
+  "ucsd-ms-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "10-01",
+      "deadline": "12-03"
+    }
+  ],
+  "stonybrook-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-15"
+    }
+  ],
+  "stonybrook-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-15"
+    },
+    {
+      "intake": "Spring",
+      "opens": "06-01",
+      "deadline": "10-01"
+    }
+  ],
+  "stonybrook-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    }
+  ],
+  "stonybrook-ms-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "05-01"
+    },
+    {
+      "intake": "Spring",
+      "opens": "06-01",
+      "deadline": "10-15"
+    }
+  ],
+  "utah-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "04-01"
+    }
+  ],
+  "utah-bs-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "04-01"
+    }
+  ],
+  "utah-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "utah-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-15"
+    }
+  ],
+  "utah-ms-computational-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "04-01"
+    }
+  ],
+  "ub-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "02-01"
+    }
+  ],
+  "ub-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-31"
+    },
+    {
+      "intake": "Spring",
+      "opens": "06-01",
+      "deadline": "09-30"
+    }
+  ],
+  "ub-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "12-31"
+    },
+    {
+      "intake": "Spring",
+      "opens": "06-01",
+      "deadline": "09-30"
+    }
+  ],
+  "ub-ms-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-15"
+    },
+    {
+      "intake": "Spring",
+      "opens": "06-01",
+      "deadline": "10-01"
+    }
+  ],
+  "bu-ba-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "01-05"
+    }
+  ],
+  "bu-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "03-15"
+    }
+  ],
+  "bu-ms-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "04-01"
+    }
+  ],
+  "iu-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "02-01"
+    }
+  ],
+  "iu-bs-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "02-01"
+    }
+  ],
+  "iu-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "06-11",
+      "deadline": "03-01"
+    }
+  ],
+  "iu-ms-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "06-11",
+      "deadline": "03-01"
+    }
+  ],
+  "pitt-bs-cs": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "pitt-bs-data-science": [
+    {
+      "intake": "Fall",
+      "opens": "08-01",
+      "deadline": "12-01"
+    }
+  ],
+  "pitt-ms-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "02-15"
+    },
+    {
+      "intake": "Spring",
+      "opens": "03-01",
+      "deadline": "06-15"
+    }
+  ],
+  "pitt-phd-cs": [
+    {
+      "intake": "Fall",
+      "opens": "09-01",
+      "deadline": "01-15"
+    },
+    {
+      "intake": "Spring",
+      "opens": "03-01",
+      "deadline": "06-15"
+    }
+  ]
+}

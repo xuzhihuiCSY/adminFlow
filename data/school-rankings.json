@@ -1,0 +1,466 @@
+{
+  "source": {
+    "name": "Center for World University Rankings (CWUR)",
+    "edition": "2026 Global 2000",
+    "url": "https://cwur.org/2026.php",
+    "country": "USA",
+    "updated": "2026-07-03"
+  },
+  "rankings": {
+    "Harvard University": {
+      "sourceInstitution": "Harvard University",
+      "worldRank": 1,
+      "nationalRank": 1,
+      "score": 100,
+      "sourceUrl": "https://cwur.org/2026/harvard-university.php"
+    },
+    "MIT": {
+      "sourceInstitution": "Massachusetts Institute of Technology",
+      "worldRank": 2,
+      "nationalRank": 2,
+      "score": 96.8,
+      "sourceUrl": "https://cwur.org/2026/massachusetts-institute-of-technology.php"
+    },
+    "Stanford University": {
+      "sourceInstitution": "Stanford University",
+      "worldRank": 3,
+      "nationalRank": 3,
+      "score": 95.2,
+      "sourceUrl": "https://cwur.org/2026/stanford-university.php"
+    },
+    "Princeton University": {
+      "sourceInstitution": "Princeton University",
+      "worldRank": 6,
+      "nationalRank": 4,
+      "score": 92.7,
+      "sourceUrl": "https://cwur.org/2026/princeton-university.php"
+    },
+    "University of Pennsylvania": {
+      "sourceInstitution": "University of Pennsylvania",
+      "worldRank": 7,
+      "nationalRank": 5,
+      "score": 92.1,
+      "sourceUrl": "https://cwur.org/2026/university-of-pennsylvania.php"
+    },
+    "Columbia University": {
+      "sourceInstitution": "Columbia University",
+      "worldRank": 8,
+      "nationalRank": 6,
+      "score": 91.6,
+      "sourceUrl": "https://cwur.org/2026/columbia-university.php"
+    },
+    "Yale University": {
+      "sourceInstitution": "Yale University",
+      "worldRank": 9,
+      "nationalRank": 7,
+      "score": 91.2,
+      "sourceUrl": "https://cwur.org/2026/yale-university.php"
+    },
+    "University of Chicago": {
+      "sourceInstitution": "University of Chicago",
+      "worldRank": 10,
+      "nationalRank": 8,
+      "score": 90.8,
+      "sourceUrl": "https://cwur.org/2026/university-of-chicago.php"
+    },
+    "Caltech": {
+      "sourceInstitution": "California Institute of Technology",
+      "worldRank": 11,
+      "nationalRank": 9,
+      "score": 90.5,
+      "sourceUrl": "https://cwur.org/2026/california-institute-of-technology.php"
+    },
+    "UC Berkeley": {
+      "sourceInstitution": "University of California, Berkeley",
+      "worldRank": 12,
+      "nationalRank": 10,
+      "score": 90.2,
+      "sourceUrl": "https://cwur.org/2026/university-of-california,-berkeley.php"
+    },
+    "Cornell University": {
+      "sourceInstitution": "Cornell University",
+      "worldRank": 14,
+      "nationalRank": 11,
+      "score": 89.6,
+      "sourceUrl": "https://cwur.org/2026/cornell-university.php"
+    },
+    "Northwestern University": {
+      "sourceInstitution": "Northwestern University",
+      "worldRank": 15,
+      "nationalRank": 12,
+      "score": 89.3,
+      "sourceUrl": "https://cwur.org/2026/northwestern-university.php"
+    },
+    "University of Michigan": {
+      "sourceInstitution": "University of Michigan, Ann Arbor",
+      "worldRank": 16,
+      "nationalRank": 13,
+      "score": 89.1,
+      "sourceUrl": "https://cwur.org/2026/university-of-michigan,-ann-arbor.php"
+    },
+    "UCLA": {
+      "sourceInstitution": "University of California, Los Angeles",
+      "worldRank": 17,
+      "nationalRank": 14,
+      "score": 88.9,
+      "sourceUrl": "https://cwur.org/2026/university-of-california,-los-angeles.php"
+    },
+    "Johns Hopkins University": {
+      "sourceInstitution": "Johns Hopkins University",
+      "worldRank": 18,
+      "nationalRank": 15,
+      "score": 88.7,
+      "sourceUrl": "https://cwur.org/2026/johns-hopkins-university.php"
+    },
+    "Duke University": {
+      "sourceInstitution": "Duke University",
+      "worldRank": 21,
+      "nationalRank": 16,
+      "score": 88.1,
+      "sourceUrl": "https://cwur.org/2026/duke-university.php"
+    },
+    "University of Illinois Urbana-Champaign": {
+      "sourceInstitution": "University of Illinois at Urbana–Champaign",
+      "worldRank": 22,
+      "nationalRank": 17,
+      "score": 87.9,
+      "sourceUrl": "https://cwur.org/2026/university-of-illinois-at-urbana%E2%80%93champaign.php"
+    },
+    "New York University": {
+      "sourceInstitution": "New York University",
+      "worldRank": 24,
+      "nationalRank": 18,
+      "score": 87.6,
+      "sourceUrl": "https://cwur.org/2026/new-york-university.php"
+    },
+    "University of Washington": {
+      "sourceInstitution": "University of Washington",
+      "worldRank": 25,
+      "nationalRank": 19,
+      "score": 87.4,
+      "sourceUrl": "https://cwur.org/2026/university-of-washington.php"
+    },
+    "University of Wisconsin-Madison": {
+      "sourceInstitution": "University of Wisconsin–Madison",
+      "worldRank": 29,
+      "nationalRank": 20,
+      "score": 86.9,
+      "sourceUrl": "https://cwur.org/2026/university-of-wisconsin%E2%80%93madison.php"
+    },
+    "UC San Diego": {
+      "sourceInstitution": "University of California, San Diego",
+      "worldRank": 34,
+      "nationalRank": 21,
+      "score": 86.3,
+      "sourceUrl": "https://cwur.org/2026/university-of-california,-san-diego.php"
+    },
+    "UT Austin": {
+      "sourceInstitution": "University of Texas at Austin",
+      "worldRank": 35,
+      "nationalRank": 22,
+      "score": 86.2,
+      "sourceUrl": "https://cwur.org/2026/university-of-texas-at-austin.php"
+    },
+    "UNC Chapel Hill": {
+      "sourceInstitution": "University of North Carolina at Chapel Hill",
+      "worldRank": 43,
+      "nationalRank": 24,
+      "score": 85.4,
+      "sourceUrl": "https://cwur.org/2026/university-of-north-carolina-at-chapel-hill.php"
+    },
+    "Dartmouth College": {
+      "sourceInstitution": "Dartmouth College",
+      "worldRank": 47,
+      "nationalRank": 26,
+      "score": 85,
+      "sourceUrl": "https://cwur.org/2026/dartmouth-college.php"
+    },
+    "University of Minnesota Twin Cities": {
+      "sourceInstitution": "University of Minnesota - Twin Cities",
+      "worldRank": 48,
+      "nationalRank": 27,
+      "score": 84.9,
+      "sourceUrl": "https://cwur.org/2026/university-of-minnesota---twin-cities.php"
+    },
+    "University of Southern California": {
+      "sourceInstitution": "University of Southern California",
+      "worldRank": 55,
+      "nationalRank": 28,
+      "score": 84.4,
+      "sourceUrl": "https://cwur.org/2026/university-of-southern-california.php"
+    },
+    "Vanderbilt University": {
+      "sourceInstitution": "Vanderbilt University",
+      "worldRank": 56,
+      "nationalRank": 29,
+      "score": 84.3,
+      "sourceUrl": "https://cwur.org/2026/vanderbilt-university.php"
+    },
+    "Ohio State University": {
+      "sourceInstitution": "Ohio State University",
+      "worldRank": 58,
+      "nationalRank": 30,
+      "score": 84.2,
+      "sourceUrl": "https://cwur.org/2026/ohio-state-university.php"
+    },
+    "UC Davis": {
+      "sourceInstitution": "University of California, Davis",
+      "worldRank": 60,
+      "nationalRank": 31,
+      "score": 84,
+      "sourceUrl": "https://cwur.org/2026/university-of-california,-davis.php"
+    },
+    "Penn State": {
+      "sourceInstitution": "Pennsylvania State University",
+      "worldRank": 61,
+      "nationalRank": 32,
+      "score": 84,
+      "sourceUrl": "https://cwur.org/2026/pennsylvania-state-university.php"
+    },
+    "Rutgers University": {
+      "sourceInstitution": "Rutgers University",
+      "worldRank": 65,
+      "nationalRank": 33,
+      "score": 83.7,
+      "sourceUrl": "https://cwur.org/2026/rutgers-university.php"
+    },
+    "Purdue University": {
+      "sourceInstitution": "Purdue University",
+      "worldRank": 68,
+      "nationalRank": 34,
+      "score": 83.5,
+      "sourceUrl": "https://cwur.org/2026/purdue-university.php"
+    },
+    "Georgia Tech": {
+      "sourceInstitution": "Georgia Institute of Technology",
+      "worldRank": 71,
+      "nationalRank": 36,
+      "score": 83.4,
+      "sourceUrl": "https://cwur.org/2026/georgia-institute-of-technology.php"
+    },
+    "Brown University": {
+      "sourceInstitution": "Brown University",
+      "worldRank": 72,
+      "nationalRank": 37,
+      "score": 83.3,
+      "sourceUrl": "https://cwur.org/2026/brown-university.php"
+    },
+    "University of Florida": {
+      "sourceInstitution": "University of Florida",
+      "worldRank": 73,
+      "nationalRank": 38,
+      "score": 83.2,
+      "sourceUrl": "https://cwur.org/2026/university-of-florida.php"
+    },
+    "University of Virginia": {
+      "sourceInstitution": "University of Virginia",
+      "worldRank": 75,
+      "nationalRank": 39,
+      "score": 83.1,
+      "sourceUrl": "https://cwur.org/2026/university-of-virginia.php"
+    },
+    "University of Colorado Boulder": {
+      "sourceInstitution": "University of Colorado Boulder",
+      "worldRank": 78,
+      "nationalRank": 41,
+      "score": 83,
+      "sourceUrl": "https://cwur.org/2026/university-of-colorado-boulder.php"
+    },
+    "University of Pittsburgh": {
+      "sourceInstitution": "University of Pittsburgh",
+      "worldRank": 86,
+      "nationalRank": 42,
+      "score": 82.6,
+      "sourceUrl": "https://cwur.org/2026/university-of-pittsburgh.php"
+    },
+    "Texas A&M University": {
+      "sourceInstitution": "Texas A&M University, College Station",
+      "worldRank": 91,
+      "nationalRank": 44,
+      "score": 82.3,
+      "sourceUrl": "https://cwur.org/2026/texas-a&m-university,-college-station.php"
+    },
+    "UC Irvine": {
+      "sourceInstitution": "University of California, Irvine",
+      "worldRank": 92,
+      "nationalRank": 45,
+      "score": 82.3,
+      "sourceUrl": "https://cwur.org/2026/university-of-california,-irvine.php"
+    },
+    "Carnegie Mellon University": {
+      "sourceInstitution": "Carnegie Mellon University",
+      "worldRank": 94,
+      "nationalRank": 46,
+      "score": 82.2,
+      "sourceUrl": "https://cwur.org/2026/carnegie-mellon-university.php"
+    },
+    "University of Maryland": {
+      "sourceInstitution": "University of Maryland, College Park",
+      "worldRank": 99,
+      "nationalRank": 47,
+      "score": 82,
+      "sourceUrl": "https://cwur.org/2026/university-of-maryland,-college-park.php"
+    },
+    "Boston University": {
+      "sourceInstitution": "Boston University",
+      "worldRank": 101,
+      "nationalRank": 48,
+      "score": 81.9,
+      "sourceUrl": "https://cwur.org/2026/boston-university.php"
+    },
+    "University of Utah": {
+      "sourceInstitution": "University of Utah",
+      "worldRank": 104,
+      "nationalRank": 49,
+      "score": 81.8,
+      "sourceUrl": "https://cwur.org/2026/university-of-utah.php"
+    },
+    "University of Arizona": {
+      "sourceInstitution": "University of Arizona",
+      "worldRank": 105,
+      "nationalRank": 50,
+      "score": 81.7,
+      "sourceUrl": "https://cwur.org/2026/university-of-arizona.php"
+    },
+    "UC Santa Barbara": {
+      "sourceInstitution": "University of California, Santa Barbara",
+      "worldRank": 114,
+      "nationalRank": 51,
+      "score": 81.4,
+      "sourceUrl": "https://cwur.org/2026/university-of-california,-santa-barbara.php"
+    },
+    "Indiana University Bloomington": {
+      "sourceInstitution": "Indiana University Bloomington",
+      "worldRank": 121,
+      "nationalRank": 53,
+      "score": 81.1,
+      "sourceUrl": "https://cwur.org/2026/indiana-university-bloomington.php"
+    },
+    "University of Massachusetts Amherst": {
+      "sourceInstitution": "University of Massachusetts Amherst",
+      "worldRank": 178,
+      "nationalRank": 61,
+      "score": 79.4,
+      "sourceUrl": "https://cwur.org/2026/university-of-massachusetts-amherst.php"
+    },
+    "Rice University": {
+      "sourceInstitution": "Rice University",
+      "worldRank": 195,
+      "nationalRank": 63,
+      "score": 79,
+      "sourceUrl": "https://cwur.org/2026/rice-university.php"
+    },
+    "Arizona State University": {
+      "sourceInstitution": "Arizona State University",
+      "worldRank": 205,
+      "nationalRank": 65,
+      "score": 78.8,
+      "sourceUrl": "https://cwur.org/2026/arizona-state-university.php"
+    },
+    "Stony Brook University": {
+      "sourceInstitution": "Stony Brook University",
+      "worldRank": 225,
+      "nationalRank": 72,
+      "score": 78.3,
+      "sourceUrl": "https://cwur.org/2026/stony-brook-university.php"
+    },
+    "Virginia Tech": {
+      "sourceInstitution": "Virginia Tech",
+      "worldRank": 291,
+      "nationalRank": 90,
+      "score": 77.1,
+      "sourceUrl": "https://cwur.org/2026/virginia-tech.php"
+    },
+    "Washington State University": {
+      "sourceInstitution": "Washington State University",
+      "worldRank": 314,
+      "nationalRank": 93,
+      "score": 76.7,
+      "sourceUrl": "https://cwur.org/2026/washington-state-university.php"
+    },
+    "University at Buffalo": {
+      "sourceInstitution": "University at Buffalo",
+      "worldRank": 329,
+      "nationalRank": 98,
+      "score": 76.5,
+      "sourceUrl": "https://cwur.org/2026/university-at-buffalo.php"
+    },
+    "Northeastern University": {
+      "sourceInstitution": "Northeastern University",
+      "worldRank": 341,
+      "nationalRank": 101,
+      "score": 76.3,
+      "sourceUrl": "https://cwur.org/2026/northeastern-university.php"
+    },
+    "UC Santa Cruz": {
+      "sourceInstitution": "University of California, Santa Cruz",
+      "worldRank": 349,
+      "nationalRank": 102,
+      "score": 76.2,
+      "sourceUrl": "https://cwur.org/2026/university-of-california,-santa-cruz.php"
+    },
+    "San Diego State University": {
+      "sourceInstitution": "San Diego State University",
+      "worldRank": 644,
+      "nationalRank": 149,
+      "score": 73.1,
+      "sourceUrl": "https://cwur.org/2026/san-diego-state-university.php"
+    },
+    "Cal State Fullerton": {
+      "sourceInstitution": "California State University, Fullerton",
+      "worldRank": 1395,
+      "nationalRank": 244,
+      "score": 68.6,
+      "sourceUrl": "https://cwur.org/2026/california-state-university,-fullerton.php"
+    },
+    "Cal Poly San Luis Obispo": {
+      "sourceInstitution": "California Polytechnic State University, San Luis Obispo",
+      "worldRank": 1423,
+      "nationalRank": 249,
+      "score": 68.4,
+      "sourceUrl": "https://cwur.org/2026/california-polytechnic-state-university,-san-luis-obispo.php"
+    },
+    "Sacramento State": {
+      "sourceInstitution": "California State University, Sacramento",
+      "worldRank": 1441,
+      "nationalRank": 252,
+      "score": 68.3,
+      "sourceUrl": "https://cwur.org/2026/california-state-university,-sacramento.php"
+    },
+    "San Francisco State University": {
+      "sourceInstitution": "San Francisco State University",
+      "worldRank": 1456,
+      "nationalRank": 254,
+      "score": 68.3,
+      "sourceUrl": "https://cwur.org/2026/san-francisco-state-university.php"
+    },
+    "Cal State Northridge": {
+      "sourceInstitution": "California State University, Northridge",
+      "worldRank": 1509,
+      "nationalRank": 260,
+      "score": 68.1,
+      "sourceUrl": "https://cwur.org/2026/california-state-university,-northridge.php"
+    },
+    "Fresno State": {
+      "sourceInstitution": "California State University, Fresno",
+      "worldRank": 1518,
+      "nationalRank": 262,
+      "score": 68,
+      "sourceUrl": "https://cwur.org/2026/california-state-university,-fresno.php"
+    },
+    "San Jose State University": {
+      "sourceInstitution": "San Jose State University",
+      "worldRank": 1522,
+      "nationalRank": 263,
+      "score": 68,
+      "sourceUrl": "https://cwur.org/2026/san-jose-state-university.php"
+    },
+    "Cal State Long Beach": {
+      "sourceInstitution": "California State University, Long Beach",
+      "worldRank": 1556,
+      "nationalRank": 265,
+      "score": 67.9,
+      "sourceUrl": "https://cwur.org/2026/california-state-university,-long-beach.php"
+    }
+  }
+}

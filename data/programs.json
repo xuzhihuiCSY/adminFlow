@@ -1,0 +1,3547 @@
+[
+  {
+    "id": "uw-msds",
+    "school": "University of Washington",
+    "program": "MS Data Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Washington",
+    "gre": false,
+    "toefl": 92,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.washington.edu/datasciencemasters/",
+      "admission": "https://www.washington.edu/datasciencemasters/admissions/",
+      "international": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+      "apply": "https://grad.uw.edu/admission/apply-now/"
+    }
+  },
+  {
+    "id": "uw-msim",
+    "school": "University of Washington",
+    "program": "MS Information Management",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Washington",
+    "gre": "Optional",
+    "toefl": 92,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://ischool.uw.edu/programs/msim",
+      "admission": "https://ischool.uw.edu/programs/msim/admissions",
+      "international": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+      "apply": "https://grad.uw.edu/admission/apply-now/"
+    }
+  },
+  {
+    "id": "uw-bs-cs",
+    "school": "University of Washington",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Washington",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.washington.edu/academics/ugrad/admissions/",
+      "admission": "https://admit.washington.edu/apply/freshman/",
+      "international": "https://admit.washington.edu/apply/international/",
+      "apply": "https://admit.washington.edu/apply/"
+    }
+  },
+  {
+    "id": "wsu-mscs",
+    "school": "Washington State University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Washington",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://school.eecs.wsu.edu/academics/graduate-program/",
+      "admission": "https://gradschool.wsu.edu/admissions/",
+      "international": "https://gradschool.wsu.edu/international-requirements/",
+      "apply": "https://gradschool.wsu.edu/apply/"
+    }
+  },
+  {
+    "id": "wsu-mba",
+    "school": "Washington State University",
+    "program": "MBA",
+    "level": "Graduate",
+    "degree": "MBA",
+    "state": "Washington",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Personal Statement",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://onlinemba.wsu.edu/",
+      "admission": "https://onlinemba.wsu.edu/admissions/",
+      "international": "https://gradschool.wsu.edu/international-requirements/",
+      "apply": "https://gradschool.wsu.edu/apply/"
+    }
+  },
+  {
+    "id": "gatech-msanalytics",
+    "school": "Georgia Tech",
+    "program": "MS Analytics",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Georgia",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.analytics.gatech.edu/",
+      "admission": "https://www.analytics.gatech.edu/apply",
+      "international": "https://grad.gatech.edu/international-students",
+      "apply": "https://gradapp.gatech.edu/apply/"
+    }
+  },
+  {
+    "id": "gatech-phd-cs",
+    "school": "Georgia Tech",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Georgia",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://www.cc.gatech.edu/degree-programs/phd-computer-science",
+      "admission": "https://grad.gatech.edu/admissions",
+      "international": "https://grad.gatech.edu/international-students",
+      "apply": "https://gradapp.gatech.edu/apply/"
+    }
+  },
+  {
+    "id": "gatech-bs-cs",
+    "school": "Georgia Tech",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Georgia",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cc.gatech.edu/degree-programs/bachelor-science-computer-science",
+      "admission": "https://admission.gatech.edu/first-year",
+      "international": "https://admission.gatech.edu/international",
+      "apply": "https://admission.gatech.edu/apply"
+    }
+  },
+  {
+    "id": "ut-msds",
+    "school": "UT Austin",
+    "program": "MS Data Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Texas",
+    "gre": false,
+    "toefl": 79,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cdso.utexas.edu/msds",
+      "admission": "https://cdso.utexas.edu/admissions",
+      "international": "https://gradschool.utexas.edu/admissions/how-to-apply/international-students",
+      "apply": "https://gradschool.utexas.edu/admissions/how-to-apply"
+    }
+  },
+  {
+    "id": "ut-mba",
+    "school": "UT Austin",
+    "program": "MBA",
+    "level": "Graduate",
+    "degree": "MBA",
+    "state": "Texas",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Essays",
+      "Recommendation Letter",
+      "Interview"
+    ],
+    "links": {
+      "program": "https://www.mccombs.utexas.edu/graduate/mba/full-time-mba/",
+      "admission": "https://www.mccombs.utexas.edu/graduate/mba/full-time-mba/admissions/",
+      "international": "https://gradschool.utexas.edu/admissions/how-to-apply/international-students",
+      "apply": "https://www.mccombs.utexas.edu/graduate/mba/full-time-mba/admissions/apply/"
+    }
+  },
+  {
+    "id": "ut-bs-cs",
+    "school": "UT Austin",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Texas",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.utexas.edu/undergraduate-program",
+      "admission": "https://admissions.utexas.edu/apply/freshman/",
+      "international": "https://admissions.utexas.edu/apply/international-students/",
+      "apply": "https://admissions.utexas.edu/apply/"
+    }
+  },
+  {
+    "id": "ucb-bs-eecs",
+    "school": "UC Berkeley",
+    "program": "BS Electrical Engineering & Computer Sciences",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://eecs.berkeley.edu/academics/undergraduate/eecs-bs/",
+      "admission": "https://admissions.berkeley.edu/apply-to-berkeley/",
+      "international": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "ucla-bs-cs",
+    "school": "UCLA",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.ucla.edu/undergraduate-program/",
+      "admission": "https://admission.ucla.edu/apply",
+      "international": "https://admission.ucla.edu/apply/international-applicants",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "ucd-mscs",
+    "school": "UC Davis",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Personal History Statement",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.ucdavis.edu/graduate",
+      "admission": "https://grad.ucdavis.edu/apply",
+      "international": "https://grad.ucdavis.edu/international-applicants",
+      "apply": "https://grad.ucdavis.edu/apply"
+    }
+  },
+  {
+    "id": "ucd-mba",
+    "school": "UC Davis",
+    "program": "MBA",
+    "level": "Graduate",
+    "degree": "MBA",
+    "state": "California",
+    "gre": "Optional",
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Essays",
+      "Recommendation Letter",
+      "Interview"
+    ],
+    "links": {
+      "program": "https://gsm.ucdavis.edu/mba-programs",
+      "admission": "https://gsm.ucdavis.edu/full-time-mba-admissions",
+      "international": "https://grad.ucdavis.edu/international-applicants",
+      "apply": "https://gsm.ucdavis.edu/apply"
+    }
+  },
+  {
+    "id": "ucd-bs-cs",
+    "school": "UC Davis",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.ucdavis.edu/undergraduate",
+      "admission": "https://www.ucdavis.edu/admissions/undergraduate",
+      "international": "https://www.ucdavis.edu/admissions/undergraduate/international",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "uci-mcs",
+    "school": "UC Irvine",
+    "program": "Master of Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://ics.uci.edu/academics/graduate-programs/degree-programs/mcs/",
+      "admission": "https://ics.uci.edu/academics/graduate-programs/admissions/",
+      "international": "https://grad.uci.edu/admissions/applying-to-uci/international-students/",
+      "apply": "https://grad.uci.edu/admissions/applying-to-uci/"
+    }
+  },
+  {
+    "id": "uci-phd-ics",
+    "school": "UC Irvine",
+    "program": "PhD Informatics",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Personal History Statement",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://ics.uci.edu/academics/graduate-programs/degree-programs/phd-informatics/",
+      "admission": "https://ics.uci.edu/academics/graduate-programs/admissions/",
+      "international": "https://grad.uci.edu/admissions/applying-to-uci/international-students/",
+      "apply": "https://grad.uci.edu/admissions/applying-to-uci/"
+    }
+  },
+  {
+    "id": "uci-bs-cs",
+    "school": "UC Irvine",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://ics.uci.edu/academics/undergraduate-academic-programs/majors-minors-and-specializations/computer-science/",
+      "admission": "https://www.admissions.uci.edu/",
+      "international": "https://www.admissions.uci.edu/apply/international-students.php",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "ucsd-bs-cs",
+    "school": "UC San Diego",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cse.ucsd.edu/undergraduate/bs-computer-science",
+      "admission": "https://admissions.ucsd.edu/first-year/",
+      "international": "https://admissions.ucsd.edu/international/",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "sjsu-msse",
+    "school": "San Jose State University",
+    "program": "MS Software Engineering",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.sjsu.edu/cmpe/academic-programs/ms-software-engineering/",
+      "admission": "https://www.sjsu.edu/admissions/graduate/",
+      "international": "https://www.sjsu.edu/admissions/graduate/international/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "sjsu-bs-cs",
+    "school": "San Jose State University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.sjsu.edu/cs/programs/bs-computer-science.php",
+      "admission": "https://www.sjsu.edu/admissions/freshman/",
+      "international": "https://www.sjsu.edu/admissions/international/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "sdsu-bs-cs",
+    "school": "San Diego State University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.sdsu.edu/degree-programs/bs-in-computer-science/",
+      "admission": "https://admissions.sdsu.edu/first-years",
+      "international": "https://admissions.sdsu.edu/international",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "sdsu-mscs",
+    "school": "San Diego State University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.sdsu.edu/degree-programs/ms-in-computer-science/",
+      "admission": "https://admissions.sdsu.edu/graduate",
+      "international": "https://admissions.sdsu.edu/international",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "calpoly-bs-cs",
+    "school": "Cal Poly San Luis Obispo",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://csc.calpoly.edu/",
+      "admission": "https://www.calpoly.edu/admissions",
+      "international": "https://www.calpoly.edu/admissions/international-students",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "csulb-bs-cs",
+    "school": "Cal State Long Beach",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.csulb.edu/hung-family-college-of-engineering/bachelor-of-science-computer-science",
+      "admission": "https://www.csulb.edu/admissions",
+      "international": "https://www.csulb.edu/international/international-admissions",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "csulb-mscs",
+    "school": "Cal State Long Beach",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
+      "admission": "https://www.csulb.edu/admissions/graduate-studies",
+      "international": "https://www.csulb.edu/international/international-admissions",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "cpp-bs-cs",
+    "school": "Cal Poly Pomona",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cpp.edu/sci/computer-science/",
+      "admission": "https://www.cpp.edu/admissions/",
+      "international": "https://www.cpp.edu/admissions/international/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "cpp-mscs",
+    "school": "Cal Poly Pomona",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cpp.edu/sci/computer-science/graduate-program.shtml",
+      "admission": "https://www.cpp.edu/admissions/graduate/",
+      "international": "https://www.cpp.edu/admissions/international/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "csuf-bs-cs",
+    "school": "Cal State Fullerton",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.fullerton.edu/ecs/cs/degree/bscs.php",
+      "admission": "https://admissions.fullerton.edu/",
+      "international": "https://admissions.fullerton.edu/intl/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "csuf-mscs",
+    "school": "Cal State Fullerton",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
+      "admission": "https://admissions.fullerton.edu/prospectivestudent/graduate.php",
+      "international": "https://admissions.fullerton.edu/intl/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "csun-bs-cs",
+    "school": "Cal State Northridge",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.csun.edu/engineering-computer-science/computer-science",
+      "admission": "https://www.csun.edu/admissions-records/freshman-student",
+      "international": "https://www.csun.edu/admissions-records/international",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "sacstate-bs-cs",
+    "school": "Sacramento State",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.csus.edu/college/engineering-computer-science/computer-science/",
+      "admission": "https://www.csus.edu/apply/admissions/",
+      "international": "https://www.csus.edu/apply/international/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "sfsu-bs-cs",
+    "school": "San Francisco State University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.sfsu.edu/",
+      "admission": "https://future.sfsu.edu/admissions/freshmen",
+      "international": "https://future.sfsu.edu/international",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "sfsu-mscs",
+    "school": "San Francisco State University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.sfsu.edu/graduate",
+      "admission": "https://grad.sfsu.edu/",
+      "international": "https://future.sfsu.edu/international",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "csueb-bs-cs",
+    "school": "Cal State East Bay",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.csueastbay.edu/cs/",
+      "admission": "https://www.csueastbay.edu/admissions/",
+      "international": "https://www.csueastbay.edu/admissions/international/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "fresno-bs-cs",
+    "school": "Fresno State",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://csm.fresnostate.edu/csci/",
+      "admission": "https://studentaffairs.fresnostate.edu/are/admissions/",
+      "international": "https://studentaffairs.fresnostate.edu/issp/future/international-admissions.html",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "csumb-bs-cs",
+    "school": "Cal State Monterey Bay",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Cal State Apply Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://csumb.edu/scd/computer-science-bs/",
+      "admission": "https://csumb.edu/admissions/",
+      "international": "https://csumb.edu/international/admissions/",
+      "apply": "https://www.calstate.edu/apply"
+    }
+  },
+  {
+    "id": "asu-mscs",
+    "school": "Arizona State University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Arizona",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESCOMSCMS/computer-science-ms",
+      "admission": "https://admission.asu.edu/graduate/apply",
+      "international": "https://admission.asu.edu/apply/international/graduate",
+      "apply": "https://admission.asu.edu/graduate/apply"
+    }
+  },
+  {
+    "id": "asu-bs-cs",
+    "school": "Arizona State University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Arizona",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://degrees.apps.asu.edu/bachelors/major/ASU00/ESCSEBS/computer-science",
+      "admission": "https://admission.asu.edu/apply/first-year",
+      "international": "https://admission.asu.edu/international/undergrad-student",
+      "apply": "https://admission.asu.edu/apply"
+    }
+  },
+  {
+    "id": "neu-mscs",
+    "school": "Northeastern University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-ms/",
+      "admission": "https://graduate.northeastern.edu/admissions/",
+      "international": "https://international.northeastern.edu/ogs/",
+      "apply": "https://graduate.northeastern.edu/admissions-aid/how-to-apply/"
+    }
+  },
+  {
+    "id": "neu-bs-cs",
+    "school": "Northeastern University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/computer-science-bs/",
+      "admission": "https://admissions.northeastern.edu/application-information/",
+      "international": "https://admissions.northeastern.edu/application-information/international-applicants/",
+      "apply": "https://admissions.northeastern.edu/application-information/apply/"
+    }
+  },
+  {
+    "id": "mit-sb-eecs",
+    "school": "MIT",
+    "program": "SB Electrical Engineering and Computer Science",
+    "level": "Undergraduate",
+    "degree": "SB",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.eecs.mit.edu/academics/undergraduate-programs/",
+      "admission": "https://mitadmissions.org/apply/",
+      "international": "https://mitadmissions.org/apply/firstyear/international/",
+      "apply": "https://mitadmissions.org/apply/"
+    }
+  },
+  {
+    "id": "mit-ms-eecs",
+    "school": "MIT",
+    "program": "MS Electrical Engineering and Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.eecs.mit.edu/academics/graduate-programs/",
+      "admission": "https://gradadmissions.mit.edu/programs/eecs",
+      "international": "https://gradadmissions.mit.edu/applications/international-applicants",
+      "apply": "https://gradapply.mit.edu/eecs/apply/"
+    }
+  },
+  {
+    "id": "stanford-bs-cs",
+    "school": "Stanford University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.stanford.edu/academics/undergraduate",
+      "admission": "https://admission.stanford.edu/apply/",
+      "international": "https://admission.stanford.edu/apply/international/index.html",
+      "apply": "https://admission.stanford.edu/apply/"
+    }
+  },
+  {
+    "id": "stanford-ms-cs",
+    "school": "Stanford University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.stanford.edu/academics/masters",
+      "admission": "https://www.cs.stanford.edu/admissions",
+      "international": "https://gradadmissions.stanford.edu/apply/international-applicants",
+      "apply": "https://gradadmissions.stanford.edu/apply"
+    }
+  },
+  {
+    "id": "cmu-bs-cs",
+    "school": "Carnegie Mellon University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Pennsylvania",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.cmu.edu/academics/undergraduate/programs",
+      "admission": "https://www.cmu.edu/admission/admission",
+      "international": "https://www.cmu.edu/admission/admission/international-applicants",
+      "apply": "https://www.cmu.edu/admission/admission/apply"
+    }
+  },
+  {
+    "id": "cmu-ms-cs",
+    "school": "Carnegie Mellon University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Pennsylvania",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.csd.cs.cmu.edu/academics/masters/overview",
+      "admission": "https://www.csd.cs.cmu.edu/academics/masters/admissions",
+      "international": "https://www.cmu.edu/oie/foreign-students/",
+      "apply": "https://gradadmissions.cmu.edu/apply/"
+    }
+  },
+  {
+    "id": "uiuc-bs-cs",
+    "school": "University of Illinois Urbana-Champaign",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Illinois",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options/bs-computer-science",
+      "admission": "https://www.admissions.illinois.edu/apply",
+      "international": "https://www.admissions.illinois.edu/apply/international",
+      "apply": "https://www.admissions.illinois.edu/apply"
+    }
+  },
+  {
+    "id": "uiuc-ms-cs",
+    "school": "University of Illinois Urbana-Champaign",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Illinois",
+    "gre": false,
+    "toefl": 103,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://siebelschool.illinois.edu/academics/graduate/degree-program-options/ms-computer-science",
+      "admission": "https://siebelschool.illinois.edu/admissions/graduate",
+      "international": "https://grad.illinois.edu/admissions/instructions/04c",
+      "apply": "https://grad.illinois.edu/admissions/apply"
+    }
+  },
+  {
+    "id": "purdue-bs-cs",
+    "school": "Purdue University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Indiana",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.purdue.edu/undergraduate/curriculum/bachelor.html",
+      "admission": "https://admissions.purdue.edu/apply/apply.php",
+      "international": "https://admissions.purdue.edu/apply/international-students.php",
+      "apply": "https://admissions.purdue.edu/apply/apply.php"
+    }
+  },
+  {
+    "id": "purdue-ms-cs",
+    "school": "Purdue University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Indiana",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.purdue.edu/graduate/",
+      "admission": "https://www.cs.purdue.edu/graduate/admission/steps.html",
+      "international": "https://www.purdue.edu/gradschool/admissions/how-to-apply/apply-toefl.html",
+      "apply": "https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html"
+    }
+  },
+  {
+    "id": "umich-bs-cs",
+    "school": "University of Michigan",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Michigan",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/",
+      "admission": "https://admissions.umich.edu/apply/first-year-applicants",
+      "international": "https://admissions.umich.edu/apply/international-applicants",
+      "apply": "https://admissions.umich.edu/apply"
+    }
+  },
+  {
+    "id": "umich-ms-cse",
+    "school": "University of Michigan",
+    "program": "MS Computer Science and Engineering",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Michigan",
+    "gre": false,
+    "toefl": 84,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/",
+      "admission": "https://cse.engin.umich.edu/academics/graduate/admissions/",
+      "international": "https://rackham.umich.edu/admissions/applying/international-applicants/",
+      "apply": "https://rackham.umich.edu/admissions/applying/"
+    }
+  },
+  {
+    "id": "umd-bs-cs",
+    "school": "University of Maryland",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Maryland",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://undergrad.cs.umd.edu/degree-requirements-cs-major",
+      "admission": "https://admissions.umd.edu/apply",
+      "international": "https://admissions.umd.edu/apply/international-applicants",
+      "apply": "https://admissions.umd.edu/apply"
+    }
+  },
+  {
+    "id": "umd-ms-cs",
+    "school": "University of Maryland",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Maryland",
+    "gre": false,
+    "toefl": 96,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://academiccatalog.umd.edu/graduate/programs/computer-science-csms/",
+      "admission": "https://www.cs.umd.edu/grad/catalog",
+      "international": "https://gradschool.umd.edu/admissions/international-admissions",
+      "apply": "https://gradschool.umd.edu/admissions"
+    }
+  },
+  {
+    "id": "cornell-bs-cs",
+    "school": "Cornell University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "New York",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.cornell.edu/undergrad",
+      "admission": "https://admissions.cornell.edu/how-to-apply",
+      "international": "https://admissions.cornell.edu/international-students",
+      "apply": "https://admissions.cornell.edu/how-to-apply"
+    }
+  },
+  {
+    "id": "cornell-meng-cs",
+    "school": "Cornell University",
+    "program": "MEng Computer Science",
+    "level": "Graduate",
+    "degree": "MEng",
+    "state": "New York",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.cornell.edu/masters",
+      "admission": "https://www.cs.cornell.edu/masters/admissions",
+      "international": "https://gradschool.cornell.edu/admissions/prepare/international-degree-equivalencies/",
+      "apply": "https://gradschool.cornell.edu/admissions/apply/"
+    }
+  },
+  {
+    "id": "columbia-bs-cs",
+    "school": "Columbia University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "New York",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.columbia.edu/education/undergraduate/",
+      "admission": "https://undergrad.admissions.columbia.edu/apply",
+      "international": "https://undergrad.admissions.columbia.edu/apply/international",
+      "apply": "https://undergrad.admissions.columbia.edu/apply"
+    }
+  },
+  {
+    "id": "columbia-ms-cs",
+    "school": "Columbia University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New York",
+    "gre": "Optional",
+    "toefl": 99,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.columbia.edu/education/ms/",
+      "admission": "https://www.engineering.columbia.edu/admissions/graduate-admissions",
+      "international": "https://www.engineering.columbia.edu/admissions/graduate-admissions/international-applicants",
+      "apply": "https://www.engineering.columbia.edu/admissions/graduate-admissions/apply"
+    }
+  },
+  {
+    "id": "nyu-bs-cs",
+    "school": "New York University",
+    "program": "BA Computer Science",
+    "level": "Undergraduate",
+    "degree": "BA",
+    "state": "New York",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.nyu.edu/home/undergrad/major_programs.html",
+      "admission": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html",
+      "international": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/international-applicants.html",
+      "apply": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply.html"
+    }
+  },
+  {
+    "id": "nyu-ms-cs",
+    "school": "New York University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New York",
+    "gre": "Optional",
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.nyu.edu/home/master/prospective_overview.html",
+      "admission": "https://gsas.nyu.edu/admissions/arc/programs/computer-science.html",
+      "international": "https://gsas.nyu.edu/admissions/arc/international-applicants.html",
+      "apply": "https://gsas.nyu.edu/admissions/arc/apply.html"
+    }
+  },
+  {
+    "id": "usc-bs-cs",
+    "school": "University of Southern California",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.usc.edu/academic-programs/undergrad/",
+      "admission": "https://admission.usc.edu/prospective-students/how-to-apply/",
+      "international": "https://admission.usc.edu/prospective-students/international-students/",
+      "apply": "https://admission.usc.edu/prospective-students/how-to-apply/"
+    }
+  },
+  {
+    "id": "usc-ms-cs",
+    "school": "University of Southern California",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.usc.edu/academic-programs/masters/",
+      "admission": "https://viterbigradadmission.usc.edu/",
+      "international": "https://viterbigradadmission.usc.edu/international-students/",
+      "apply": "https://viterbigradadmission.usc.edu/apply/"
+    }
+  },
+  {
+    "id": "wisc-bs-cs",
+    "school": "University of Wisconsin-Madison",
+    "program": "BS Computer Sciences",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Wisconsin",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://guide.wisc.edu/undergraduate/letters-science/computer-sciences/computer-sciences-bs/",
+      "admission": "https://admissions.wisc.edu/apply-as-a-freshman/",
+      "international": "https://admissions.wisc.edu/international/",
+      "apply": "https://admissions.wisc.edu/apply-as-a-freshman/"
+    }
+  },
+  {
+    "id": "wisc-ms-cs",
+    "school": "University of Wisconsin-Madison",
+    "program": "MS Computer Sciences",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Wisconsin",
+    "gre": false,
+    "toefl": 92,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://guide.wisc.edu/graduate/computer-sciences/computer-sciences-ms/",
+      "admission": "https://www.cs.wisc.edu/graduate/admissions/",
+      "international": "https://grad.wisc.edu/apply/requirements/",
+      "apply": "https://grad.wisc.edu/apply/"
+    }
+  },
+  {
+    "id": "upenn-bse-cis",
+    "school": "University of Pennsylvania",
+    "program": "BSE Computer and Information Science",
+    "level": "Undergraduate",
+    "degree": "BSE",
+    "state": "Pennsylvania",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cis.upenn.edu/undergraduate/program-offerings/",
+      "admission": "https://admissions.upenn.edu/admissions-and-financial-aid/apply-for-admission",
+      "international": "https://admissions.upenn.edu/admissions-and-financial-aid/apply-for-admission/international-applicants",
+      "apply": "https://admissions.upenn.edu/admissions-and-financial-aid/apply-for-admission"
+    }
+  },
+  {
+    "id": "upenn-mse-cis",
+    "school": "University of Pennsylvania",
+    "program": "MSE Computer and Information Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Pennsylvania",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cis.upenn.edu/graduate/program-offerings/master-of-computer-and-information-technology/",
+      "admission": "https://gradadm.seas.upenn.edu/how-to-apply/",
+      "international": "https://gradadm.seas.upenn.edu/how-to-apply/international-applicants/",
+      "apply": "https://gradadm.seas.upenn.edu/how-to-apply/"
+    }
+  },
+  {
+    "id": "duke-bs-cs",
+    "school": "Duke University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "North Carolina",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.duke.edu/undergrad",
+      "admission": "https://admissions.duke.edu/apply/",
+      "international": "https://admissions.duke.edu/apply/international-students/",
+      "apply": "https://admissions.duke.edu/apply/"
+    }
+  },
+  {
+    "id": "duke-ms-cs",
+    "school": "Duke University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "North Carolina",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.duke.edu/graduate/ms",
+      "admission": "https://gradschool.duke.edu/admissions/how-to-apply/",
+      "international": "https://gradschool.duke.edu/admissions/international-applicants/",
+      "apply": "https://gradschool.duke.edu/admissions/how-to-apply/"
+    }
+  },
+  {
+    "id": "unc-bs-cs",
+    "school": "UNC Chapel Hill",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "North Carolina",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.unc.edu/undergraduate/",
+      "admission": "https://admissions.unc.edu/apply/",
+      "international": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
+      "apply": "https://admissions.unc.edu/apply/"
+    }
+  },
+  {
+    "id": "unc-ms-cs",
+    "school": "UNC Chapel Hill",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "North Carolina",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.unc.edu/graduate/",
+      "admission": "https://gradschool.unc.edu/admissions/",
+      "international": "https://gradschool.unc.edu/admissions/international-students/",
+      "apply": "https://gradschool.unc.edu/admissions/"
+    }
+  },
+  {
+    "id": "uva-bs-cs",
+    "school": "University of Virginia",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Virginia",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://engineering.virginia.edu/department/computer-science/academics/undergraduate-programs",
+      "admission": "https://admission.virginia.edu/admission/deadlines-instructions",
+      "international": "https://admission.virginia.edu/international",
+      "apply": "https://admission.virginia.edu/apply"
+    }
+  },
+  {
+    "id": "uva-ms-cs",
+    "school": "University of Virginia",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Virginia",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs",
+      "admission": "https://engineering.virginia.edu/admissions/graduate-admissions",
+      "international": "https://graddiversity.virginia.edu/international-students",
+      "apply": "https://engineering.virginia.edu/admissions/graduate-admissions"
+    }
+  },
+  {
+    "id": "osu-bs-cse",
+    "school": "Ohio State University",
+    "program": "BS Computer Science and Engineering",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Ohio",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cse.osu.edu/current-students/undergraduate/majors/computer-science-and-engineering-cse",
+      "admission": "https://undergrad.osu.edu/apply/freshmen-columbus",
+      "international": "https://undergrad.osu.edu/apply/international-freshmen",
+      "apply": "https://undergrad.osu.edu/apply"
+    }
+  },
+  {
+    "id": "osu-ms-cse",
+    "school": "Ohio State University",
+    "program": "MS Computer Science and Engineering",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Ohio",
+    "gre": false,
+    "toefl": 79,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cse.osu.edu/current-students/graduate/degree-programs/ms-program",
+      "admission": "https://cse.osu.edu/current-students/graduate/admissions",
+      "international": "https://gpadmissions.osu.edu/intl.html",
+      "apply": "https://gpadmissions.osu.edu/"
+    }
+  },
+  {
+    "id": "umn-bs-cs",
+    "school": "University of Minnesota Twin Cities",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Minnesota",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cse.umn.edu/cs/undergraduate-programs",
+      "admission": "https://admissions.tc.umn.edu/apply/freshman-admission",
+      "international": "https://admissions.tc.umn.edu/apply/international-students",
+      "apply": "https://admissions.tc.umn.edu/apply"
+    }
+  },
+  {
+    "id": "umn-ms-cs",
+    "school": "University of Minnesota Twin Cities",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Minnesota",
+    "gre": false,
+    "toefl": 79,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cse.umn.edu/cs/graduate-programs",
+      "admission": "https://cse.umn.edu/cs/graduate-admissions",
+      "international": "https://grad.umn.edu/admissions/application-instructions/international-student-resources",
+      "apply": "https://grad.umn.edu/admissions/apply"
+    }
+  },
+  {
+    "id": "cu-boulder-bs-cs",
+    "school": "University of Colorado Boulder",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Colorado",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science-computer-science",
+      "admission": "https://www.colorado.edu/admissions/apply",
+      "international": "https://www.colorado.edu/admissions/international",
+      "apply": "https://www.colorado.edu/admissions/apply"
+    }
+  },
+  {
+    "id": "cu-boulder-ms-cs",
+    "school": "University of Colorado Boulder",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Colorado",
+    "gre": false,
+    "toefl": 83,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.colorado.edu/cs/academics/graduate-programs/master-science-computer-science",
+      "admission": "https://www.colorado.edu/cs/academics/graduate-programs/admissions",
+      "international": "https://www.colorado.edu/graduateschool/admissions/international-students",
+      "apply": "https://www.colorado.edu/graduateschool/admissions/apply"
+    }
+  },
+  {
+    "id": "uf-bs-cs",
+    "school": "University of Florida",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Florida",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cise.ufl.edu/academics/undergraduate/",
+      "admission": "https://admissions.ufl.edu/apply/freshman",
+      "international": "https://admissions.ufl.edu/apply/international",
+      "apply": "https://admissions.ufl.edu/apply"
+    }
+  },
+  {
+    "id": "uf-ms-cs",
+    "school": "University of Florida",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Florida",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cise.ufl.edu/academics/graduate/",
+      "admission": "https://www.cise.ufl.edu/academics/graduate/admissions/",
+      "international": "https://admissions.ufl.edu/apply/graduate/international",
+      "apply": "https://admissions.ufl.edu/apply/graduate"
+    }
+  },
+  {
+    "id": "rice-ba-cs",
+    "school": "Rice University",
+    "program": "BA Computer Science",
+    "level": "Undergraduate",
+    "degree": "BA",
+    "state": "Texas",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://csweb.rice.edu/academics/undergraduate-programs",
+      "admission": "https://admission.rice.edu/apply",
+      "international": "https://admission.rice.edu/apply/international-applicants",
+      "apply": "https://admission.rice.edu/apply"
+    }
+  },
+  {
+    "id": "rice-mcs",
+    "school": "Rice University",
+    "program": "Master of Computer Science",
+    "level": "Graduate",
+    "degree": "MCS",
+    "state": "Texas",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://csweb.rice.edu/academics/graduate-programs/online-mcs",
+      "admission": "https://csweb.rice.edu/academics/graduate-programs/mcs/admissions",
+      "international": "https://graduate.rice.edu/admissions/international-applicants",
+      "apply": "https://graduate.rice.edu/admissions/how-to-apply"
+    }
+  },
+  {
+    "id": "harvard-ab-cs",
+    "school": "Harvard University",
+    "program": "AB Computer Science",
+    "level": "Undergraduate",
+    "degree": "AB",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://csadvising.seas.harvard.edu/concentration/",
+      "admission": "https://college.harvard.edu/admissions/apply",
+      "international": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "apply": "https://college.harvard.edu/admissions/apply"
+    }
+  },
+  {
+    "id": "harvard-phd-cs",
+    "school": "Harvard University",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://seas.harvard.edu/computer-science/graduate-program",
+      "admission": "https://gsas.harvard.edu/admissions/apply",
+      "international": "https://gsas.harvard.edu/admissions/international-applicants",
+      "apply": "https://gsas.harvard.edu/admissions/apply"
+    }
+  },
+  {
+    "id": "yale-bs-cs",
+    "school": "Yale University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Connecticut",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cpsc.yale.edu/academics/undergraduate-program",
+      "admission": "https://admissions.yale.edu/applying-yale-college",
+      "international": "https://admissions.yale.edu/international-students",
+      "apply": "https://admissions.yale.edu/applying-yale-college"
+    }
+  },
+  {
+    "id": "yale-phd-cs",
+    "school": "Yale University",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Connecticut",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://cpsc.yale.edu/academics/graduate-program",
+      "admission": "https://cpsc.yale.edu/academics/graduate-program/admissions",
+      "international": "https://gsas.yale.edu/admissions/phdmasters-application-process/international-applicants",
+      "apply": "https://gsas.yale.edu/admissions/phdmasters-application-process"
+    }
+  },
+  {
+    "id": "princeton-ab-cs",
+    "school": "Princeton University",
+    "program": "AB Computer Science",
+    "level": "Undergraduate",
+    "degree": "AB",
+    "state": "New Jersey",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.princeton.edu/ugrad",
+      "admission": "https://admission.princeton.edu/how-apply",
+      "international": "https://admission.princeton.edu/how-apply/international-students",
+      "apply": "https://admission.princeton.edu/how-apply"
+    }
+  },
+  {
+    "id": "princeton-phd-cs",
+    "school": "Princeton University",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "New Jersey",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://www.cs.princeton.edu/grad",
+      "admission": "https://www.cs.princeton.edu/grad/admissions",
+      "international": "https://gradschool.princeton.edu/admission-onboarding/prepare/international-students",
+      "apply": "https://gradschool.princeton.edu/admission-onboarding/apply"
+    }
+  },
+  {
+    "id": "brown-ab-scb-cs",
+    "school": "Brown University",
+    "program": "AB/ScB Computer Science",
+    "level": "Undergraduate",
+    "degree": "AB/ScB",
+    "state": "Rhode Island",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.brown.edu/degrees/undergrad/concentrating-in-cs/",
+      "admission": "https://admission.brown.edu/apply/how-apply",
+      "international": "https://admission.brown.edu/international",
+      "apply": "https://admission.brown.edu/apply/how-apply"
+    }
+  },
+  {
+    "id": "brown-scm-cs",
+    "school": "Brown University",
+    "program": "ScM Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Rhode Island",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://graduateprograms.brown.edu/graduate-program/computer-science-scm",
+      "admission": "https://graduateschool.brown.edu/apply",
+      "international": "https://graduateschool.brown.edu/apply/international-applicants",
+      "apply": "https://graduateschool.brown.edu/apply"
+    }
+  },
+  {
+    "id": "brown-phd-cs",
+    "school": "Brown University",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Rhode Island",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://cs.brown.edu/degrees/doctoral/why-get-your-phd-brown-cs/",
+      "admission": "https://graduateschool.brown.edu/apply-mfa-or-doctoral-study-brown",
+      "international": "https://graduateschool.brown.edu/apply/international-applicants",
+      "apply": "https://graduateschool.brown.edu/apply-mfa-or-doctoral-study-brown"
+    }
+  },
+  {
+    "id": "dartmouth-ab-cs",
+    "school": "Dartmouth College",
+    "program": "AB Computer Science",
+    "level": "Undergraduate",
+    "degree": "AB",
+    "state": "New Hampshire",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Common App or institutional application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://web.cs.dartmouth.edu/undergraduate/undergraduate-programs/cs-major",
+      "admission": "https://admissions.dartmouth.edu/apply-dartmouth",
+      "international": "https://admissions.dartmouth.edu/glossary-term/international-students",
+      "apply": "https://admissions.dartmouth.edu/apply-dartmouth"
+    }
+  },
+  {
+    "id": "dartmouth-ms-cs",
+    "school": "Dartmouth College",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New Hampshire",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://web.cs.dartmouth.edu/graduate/graduate-admissions/masters-computer-science",
+      "admission": "https://graduate.dartmouth.edu/admissions/programs/computer-science",
+      "international": "https://graduate.dartmouth.edu/admissions-financial-aid/applying-dartmouth/admissions-information",
+      "apply": "https://graduate.dartmouth.edu/admissions/applying-dartmouth"
+    }
+  },
+  {
+    "id": "dartmouth-phd-cs",
+    "school": "Dartmouth College",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "New Hampshire",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://web.cs.dartmouth.edu/graduate/graduate-admissions/phd-computer-science",
+      "admission": "https://graduate.dartmouth.edu/admissions/programs/computer-science",
+      "international": "https://graduate.dartmouth.edu/admissions-financial-aid/applying-dartmouth/admissions-information",
+      "apply": "https://graduate.dartmouth.edu/admissions/applying-dartmouth"
+    }
+  },
+  {
+    "id": "caltech-bs-cs",
+    "school": "Caltech",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cms.caltech.edu/academics/ugrad_cs",
+      "admission": "https://www.admissions.caltech.edu/apply/first-year-applicants",
+      "international": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+      "apply": "https://www.admissions.caltech.edu/apply"
+    }
+  },
+  {
+    "id": "caltech-phd-cs",
+    "school": "Caltech",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "California",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cms.caltech.edu/academics/grad_cs",
+      "admission": "https://www.gradoffice.caltech.edu/admissions",
+      "international": "https://www.gradoffice.caltech.edu/admissions",
+      "apply": "https://www.gradoffice.caltech.edu/admissions/applyonline"
+    }
+  },
+  {
+    "id": "jhu-bs-cs",
+    "school": "Johns Hopkins University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Maryland",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.jhu.edu/undergraduate-studies/",
+      "admission": "https://apply.jhu.edu/",
+      "international": "https://apply.jhu.edu/international-applicants/",
+      "apply": "https://apply.jhu.edu/"
+    }
+  },
+  {
+    "id": "jhu-ms-cs",
+    "school": "Johns Hopkins University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Maryland",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/",
+      "admission": "https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/",
+      "international": "https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/",
+      "apply": "https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/"
+    }
+  },
+  {
+    "id": "northwestern-bs-cs",
+    "school": "Northwestern University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Illinois",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.mccormick.northwestern.edu/computer-science/academics/undergraduate/",
+      "admission": "https://admissions.northwestern.edu/apply/",
+      "international": "https://admissions.northwestern.edu/apply/international-students.html",
+      "apply": "https://admissions.northwestern.edu/apply/"
+    }
+  },
+  {
+    "id": "northwestern-ms-cs",
+    "school": "Northwestern University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Illinois",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/masters/",
+      "admission": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions/",
+      "international": "https://www.tgs.northwestern.edu/admission/application-procedures/international-applicants1.html",
+      "apply": "https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions/"
+    }
+  },
+  {
+    "id": "uchicago-bs-cs",
+    "school": "University of Chicago",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Illinois",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.uchicago.edu/academics/undergraduate/",
+      "admission": "https://collegeadmissions.uchicago.edu/apply",
+      "international": "https://collegeadmissions.uchicago.edu/apply/international-applicants",
+      "apply": "https://collegeadmissions.uchicago.edu/apply"
+    }
+  },
+  {
+    "id": "uchicago-phd-cs",
+    "school": "University of Chicago",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Illinois",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.uchicago.edu/academics/admission/",
+      "admission": "https://cs.uchicago.edu/academics/admission/",
+      "international": "https://cs.uchicago.edu/academics/admission/",
+      "apply": "https://cs.uchicago.edu/academics/admission/"
+    }
+  },
+  {
+    "id": "ucsb-bs-cs",
+    "school": "UC Santa Barbara",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.ucsb.edu/education/undergraduate/overview",
+      "admission": "https://admission.universityofcalifornia.edu/admission-requirements/freshman-requirements/",
+      "international": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "ucsb-ms-cs",
+    "school": "UC Santa Barbara",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.ucsb.edu/index.php/education/graduate/masters-degree",
+      "admission": "https://cs.ucsb.edu/education/graduate/overview",
+      "international": "https://www.graddiv.ucsb.edu/admissions/international-applicants",
+      "apply": "https://www.graddiv.ucsb.edu/admissions/how-to-apply"
+    }
+  },
+  {
+    "id": "ucsc-bs-cs",
+    "school": "UC Santa Cruz",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://engineering.ucsc.edu/departments/computer-science-and-engineering/degree-programs/",
+      "admission": "https://admissions.ucsc.edu/apply/index.html",
+      "international": "https://admissions.ucsc.edu/international-students/",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "ucsc-ms-cs",
+    "school": "UC Santa Cruz",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://engineering.ucsc.edu/departments/computer-science-and-engineering/degree-programs/",
+      "admission": "https://graduateadmissions.ucsc.edu/",
+      "international": "https://graduateadmissions.ucsc.edu/help-for-applicants/international-applicant-information/",
+      "apply": "https://graduateadmissions.ucsc.edu/"
+    }
+  },
+  {
+    "id": "tamu-bs-cs",
+    "school": "Texas A&M University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Texas",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://engineering.tamu.edu/cse/academics/degrees/undergraduate/bs-cs.html",
+      "admission": "https://www.tamu.edu/admissions/",
+      "international": "https://www.tamu.edu/admissions/",
+      "apply": "https://www.tamu.edu/admissions/"
+    }
+  },
+  {
+    "id": "tamu-ms-cs",
+    "school": "Texas A&M University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Texas",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://engineering.tamu.edu/cse/academics/degrees/graduate/ms-cs.html",
+      "admission": "https://engineering.tamu.edu/admissions-and-aid/graduate-admissions/index.html",
+      "international": "https://engineering.tamu.edu/admissions-and-aid/graduate-admissions/index.html",
+      "apply": "https://engineering.tamu.edu/admissions-and-aid/graduate-admissions/index.html"
+    }
+  },
+  {
+    "id": "psu-bs-cs",
+    "school": "Penn State",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Pennsylvania",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://bulletins.psu.edu/undergraduate/colleges/engineering/computer-science-bs/",
+      "admission": "https://admissions.psu.edu/apply/",
+      "international": "https://admissions.psu.edu/info/future/international/",
+      "apply": "https://admissions.psu.edu/apply/"
+    }
+  },
+  {
+    "id": "psu-ms-cse",
+    "school": "Penn State",
+    "program": "MS Computer Science and Engineering",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Pennsylvania",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://bulletins.psu.edu/graduate/programs/majors/computer-science-engineering/",
+      "admission": "https://gradschool.psu.edu/admissions",
+      "international": "https://gradschool.psu.edu/graduate-admissions/how-to-apply/new-applicants/requirements-for-graduate-admission/",
+      "apply": "https://gradschool.psu.edu/admissions"
+    }
+  },
+  {
+    "id": "rutgers-bs-cs",
+    "school": "Rutgers University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "New Jersey",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.rutgers.edu/academics/undergraduate/why-computer-science",
+      "admission": "https://admissions.rutgers.edu/apply",
+      "international": "https://admissions.rutgers.edu/apply/international-applicants",
+      "apply": "https://admissions.rutgers.edu/apply"
+    }
+  },
+  {
+    "id": "rutgers-ms-cs",
+    "school": "Rutgers University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New Jersey",
+    "gre": true,
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://grad.rutgers.edu/academics/programs/computer-science",
+      "admission": "https://grad.rutgers.edu/academics/programs/computer-science",
+      "international": "https://gradstudy.rutgers.edu/apply/before-you-apply/international-students",
+      "apply": "https://gradstudy.rutgers.edu/apply/apply-now"
+    }
+  },
+  {
+    "id": "uarizona-bs-cs",
+    "school": "University of Arizona",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Arizona",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cs.arizona.edu/undergraduate/undergraduate-program",
+      "admission": "https://www.arizona.edu/admissions/first-year/apply",
+      "international": "https://www.arizona.edu/admissions/first-year/apply",
+      "apply": "https://www.arizona.edu/admissions/first-year/apply"
+    }
+  },
+  {
+    "id": "uarizona-ms-cs",
+    "school": "University of Arizona",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Arizona",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cs.arizona.edu/graduate/masters-program",
+      "admission": "https://grad.arizona.edu/admissions",
+      "international": "https://grad.arizona.edu/admissions/requirements/international-applicants",
+      "apply": "https://grad.arizona.edu/admissions"
+    }
+  },
+  {
+    "id": "umass-bs-cs",
+    "school": "University of Massachusetts Amherst",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cics.umass.edu/academics/bs-or-ba-computer-science/joining-major",
+      "admission": "https://www.umass.edu/admissions/first-year-students",
+      "international": "https://www.umass.edu/admissions/international",
+      "apply": "https://www.umass.edu/admissions/apply"
+    }
+  },
+  {
+    "id": "umass-ms-cs",
+    "school": "University of Massachusetts Amherst",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Massachusetts",
+    "gre": "Optional",
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cics.umass.edu/academics/ms-computer-science-campus",
+      "admission": "https://www.cics.umass.edu/academics/ms-computer-science-campus/how-apply-ms-program-campus",
+      "international": "https://www.umass.edu/graduate/apply/international-applicants",
+      "apply": "https://www.umass.edu/graduate/apply/how-apply"
+    }
+  },
+  {
+    "id": "umass-phd-cs",
+    "school": "University of Massachusetts Amherst",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://www.cics.umass.edu/academics/phd-computer-science",
+      "admission": "https://www.cics.umass.edu/academics/phd-computer-science/how-apply-phd-program",
+      "international": "https://www.umass.edu/graduate/apply/international-applicants",
+      "apply": "https://www.umass.edu/graduate/apply/how-apply"
+    }
+  },
+  {
+    "id": "vt-bs-cs",
+    "school": "Virginia Tech",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Virginia",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.vt.edu/academics/majors/computer-science.html",
+      "admission": "https://www.vt.edu/admissions/undergraduate/apply.html",
+      "international": "https://www.vt.edu/admissions/undergraduate.html",
+      "apply": "https://www.vt.edu/admissions/undergraduate/apply.html"
+    }
+  },
+  {
+    "id": "vt-ms-cs",
+    "school": "Virginia Tech",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Virginia",
+    "gre": "Optional",
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://website.cs.vt.edu/academic/graduate.html",
+      "admission": "https://students.cs.vt.edu/Graduate/ApplicationDeadlines.html",
+      "international": "https://graduateschool.vt.edu/admissions/how-to-apply/testing-requirements.html",
+      "apply": "https://graduateschool.vt.edu/admissions/how-to-apply.html"
+    }
+  },
+  {
+    "id": "vt-phd-cs",
+    "school": "Virginia Tech",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Virginia",
+    "gre": "Optional",
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://students.cs.vt.edu/Graduate/Degrees/Doctorate.html",
+      "admission": "https://students.cs.vt.edu/Graduate/ApplicationDeadlines.html",
+      "international": "https://graduateschool.vt.edu/admissions/how-to-apply/testing-requirements.html",
+      "apply": "https://graduateschool.vt.edu/admissions/how-to-apply.html"
+    }
+  },
+  {
+    "id": "vanderbilt-bs-cs",
+    "school": "Vanderbilt University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Tennessee",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://engineering.vanderbilt.edu/departments/computer-science/undergraduate-program/",
+      "admission": "https://admissions.vanderbilt.edu/apply/",
+      "international": "https://admissions.vanderbilt.edu/apply/",
+      "apply": "https://admissions.vanderbilt.edu/apply/"
+    }
+  },
+  {
+    "id": "vanderbilt-ms-cs",
+    "school": "Vanderbilt University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Tennessee",
+    "gre": false,
+    "toefl": 89,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://engineering.vanderbilt.edu/departments/computer-science/",
+      "admission": "https://engineering.vanderbilt.edu/departments/computer-science/graduate/admissions-requirements/",
+      "international": "https://engineering.vanderbilt.edu/graduate-admissions/",
+      "apply": "https://gradschool.vanderbilt.edu/application-requirements/"
+    }
+  },
+  {
+    "id": "vanderbilt-phd-cs",
+    "school": "Vanderbilt University",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Tennessee",
+    "gre": false,
+    "toefl": 89,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://engineering.vanderbilt.edu/departments/computer-science/",
+      "admission": "https://engineering.vanderbilt.edu/departments/computer-science/graduate/admissions-requirements/",
+      "international": "https://engineering.vanderbilt.edu/graduate-admissions/",
+      "apply": "https://gradschool.vanderbilt.edu/application-requirements/"
+    }
+  },
+  {
+    "id": "ucb-ba-data-science",
+    "school": "UC Berkeley",
+    "program": "BA Data Science",
+    "level": "Undergraduate",
+    "degree": "BA",
+    "state": "California",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "UC Application",
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://cdss.berkeley.edu/dsus/academics/data-science-major",
+      "admission": "https://admissions.berkeley.edu/apply-to-berkeley/",
+      "international": "https://admission.universityofcalifornia.edu/admission-requirements/international-applicants/",
+      "apply": "https://apply.universityofcalifornia.edu/"
+    }
+  },
+  {
+    "id": "ucb-mims",
+    "school": "UC Berkeley",
+    "program": "Master of Information Management and Systems",
+    "level": "Graduate",
+    "degree": "MIMS",
+    "state": "California",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Personal History Statement",
+      "Recommendation Letters",
+      "Essays"
+    ],
+    "links": {
+      "program": "https://www.ischool.berkeley.edu/programs/mims",
+      "admission": "https://www.ischool.berkeley.edu/programs/mims/admissions",
+      "international": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
+      "apply": "https://grad.berkeley.edu/admissions/apply/"
+    }
+  },
+  {
+    "id": "ucb-phd-eecs",
+    "school": "UC Berkeley",
+    "program": "PhD Electrical Engineering & Computer Sciences",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "California",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://eecs.berkeley.edu/academics/graduate/research-programs/",
+      "admission": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
+      "international": "https://grad.berkeley.edu/admissions/application-process/requirements/",
+      "apply": "https://grad.berkeley.edu/admissions/apply/"
+    }
+  },
+  {
+    "id": "ucla-ms-cs",
+    "school": "UCLA",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": "Optional",
+    "toefl": 87,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/computer-science/",
+      "admission": "https://www.cs.ucla.edu/graduate-requirements/",
+      "international": "https://grad.ucla.edu/admissions/international-applicants/",
+      "apply": "https://grad.ucla.edu/admissions/admission-application-for-graduate-admission/"
+    }
+  },
+  {
+    "id": "ucla-phd-cs",
+    "school": "UCLA",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "California",
+    "gre": "Optional",
+    "toefl": 87,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://grad.ucla.edu/programs/school-of-engineering-and-applied-science/computer-science/",
+      "admission": "https://www.cs.ucla.edu/graduate-requirements/",
+      "international": "https://grad.ucla.edu/admissions/international-applicants/",
+      "apply": "https://grad.ucla.edu/admissions/admission-application-for-graduate-admission/"
+    }
+  },
+  {
+    "id": "ucla-ms-applied-stat-data-science",
+    "school": "UCLA",
+    "program": "MS Applied Statistics & Data Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": "Optional",
+    "toefl": 87,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://master.stat.ucla.edu/",
+      "admission": "https://master.stat.ucla.edu/admissions/",
+      "international": "https://grad.ucla.edu/admissions/international-applicants/",
+      "apply": "https://grad.ucla.edu/admissions/admission-application-for-graduate-admission/"
+    }
+  },
+  {
+    "id": "ucsd-ms-cs",
+    "school": "UC San Diego",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 85,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://cse.ucsd.edu/graduate/degree-programs/ms-program",
+      "admission": "https://cse.ucsd.edu/graduate/admissions",
+      "international": "https://grad.ucsd.edu/admissions/requirements/international-students/english-proficiency.html",
+      "apply": "https://gradapply.ucsd.edu/"
+    }
+  },
+  {
+    "id": "ucsd-phd-cs",
+    "school": "UC San Diego",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "California",
+    "gre": false,
+    "toefl": 85,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://cse.ucsd.edu/graduate",
+      "admission": "https://cse.ucsd.edu/graduate/admissions",
+      "international": "https://grad.ucsd.edu/admissions/requirements/international-students/english-proficiency.html",
+      "apply": "https://gradapply.ucsd.edu/"
+    }
+  },
+  {
+    "id": "ucsd-ms-data-science",
+    "school": "UC San Diego",
+    "program": "MS Data Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "California",
+    "gre": false,
+    "toefl": 85,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://datascience.ucsd.edu/graduate/",
+      "admission": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
+      "international": "https://grad.ucsd.edu/admissions/requirements/international-students/english-proficiency.html",
+      "apply": "https://gradapply.ucsd.edu/"
+    }
+  },
+  {
+    "id": "stonybrook-bs-cs",
+    "school": "Stony Brook University",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "New York",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.stonybrook.edu/undergraduate-admissions/programs/cse.php",
+      "admission": "https://www.stonybrook.edu/undergraduate-admissions/apply/first-year.php",
+      "international": "https://www.stonybrook.edu/undergraduate-admissions/apply/international.php",
+      "apply": "https://www.stonybrook.edu/undergraduate-admissions/apply/"
+    }
+  },
+  {
+    "id": "stonybrook-ms-cs",
+    "school": "Stony Brook University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New York",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
+      "admission": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
+      "international": "https://www.stonybrook.edu/grad/admissions/apply/graduate-programs.php",
+      "apply": "https://graduateadmissions.stonybrook.edu/apply/"
+    }
+  },
+  {
+    "id": "stonybrook-phd-cs",
+    "school": "Stony Brook University",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "New York",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
+      "admission": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
+      "international": "https://www.stonybrook.edu/grad/admissions/apply/graduate-programs.php",
+      "apply": "https://graduateadmissions.stonybrook.edu/apply/"
+    }
+  },
+  {
+    "id": "stonybrook-ms-data-science",
+    "school": "Stony Brook University",
+    "program": "MS Data Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New York",
+    "gre": "Optional",
+    "toefl": "Varies",
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.stonybrook.edu/admissions/Graduate-Admissions-Data-Science",
+      "admission": "https://www.cs.stonybrook.edu/admissions/Graduate-Admissions-Data-Science",
+      "international": "https://www.stonybrook.edu/grad/admissions/apply/graduate-programs.php",
+      "apply": "https://graduateadmissions.stonybrook.edu/apply/"
+    }
+  },
+  {
+    "id": "utah-bs-cs",
+    "school": "University of Utah",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Utah",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.utah.edu/undergraduate/academic-programs/undergraduate-academic-program-overview/",
+      "admission": "https://admissions.utah.edu/apply/freshman-students/",
+      "international": "https://admissions.utah.edu/apply/international/",
+      "apply": "https://admissions.utah.edu/apply/"
+    }
+  },
+  {
+    "id": "utah-bs-data-science",
+    "school": "University of Utah",
+    "program": "BS Data Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Utah",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.cs.utah.edu/undergraduate/academic-programs/undergraduate-academic-program-overview/",
+      "admission": "https://admissions.utah.edu/apply/freshman-students/",
+      "international": "https://admissions.utah.edu/apply/international/",
+      "apply": "https://admissions.utah.edu/apply/"
+    }
+  },
+  {
+    "id": "utah-ms-cs",
+    "school": "University of Utah",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Utah",
+    "gre": "Optional",
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.cs.utah.edu/graduate/",
+      "admission": "https://www.cs.utah.edu/graduate/prospective-students/admissions/",
+      "international": "https://www.cs.utah.edu/graduate/prospective-students/admissions/graduate-international-applicants/",
+      "apply": "https://admissions.utah.edu/apply/graduate-students/"
+    }
+  },
+  {
+    "id": "utah-phd-cs",
+    "school": "University of Utah",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Utah",
+    "gre": "Optional",
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://www.cs.utah.edu/graduate/",
+      "admission": "https://www.cs.utah.edu/graduate/prospective-students/admissions/",
+      "international": "https://www.cs.utah.edu/graduate/prospective-students/admissions/graduate-international-applicants/",
+      "apply": "https://admissions.utah.edu/apply/graduate-students/"
+    }
+  },
+  {
+    "id": "utah-ms-computational-data-science",
+    "school": "University of Utah",
+    "program": "MS Computational & Data Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Utah",
+    "gre": false,
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://psm.utah.edu/degree-programs/comp-data-sci.php",
+      "admission": "https://psm.utah.edu/prospective-students/admissions/admit-faq.php",
+      "international": "https://gradschool.utah.edu/future-students/admissions.php",
+      "apply": "https://admissions.utah.edu/apply/graduate-students/"
+    }
+  },
+  {
+    "id": "ub-bs-cs",
+    "school": "University at Buffalo",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "New York",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Self-reported Coursework",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://engineering.buffalo.edu/home/academics/undergrad/programs/majors/computer-science.html",
+      "admission": "https://www.buffalo.edu/admissions/apply/first-year.html",
+      "international": "https://www.buffalo.edu/admissions/apply/international.html",
+      "apply": "https://www.buffalo.edu/admissions/apply.html"
+    }
+  },
+  {
+    "id": "ub-ms-cs",
+    "school": "University at Buffalo",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New York",
+    "gre": false,
+    "toefl": 79,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://engineering.buffalo.edu/computer-science-engineering/graduate/degrees-and-programs/ms-in-computer-science-and-engineering.html",
+      "admission": "https://engineering.buffalo.edu/computer-science-engineering/graduate/admissions.html",
+      "international": "https://www.buffalo.edu/grad/explore/admissions/requirements.html",
+      "apply": "https://engineering.buffalo.edu/computer-science-engineering/graduate/admissions/application-materials.html"
+    }
+  },
+  {
+    "id": "ub-phd-cs",
+    "school": "University at Buffalo",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "New York",
+    "gre": false,
+    "toefl": 79,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://engineering.buffalo.edu/computer-science-engineering/graduate/degrees-and-programs/phd-in-computer-science-and-engineering.html",
+      "admission": "https://engineering.buffalo.edu/computer-science-engineering/graduate/admissions.html",
+      "international": "https://www.buffalo.edu/grad/explore/admissions/requirements.html",
+      "apply": "https://engineering.buffalo.edu/computer-science-engineering/graduate/admissions/application-materials.html"
+    }
+  },
+  {
+    "id": "ub-ms-data-science",
+    "school": "University at Buffalo",
+    "program": "MS Engineering Science (Data Science)",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "New York",
+    "gre": "Optional",
+    "toefl": 79,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.buffalo.edu/ai-data-science/academics/grad/ds-ms.html",
+      "admission": "https://www.buffalo.edu/ai-data-science/academics/grad/ds-ms.html",
+      "international": "https://www.buffalo.edu/grad/explore/admissions/requirements.html",
+      "apply": "https://www.buffalo.edu/ai-data-science/academics/grad/ds-ms.html"
+    }
+  },
+  {
+    "id": "bu-ba-cs",
+    "school": "Boston University",
+    "program": "BA Computer Science",
+    "level": "Undergraduate",
+    "degree": "BA",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Common App or institutional application",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://www.bu.edu/cs/undergraduate/academic-programs/computer-science-major/",
+      "admission": "https://www.bu.edu/admissions/apply/first-year/",
+      "international": "https://www.bu.edu/admissions/apply/international/",
+      "apply": "https://www.bu.edu/admissions/apply/"
+    }
+  },
+  {
+    "id": "bu-ms-cs",
+    "school": "Boston University",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.bu.edu/cs/masters/program/cs/",
+      "admission": "https://www.bu.edu/cas/admissions/ma-ms/apply/",
+      "international": "https://www.bu.edu/cas/admissions/ma-ms/international-students/",
+      "apply": "https://www.bu.edu/cas/admissions/ma-ms/apply/"
+    }
+  },
+  {
+    "id": "bu-ms-data-science",
+    "school": "Boston University",
+    "program": "MS Data Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Massachusetts",
+    "gre": false,
+    "toefl": 90,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.bu.edu/cds-faculty/programs-admissions/ms-data-science/overview/",
+      "admission": "https://www.bu.edu/cds-faculty/programs-admissions/ms-data-science/msds-admissions-requirements/",
+      "international": "https://www.bu.edu/cds-faculty/programs-admissions/graduate-admissions-requirements/",
+      "apply": "https://www.bu.edu/cds-faculty/programs-admissions/ms-data-science/msds-admissions-requirements/"
+    }
+  },
+  {
+    "id": "iu-bs-cs",
+    "school": "Indiana University Bloomington",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Indiana",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Common App or institutional application",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://luddy.iu.edu/academics/undergraduate/bs-computer-science.html",
+      "admission": "https://admissions.indiana.edu/apply/freshman/index.html",
+      "international": "https://admissions.indiana.edu/apply/international.html",
+      "apply": "https://admissions.indiana.edu/apply/index.html"
+    }
+  },
+  {
+    "id": "iu-bs-data-science",
+    "school": "Indiana University Bloomington",
+    "program": "BS Data Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Indiana",
+    "gre": false,
+    "toefl": "Varies",
+    "materials": [
+      "High School Transcript",
+      "Common App or institutional application",
+      "English Proficiency",
+      "Application Fee"
+    ],
+    "links": {
+      "program": "https://luddy.iu.edu/academics/undergraduate/bs-data-science.html",
+      "admission": "https://admissions.indiana.edu/apply/freshman/index.html",
+      "international": "https://admissions.indiana.edu/apply/international.html",
+      "apply": "https://admissions.indiana.edu/apply/index.html"
+    }
+  },
+  {
+    "id": "iu-ms-cs",
+    "school": "Indiana University Bloomington",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Indiana",
+    "gre": "Optional",
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://luddy.iu.edu/academics/masters/computer-science.html",
+      "admission": "https://luddy.iu.edu/admissions/graduate/index.html",
+      "international": "https://luddy.iu.edu/admissions/graduate/index.html",
+      "apply": "https://luddy.iu.edu/admissions/graduate/index.html"
+    }
+  },
+  {
+    "id": "iu-ms-data-science",
+    "school": "Indiana University Bloomington",
+    "program": "MS Data Science - Residential",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Indiana",
+    "gre": "Optional",
+    "toefl": 100,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://luddy.iu.edu/academics/masters/data-science-residential.html",
+      "admission": "https://luddy.iu.edu/admissions/graduate/index.html",
+      "international": "https://luddy.iu.edu/admissions/graduate/index.html",
+      "apply": "https://luddy.iu.edu/admissions/graduate/index.html"
+    }
+  },
+  {
+    "id": "pitt-bs-cs",
+    "school": "University of Pittsburgh",
+    "program": "BS Computer Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Pennsylvania",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "High School Transcript",
+      "Common App or institutional application",
+      "English Proficiency",
+      "Application Fee",
+      "Self-reported Coursework"
+    ],
+    "links": {
+      "program": "https://www.sci.pitt.edu/academics/undergraduate-degrees/computer-science",
+      "admission": "https://admissions.pitt.edu/first-year-student/",
+      "international": "https://admissions.pitt.edu/international/international-first-year-students/",
+      "apply": "https://admissions.pitt.edu/apply/"
+    }
+  },
+  {
+    "id": "pitt-bs-data-science",
+    "school": "University of Pittsburgh",
+    "program": "BS Data Science",
+    "level": "Undergraduate",
+    "degree": "BS",
+    "state": "Pennsylvania",
+    "gre": false,
+    "toefl": 100,
+    "materials": [
+      "High School Transcript",
+      "Common App or institutional application",
+      "English Proficiency",
+      "Application Fee",
+      "Self-reported Coursework"
+    ],
+    "links": {
+      "program": "https://www.sci.pitt.edu/academics/undergraduate-degrees/data-science",
+      "admission": "https://admissions.pitt.edu/first-year-student/",
+      "international": "https://admissions.pitt.edu/international/international-first-year-students/",
+      "apply": "https://admissions.pitt.edu/apply/"
+    }
+  },
+  {
+    "id": "pitt-ms-cs",
+    "school": "University of Pittsburgh",
+    "program": "MS Computer Science",
+    "level": "Graduate",
+    "degree": "MS",
+    "state": "Pennsylvania",
+    "gre": "Optional",
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters"
+    ],
+    "links": {
+      "program": "https://www.sci.pitt.edu/academics/masters-degrees/computer-science-ms",
+      "admission": "https://www.sci.pitt.edu/graduate-admissions-deadlines",
+      "international": "https://www.sci.pitt.edu/admissions/graduate-admissions-faqs",
+      "apply": "https://www.sci.pitt.edu/admissions"
+    }
+  },
+  {
+    "id": "pitt-phd-cs",
+    "school": "University of Pittsburgh",
+    "program": "PhD Computer Science",
+    "level": "Graduate",
+    "degree": "PhD",
+    "state": "Pennsylvania",
+    "gre": "Optional",
+    "toefl": 80,
+    "materials": [
+      "Transcript",
+      "Resume",
+      "Statement of Purpose",
+      "Recommendation Letters",
+      "Research Interests"
+    ],
+    "links": {
+      "program": "https://www.sci.pitt.edu/academics/doctoral-degrees/computer-science-phd",
+      "admission": "https://www.sci.pitt.edu/graduate-admissions-deadlines",
+      "international": "https://www.sci.pitt.edu/admissions/graduate-admissions-faqs",
+      "apply": "https://www.sci.pitt.edu/admissions"
+    }
+  }
+]

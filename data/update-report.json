@@ -1,0 +1,27 @@
+{
+  "lastChecked": "2026-07-03T23:14:49.710Z",
+  "catalog": {
+    "programs": 158,
+    "schools": 68,
+    "applicationWindowEntries": 158,
+    "rankingEntries": 65
+  },
+  "cwur": {
+    "sourceUrl": "https://cwur.org/2026.php",
+    "rowsFetched": 313,
+    "matchedSchools": 65,
+    "unmatchedProgramSchools": [
+      "Cal Poly Pomona",
+      "Cal State East Bay",
+      "Cal State Monterey Bay"
+    ],
+    "updatedRankingKeys": [
+      "University of Illinois Urbana-Champaign",
+      "University of Wisconsin-Madison"
+    ]
+  },
+  "validation": {
+    "errors": [],
+    "warnings": []
+  }
+}

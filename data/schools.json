@@ -1,0 +1,682 @@
+{
+  "MIT": {
+    "schoolType": "Private",
+    "city": "Cambridge, MA",
+    "acceptanceRate": "4.6%",
+    "acceptanceRateScope": "Undergraduate overall, Class of 2029",
+    "sourceLabel": "MIT Admissions statistics",
+    "sourceUrl": "https://mitadmissions.org/apply/process/stats/",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "Harvard University": {
+    "schoolType": "Private",
+    "city": "Cambridge, MA",
+    "acceptanceRate": "4.2%",
+    "acceptanceRateScope": "Harvard College overall, Class of 2029",
+    "sourceLabel": "Harvard Fact Book: College Admissions",
+    "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-admissions/",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "Yale University": {
+    "schoolType": "Private",
+    "city": "New Haven, CT",
+    "acceptanceRate": "3.9%",
+    "acceptanceRateScope": "Yale College overall, Class of 2028",
+    "sourceLabel": "Yale admissions snapshot",
+    "sourceUrl": "https://www.yale.edu/admissions",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "Princeton University": {
+    "schoolType": "Private",
+    "city": "Princeton, NJ",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Not published on official class profile",
+    "sourceLabel": "Princeton admission statistics",
+    "sourceUrl": "https://admission.princeton.edu/apply/admission-statistics",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "UC Berkeley": {
+    "schoolType": "Public",
+    "city": "Berkeley, CA",
+    "acceptanceRate": "11.4%",
+    "acceptanceRateScope": "First-year overall, Fall 2025",
+    "sourceLabel": "UC Berkeley first-year admit data",
+    "sourceUrl": "https://admission.universityofcalifornia.edu/campuses-majors/berkeley/first-year-admit-data.html",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "UC Davis": {
+    "schoolType": "Public",
+    "city": "Davis, CA",
+    "acceptanceRate": "44.6%",
+    "acceptanceRateScope": "First-year overall, Fall 2025",
+    "sourceLabel": "UC Davis first-year admission statistics",
+    "sourceUrl": "https://www.ucdavis.edu/admissions",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "UCLA": {
+    "schoolType": "Public",
+    "city": "Los Angeles, CA",
+    "acceptanceRate": "10%",
+    "acceptanceRateScope": "California resident first-year, Fall 2025",
+    "sourceLabel": "UC first-year application data",
+    "sourceUrl": "https://admission.universityofcalifornia.edu/counselors/_files/documents/california-first-year-application-data.pdf",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "UC Irvine": {
+    "schoolType": "Public",
+    "city": "Irvine, CA",
+    "acceptanceRate": "22%",
+    "acceptanceRateScope": "California resident first-year, Fall 2025",
+    "sourceLabel": "UC first-year application data",
+    "sourceUrl": "https://admission.universityofcalifornia.edu/counselors/_files/documents/california-first-year-application-data.pdf",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "UC San Diego": {
+    "schoolType": "Public",
+    "city": "La Jolla, CA",
+    "acceptanceRate": "25%",
+    "acceptanceRateScope": "California resident first-year, Fall 2025",
+    "sourceLabel": "UC first-year application data",
+    "sourceUrl": "https://admission.universityofcalifornia.edu/counselors/_files/documents/california-first-year-application-data.pdf",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "Stanford University": {
+    "schoolType": "Private",
+    "city": "Stanford, CA",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Not published on current official admissions page",
+    "sourceLabel": "Stanford undergraduate admission",
+    "sourceUrl": "https://admission.stanford.edu/apply/",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "Northeastern University": {
+    "schoolType": "Private",
+    "city": "Boston, MA",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Use official source when available",
+    "sourceLabel": "Northeastern admissions",
+    "sourceUrl": "https://admissions.northeastern.edu/application-information/",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "Arizona State University": {
+    "schoolType": "Public",
+    "city": "Tempe, AZ",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Use official source when available",
+    "sourceLabel": "ASU admissions",
+    "sourceUrl": "https://admission.asu.edu/apply",
+    "updated": "2026-06-06",
+    "sourceType": "official"
+  },
+  "Cal Poly Pomona": {
+    "schoolType": "Public",
+    "city": "Pomona, CA",
+    "acceptanceRate": "75.2%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State Polytechnic University-Pomona",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20Polytechnic%20University-Pomona",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Cal Poly San Luis Obispo": {
+    "schoolType": "Public",
+    "city": "San Luis Obispo, CA",
+    "acceptanceRate": "31.3%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California Polytechnic State University-San Luis Obispo",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20Polytechnic%20State%20University-San%20Luis%20Obispo",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Cal State East Bay": {
+    "schoolType": "Public",
+    "city": "Hayward, CA",
+    "acceptanceRate": "97.4%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State University-East Bay",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-East%20Bay",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Cal State Fullerton": {
+    "schoolType": "Public",
+    "city": "Fullerton, CA",
+    "acceptanceRate": "90.5%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State University-Fullerton",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Fullerton",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Cal State Long Beach": {
+    "schoolType": "Public",
+    "city": "Long Beach, CA",
+    "acceptanceRate": "46.3%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State University-Long Beach",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Long%20Beach",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Cal State Monterey Bay": {
+    "schoolType": "Public",
+    "city": "Seaside, CA",
+    "acceptanceRate": "97.4%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State University-Monterey Bay",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Monterey%20Bay",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Cal State Northridge": {
+    "schoolType": "Public",
+    "city": "Northridge, CA",
+    "acceptanceRate": "93.5%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State University-Northridge",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Northridge",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Carnegie Mellon University": {
+    "schoolType": "Private",
+    "city": "Pittsburgh, PA",
+    "acceptanceRate": "11.7%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Carnegie Mellon University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Carnegie%20Mellon%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Columbia University": {
+    "schoolType": "Private",
+    "city": "New York, NY",
+    "acceptanceRate": "4.0%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Columbia University in the City of New York",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Columbia%20University%20in%20the%20City%20of%20New%20York",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Duke University": {
+    "schoolType": "Private",
+    "city": "Durham, NC",
+    "acceptanceRate": "5.7%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Duke University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Duke%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Fresno State": {
+    "schoolType": "Public",
+    "city": "Fresno, CA",
+    "acceptanceRate": "95.3%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State University-Fresno",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Fresno",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Brown University": {
+    "schoolType": "Private",
+    "city": "Providence, RI",
+    "acceptanceRate": "5.7%",
+    "acceptanceRateScope": "Undergraduate overall, Class of 2029",
+    "sourceLabel": "Brown Admission by the Numbers",
+    "sourceUrl": "https://admission.brown.edu/explore/brown-admission-numbers",
+    "sourceType": "official",
+    "updated": "2026-06-06"
+  },
+  "Dartmouth College": {
+    "schoolType": "Private",
+    "city": "Hanover, NH",
+    "acceptanceRate": "6.0%",
+    "acceptanceRateScope": "Undergraduate overall, Class of 2029",
+    "sourceLabel": "Dartmouth Class of 2029 admission announcement",
+    "sourceUrl": "https://home.dartmouth.edu/news/2025/03/admissions-class-2029",
+    "sourceType": "official",
+    "updated": "2026-06-06"
+  },
+  "Cornell University": {
+    "schoolType": "Private",
+    "city": "Ithaca, NY",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Not consistently published on current official admissions page",
+    "sourceLabel": "Cornell admissions",
+    "sourceUrl": "https://www.cornell.edu/admissions/",
+    "sourceType": "official",
+    "updated": "2026-06-06"
+  },
+  "University of Pennsylvania": {
+    "schoolType": "Private",
+    "city": "Philadelphia, PA",
+    "acceptanceRate": "5.0%",
+    "acceptanceRateScope": "Undergraduate overall, Class of 2029 / Fall 2025",
+    "sourceLabel": "University of Pennsylvania Facts",
+    "sourceUrl": "https://www.upenn.edu/about/facts",
+    "sourceType": "official",
+    "updated": "2026-06-06"
+  },
+  "Georgia Tech": {
+    "schoolType": "Public",
+    "city": "Atlanta, GA",
+    "acceptanceRate": "14.1%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Georgia Institute of Technology-Main Campus",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Georgia%20Institute%20of%20Technology-Main%20Campus",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "New York University": {
+    "schoolType": "Private",
+    "city": "New York, NY",
+    "acceptanceRate": "9.2%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: New York University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=New%20York%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Ohio State University": {
+    "schoolType": "Public",
+    "city": "Columbus, OH",
+    "acceptanceRate": "60.6%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Ohio State University-Main Campus",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Ohio%20State%20University-Main%20Campus",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Purdue University": {
+    "schoolType": "Public",
+    "city": "West Lafayette, IN",
+    "acceptanceRate": "49.9%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Purdue University-Main Campus",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Purdue%20University-Main%20Campus",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Rice University": {
+    "schoolType": "Private",
+    "city": "Houston, TX",
+    "acceptanceRate": "8.0%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Rice University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Rice%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Sacramento State": {
+    "schoolType": "Public",
+    "city": "Sacramento, CA",
+    "acceptanceRate": "94.0%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California State University-Sacramento",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Sacramento",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "San Diego State University": {
+    "schoolType": "Public",
+    "city": "San Diego, CA",
+    "acceptanceRate": "36.2%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: San Diego State University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=San%20Diego%20State%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "San Francisco State University": {
+    "schoolType": "Public",
+    "city": "San Francisco, CA",
+    "acceptanceRate": "96.4%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: San Francisco State University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=San%20Francisco%20State%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "San Jose State University": {
+    "schoolType": "Public",
+    "city": "San Jose, CA",
+    "acceptanceRate": "84.6%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: San Jose State University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=San%20Jose%20State%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "UNC Chapel Hill": {
+    "schoolType": "Public",
+    "city": "Chapel Hill, NC",
+    "acceptanceRate": "15.3%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of North Carolina at Chapel Hill",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20North%20Carolina%20at%20Chapel%20Hill",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "UT Austin": {
+    "schoolType": "Public",
+    "city": "Austin, TX",
+    "acceptanceRate": "26.6%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: The University of Texas at Austin",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=The%20University%20of%20Texas%20at%20Austin",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Colorado Boulder": {
+    "schoolType": "Public",
+    "city": "Boulder, CO",
+    "acceptanceRate": "78.1%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Colorado Boulder",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Colorado%20Boulder",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Florida": {
+    "schoolType": "Public",
+    "city": "Gainesville, FL",
+    "acceptanceRate": "24.2%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Florida",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Florida",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Illinois Urbana-Champaign": {
+    "schoolType": "Public",
+    "city": "Champaign, IL",
+    "acceptanceRate": "42.4%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Illinois Urbana-Champaign",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Illinois%20Urbana-Champaign",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Maryland": {
+    "schoolType": "Public",
+    "city": "College Park, MD",
+    "acceptanceRate": "44.8%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Maryland-College Park",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Maryland-College%20Park",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Michigan": {
+    "schoolType": "Public",
+    "city": "Ann Arbor, MI",
+    "acceptanceRate": "15.6%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Michigan-Ann Arbor",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Michigan-Ann%20Arbor",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Minnesota Twin Cities": {
+    "schoolType": "Public",
+    "city": "Minneapolis, MN",
+    "acceptanceRate": "79.8%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Minnesota-Twin Cities",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Minnesota-Twin%20Cities",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Southern California": {
+    "schoolType": "Private",
+    "city": "Los Angeles, CA",
+    "acceptanceRate": "9.8%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Southern California",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Southern%20California",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Virginia": {
+    "schoolType": "Public",
+    "city": "Charlottesville, VA",
+    "acceptanceRate": "16.8%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Virginia-Main Campus",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Virginia-Main%20Campus",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Washington": {
+    "schoolType": "Public",
+    "city": "Seattle, WA",
+    "acceptanceRate": "39.1%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Washington-Seattle Campus",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Washington-Seattle%20Campus",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Wisconsin-Madison": {
+    "schoolType": "Public",
+    "city": "Madison, WI",
+    "acceptanceRate": "45.2%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Wisconsin-Madison",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Wisconsin-Madison",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Washington State University": {
+    "schoolType": "Public",
+    "city": "Pullman, WA",
+    "acceptanceRate": "86.6%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Washington State University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Washington%20State%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Caltech": {
+    "schoolType": "Private",
+    "city": "Pasadena, CA",
+    "acceptanceRate": "2.6%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: California Institute of Technology",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20Institute%20of%20Technology",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Johns Hopkins University": {
+    "schoolType": "Private",
+    "city": "Baltimore, MD",
+    "acceptanceRate": "6.4%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Johns Hopkins University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Johns%20Hopkins%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Northwestern University": {
+    "schoolType": "Private",
+    "city": "Evanston, IL",
+    "acceptanceRate": "7.7%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Northwestern University",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Northwestern%20University",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Chicago": {
+    "schoolType": "Private",
+    "city": "Chicago, IL",
+    "acceptanceRate": "4.5%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Chicago",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Chicago",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "UC Santa Barbara": {
+    "schoolType": "Public",
+    "city": "Santa Barbara, CA",
+    "acceptanceRate": "33.0%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of California-Santa Barbara",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20California-Santa%20Barbara",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "UC Santa Cruz": {
+    "schoolType": "Public",
+    "city": "Santa Cruz, CA",
+    "acceptanceRate": "65.8%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of California-Santa Cruz",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20California-Santa%20Cruz",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Texas A&M University": {
+    "schoolType": "Public",
+    "city": "College Station, TX",
+    "acceptanceRate": "57.4%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Texas A&M University-College Station",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Texas%20A%26M%20University-College%20Station",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Penn State": {
+    "schoolType": "Public",
+    "city": "University Park, PA",
+    "acceptanceRate": "60.6%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Pennsylvania State University-Main Campus",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Pennsylvania%20State%20University-Main%20Campus",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "Rutgers University": {
+    "schoolType": "Public",
+    "city": "New Brunswick, NJ",
+    "acceptanceRate": "58.1%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: Rutgers University-New Brunswick",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Rutgers%20University-New%20Brunswick",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Arizona": {
+    "schoolType": "Public",
+    "city": "Tucson, AZ",
+    "acceptanceRate": "86.1%",
+    "acceptanceRateScope": "Undergraduate overall, College Scorecard latest available data",
+    "sourceLabel": "College Scorecard: University of Arizona",
+    "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Arizona",
+    "sourceType": "government-third-party",
+    "updated": "2026-06-06"
+  },
+  "University of Massachusetts Amherst": {
+    "schoolType": "Public",
+    "city": "Amherst, MA",
+    "acceptanceRate": "59%",
+    "acceptanceRateScope": "Undergraduate overall, Fall 2025",
+    "sourceLabel": "UMass Amherst admissions statistics",
+    "sourceUrl": "https://www.umass.edu/admissions/admissions-statistics",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "Virginia Tech": {
+    "schoolType": "Public",
+    "city": "Blacksburg, VA",
+    "acceptanceRate": "56.5%",
+    "acceptanceRateScope": "Undergraduate offered rate, latest DataCommons admissions table",
+    "sourceLabel": "Virginia Tech University DataCommons: Admissions",
+    "sourceUrl": "https://udc.vt.edu/irdata/data/students/admission/index",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "Vanderbilt University": {
+    "schoolType": "Private",
+    "city": "Nashville, TN",
+    "acceptanceRate": "5.3%",
+    "acceptanceRateScope": "Undergraduate overall, Fall 2025",
+    "sourceLabel": "Vanderbilt At A Glance",
+    "sourceUrl": "https://admissions.vanderbilt.edu/profile/",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "Stony Brook University": {
+    "schoolType": "Public",
+    "city": "Stony Brook, NY",
+    "acceptanceRate": "49.0%",
+    "acceptanceRateScope": "Undergraduate first-year, Fall 2025; calculated from 27,380 accepted / 55,879 applications",
+    "sourceLabel": "Stony Brook facts and rankings",
+    "sourceUrl": "https://www.stonybrook.edu/about/facts-and-rankings/",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "University of Utah": {
+    "schoolType": "Public",
+    "city": "Salt Lake City, UT",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Not published on current official admissions/facts page",
+    "sourceLabel": "University of Utah facts and figures",
+    "sourceUrl": "https://brand.utah.edu/facts-and-figures/",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "University at Buffalo": {
+    "schoolType": "Public",
+    "city": "Buffalo, NY",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Official admissions dashboard available; rate not exposed as static text",
+    "sourceLabel": "University at Buffalo Office of Institutional Analysis: Admissions",
+    "sourceUrl": "https://www.buffalo.edu/oia/facts-publications/factbook/student/admissions.html",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "Boston University": {
+    "schoolType": "Private",
+    "city": "Boston, MA",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Official class profile publishes applicant volume; admit rate not published on current page",
+    "sourceLabel": "Boston University class profile",
+    "sourceUrl": "https://www.bu.edu/admissions/why-bu/class-profile/",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "Indiana University Bloomington": {
+    "schoolType": "Public",
+    "city": "Bloomington, IN",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Not published on current official admissions deadline page",
+    "sourceLabel": "Indiana University Bloomington admissions deadlines",
+    "sourceUrl": "https://admissions.indiana.edu/apply/deadlines.html",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  },
+  "University of Pittsburgh": {
+    "schoolType": "Public",
+    "city": "Pittsburgh, PA",
+    "acceptanceRate": null,
+    "acceptanceRateScope": "Rolling undergraduate admissions; official page does not publish an admit rate",
+    "sourceLabel": "University of Pittsburgh first-year admissions",
+    "sourceUrl": "https://admissions.pitt.edu/first-year-student/",
+    "sourceType": "official",
+    "updated": "2026-06-11"
+  }
+}
