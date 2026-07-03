@@ -1,23 +1,29 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
-import { SlidersHorizontal } from "lucide-react";
+import { CalendarDays, Clock, MapPin, SlidersHorizontal } from "lucide-react";
 
+import FavoriteButton from "@/components/FavoriteButton";
 import GoogleAdHolder from "@/components/GoogleAdHolder";
 import { useLanguage } from "@/components/LanguageProvider";
-import ProgramCard from "@/components/ProgramCard";
 import SearchBar from "@/components/SearchBar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useCurrentDate } from "@/components/useCurrentDate";
 import {
+  formatProgramDate,
   getAvailabilityLabel,
+  getGreLabel,
   getLevelLabel,
   getStateLabel,
   type Language
 } from "@/lib/i18n";
 import {
+  getAvailabilityTone,
+  getDaysUntilDeadline,
   getDegreeGroup,
+  getGreTone,
   getNextApplicationOpenDate,
   getProgramStatus,
   getRelevantApplicationWindow,
@@ -233,6 +239,8 @@ function ProgramGroup({
     return null;
   }
 
+  const schoolGroups = groupProgramsBySchool(items);
+
   return (
     <section>
       <div className="mb-4 flex items-end justify-between gap-4">
@@ -241,13 +249,175 @@ function ProgramGroup({
           <p className="text-sm text-muted-foreground">{countLabel}</p>
         </div>
       </div>
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {items.map((program) => (
-          <ProgramCard key={program.id} program={program} now={now} />
+      <div className="grid gap-4 lg:grid-cols-2">
+        {schoolGroups.map((group) => (
+          <SchoolProgramCard key={group.school} group={group} now={now} />
         ))}
       </div>
     </section>
   );
+}
+
+type SchoolProgramGroup = {
+  school: string;
+  state: string;
+  programs: Program[];
+};
+
+function SchoolProgramCard({
+  group,
+  now
+}: {
+  group: SchoolProgramGroup;
+  now: Date;
+}) {
+  const { language, t } = useLanguage();
+  const openCount = group.programs.filter((program) => getProgramStatus(program, now) === "Open").length;
+
+  return (
+    <article className="flex h-full flex-col rounded-lg border border-border bg-card p-4 shadow-soft">
+      <header className="mb-4 flex flex-wrap items-start justify-between gap-3 border-b border-border pb-4">
+        <div className="min-w-0">
+          <h4 className="text-lg font-semibold leading-tight">{group.school}</h4>
+          <div className="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
+            <span className="inline-flex items-center gap-1.5">
+              <MapPin className="h-4 w-4 text-foreground/70" aria-hidden="true" />
+              {getStateLabel(group.state, language)}
+            </span>
+            <Badge variant="muted">{t.groupProgramCount(group.programs.length)}</Badge>
+            {openCount > 0 ? (
+              <Badge variant="default">{getAvailabilityLabel("Open", language)} {openCount}</Badge>
+            ) : null}
+          </div>
+        </div>
+      </header>
+
+      <div className="grid flex-1 gap-3">
+        {group.programs.map((program) => (
+          <ProgramRow key={program.id} program={program} now={now} />
+        ))}
+      </div>
+    </article>
+  );
+}
+
+function ProgramRow({ program, now }: { program: Program; now: Date }) {
+  const { language, t } = useLanguage();
+  const status = getProgramStatus(program, now);
+  const isOpen = status === "Open";
+  const nextOpenDate = getNextApplicationOpenDate(program, now);
+  const relevantWindow = getRelevantApplicationWindow(program, now);
+
+  return (
+    <div className="grid gap-3 rounded-md border border-border bg-background p-3 md:grid-cols-[minmax(0,1fr)_auto] md:items-center">
+      <div className="min-w-0">
+        <div className="mb-2 flex items-start justify-between gap-3 md:hidden">
+          <h5 className="text-sm font-semibold leading-6">{program.program}</h5>
+          <FavoriteButton programId={program.id} compact />
+        </div>
+        <h5 className="mb-2 hidden text-sm font-semibold leading-6 md:block">{program.program}</h5>
+        <div className="flex flex-wrap gap-2">
+          <Badge variant="muted">{getLevelLabel(program.level, language)}</Badge>
+          <Badge variant="muted">{program.degree}</Badge>
+          <Badge variant={getAvailabilityTone(status)}>
+            {getAvailabilityLabel(status, language)}
+          </Badge>
+          <Badge variant={getGreTone(program.gre)}>{getGreLabel(program.gre, language)}</Badge>
+        </div>
+        <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+          {isOpen ? (
+            <>
+              <span className="inline-flex items-center gap-1.5">
+                <CalendarDays className="h-3.5 w-3.5 text-foreground/70" aria-hidden="true" />
+                {relevantWindow
+                  ? formatProgramDate(relevantWindow.deadline, language)
+                  : getAvailabilityLabel(status, language)}
+              </span>
+              <span className="font-medium text-foreground">
+                {relevantWindow
+                  ? formatDeadlineCountdown(relevantWindow.deadline, t, now)
+                  : t.deadlinePassed}
+              </span>
+            </>
+          ) : status === "Not Open" ? (
+            <>
+              <span className="inline-flex items-center gap-1.5">
+                <Clock className="h-3.5 w-3.5 text-foreground/70" aria-hidden="true" />
+                {nextOpenDate
+                  ? t.opensOn(formatProgramDate(nextOpenDate, language))
+                  : getAvailabilityLabel(status, language)}
+              </span>
+              <span>
+                {t.applicationDeadline}:{" "}
+                {relevantWindow ? formatProgramDate(relevantWindow.deadline, language) : "-"}
+              </span>
+            </>
+          ) : (
+            <span className="inline-flex items-center gap-1.5">
+              <CalendarDays className="h-3.5 w-3.5 text-foreground/70" aria-hidden="true" />
+              {t.deadlinePassed}
+            </span>
+          )}
+        </div>
+      </div>
+
+      <div className="flex items-center gap-2">
+        <div className="hidden md:block">
+          <FavoriteButton programId={program.id} compact />
+        </div>
+        <Button asChild size="sm" className="w-full md:w-auto">
+          <Link href={`/program/${program.id}`}>{t.viewDetails}</Link>
+        </Button>
+      </div>
+    </div>
+  );
+}
+
+function groupProgramsBySchool(items: Program[]): SchoolProgramGroup[] {
+  const groups = new Map<string, SchoolProgramGroup>();
+
+  for (const program of items) {
+    const group = groups.get(program.school) ?? {
+      school: program.school,
+      state: program.state,
+      programs: []
+    };
+
+    group.programs.push(program);
+    groups.set(program.school, group);
+  }
+
+  return Array.from(groups.values()).sort((left, right) => {
+    const stateComparison = left.state.localeCompare(right.state);
+
+    if (stateComparison !== 0) {
+      return stateComparison;
+    }
+
+    return left.school.localeCompare(right.school);
+  });
+}
+
+function formatDeadlineCountdown(
+  deadline: string,
+  t: ReturnType<typeof useLanguage>["t"],
+  now: Date
+) {
+  const days = getDaysUntilDeadline(deadline, now);
+
+  if (days < 0) {
+    return t.deadlinePassed;
+  }
+
+  if (days === 0) {
+    return t.dueToday;
+  }
+
+  if (days === 1) {
+    return t.oneDayLeft;
+  }
+
+  return t.daysLeft(days);
 }
 
 function DegreeTabs({
