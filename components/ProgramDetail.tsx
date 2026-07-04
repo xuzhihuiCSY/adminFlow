@@ -8,6 +8,7 @@ import {
   CheckCircle2,
   ClipboardList,
   ExternalLink,
+  Flag,
   FileText,
   Globe2,
   GraduationCap,
@@ -22,6 +23,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 import { useLanguage } from "@/components/LanguageProvider";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { formatLastVerified } from "@/lib/catalog-meta";
 import { useCurrentDate } from "@/components/useCurrentDate";
 import {
   Card,
@@ -48,6 +50,7 @@ import {
   getProgramStatus,
   getRelevantApplicationWindow,
   getWindowSchedule,
+  programs,
   type Program
 } from "@/lib/programs";
 import { getSchoolProfile, type SchoolProfile } from "@/lib/schools";
@@ -59,12 +62,32 @@ type ProgramDetailProps = {
 const detailCopy = {
   zh: {
     applicationProcess: "申请流程",
-    processNote: "流程按本项目的官方申请入口生成；不同学期或身份的特殊要求请以学校页面为准。"
+    processNote: "流程按本项目的官方申请入口生成；不同学期或身份的特殊要求请以学校页面为准。",
+    actionTitle: "申请行动",
+    currentStatus: "当前状态",
+    keyDate: "关键日期",
+    lastVerified: "最后核验",
+    sourceLabel: "来源",
+    sourceValue: "官方项目页 / 官方录取页",
+    officialReminder: "提交申请前请以学校官网为准。",
+    reportIssue: "报告信息错误",
+    similarPrograms: "相似项目",
+    viewProgram: "查看项目"
   },
   en: {
     applicationProcess: "Application Process",
     processNote:
-      "This flow is generated from the official application links for this program. Confirm term- or applicant-specific requirements on the school pages."
+      "This flow is generated from the official application links for this program. Confirm term- or applicant-specific requirements on the school pages.",
+    actionTitle: "Application Action",
+    currentStatus: "Current status",
+    keyDate: "Key date",
+    lastVerified: "Last verified",
+    sourceLabel: "Source",
+    sourceValue: "Official program / admissions pages",
+    officialReminder: "Confirm with the school website before applying.",
+    reportIssue: "Report issue",
+    similarPrograms: "Similar programs",
+    viewProgram: "View program"
   }
 } as const;
 
@@ -95,6 +118,7 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
   const schoolProfile = getSchoolProfile(program.school);
   const applicationProcess = getApplicationProcess(program, language);
   const localCopy = detailCopy[language];
+  const similarPrograms = getSimilarPrograms(program);
   const officialLinks = [
     {
       label: t.programWebsite,
@@ -145,9 +169,32 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
         </div>
         <Card className="h-fit">
           <CardHeader>
-            <CardTitle className="text-base">{t.saveThisProgram}</CardTitle>
+            <CardTitle className="text-base">{localCopy.actionTitle}</CardTitle>
           </CardHeader>
           <CardContent className="grid gap-3">
+            <div className="grid gap-2 rounded-md border border-border p-3 text-sm">
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-muted-foreground">{localCopy.currentStatus}</span>
+                <Badge variant={getAvailabilityTone(status)}>
+                  {getAvailabilityLabel(status, language)}
+                </Badge>
+              </div>
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-muted-foreground">{localCopy.keyDate}</span>
+                <span className="font-medium">
+                  {relevantWindow
+                    ? formatProgramDate(
+                        isNotOpen && nextOpenDate ? nextOpenDate : relevantWindow.deadline,
+                        language
+                      )
+                    : "-"}
+                </span>
+              </div>
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-muted-foreground">{localCopy.lastVerified}</span>
+                <span className="font-medium">{formatLastVerified(language)}</span>
+              </div>
+            </div>
             <FavoriteButton programId={program.id} className="w-full" />
             <Button asChild className="w-full">
               <a href={program.links.apply} target="_blank" rel="noreferrer">
@@ -155,6 +202,18 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
                 <ExternalLink className="h-4 w-4" aria-hidden="true" />
               </a>
             </Button>
+            <Button asChild variant="outline" className="w-full">
+              <Link href={`/contact?program=${program.id}`}>
+                <Flag className="h-4 w-4" aria-hidden="true" />
+                {localCopy.reportIssue}
+              </Link>
+            </Button>
+            <div className="rounded-md bg-muted p-3 text-xs leading-5 text-muted-foreground">
+              <p>
+                {localCopy.sourceLabel}: {localCopy.sourceValue}
+              </p>
+              <p className="mt-1">{localCopy.officialReminder}</p>
+            </div>
           </CardContent>
         </Card>
       </section>
@@ -339,9 +398,50 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
             ))}
           </CardContent>
         </Card>
+
+        {similarPrograms.length > 0 ? (
+          <Card className="lg:col-span-2">
+            <CardHeader>
+              <CardTitle>{localCopy.similarPrograms}</CardTitle>
+            </CardHeader>
+            <CardContent className="grid gap-3 md:grid-cols-3">
+              {similarPrograms.map((item) => (
+                <Link
+                  key={item.id}
+                  className="rounded-md border border-border p-3 transition hover:bg-accent"
+                  href={`/program/${item.id}`}
+                >
+                  <p className="text-sm font-semibold leading-5">{item.school}</p>
+                  <p className="mt-1 text-sm text-muted-foreground">{item.program}</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <Badge variant="muted">{item.degree}</Badge>
+                    <Badge variant={getAvailabilityTone(getProgramStatus(item, now))}>
+                      {getAvailabilityLabel(getProgramStatus(item, now), language)}
+                    </Badge>
+                  </div>
+                  <p className="mt-3 text-xs font-medium text-foreground">
+                    {localCopy.viewProgram}
+                  </p>
+                </Link>
+              ))}
+            </CardContent>
+          </Card>
+        ) : null}
       </section>
     </main>
   );
+}
+
+function getSimilarPrograms(program: Program) {
+  return programs
+    .filter(
+      (item) =>
+        item.id !== program.id &&
+        (item.degree === program.degree ||
+          item.level === program.level ||
+          item.program.toLowerCase().includes(program.program.split(" ")[0].toLowerCase()))
+    )
+    .slice(0, 3);
 }
 
 function SchoolOverviewCard({ profile }: { profile: SchoolProfile | null }) {

@@ -1,10 +1,13 @@
 {
-  "lastChecked": "2026-07-04T02:48:25Z",
-  "auditMode": "issues",
-  "auditedPrograms": [],
+  "lastChecked": "2026-07-04T03:08:55Z",
+  "auditMode": "program-id",
+  "auditedPrograms": [
+    "umich-bs-cs",
+    "umich-ms-cse"
+  ],
   "summary": {
     "programsChecked": 158,
-    "programsAuditedThisRun": 0,
+    "programsAuditedThisRun": 2,
     "uniqueLinksChecked": 458,
     "programLinkChecks": 632,
     "okLinks": 453,

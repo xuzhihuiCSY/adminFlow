@@ -2,7 +2,16 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { CalendarDays, Clock, MapPin, SlidersHorizontal } from "lucide-react";
+import {
+  BookmarkCheck,
+  CalendarCheck,
+  CalendarDays,
+  Clock,
+  ExternalLink,
+  MapPin,
+  ShieldCheck,
+  SlidersHorizontal
+} from "lucide-react";
 
 import FavoriteButton from "@/components/FavoriteButton";
 import GoogleAdHolder from "@/components/GoogleAdHolder";
@@ -12,6 +21,7 @@ import SearchBar from "@/components/SearchBar";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useCurrentDate } from "@/components/useCurrentDate";
+import { catalogMeta, formatLastVerified } from "@/lib/catalog-meta";
 import {
   formatProgramDate,
   getAvailabilityLabel,
@@ -37,12 +47,58 @@ const allStates = Array.from(new Set(programs.map((program) => program.state))).
 const degreeTabs: DegreeGroup[] = ["Undergraduate", "Master", "Doctoral"];
 const schoolCardsPerPage = 8;
 
+const homeCopy = {
+  zh: {
+    valueCards: [
+      {
+        title: "查截止日期",
+        description: "按开放状态和截止日期排序，先处理最紧急的项目。"
+      },
+      {
+        title: "查官方申请链接",
+        description: "集中整理项目官网、录取页、国际学生页和申请入口。"
+      },
+      {
+        title: "保存/对比候选项目",
+        description: "无需账号，把候选项目保存在本地清单里继续筛选。"
+      }
+    ],
+    verified: "最后核验",
+    officialSource: "官方来源优先",
+    cleanAudit: "当前无坏链接或待复核截止日期",
+    sourceNote: "提交申请前请以学校官网为准。",
+    reportIssue: "报告问题"
+  },
+  en: {
+    valueCards: [
+      {
+        title: "Check deadlines",
+        description: "Sort by open status and deadline so urgent programs are visible first."
+      },
+      {
+        title: "Find official links",
+        description: "Use curated program, admission, international, and application pages."
+      },
+      {
+        title: "Save and compare",
+        description: "Keep candidate programs locally without creating an account."
+      }
+    ],
+    verified: "Last verified",
+    officialSource: "Official sources first",
+    cleanAudit: "No broken links or deadline reviews",
+    sourceNote: "Confirm with the school website before applying.",
+    reportIssue: "Report issue"
+  }
+} as const;
+
 export default function HomePage() {
   const [query, setQuery] = useState("");
   const [stateFilter, setStateFilter] = useState("All");
   const [activeDegree, setActiveDegree] = useState<DegreeGroup>("Undergraduate");
   const [greFilter, setGreFilter] = useState("All");
   const { language, t } = useLanguage();
+  const copy = homeCopy[language];
   const now = useCurrentDate();
 
   const programsMatchingFilters = useMemo(() => {
@@ -124,7 +180,7 @@ export default function HomePage() {
 
   return (
     <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-      <section className="mb-8 grid gap-6 lg:grid-cols-[1fr_360px] lg:items-end">
+      <section className="mb-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-start">
         <div>
           <Badge variant="secondary" className="mb-4">
             {t.heroBadge}
@@ -135,6 +191,32 @@ export default function HomePage() {
           <p className="mt-4 max-w-2xl text-base leading-7 text-muted-foreground">
             {t.heroDescription}
           </p>
+          <div className="mt-6 grid gap-3 md:grid-cols-3">
+            {copy.valueCards.map((card, index) => {
+              const Icon = [CalendarCheck, ExternalLink, BookmarkCheck][index];
+
+              return (
+                <div key={card.title} className="rounded-lg border border-border bg-card p-4 shadow-soft">
+                  <Icon className="mb-3 h-5 w-5 text-primary" aria-hidden="true" />
+                  <h2 className="text-sm font-semibold">{card.title}</h2>
+                  <p className="mt-2 text-sm leading-6 text-muted-foreground">
+                    {card.description}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+          <div className="mt-5 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
+            <span className="inline-flex items-center gap-1.5">
+              <ShieldCheck className="h-4 w-4 text-primary" aria-hidden="true" />
+              {copy.verified}: {formatLastVerified(language)}
+            </span>
+            <span>{copy.officialSource}</span>
+            {catalogMeta.summary.brokenLinks === 0 &&
+            catalogMeta.summary.programsNeedingDeadlineReview === 0 ? (
+              <span>{copy.cleanAudit}</span>
+            ) : null}
+          </div>
         </div>
         <div className="rounded-lg border border-border bg-card p-4 shadow-soft">
           <div className="mb-3 flex items-center gap-2 text-sm font-medium">
@@ -327,6 +409,7 @@ function SchoolProgramCard({
 
 function ProgramRow({ program, now }: { program: Program; now: Date }) {
   const { language, t } = useLanguage();
+  const copy = homeCopy[language];
   const status = getProgramStatus(program, now);
   const isOpen = status === "Open";
   const nextOpenDate = getNextApplicationOpenDate(program, now);
@@ -382,6 +465,15 @@ function ProgramRow({ program, now }: { program: Program; now: Date }) {
               {t.deadlinePassed}
             </span>
           )}
+        </div>
+        <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+          <span>
+            {copy.verified}: {formatLastVerified(language)}
+          </span>
+          <span>{copy.officialSource}</span>
+          <Link className="font-medium text-foreground hover:underline" href={`/contact?program=${program.id}`}>
+            {copy.reportIssue}
+          </Link>
         </div>
       </div>
 

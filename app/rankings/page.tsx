@@ -26,6 +26,10 @@ const pageCopy = {
     title: "按 CWUR 2026 世界大学排名查看库内学校。",
     description:
       "榜单使用 Center for World University Rankings 2026 Global 2000。这里只展示项目库里同时有本科和研究生项目、并且能匹配到 CWUR 排名的学校。",
+    rankingCaution:
+      "排名仅供初步筛选，申请时还应结合专业强度、录取难度、费用、地理位置、就业和个人背景。",
+    coverageNote:
+      "这不是完整美国大学排名，只包含当前项目库覆盖且能匹配 CWUR 的学校。",
     filters: "筛选",
     state: "州",
     schoolType: "学校类型",
@@ -61,6 +65,10 @@ const pageCopy = {
     title: "View catalog schools by CWUR 2026 world ranking.",
     description:
       "The list uses the Center for World University Rankings 2026 Global 2000. It only shows schools that have both undergraduate and graduate programs in the catalog and can be matched to CWUR.",
+    rankingCaution:
+      "Rankings are only a starting point. Also consider program strength, selectivity, cost, location, career outcomes, and your background.",
+    coverageNote:
+      "This is not a complete US university ranking; it only includes schools covered by the catalog and matched to CWUR.",
     filters: "Filters",
     state: "State",
     schoolType: "School Type",
@@ -162,6 +170,10 @@ export default function RankingsPage() {
           <p className="mt-4 max-w-2xl text-base leading-7 text-muted-foreground">
             {copy.description}
           </p>
+          <div className="mt-4 grid gap-2 rounded-lg border border-border bg-card p-4 text-sm leading-6 text-muted-foreground shadow-soft">
+            <p>{copy.rankingCaution}</p>
+            <p>{copy.coverageNote}</p>
+          </div>
           <div className="mt-5 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
             <span>
               {copy.sourceLabel}: {rankingSource.name} {rankingSource.edition}

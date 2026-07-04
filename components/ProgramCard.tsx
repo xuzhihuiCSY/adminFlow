@@ -7,6 +7,7 @@ import FavoriteButton from "@/components/FavoriteButton";
 import { useLanguage } from "@/components/LanguageProvider";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { formatLastVerified } from "@/lib/catalog-meta";
 import {
   Card,
   CardContent,
@@ -36,6 +37,19 @@ type ProgramCardProps = {
   now: Date;
 };
 
+const qualityCopy = {
+  zh: {
+    verified: "最后核验",
+    source: "官方来源优先",
+    report: "报告问题"
+  },
+  en: {
+    verified: "Last verified",
+    source: "Official sources first",
+    report: "Report issue"
+  }
+} as const;
+
 function formatDeadlineCountdown(
   deadline: string,
   t: ReturnType<typeof useLanguage>["t"],
@@ -60,6 +74,7 @@ function formatDeadlineCountdown(
 
 export default function ProgramCard({ program, now }: ProgramCardProps) {
   const { language, t } = useLanguage();
+  const copy = qualityCopy[language];
   const status = getProgramStatus(program, now);
   const isOpen = status === "Open";
   const nextOpenDate = getNextApplicationOpenDate(program, now);
@@ -136,6 +151,15 @@ export default function ProgramCard({ program, now }: ProgramCardProps) {
               {relevantWindow ? formatProgramDate(relevantWindow.deadline, language) : "-"}
             </div>
           ) : null}
+          <div className="border-t border-border pt-3 text-xs leading-5">
+            <div>
+              {copy.verified}: {formatLastVerified(language)}
+            </div>
+            <div>{copy.source}</div>
+            <Link className="font-medium text-foreground hover:underline" href={`/contact?program=${program.id}`}>
+              {copy.report}
+            </Link>
+          </div>
         </div>
       </CardContent>
       <CardFooter>

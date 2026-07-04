@@ -14,7 +14,7 @@ export const copy = {
     navMyList: "我的清单",
     languageToggle: "切换语言",
     heroBadge: "美国大学申请信息导航",
-    heroTitle: "更快找到申请截止日期和官方链接。",
+    heroTitle: "帮中国学生快速确认美国大学项目是否开放申请、什么时候截止、官方申请入口在哪里。",
     heroDescription:
       "搜索精选项目样例，比较申请要求，并在本地保存感兴趣的项目。无需账号。",
     filters: "筛选",
@@ -102,7 +102,7 @@ export const copy = {
     navMyList: "My List",
     languageToggle: "Switch language",
     heroBadge: "US university application navigator",
-    heroTitle: "Find application deadlines and official links faster.",
+    heroTitle: "Confirm whether a US university program is open, when it closes, and where to apply.",
     heroDescription:
       "Search a focused sample catalog, compare requirements, and save programs locally without an account.",
     filters: "Filters",

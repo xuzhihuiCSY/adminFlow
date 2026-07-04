@@ -16,6 +16,7 @@ PROGRAMS_PATH = DATA_DIR / "programs.json"
 WINDOWS_PATH = DATA_DIR / "application-windows.json"
 REPORT_PATH = DATA_DIR / "program-audit-report.json"
 OVERRIDES_PATH = DATA_DIR / "link-overrides.json"
+CATALOG_META_PATH = DATA_DIR / "catalog-meta.json"
 
 TIMEOUT_SECONDS = 12
 PROTECTED_STATUSES = {401, 403, 429}
@@ -199,6 +200,7 @@ def main() -> None:
         "programs": ordered_program_audits,
     }
     write_json(REPORT_PATH, report)
+    write_catalog_meta(report)
 
     print(
         f"Checked {len(unique_link_results)} unique links across {len(link_results)} program link checks: "
@@ -208,6 +210,25 @@ def main() -> None:
     print(f"Audited {len(audited_program_ids)} programs this run using mode: {audit_mode}.")
     print(f"Collected deadline evidence for {len(programs_with_evidence)} of {len(programs)} programs.")
     print(f"Flagged {len(programs_needing_deadline_review)} programs for deadline review.")
+
+
+def write_catalog_meta(report: dict[str, Any]) -> None:
+    summary = report["summary"]
+
+    write_json(
+        CATALOG_META_PATH,
+        {
+            "lastVerified": report["lastChecked"],
+            "sourceSummary": "Official program, admissions, international student, and application pages are checked where available.",
+            "summary": {
+                "programsChecked": summary["programsChecked"],
+                "brokenLinks": summary["brokenLinks"],
+                "protectedOrRateLimitedLinks": summary["protectedOrRateLimitedLinks"],
+                "verifiedProtectedLinks": summary.get("verifiedProtectedLinks", 0),
+                "programsNeedingDeadlineReview": summary["programsNeedingDeadlineReview"],
+            },
+        },
+    )
 
 
 def parse_args() -> argparse.Namespace:
