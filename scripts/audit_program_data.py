@@ -215,9 +215,7 @@ def has_legacy_issue(program: dict[str, Any]) -> bool:
     needs_deadline_review = (
         (program.get("deadlineComparison") or {}).get("recommendedAction") == "review"
     )
-    missing_deadline_evidence = not program.get("deadlineEvidence")
-
-    return has_link_issue or needs_deadline_review or missing_deadline_evidence
+    return has_link_issue or needs_deadline_review
 
 
 def audit_program_links(program: dict[str, Any]) -> dict[str, dict[str, Any]]:
@@ -353,9 +351,6 @@ def get_program_issue_reasons(
 
     if deadline_comparison.get("recommendedAction") == "review":
         reasons.append("deadline-review")
-
-    if not evidence:
-        reasons.append("missing-deadline-evidence")
 
     return reasons
 

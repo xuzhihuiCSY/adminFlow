@@ -16,8 +16,8 @@
     ],
     "links": {
       "program": "https://www.washington.edu/datasciencemasters/",
-      "admission": "https://www.washington.edu/datasciencemasters/admissions/",
-      "international": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+      "admission": "https://www.washington.edu/datasciencemasters/admission-requirements/",
+      "international": "https://www.washington.edu/datasciencemasters/international-students/",
       "apply": "https://grad.uw.edu/admission/apply-now/"
     }
   },
@@ -39,7 +39,7 @@
     "links": {
       "program": "https://ischool.uw.edu/programs/msim",
       "admission": "https://ischool.uw.edu/programs/msim/admissions",
-      "international": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+      "international": "https://ischool.uw.edu/programs/msim/admissions/international-students",
       "apply": "https://grad.uw.edu/admission/apply-now/"
     }
   },
@@ -61,7 +61,7 @@
     "links": {
       "program": "https://www.cs.washington.edu/academics/ugrad/admissions/",
       "admission": "https://admit.washington.edu/apply/freshman/",
-      "international": "https://admit.washington.edu/apply/international/",
+      "international": "https://admit.washington.edu/apply/first-year/how-to-apply/english-proficiency/",
       "apply": "https://admit.washington.edu/apply/"
     }
   },
@@ -193,9 +193,9 @@
     ],
     "links": {
       "program": "https://cdso.utexas.edu/msds",
-      "admission": "https://cdso.utexas.edu/admissions",
+      "admission": "https://cdso.utexas.edu/apply",
       "international": "https://gradschool.utexas.edu/admissions/how-to-apply/international-students",
-      "apply": "https://gradschool.utexas.edu/admissions/how-to-apply"
+      "apply": "https://cdso.utexas.edu/apply"
     }
   },
   {
@@ -511,7 +511,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://cs.sdsu.edu/degree-programs/bs-in-computer-science/",
+      "program": "https://cs.sdsu.edu/computer-science-degree-programs/",
       "admission": "https://admissions.sdsu.edu/first-years",
       "international": "https://admissions.sdsu.edu/international",
       "apply": "https://www.calstate.edu/apply"
@@ -533,9 +533,9 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cs.sdsu.edu/degree-programs/ms-in-computer-science/",
-      "admission": "https://admissions.sdsu.edu/graduate",
-      "international": "https://admissions.sdsu.edu/international",
+      "program": "https://cs.sdsu.edu/computer-science-degree-programs/",
+      "admission": "https://admissions.sdsu.edu/grad-programs/masters",
+      "international": "https://admissions.sdsu.edu/international/graduate",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -782,7 +782,7 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cs.sfsu.edu/graduate",
+      "program": "https://cs.sfsu.edu/grads/graduate-program",
       "admission": "https://grad.sfsu.edu/",
       "international": "https://future.sfsu.edu/international",
       "apply": "https://www.calstate.edu/apply"
@@ -851,9 +851,9 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://csumb.edu/scd/computer-science-bs/",
-      "admission": "https://csumb.edu/admissions/",
-      "international": "https://csumb.edu/international/admissions/",
+      "program": "https://csumb.edu/scd/computer-science-online-degree-completion/",
+      "admission": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+      "international": "https://csumb.edu/admissions-aid/how-to-apply/international/",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -917,8 +917,8 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-ms/",
-      "admission": "https://graduate.northeastern.edu/admissions/",
+      "program": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-mscs/",
+      "admission": "https://graduate.northeastern.edu/admissions-aid/",
       "international": "https://international.northeastern.edu/ogs/",
       "apply": "https://graduate.northeastern.edu/admissions-aid/how-to-apply/"
     }
@@ -940,7 +940,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/computer-science-bs/",
+      "program": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/bscs/",
       "admission": "https://admissions.northeastern.edu/application-information/",
       "international": "https://admissions.northeastern.edu/application-information/international-applicants/",
       "apply": "https://admissions.northeastern.edu/application-information/apply/"
@@ -1008,7 +1008,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://cs.stanford.edu/academics/undergraduate",
+      "program": "https://www.cs.stanford.edu/academics-overview/academics-bachelors-program",
       "admission": "https://admission.stanford.edu/apply/",
       "international": "https://admission.stanford.edu/apply/international/index.html",
       "apply": "https://admission.stanford.edu/apply/"
@@ -1030,9 +1030,9 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cs.stanford.edu/academics/masters",
+      "program": "https://www.cs.stanford.edu/masters-program-overview",
       "admission": "https://www.cs.stanford.edu/admissions",
-      "international": "https://gradadmissions.stanford.edu/apply/international-applicants",
+      "international": "https://gradadmissions.stanford.edu/applying/international-applicants",
       "apply": "https://gradadmissions.stanford.edu/apply"
     }
   },
@@ -1550,7 +1550,7 @@
     "links": {
       "program": "https://www.cs.duke.edu/undergrad",
       "admission": "https://admissions.duke.edu/apply/",
-      "international": "https://admissions.duke.edu/apply/international-students/",
+      "international": "https://admissions.duke.edu/apply/",
       "apply": "https://admissions.duke.edu/apply/"
     }
   },
@@ -1571,9 +1571,9 @@
     ],
     "links": {
       "program": "https://www.cs.duke.edu/graduate/ms",
-      "admission": "https://gradschool.duke.edu/admissions/how-to-apply/",
-      "international": "https://gradschool.duke.edu/admissions/international-applicants/",
-      "apply": "https://gradschool.duke.edu/admissions/how-to-apply/"
+      "admission": "https://gradschool.duke.edu/admissions/application-instructions/",
+      "international": "https://gradschool.duke.edu/admissions/application-instructions/english-language-proficiency-test-scores/",
+      "apply": "https://gradschool.duke.edu/admissions/"
     }
   },
   {
@@ -1660,10 +1660,10 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs",
-      "admission": "https://engineering.virginia.edu/admissions/graduate-admissions",
-      "international": "https://graddiversity.virginia.edu/international-students",
-      "apply": "https://engineering.virginia.edu/admissions/graduate-admissions"
+      "program": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/ms-computer-science",
+      "admission": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
+      "international": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
+      "apply": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission"
     }
   },
   {
@@ -1683,7 +1683,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://cse.osu.edu/current-students/undergraduate/majors/computer-science-and-engineering-cse",
+      "program": "https://cse.osu.edu/prospective-students/undergrad/majors",
       "admission": "https://undergrad.osu.edu/apply/freshmen-columbus",
       "international": "https://undergrad.osu.edu/apply/international-freshmen",
       "apply": "https://undergrad.osu.edu/apply"
@@ -1705,8 +1705,8 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cse.osu.edu/current-students/graduate/degree-programs/ms-program",
-      "admission": "https://cse.osu.edu/current-students/graduate/admissions",
+      "program": "https://cse.osu.edu/graduate/graduate/master-science-program",
+      "admission": "https://cse.osu.edu/graduate/cse-graduate-admissions",
       "international": "https://gpadmissions.osu.edu/intl.html",
       "apply": "https://gpadmissions.osu.edu/"
     }
@@ -1729,8 +1729,8 @@
     ],
     "links": {
       "program": "https://cse.umn.edu/cs/undergraduate-programs",
-      "admission": "https://admissions.tc.umn.edu/apply/freshman-admission",
-      "international": "https://admissions.tc.umn.edu/apply/international-students",
+      "admission": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
+      "international": "https://admissions.tc.umn.edu/apply-international-student",
       "apply": "https://admissions.tc.umn.edu/apply"
     }
   },
@@ -1750,10 +1750,10 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cse.umn.edu/cs/graduate-programs",
-      "admission": "https://cse.umn.edu/cs/graduate-admissions",
+      "program": "https://cse.umn.edu/cs/ms-overview",
+      "admission": "https://cse.umn.edu/cs/ms-admissions",
       "international": "https://grad.umn.edu/admissions/application-instructions/international-student-resources",
-      "apply": "https://grad.umn.edu/admissions/apply"
+      "apply": "https://grad.umn.edu/admissions/application-instructions"
     }
   },
   {
@@ -1886,9 +1886,9 @@
     ],
     "links": {
       "program": "https://csweb.rice.edu/academics/graduate-programs/online-mcs",
-      "admission": "https://csweb.rice.edu/academics/graduate-programs/mcs/admissions",
-      "international": "https://graduate.rice.edu/admissions/international-applicants",
-      "apply": "https://graduate.rice.edu/admissions/how-to-apply"
+      "admission": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+      "international": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+      "apply": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/apply"
     }
   },
   {
@@ -1955,9 +1955,9 @@
     ],
     "links": {
       "program": "https://cpsc.yale.edu/academics/undergraduate-program",
-      "admission": "https://admissions.yale.edu/applying-yale-college",
-      "international": "https://admissions.yale.edu/international-students",
-      "apply": "https://admissions.yale.edu/applying-yale-college"
+      "admission": "https://admissions.yale.edu/apply",
+      "international": "https://admissions.yale.edu/international",
+      "apply": "https://admissions.yale.edu/apply"
     }
   },
   {

@@ -1,276 +1,43 @@
 {
-  "lastChecked": "2026-07-04T00:32:30Z",
+  "lastChecked": "2026-07-04T00:55:39Z",
   "auditMode": "program-id",
   "auditedPrograms": [
-    "uw-msds"
+    "uw-msds",
+    "uw-msim",
+    "uw-bs-cs",
+    "ut-msds",
+    "sdsu-bs-cs",
+    "sdsu-mscs",
+    "sfsu-mscs",
+    "csumb-bs-cs",
+    "neu-mscs",
+    "neu-bs-cs",
+    "stanford-bs-cs",
+    "stanford-ms-cs",
+    "duke-bs-cs",
+    "duke-ms-cs",
+    "uva-ms-cs",
+    "osu-bs-cse",
+    "osu-ms-cse",
+    "umn-bs-cs",
+    "umn-ms-cs",
+    "rice-mcs",
+    "yale-bs-cs"
   ],
   "summary": {
     "programsChecked": 158,
-    "programsAuditedThisRun": 1,
-    "uniqueLinksChecked": 469,
+    "programsAuditedThisRun": 21,
+    "uniqueLinksChecked": 467,
     "programLinkChecks": 632,
-    "okLinks": 373,
+    "okLinks": 403,
     "protectedOrRateLimitedLinks": 31,
-    "brokenLinks": 65,
-    "programsWithDeadlineEvidence": 117,
-    "programsMissingDeadlineEvidence": 41,
-    "programsNeedingDeadlineReview": 24
+    "brokenLinks": 33,
+    "programsWithDeadlineEvidence": 109,
+    "programsMissingDeadlineEvidence": 49,
+    "programsNeedingDeadlineReview": 20
   },
   "linkAudit": {
     "brokenLinks": [
-      {
-        "url": "https://admissions.duke.edu/apply/international-students/",
-        "sources": [
-          "duke-bs-cs:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://admissions.duke.edu/apply/international-students/",
-        "error": null
-      },
-      {
-        "url": "https://admissions.tc.umn.edu/apply/freshman-admission",
-        "sources": [
-          "umn-bs-cs:admission"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://admissions.tc.umn.edu/apply/freshman-admission",
-        "error": null
-      },
-      {
-        "url": "https://admissions.tc.umn.edu/apply/international-students",
-        "sources": [
-          "umn-bs-cs:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://admissions.tc.umn.edu/apply/international-students",
-        "error": null
-      },
-      {
-        "url": "https://admissions.yale.edu/applying-yale-college",
-        "sources": [
-          "yale-bs-cs:admission",
-          "yale-bs-cs:apply"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://admissions.yale.edu/applying-yale-college",
-        "error": null
-      },
-      {
-        "url": "https://admissions.yale.edu/international-students",
-        "sources": [
-          "yale-bs-cs:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://admissions.yale.edu/international-students",
-        "error": null
-      },
-      {
-        "url": "https://admit.washington.edu/apply/international/",
-        "sources": [
-          "uw-bs-cs:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://admit.washington.edu/apply/international/",
-        "error": null
-      },
-      {
-        "url": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-ms/",
-        "sources": [
-          "neu-mscs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-ms/",
-        "error": null
-      },
-      {
-        "url": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/computer-science-bs/",
-        "sources": [
-          "neu-bs-cs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/computer-science-bs/",
-        "error": null
-      },
-      {
-        "url": "https://cdso.utexas.edu/admissions",
-        "sources": [
-          "ut-msds:admission"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cdso.utexas.edu/admissions",
-        "error": null
-      },
-      {
-        "url": "https://cs.sdsu.edu/degree-programs/bs-in-computer-science/",
-        "sources": [
-          "sdsu-bs-cs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cs.sdsu.edu/degree-programs/bs-in-computer-science/",
-        "error": null
-      },
-      {
-        "url": "https://cs.sdsu.edu/degree-programs/ms-in-computer-science/",
-        "sources": [
-          "sdsu-mscs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cs.sdsu.edu/degree-programs/ms-in-computer-science/",
-        "error": null
-      },
-      {
-        "url": "https://cs.sfsu.edu/graduate",
-        "sources": [
-          "sfsu-mscs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cs.sfsu.edu/graduate",
-        "error": null
-      },
-      {
-        "url": "https://cs.stanford.edu/academics/masters",
-        "sources": [
-          "stanford-ms-cs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://www.cs.stanford.edu/academics/masters",
-        "error": null
-      },
-      {
-        "url": "https://cs.stanford.edu/academics/undergraduate",
-        "sources": [
-          "stanford-bs-cs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://www.cs.stanford.edu/academics/undergraduate",
-        "error": null
-      },
-      {
-        "url": "https://cse.osu.edu/current-students/graduate/admissions",
-        "sources": [
-          "osu-ms-cse:admission"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cse.osu.edu/current-students/graduate/admissions",
-        "error": null
-      },
-      {
-        "url": "https://cse.osu.edu/current-students/graduate/degree-programs/ms-program",
-        "sources": [
-          "osu-ms-cse:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cse.osu.edu/current-students/graduate/degree-programs/ms-program",
-        "error": null
-      },
-      {
-        "url": "https://cse.osu.edu/current-students/undergraduate/majors/computer-science-and-engineering-cse",
-        "sources": [
-          "osu-bs-cse:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cse.osu.edu/current-students/undergraduate/majors/computer-science-and-engineering-cse",
-        "error": null
-      },
-      {
-        "url": "https://cse.umn.edu/cs/graduate-admissions",
-        "sources": [
-          "umn-ms-cs:admission"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://cse.umn.edu/cs/graduate-admissions",
-        "error": null
-      },
-      {
-        "url": "https://csumb.edu/international/admissions/",
-        "sources": [
-          "csumb-bs-cs:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://csumb.edu/international/need-help-schedule-appointment",
-        "error": null
-      },
-      {
-        "url": "https://csumb.edu/scd/computer-science-bs/",
-        "sources": [
-          "csumb-bs-cs:program"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://csumb.edu/scd/computer-science-bs/",
-        "error": null
-      },
-      {
-        "url": "https://csweb.rice.edu/academics/graduate-programs/mcs/admissions",
-        "sources": [
-          "rice-mcs:admission"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://csweb.rice.edu/academics/graduate-programs/mcs/admissions",
-        "error": null
-      },
-      {
-        "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-        "sources": [
-          "ucsd-ms-data-science:admission"
-        ],
-        "status": null,
-        "statusCategory": "broken",
-        "finalUrl": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-        "error": "HTTPSConnectionPool(host='datascience.ucsd.edu', port=443): Read timed out."
-      },
-      {
-        "url": "https://engineering.virginia.edu/admissions/graduate-admissions",
-        "sources": [
-          "uva-ms-cs:admission",
-          "uva-ms-cs:apply"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://engineering.virginia.edu/admissions/graduate-admissions",
-        "error": null
-      },
-      {
-        "url": "https://grad.umn.edu/admissions/apply",
-        "sources": [
-          "umn-ms-cs:apply"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://grad.umn.edu/admissions/apply",
-        "error": null
-      },
-      {
-        "url": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
-        "sources": [
-          "uw-msds:international",
-          "uw-msim:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
-        "error": null
-      },
       {
         "url": "https://gradadm.seas.upenn.edu/how-to-apply/international-applicants/",
         "sources": [
@@ -289,68 +56,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://gradadmissions.cmu.edu/apply/",
-        "error": "HTTPSConnectionPool(host='gradadmissions.cmu.edu', port=443): Max retries exceeded with url: /apply/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002543A210150>: Failed to resolve 'gradadmissions.cmu.edu' ([Errno 11001] getaddrinfo failed)\"))"
-      },
-      {
-        "url": "https://gradadmissions.stanford.edu/apply/international-applicants",
-        "sources": [
-          "stanford-ms-cs:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://gradadmissions.stanford.edu/apply/international-applicants",
-        "error": null
-      },
-      {
-        "url": "https://graddiversity.virginia.edu/international-students",
-        "sources": [
-          "uva-ms-cs:international"
-        ],
-        "status": null,
-        "statusCategory": "broken",
-        "finalUrl": "https://graddiversity.virginia.edu/international-students",
-        "error": "HTTPSConnectionPool(host='graddiversity.virginia.edu', port=443): Read timed out. (read timeout=12)"
-      },
-      {
-        "url": "https://gradschool.duke.edu/admissions/how-to-apply/",
-        "sources": [
-          "duke-ms-cs:admission",
-          "duke-ms-cs:apply"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://gradschool.duke.edu/admissions/how-to-apply/",
-        "error": null
-      },
-      {
-        "url": "https://gradschool.duke.edu/admissions/international-applicants/",
-        "sources": [
-          "duke-ms-cs:international"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://gradschool.duke.edu/admissions/international-applicants/",
-        "error": null
-      },
-      {
-        "url": "https://graduate.northeastern.edu/admissions/",
-        "sources": [
-          "neu-mscs:admission"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://graduate.northeastern.edu/admissions/",
-        "error": null
-      },
-      {
-        "url": "https://graduate.rice.edu/admissions/international-applicants",
-        "sources": [
-          "rice-mcs:international"
-        ],
-        "status": 406,
-        "statusCategory": "broken",
-        "finalUrl": "https://graduate.rice.edu/admissions/international-applicants",
-        "error": null
+        "error": "HTTPSConnectionPool(host='gradadmissions.cmu.edu', port=443): Max retries exceeded with url: /apply/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001F2FBE790D0>: Failed to resolve 'gradadmissions.cmu.edu' ([Errno 11001] getaddrinfo failed)\"))"
       },
       {
         "url": "https://gsas.harvard.edu/admissions/international-applicants",
@@ -664,16 +370,6 @@
         "status": 404,
         "statusCategory": "broken",
         "finalUrl": "https://www.stonybrook.edu/grad/admissions/apply/graduate-programs.php",
-        "error": null
-      },
-      {
-        "url": "https://www.washington.edu/datasciencemasters/admissions/",
-        "sources": [
-          "uw-msds:admission"
-        ],
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://www.washington.edu/datasciencemasters/admissions/",
         "error": null
       }
     ],
@@ -998,6 +694,11 @@
     "note": "Deadline evidence is extracted from public program and admission pages for human review. It is not automatically written to application-windows.json.",
     "programsMissingEvidence": [
       {
+        "id": "uw-msds",
+        "school": "University of Washington",
+        "program": "MS Data Science"
+      },
+      {
         "id": "uw-msim",
         "school": "University of Washington",
         "program": "MS Information Management"
@@ -1048,6 +749,11 @@
         "program": "BS Computer Science"
       },
       {
+        "id": "sfsu-mscs",
+        "school": "San Francisco State University",
+        "program": "MS Computer Science"
+      },
+      {
         "id": "asu-mscs",
         "school": "Arizona State University",
         "program": "MS Computer Science"
@@ -1055,6 +761,16 @@
       {
         "id": "asu-bs-cs",
         "school": "Arizona State University",
+        "program": "BS Computer Science"
+      },
+      {
+        "id": "neu-mscs",
+        "school": "Northeastern University",
+        "program": "MS Computer Science"
+      },
+      {
+        "id": "neu-bs-cs",
+        "school": "Northeastern University",
         "program": "BS Computer Science"
       },
       {
@@ -1066,6 +782,16 @@
         "id": "mit-ms-eecs",
         "school": "MIT",
         "program": "MS Electrical Engineering and Computer Science"
+      },
+      {
+        "id": "stanford-bs-cs",
+        "school": "Stanford University",
+        "program": "BS Computer Science"
+      },
+      {
+        "id": "stanford-ms-cs",
+        "school": "Stanford University",
+        "program": "MS Computer Science"
       },
       {
         "id": "uiuc-bs-cs",
@@ -1091,6 +817,16 @@
         "id": "usc-bs-cs",
         "school": "University of Southern California",
         "program": "BS Computer Science"
+      },
+      {
+        "id": "duke-ms-cs",
+        "school": "Duke University",
+        "program": "MS Computer Science"
+      },
+      {
+        "id": "osu-bs-cse",
+        "school": "Ohio State University",
+        "program": "BS Computer Science and Engineering"
       },
       {
         "id": "uf-bs-cs",
@@ -1233,29 +969,6 @@
         "recommendedAction": "review"
       },
       {
-        "id": "ut-msds",
-        "school": "UT Austin",
-        "program": "MS Data Science",
-        "status": "mismatch",
-        "confidence": "medium",
-        "currentDeadlines": [
-          "04-01"
-        ],
-        "detectedDeadlines": [
-          {
-            "monthDay": "03-15",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          },
-          {
-            "monthDay": "12-15",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          }
-        ],
-        "recommendedAction": "review"
-      },
-      {
         "id": "ucb-bs-eecs",
         "school": "UC Berkeley",
         "program": "BS Electrical Engineering & Computer Sciences",
@@ -1300,52 +1013,6 @@
           },
           {
             "monthDay": "11-30",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          }
-        ],
-        "recommendedAction": "review"
-      },
-      {
-        "id": "sdsu-bs-cs",
-        "school": "San Diego State University",
-        "program": "BS Computer Science",
-        "status": "mismatch",
-        "confidence": "medium",
-        "currentDeadlines": [
-          "12-01"
-        ],
-        "detectedDeadlines": [
-          {
-            "monthDay": "08-01",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          },
-          {
-            "monthDay": "11-30",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          }
-        ],
-        "recommendedAction": "review"
-      },
-      {
-        "id": "sdsu-mscs",
-        "school": "San Diego State University",
-        "program": "MS Computer Science",
-        "status": "mismatch",
-        "confidence": "medium",
-        "currentDeadlines": [
-          "03-01"
-        ],
-        "detectedDeadlines": [
-          {
-            "monthDay": "07-01",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          },
-          {
-            "monthDay": "08-31",
             "occurrences": 1,
             "matchedCurrentRecord": false
           }
@@ -1479,34 +1146,6 @@
           },
           {
             "monthDay": "11-01",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          }
-        ],
-        "recommendedAction": "review"
-      },
-      {
-        "id": "rice-mcs",
-        "school": "Rice University",
-        "program": "Master of Computer Science",
-        "status": "mismatch",
-        "confidence": "medium",
-        "currentDeadlines": [
-          "02-15"
-        ],
-        "detectedDeadlines": [
-          {
-            "monthDay": "05-01",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          },
-          {
-            "monthDay": "06-15",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
-          },
-          {
-            "monthDay": "08-24",
             "occurrences": 1,
             "matchedCurrentRecord": false
           }
@@ -1788,21 +1427,21 @@
           "error": null
         },
         "admission": {
-          "url": "https://www.washington.edu/datasciencemasters/admissions/",
+          "url": "https://www.washington.edu/datasciencemasters/admission-requirements/",
           "source": "uw-msds:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://www.washington.edu/datasciencemasters/admissions/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.washington.edu/datasciencemasters/admission-requirements/",
           "error": null
         },
         "international": {
-          "url": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+          "url": "https://www.washington.edu/datasciencemasters/international-students/",
           "source": "uw-msds:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.washington.edu/datasciencemasters/international-students/",
           "error": null
         },
         "apply": {
@@ -1815,15 +1454,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "admission",
-          "url": "https://www.washington.edu/datasciencemasters/admissions/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -1839,10 +1470,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "admission-link-broken",
-        "international-link-broken"
-      ]
+      "issueReasons": []
     },
     {
       "id": "uw-msim",
@@ -1875,12 +1503,12 @@
           "error": null
         },
         "international": {
-          "url": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+          "url": "https://ischool.uw.edu/programs/msim/admissions/international-students",
           "source": "uw-msim:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://grad.uw.edu/admission/understanding-the-application-process/international-applicants/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://ischool.uw.edu/programs/msim/admissions/international-students",
           "error": null
         },
         "apply": {
@@ -1908,7 +1536,8 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "uw-bs-cs",
@@ -1941,12 +1570,12 @@
           "error": null
         },
         "international": {
-          "url": "https://admit.washington.edu/apply/international/",
+          "url": "https://admit.washington.edu/apply/first-year/how-to-apply/english-proficiency/",
           "source": "uw-bs-cs:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://admit.washington.edu/apply/international/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://admit.washington.edu/apply/first-year/how-to-apply/english-proficiency/",
           "error": null
         },
         "apply": {
@@ -2039,7 +1668,8 @@
             "snippet": "first-years Summer** Mid-June September 1 November 15 March 1-15 Admission decisions are made only after all first-year applications have been reviewed"
           }
         ]
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "wsu-mscs",
@@ -2356,7 +1986,10 @@
             "snippet": "The Fall 2026 Application will be available by August 31, 2025"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "gatech-phd-cs",
@@ -2488,7 +2121,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "international-link-protected"
+      ]
     },
     {
       "id": "ut-msds",
@@ -2497,8 +2133,13 @@
       "currentApplicationWindows": [
         {
           "intake": "Fall",
-          "opens": null,
-          "deadline": "04-01"
+          "opens": "12-15",
+          "deadline": "04-15"
+        },
+        {
+          "intake": "Spring",
+          "opens": "06-01",
+          "deadline": "09-01"
         }
       ],
       "links": {
@@ -2512,12 +2153,12 @@
           "error": null
         },
         "admission": {
-          "url": "https://cdso.utexas.edu/admissions",
+          "url": "https://cdso.utexas.edu/apply",
           "source": "ut-msds:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cdso.utexas.edu/admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cdso.utexas.edu/apply",
           "error": null
         },
         "international": {
@@ -2530,12 +2171,12 @@
           "error": null
         },
         "apply": {
-          "url": "https://gradschool.utexas.edu/admissions/how-to-apply",
+          "url": "https://cdso.utexas.edu/apply",
           "source": "ut-msds:apply",
           "ok": true,
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://gradschool.utexas.edu/admissions/apply",
+          "finalUrl": "https://cdso.utexas.edu/apply",
           "error": null
         }
       },
@@ -2551,34 +2192,45 @@
         },
         {
           "source": "admission",
-          "url": "https://cdso.utexas.edu/admissions",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "url": "https://cdso.utexas.edu/apply",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "tion Guide PDF Master’s of Artificial Intelligence Application Guide PDF Graduate Certificate in Artificial Intelligence and Machine Learning Application Guide PDF Important Dates Fall Application Application Opens December 15 Priority Deadline March 15 Final…",
+            "Join a live info session to learn about our programs and how to apply before the September 1 final deadline"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "mismatch",
+        "status": "partial-match",
         "confidence": "medium",
-        "recommendedAction": "review",
+        "recommendedAction": "watch",
         "currentDeadlines": [
-          "04-01"
+          "04-15",
+          "09-01"
         ],
         "detectedDeadlines": [
           {
             "monthDay": "03-15",
-            "occurrences": 1,
+            "occurrences": 2,
             "matchedCurrentRecord": false
           },
           {
             "monthDay": "12-15",
-            "occurrences": 1,
+            "occurrences": 2,
             "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "09-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
           }
         ],
-        "matchedDeadlines": [],
+        "matchedDeadlines": [
+          "09-01"
+        ],
         "missingCurrentDeadlines": [
-          "04-01"
+          "04-15"
         ],
         "newCandidateDeadlines": [
           "03-15",
@@ -2598,9 +2250,31 @@
             "source": "program",
             "url": "https://cdso.utexas.edu/msds",
             "snippet": "Eligibility Traces Policy Gradient Methods Peter Stone Instructor of Record Professor, Computer Science Scott Niekum Adjunct Assistant Professor, Computer Science Important Dates Fall Application Application Opens December 15 Priority Deadline March 15 Final…"
+          },
+          {
+            "monthDay": "12-15",
+            "rawDate": "December 15",
+            "source": "admission",
+            "url": "https://cdso.utexas.edu/apply",
+            "snippet": "tion Guide PDF Master’s of Artificial Intelligence Application Guide PDF Graduate Certificate in Artificial Intelligence and Machine Learning Application Guide PDF Important Dates Fall Application Application Opens December 15 Priority Deadline March 15 Final…"
+          },
+          {
+            "monthDay": "03-15",
+            "rawDate": "March 15",
+            "source": "admission",
+            "url": "https://cdso.utexas.edu/apply",
+            "snippet": "tion Guide PDF Master’s of Artificial Intelligence Application Guide PDF Graduate Certificate in Artificial Intelligence and Machine Learning Application Guide PDF Important Dates Fall Application Application Opens December 15 Priority Deadline March 15 Final…"
+          },
+          {
+            "monthDay": "09-01",
+            "rawDate": "September 1",
+            "source": "admission",
+            "url": "https://cdso.utexas.edu/apply",
+            "snippet": "Join a live info session to learn about our programs and how to apply before the September 1 final deadline"
           }
         ]
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "ut-mba",
@@ -3060,7 +2734,10 @@
             "snippet": "cia Descubre UC Berkeley Ayuda Financiera Secondary navigation MAP@Berkeley Sign Up for Our Email List Contact Us Apply to UC Berkeley Home / Apply to UC Berkeley How to apply The application opens August 1, and you may submit the application October 1 – Nove…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ucla-bs-cs",
@@ -3179,7 +2856,10 @@
             "snippet": "Application The University of California (UC) application opens August 1 and the period of time to submit an application for admission is October 1–November 30"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ucd-mscs",
@@ -3260,7 +2940,13 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected",
+        "admission-link-protected",
+        "international-link-protected",
+        "apply-link-protected"
+      ]
     },
     {
       "id": "ucd-mba",
@@ -3334,7 +3020,12 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken",
+        "international-link-protected",
+        "apply-link-broken"
+      ]
     },
     {
       "id": "ucd-bs-cs",
@@ -3408,7 +3099,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected"
+      ]
     },
     {
       "id": "uci-mcs",
@@ -3489,7 +3183,11 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken",
+        "admission-link-broken"
+      ]
     },
     {
       "id": "uci-phd-ics",
@@ -3570,7 +3268,11 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken",
+        "admission-link-broken"
+      ]
     },
     {
       "id": "uci-bs-cs",
@@ -3644,7 +3346,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken"
+      ]
     },
     {
       "id": "ucsd-bs-cs",
@@ -3784,7 +3489,11 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken",
+        "international-link-broken"
+      ]
     },
     {
       "id": "sjsu-bs-cs",
@@ -3850,7 +3559,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "sdsu-bs-cs",
@@ -3859,18 +3571,18 @@
       "currentApplicationWindows": [
         {
           "intake": "Fall",
-          "opens": "10-01",
-          "deadline": "12-01"
+          "opens": "08-01",
+          "deadline": "11-30"
         }
       ],
       "links": {
         "program": {
-          "url": "https://cs.sdsu.edu/degree-programs/bs-in-computer-science/",
+          "url": "https://cs.sdsu.edu/computer-science-degree-programs/",
           "source": "sdsu-bs-cs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cs.sdsu.edu/degree-programs/bs-in-computer-science/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
           "error": null
         },
         "admission": {
@@ -3903,13 +3615,6 @@
       },
       "deadlineEvidence": [
         {
-          "source": "program",
-          "url": "https://cs.sdsu.edu/degree-programs/bs-in-computer-science/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        },
-        {
           "source": "admission",
           "url": "https://admissions.sdsu.edu/first-years",
           "status": 200,
@@ -3922,11 +3627,11 @@
         }
       ],
       "deadlineComparison": {
-        "status": "mismatch",
+        "status": "partial-match",
         "confidence": "medium",
-        "recommendedAction": "review",
+        "recommendedAction": "watch",
         "currentDeadlines": [
-          "12-01"
+          "11-30"
         ],
         "detectedDeadlines": [
           {
@@ -3937,16 +3642,15 @@
           {
             "monthDay": "11-30",
             "occurrences": 1,
-            "matchedCurrentRecord": false
+            "matchedCurrentRecord": true
           }
         ],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
-          "12-01"
-        ],
-        "newCandidateDeadlines": [
-          "08-01",
+        "matchedDeadlines": [
           "11-30"
+        ],
+        "missingCurrentDeadlines": [],
+        "newCandidateDeadlines": [
+          "08-01"
         ],
         "candidateSources": [
           {
@@ -3964,7 +3668,8 @@
             "snippet": "November 30 : Application deadline"
           }
         ]
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "sdsu-mscs",
@@ -3973,36 +3678,36 @@
       "currentApplicationWindows": [
         {
           "intake": "Fall",
-          "opens": "10-01",
-          "deadline": "03-01"
+          "opens": "08-01",
+          "deadline": "02-01"
         }
       ],
       "links": {
         "program": {
-          "url": "https://cs.sdsu.edu/degree-programs/ms-in-computer-science/",
+          "url": "https://cs.sdsu.edu/computer-science-degree-programs/",
           "source": "sdsu-mscs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cs.sdsu.edu/degree-programs/ms-in-computer-science/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cs.sdsu.edu/computer-science-degree-programs/",
           "error": null
         },
         "admission": {
-          "url": "https://admissions.sdsu.edu/graduate",
+          "url": "https://admissions.sdsu.edu/grad-programs/masters",
           "source": "sdsu-mscs:admission",
           "ok": true,
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://admissions.sdsu.edu/graduate",
+          "finalUrl": "https://admissions.sdsu.edu/grad-programs/masters",
           "error": null
         },
         "international": {
-          "url": "https://admissions.sdsu.edu/international",
+          "url": "https://admissions.sdsu.edu/international/graduate",
           "source": "sdsu-mscs:international",
           "ok": true,
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://admissions.sdsu.edu/international",
+          "finalUrl": "https://admissions.sdsu.edu/international/graduate",
           "error": null
         },
         "apply": {
@@ -4017,32 +3722,45 @@
       },
       "deadlineEvidence": [
         {
-          "source": "program",
-          "url": "https://cs.sdsu.edu/degree-programs/ms-in-computer-science/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        },
-        {
           "source": "admission",
-          "url": "https://admissions.sdsu.edu/graduate",
+          "url": "https://admissions.sdsu.edu/grad-programs/masters",
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "Fall 2027 Steps to Apply Back to Top Spring 2027 Applications are accepted July 1–August 31, 2026 for select programs for spring 2027 admission"
+            "Fall 2027 Deadlines Submit Cal State Apply Application : April 1 Submit Documents to Graduate Admissions : April 15 Submit program application: April 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Fowler…",
+            "Fall 2027 Deadlines Submit Cal State Apply Application : February 1 Submit Documents to Graduate Admissions : February 15 Submit program application: February 15 Spring 2027 Deadlines Submit Cal State Apply Application : August 31 Submit Documents to Graduate…",
+            "Fall 2027 Deadlines Submit Cal State Apply Application : February 1 Submit Documents to Graduate Admissions : February 15 Submit program application: February 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Informatio…",
+            "Fall 2027 Deadlines Submit Cal State Apply Application : April 1 Submit Documents to Graduate Admissions : April 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Department of Mathematics and Statistics Cam…",
+            "Fall 2027 Deadlines Submit Cal State Apply Application : December 1 Submit Documents to Graduate Admissions : December 15 Submit program application: December 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Informatio…",
+            "Fall 2027 Deadlines Submit Cal State Apply Application : February 1 Submit Documents to Graduate Admissions : February 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Department of Computer Science Campus…"
           ]
         }
       ],
       "deadlineComparison": {
-        "status": "mismatch",
+        "status": "partial-match",
         "confidence": "medium",
-        "recommendedAction": "review",
+        "recommendedAction": "watch",
         "currentDeadlines": [
-          "03-01"
+          "02-01"
         ],
         "detectedDeadlines": [
           {
-            "monthDay": "07-01",
+            "monthDay": "02-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          },
+          {
+            "monthDay": "02-15",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "04-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "04-15",
             "occurrences": 1,
             "matchedCurrentRecord": false
           },
@@ -4050,33 +3768,83 @@
             "monthDay": "08-31",
             "occurrences": 1,
             "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "12-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "12-15",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
           }
         ],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
-          "03-01"
+        "matchedDeadlines": [
+          "02-01"
         ],
+        "missingCurrentDeadlines": [],
         "newCandidateDeadlines": [
-          "07-01",
-          "08-31"
+          "02-15",
+          "04-01",
+          "04-15",
+          "08-31",
+          "12-01",
+          "12-15"
         ],
         "candidateSources": [
           {
-            "monthDay": "07-01",
-            "rawDate": "July 1",
+            "monthDay": "04-01",
+            "rawDate": "April 1",
             "source": "admission",
-            "url": "https://admissions.sdsu.edu/graduate",
-            "snippet": "Fall 2027 Steps to Apply Back to Top Spring 2027 Applications are accepted July 1–August 31, 2026 for select programs for spring 2027 admission"
+            "url": "https://admissions.sdsu.edu/grad-programs/masters",
+            "snippet": "Fall 2027 Deadlines Submit Cal State Apply Application : April 1 Submit Documents to Graduate Admissions : April 15 Submit program application: April 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Fowler…"
+          },
+          {
+            "monthDay": "04-15",
+            "rawDate": "April 15",
+            "source": "admission",
+            "url": "https://admissions.sdsu.edu/grad-programs/masters",
+            "snippet": "Fall 2027 Deadlines Submit Cal State Apply Application : April 1 Submit Documents to Graduate Admissions : April 15 Submit program application: April 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Information Fowler…"
+          },
+          {
+            "monthDay": "02-01",
+            "rawDate": "February 1",
+            "source": "admission",
+            "url": "https://admissions.sdsu.edu/grad-programs/masters",
+            "snippet": "Fall 2027 Deadlines Submit Cal State Apply Application : February 1 Submit Documents to Graduate Admissions : February 15 Submit program application: February 15 Spring 2027 Deadlines Submit Cal State Apply Application : August 31 Submit Documents to Graduate…"
+          },
+          {
+            "monthDay": "02-15",
+            "rawDate": "February 15",
+            "source": "admission",
+            "url": "https://admissions.sdsu.edu/grad-programs/masters",
+            "snippet": "Fall 2027 Deadlines Submit Cal State Apply Application : February 1 Submit Documents to Graduate Admissions : February 15 Submit program application: February 15 Spring 2027 Deadlines Submit Cal State Apply Application : August 31 Submit Documents to Graduate…"
           },
           {
             "monthDay": "08-31",
-            "rawDate": "August 31, 2026",
+            "rawDate": "August 31",
             "source": "admission",
-            "url": "https://admissions.sdsu.edu/graduate",
-            "snippet": "Fall 2027 Steps to Apply Back to Top Spring 2027 Applications are accepted July 1–August 31, 2026 for select programs for spring 2027 admission"
+            "url": "https://admissions.sdsu.edu/grad-programs/masters",
+            "snippet": "Fall 2027 Deadlines Submit Cal State Apply Application : February 1 Submit Documents to Graduate Admissions : February 15 Submit program application: February 15 Spring 2027 Deadlines Submit Cal State Apply Application : August 31 Submit Documents to Graduate…"
+          },
+          {
+            "monthDay": "12-01",
+            "rawDate": "December 1",
+            "source": "admission",
+            "url": "https://admissions.sdsu.edu/grad-programs/masters",
+            "snippet": "Fall 2027 Deadlines Submit Cal State Apply Application : December 1 Submit Documents to Graduate Admissions : December 15 Submit program application: December 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Informatio…"
+          },
+          {
+            "monthDay": "12-15",
+            "rawDate": "December 15",
+            "source": "admission",
+            "url": "https://admissions.sdsu.edu/grad-programs/masters",
+            "snippet": "Fall 2027 Deadlines Submit Cal State Apply Application : December 1 Submit Documents to Graduate Admissions : December 15 Submit program application: December 15 Spring 2027 Deadlines Not currently accepting applications for spring semester Contact Informatio…"
           }
         ]
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "calpoly-bs-cs",
@@ -4142,7 +3910,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "csulb-bs-cs",
@@ -4208,7 +3979,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "csulb-mscs",
@@ -4282,7 +4056,11 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "admission-link-broken",
+        "international-link-broken"
+      ]
     },
     {
       "id": "cpp-bs-cs",
@@ -4504,7 +4282,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken"
+      ]
     },
     {
       "id": "csuf-bs-cs",
@@ -4578,7 +4359,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected"
+      ]
     },
     {
       "id": "csuf-mscs",
@@ -4652,7 +4436,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected"
+      ]
     },
     {
       "id": "csun-bs-cs",
@@ -4744,7 +4531,10 @@
             "snippet": "A&R Featured News Spring 2020 Transcripts Available June 15, 2020 Official transcripts for the Spring 2020 semester are now available"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "sacstate-bs-cs",
@@ -4810,7 +4600,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "sfsu-bs-cs",
@@ -4891,12 +4684,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://cs.sfsu.edu/graduate",
+          "url": "https://cs.sfsu.edu/grads/graduate-program",
           "source": "sfsu-mscs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cs.sfsu.edu/graduate",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cs.sfsu.edu/grads/graduate-program",
           "error": null
         },
         "admission": {
@@ -4927,15 +4720,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://cs.sfsu.edu/graduate",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -4950,7 +4735,8 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "csueb-bs-cs",
@@ -5042,7 +4828,11 @@
             "snippet": "ortunities MyCSUEB Canvas Library Email MyCompass Directory Close Office of Admissions Welcome to Cal State East Bay APPLY NOW Good news, you can still submit your deposit for the Fall 2026 semester until June 1"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "international-link-broken",
+        "deadline-review"
+      ]
     },
     {
       "id": "fresno-bs-cs",
@@ -5116,7 +4906,11 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "admission-link-broken",
+        "international-link-broken"
+      ]
     },
     {
       "id": "csumb-bs-cs",
@@ -5131,30 +4925,30 @@
       ],
       "links": {
         "program": {
-          "url": "https://csumb.edu/scd/computer-science-bs/",
+          "url": "https://csumb.edu/scd/computer-science-online-degree-completion/",
           "source": "csumb-bs-cs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://csumb.edu/scd/computer-science-bs/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://csumb.edu/scd/computer-science-online-degree-completion/",
           "error": null
         },
         "admission": {
-          "url": "https://csumb.edu/admissions/",
+          "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
           "source": "csumb-bs-cs:admission",
           "ok": true,
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://csumb.edu/admissions-aid/",
+          "finalUrl": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
           "error": null
         },
         "international": {
-          "url": "https://csumb.edu/international/admissions/",
+          "url": "https://csumb.edu/admissions-aid/how-to-apply/international/",
           "source": "csumb-bs-cs:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://csumb.edu/international/need-help-schedule-appointment",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://csumb.edu/admissions-aid/how-to-apply/international/",
           "error": null
         },
         "apply": {
@@ -5169,28 +4963,194 @@
       },
       "deadlineEvidence": [
         {
-          "source": "program",
-          "url": "https://csumb.edu/scd/computer-science-bs/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "source": "admission",
+          "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Fall 2026 Term | Dates and Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do October 1 Fall 2026 application open via Cal State Apply January 15 Educational Opportunity Program (EOP) deadline March 2…",
+            "July 1 Enrollment Confirmation Deadline July 1 CSUMB application deadline July 9 Deadline to submit official high school transcript with final grades and date of graduation Students are admitted on a rolling basis Spring 2027 Application Deadlines Spring 2027…",
+            "Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do July 1, 2026 Apply to CSUMB at Cal State Apply August 31, 2026 CSU priority application deadline October 1, 2026 Spring housing applications open for…",
+            "ial document deadline - submit all official documents (transcripts, test scores) December 1, 2026 CSUMB application deadline December 4, 2026 Deadline to submit your enrollment confirmation January 8, 2027 Deadline to submit final, official documents (transcr…",
+            "pplication Deadlines Fall 2027 Dates and Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do August 1, 2026 Begin your Fall 2027 application to CSUMB at Cal State Apply October 1, 2026 - March 2, 2027…",
+            "priority application deadline February 15, 2027 Initial document deadline - submit all official documents (transcripts, test scores) March 2, 2027 FAFSA priority deadline May 1, 2027 Deadline to submit your enrollment confirmation July 9, 2027 Deadline to sub…"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
-        "confidence": "low",
+        "status": "partial-match",
+        "confidence": "medium",
         "recommendedAction": "watch",
         "currentDeadlines": [
           "12-01"
         ],
-        "detectedDeadlines": [],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
+        "detectedDeadlines": [
+          {
+            "monthDay": "03-02",
+            "occurrences": 2,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "07-01",
+            "occurrences": 2,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "07-09",
+            "occurrences": 2,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "10-01",
+            "occurrences": 2,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "01-08",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "01-15",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "02-15",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "05-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "08-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "08-31",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "12-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          },
+          {
+            "monthDay": "12-04",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          }
+        ],
+        "matchedDeadlines": [
           "12-01"
         ],
-        "newCandidateDeadlines": [],
-        "candidateSources": []
-      }
+        "missingCurrentDeadlines": [],
+        "newCandidateDeadlines": [
+          "01-08",
+          "01-15",
+          "02-15",
+          "03-02",
+          "05-01",
+          "07-01",
+          "07-09",
+          "08-01",
+          "08-31",
+          "10-01",
+          "12-04"
+        ],
+        "candidateSources": [
+          {
+            "monthDay": "10-01",
+            "rawDate": "October 1",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "Fall 2026 Term | Dates and Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do October 1 Fall 2026 application open via Cal State Apply January 15 Educational Opportunity Program (EOP) deadline March 2…"
+          },
+          {
+            "monthDay": "01-15",
+            "rawDate": "January 15",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "Fall 2026 Term | Dates and Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do October 1 Fall 2026 application open via Cal State Apply January 15 Educational Opportunity Program (EOP) deadline March 2…"
+          },
+          {
+            "monthDay": "03-02",
+            "rawDate": "March 2",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "Fall 2026 Term | Dates and Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do October 1 Fall 2026 application open via Cal State Apply January 15 Educational Opportunity Program (EOP) deadline March 2…"
+          },
+          {
+            "monthDay": "07-01",
+            "rawDate": "July 1",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "July 1 Enrollment Confirmation Deadline July 1 CSUMB application deadline July 9 Deadline to submit official high school transcript with final grades and date of graduation Students are admitted on a rolling basis Spring 2027 Application Deadlines Spring 2027…"
+          },
+          {
+            "monthDay": "07-09",
+            "rawDate": "July 9",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "July 1 Enrollment Confirmation Deadline July 1 CSUMB application deadline July 9 Deadline to submit official high school transcript with final grades and date of graduation Students are admitted on a rolling basis Spring 2027 Application Deadlines Spring 2027…"
+          },
+          {
+            "monthDay": "07-01",
+            "rawDate": "July 1, 2026",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do July 1, 2026 Apply to CSUMB at Cal State Apply August 31, 2026 CSU priority application deadline October 1, 2026 Spring housing applications open for…"
+          },
+          {
+            "monthDay": "08-31",
+            "rawDate": "August 31, 2026",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do July 1, 2026 Apply to CSUMB at Cal State Apply August 31, 2026 CSU priority application deadline October 1, 2026 Spring housing applications open for…"
+          },
+          {
+            "monthDay": "10-01",
+            "rawDate": "October 1, 2026",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do July 1, 2026 Apply to CSUMB at Cal State Apply August 31, 2026 CSU priority application deadline October 1, 2026 Spring housing applications open for…"
+          },
+          {
+            "monthDay": "12-01",
+            "rawDate": "December 1, 2026",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "ial document deadline - submit all official documents (transcripts, test scores) December 1, 2026 CSUMB application deadline December 4, 2026 Deadline to submit your enrollment confirmation January 8, 2027 Deadline to submit final, official documents (transcr…"
+          },
+          {
+            "monthDay": "12-04",
+            "rawDate": "December 4, 2026",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "ial document deadline - submit all official documents (transcripts, test scores) December 1, 2026 CSUMB application deadline December 4, 2026 Deadline to submit your enrollment confirmation January 8, 2027 Deadline to submit final, official documents (transcr…"
+          },
+          {
+            "monthDay": "01-08",
+            "rawDate": "January 8, 2027",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "ial document deadline - submit all official documents (transcripts, test scores) December 1, 2026 CSUMB application deadline December 4, 2026 Deadline to submit your enrollment confirmation January 8, 2027 Deadline to submit final, official documents (transcr…"
+          },
+          {
+            "monthDay": "08-01",
+            "rawDate": "August 1, 2026",
+            "source": "admission",
+            "url": "https://csumb.edu/admissions-aid/how-to-apply/first-year/",
+            "snippet": "pplication Deadlines Fall 2027 Dates and Deadlines Dates and Deadlines for Applicants Dates and corresponding action item by column Dates Things to do August 1, 2026 Begin your Fall 2027 application to CSUMB at Cal State Apply October 1, 2026 - March 2, 2027…"
+          }
+        ]
+      },
+      "issueReasons": []
     },
     {
       "id": "asu-mscs",
@@ -5337,21 +5297,21 @@
       ],
       "links": {
         "program": {
-          "url": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-ms/",
+          "url": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-mscs/",
           "source": "neu-mscs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-ms/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-mscs/",
           "error": null
         },
         "admission": {
-          "url": "https://graduate.northeastern.edu/admissions/",
+          "url": "https://graduate.northeastern.edu/admissions-aid/",
           "source": "neu-mscs:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://graduate.northeastern.edu/admissions/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://graduate.northeastern.edu/admissions-aid/",
           "error": null
         },
         "international": {
@@ -5373,22 +5333,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://catalog.northeastern.edu/graduate/computer-information-science/computer-science/computer-science-ms/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        },
-        {
-          "source": "admission",
-          "url": "https://graduate.northeastern.edu/admissions/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -5403,7 +5348,8 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "neu-bs-cs",
@@ -5418,12 +5364,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/computer-science-bs/",
+          "url": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/bscs/",
           "source": "neu-bs-cs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/computer-science-bs/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/bscs/",
           "error": null
         },
         "admission": {
@@ -5454,15 +5400,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://catalog.northeastern.edu/undergraduate/computer-information-science/computer-science/computer-science-bs/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -5477,7 +5415,8 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "mit-sb-eecs",
@@ -5624,12 +5563,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://cs.stanford.edu/academics/undergraduate",
+          "url": "https://www.cs.stanford.edu/academics-overview/academics-bachelors-program",
           "source": "stanford-bs-cs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://www.cs.stanford.edu/academics/undergraduate",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.cs.stanford.edu/academics-overview/academics-bachelors-program",
           "error": null
         },
         "admission": {
@@ -5660,15 +5599,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://cs.stanford.edu/academics/undergraduate",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -5683,7 +5614,8 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "stanford-ms-cs",
@@ -5698,12 +5630,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://cs.stanford.edu/academics/masters",
+          "url": "https://www.cs.stanford.edu/masters-program-overview",
           "source": "stanford-ms-cs:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://www.cs.stanford.edu/academics/masters",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.cs.stanford.edu/masters-program-overview",
           "error": null
         },
         "admission": {
@@ -5716,12 +5648,12 @@
           "error": null
         },
         "international": {
-          "url": "https://gradadmissions.stanford.edu/apply/international-applicants",
+          "url": "https://gradadmissions.stanford.edu/applying/international-applicants",
           "source": "stanford-ms-cs:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://gradadmissions.stanford.edu/apply/international-applicants",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://gradadmissions.stanford.edu/apply/eligibility",
           "error": null
         },
         "apply": {
@@ -5734,15 +5666,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://cs.stanford.edu/academics/masters",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -5757,7 +5681,8 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "cmu-bs-cs",
@@ -5936,7 +5861,7 @@
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://gradadmissions.cmu.edu/apply/",
-          "error": "HTTPSConnectionPool(host='gradadmissions.cmu.edu', port=443): Max retries exceeded with url: /apply/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002543A210150>: Failed to resolve 'gradadmissions.cmu.edu' ([Errno 11001] getaddrinfo failed)\"))"
+          "error": "HTTPSConnectionPool(host='gradadmissions.cmu.edu', port=443): Max retries exceeded with url: /apply/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000001F2FBE790D0>: Failed to resolve 'gradadmissions.cmu.edu' ([Errno 11001] getaddrinfo failed)\"))"
         }
       },
       "deadlineEvidence": [
@@ -6006,7 +5931,12 @@
             "snippet": "Admissions The program has the following admissions deadlines: Fall 2025 application: Application Opens: Wednesday, September 3, 2025 Application Deadline: Monday, October 27, 2025 Spring 2026 application: Application Opens: Wednesday, February 4, 2026 Applic…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "international-link-protected",
+        "apply-link-broken",
+        "deadline-review"
+      ]
     },
     {
       "id": "uiuc-bs-cs",
@@ -6146,7 +6076,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken"
+      ]
     },
     {
       "id": "purdue-bs-cs",
@@ -6282,7 +6215,10 @@
             "snippet": "ations Parents/Guardians Counselors Alumni and Friends COMMUNICATION plus_icon Annual Security Report Construction Emergency Information Technology Marketing and Communications Purdue News Purdue Hotline Timely Warnings Last modified: July 2, 2026 Copyright ©…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "purdue-ms-cs",
@@ -6505,7 +6441,13 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected",
+        "admission-link-protected",
+        "international-link-protected",
+        "apply-link-protected"
+      ]
     },
     {
       "id": "umich-ms-cse",
@@ -6586,7 +6528,13 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected",
+        "admission-link-protected",
+        "international-link-protected",
+        "apply-link-protected"
+      ]
     },
     {
       "id": "umd-bs-cs",
@@ -6744,7 +6692,10 @@
             "snippet": "Application Deadlines Graduate Application Deadlines-Fall,Spring,Summer Type of Applicant Fall Deadline Spring Deadline Summer Deadline Domestic Applicants US Citizens and Permanent Residents December 5, 2025 N/A N/A International Applicants F (student) or J…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "cornell-bs-cs",
@@ -6884,7 +6835,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "admission-link-broken"
+      ]
     },
     {
       "id": "columbia-bs-cs",
@@ -7102,7 +7056,12 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "admission-link-protected",
+        "international-link-protected",
+        "apply-link-protected"
+      ]
     },
     {
       "id": "nyu-bs-cs",
@@ -7274,7 +7233,10 @@
             "snippet": "The department offers three Master's programs, each with its own focus: Program Best For Focus Total Credits Deadlines Internship Sample Plan MSCS (3–4 semesters) Deep Technical Expertise AI, systems, theory, ML 30 (36 with concentration) Feb 14 (Fall) Nov 1…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "usc-bs-cs",
@@ -7498,7 +7460,10 @@
             "snippet": "Date/Time Topic Registration Thurs, July 16, 2026 @ 12pm PT Limited Status: How to Get Started for Fall 2026 Register Now Tues, July 21, 2026 @ 5pm PT DEN@Viterbi Information Session Register Now Friday, July 24, 2026 @ 11am PT U"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "wisc-bs-cs",
@@ -8012,7 +7977,11 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken",
+        "international-link-broken"
+      ]
     },
     {
       "id": "duke-bs-cs",
@@ -8045,12 +8014,12 @@
           "error": null
         },
         "international": {
-          "url": "https://admissions.duke.edu/apply/international-students/",
+          "url": "https://admissions.duke.edu/apply/",
           "source": "duke-bs-cs:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://admissions.duke.edu/apply/international-students/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://admissions.duke.edu/apply/",
           "error": null
         },
         "apply": {
@@ -8161,7 +8130,8 @@
             "snippet": "Deadlines Early Decision : November 2 Regular Decision : January 4 Transfer Applicants : Submit between February 1 and March 15 (no early submissions accepted) Learn more about art supplem"
           }
         ]
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "duke-ms-cs",
@@ -8171,7 +8141,7 @@
         {
           "intake": "Fall",
           "opens": "09-01",
-          "deadline": "01-31"
+          "deadline": "02-02"
         }
       ],
       "links": {
@@ -8185,57 +8155,50 @@
           "error": null
         },
         "admission": {
-          "url": "https://gradschool.duke.edu/admissions/how-to-apply/",
+          "url": "https://gradschool.duke.edu/admissions/application-instructions/",
           "source": "duke-ms-cs:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://gradschool.duke.edu/admissions/how-to-apply/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://gradschool.duke.edu/admissions/application-instructions/",
           "error": null
         },
         "international": {
-          "url": "https://gradschool.duke.edu/admissions/international-applicants/",
+          "url": "https://gradschool.duke.edu/admissions/application-instructions/english-language-proficiency-test-scores/",
           "source": "duke-ms-cs:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://gradschool.duke.edu/admissions/international-applicants/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://gradschool.duke.edu/admissions/application-instructions/english-language-proficiency-test-scores/",
           "error": null
         },
         "apply": {
-          "url": "https://gradschool.duke.edu/admissions/how-to-apply/",
+          "url": "https://gradschool.duke.edu/admissions/",
           "source": "duke-ms-cs:apply",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://gradschool.duke.edu/admissions/how-to-apply/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://gradschool.duke.edu/admissions/",
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "admission",
-          "url": "https://gradschool.duke.edu/admissions/how-to-apply/",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
         "recommendedAction": "watch",
         "currentDeadlines": [
-          "01-31"
+          "02-02"
         ],
         "detectedDeadlines": [],
         "matchedDeadlines": [],
         "missingCurrentDeadlines": [
-          "01-31"
+          "02-02"
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "unc-bs-cs",
@@ -8316,7 +8279,13 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected",
+        "admission-link-protected",
+        "international-link-protected",
+        "apply-link-protected"
+      ]
     },
     {
       "id": "unc-ms-cs",
@@ -8397,7 +8366,13 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected",
+        "admission-link-protected",
+        "international-link-protected",
+        "apply-link-protected"
+      ]
     },
     {
       "id": "uva-bs-cs",
@@ -8616,71 +8591,148 @@
         {
           "intake": "Fall",
           "opens": "09-01",
-          "deadline": "12-15"
+          "deadline": "01-30"
         }
       ],
       "links": {
         "program": {
-          "url": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs",
+          "url": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/ms-computer-science",
           "source": "uva-ms-cs:program",
           "ok": true,
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://engineering.virginia.edu/department/computer-science/academics/cs-graduate-programs",
+          "finalUrl": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/ms-computer-science",
           "error": null
         },
         "admission": {
-          "url": "https://engineering.virginia.edu/admissions/graduate-admissions",
+          "url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
           "source": "uva-ms-cs:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://engineering.virginia.edu/admissions/graduate-admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
           "error": null
         },
         "international": {
-          "url": "https://graddiversity.virginia.edu/international-students",
+          "url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
           "source": "uva-ms-cs:international",
-          "ok": false,
-          "status": null,
-          "statusCategory": "broken",
-          "finalUrl": "https://graddiversity.virginia.edu/international-students",
-          "error": "HTTPSConnectionPool(host='graddiversity.virginia.edu', port=443): Read timed out. (read timeout=12)"
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
+          "error": null
         },
         "apply": {
-          "url": "https://engineering.virginia.edu/admissions/graduate-admissions",
+          "url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
           "source": "uva-ms-cs:apply",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://engineering.virginia.edu/admissions/graduate-admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
+          "source": "program",
+          "url": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/ms-computer-science",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Application Deadlines for Fall 2026: PhD: December 15, 2025 MCS: January 30, 2026 Can the application fee be waived"
+          ]
+        },
+        {
           "source": "admission",
-          "url": "https://engineering.virginia.edu/admissions/graduate-admissions",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Deadline for Fall 2026 : December 15, 2025 M",
+            "Deadline for Fall 2026: December 15, 2025 M",
+            "Deadline for Fall 2026 : July 31, 2026 Chemical Engineering Ph",
+            "Deadline for Fall 2026: January 6, 2026 M",
+            "Deadline for Fall 2026: July 31, 2026 Online M"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
-        "confidence": "low",
+        "status": "partial-match",
+        "confidence": "medium",
         "recommendedAction": "watch",
         "currentDeadlines": [
+          "01-30"
+        ],
+        "detectedDeadlines": [
+          {
+            "monthDay": "12-15",
+            "occurrences": 2,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "01-06",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "01-30",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          },
+          {
+            "monthDay": "07-31",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          }
+        ],
+        "matchedDeadlines": [
+          "01-30"
+        ],
+        "missingCurrentDeadlines": [],
+        "newCandidateDeadlines": [
+          "01-06",
+          "07-31",
           "12-15"
         ],
-        "detectedDeadlines": [],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
-          "12-15"
-        ],
-        "newCandidateDeadlines": [],
-        "candidateSources": []
-      }
+        "candidateSources": [
+          {
+            "monthDay": "12-15",
+            "rawDate": "December 15, 2025",
+            "source": "program",
+            "url": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/ms-computer-science",
+            "snippet": "Application Deadlines for Fall 2026: PhD: December 15, 2025 MCS: January 30, 2026 Can the application fee be waived"
+          },
+          {
+            "monthDay": "01-30",
+            "rawDate": "January 30, 2026",
+            "source": "program",
+            "url": "https://engineering.virginia.edu/department/computer-science/academics/graduate-programs/ms-computer-science",
+            "snippet": "Application Deadlines for Fall 2026: PhD: December 15, 2025 MCS: January 30, 2026 Can the application fee be waived"
+          },
+          {
+            "monthDay": "12-15",
+            "rawDate": "December 15, 2025",
+            "source": "admission",
+            "url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
+            "snippet": "Deadline for Fall 2026 : December 15, 2025 M"
+          },
+          {
+            "monthDay": "07-31",
+            "rawDate": "July 31, 2026",
+            "source": "admission",
+            "url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
+            "snippet": "Deadline for Fall 2026 : July 31, 2026 Chemical Engineering Ph"
+          },
+          {
+            "monthDay": "01-06",
+            "rawDate": "January 6, 2026",
+            "source": "admission",
+            "url": "https://engineering.virginia.edu/graduate-study/future-grad-students/graduate-admission",
+            "snippet": "Deadline for Fall 2026: January 6, 2026 M"
+          }
+        ]
+      },
+      "issueReasons": []
     },
     {
       "id": "osu-bs-cse",
@@ -8695,12 +8747,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://cse.osu.edu/current-students/undergraduate/majors/computer-science-and-engineering-cse",
+          "url": "https://cse.osu.edu/prospective-students/undergrad/majors",
           "source": "osu-bs-cse:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cse.osu.edu/current-students/undergraduate/majors/computer-science-and-engineering-cse",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cse.osu.edu/prospective-students/undergrad/majors",
           "error": null
         },
         "admission": {
@@ -8731,15 +8783,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://cse.osu.edu/current-students/undergraduate/majors/computer-science-and-engineering-cse",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -8754,7 +8798,8 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "osu-ms-cse",
@@ -8765,25 +8810,30 @@
           "intake": "Fall",
           "opens": "09-01",
           "deadline": "12-15"
+        },
+        {
+          "intake": "Spring",
+          "opens": "07-01",
+          "deadline": "10-01"
         }
       ],
       "links": {
         "program": {
-          "url": "https://cse.osu.edu/current-students/graduate/degree-programs/ms-program",
+          "url": "https://cse.osu.edu/graduate/graduate/master-science-program",
           "source": "osu-ms-cse:program",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cse.osu.edu/current-students/graduate/degree-programs/ms-program",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cse.osu.edu/graduate/graduate/master-science-program",
           "error": null
         },
         "admission": {
-          "url": "https://cse.osu.edu/current-students/graduate/admissions",
+          "url": "https://cse.osu.edu/graduate/cse-graduate-admissions",
           "source": "osu-ms-cse:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cse.osu.edu/current-students/graduate/admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cse.osu.edu/graduate/cse-graduate-admissions",
           "error": null
         },
         "international": {
@@ -8807,35 +8857,89 @@
       },
       "deadlineEvidence": [
         {
-          "source": "program",
-          "url": "https://cse.osu.edu/current-students/graduate/degree-programs/ms-program",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
-        },
-        {
           "source": "admission",
-          "url": "https://cse.osu.edu/current-students/graduate/admissions",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "url": "https://cse.osu.edu/graduate/cse-graduate-admissions",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Staff Faculty & Staff Resources CSE Portal Contact Us Administrative Contacts Breadcrumb Home Graduate CSE Graduate Admissions CSE Graduate Admissions Graduate Program Application Deadlines Autumn 2026 Semester: December 15 (November 14 for fellowship conside…",
+            "* Please note: Applicants who wish to be considered for a Fellowship must apply by November 14",
+            "All other applicants - those seeking a Graduate Associateship (the primary source of financial assistance provided to graduate students) or those not requiring funding - must apply by December 15",
+            "Spring 2027 Semester Opens: July 1 Closes: October 1 We strongly encourage prospective students to apply well in advance, especially during peak periods (mid-November through December)"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
-        "confidence": "low",
+        "status": "partial-match",
+        "confidence": "medium",
         "recommendedAction": "watch",
         "currentDeadlines": [
+          "10-01",
           "12-15"
         ],
-        "detectedDeadlines": [],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
+        "detectedDeadlines": [
+          {
+            "monthDay": "07-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "10-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          },
+          {
+            "monthDay": "11-14",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "12-15",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          }
+        ],
+        "matchedDeadlines": [
+          "10-01",
           "12-15"
         ],
-        "newCandidateDeadlines": [],
-        "candidateSources": []
-      }
+        "missingCurrentDeadlines": [],
+        "newCandidateDeadlines": [
+          "07-01",
+          "11-14"
+        ],
+        "candidateSources": [
+          {
+            "monthDay": "12-15",
+            "rawDate": "December 15",
+            "source": "admission",
+            "url": "https://cse.osu.edu/graduate/cse-graduate-admissions",
+            "snippet": "Staff Faculty & Staff Resources CSE Portal Contact Us Administrative Contacts Breadcrumb Home Graduate CSE Graduate Admissions CSE Graduate Admissions Graduate Program Application Deadlines Autumn 2026 Semester: December 15 (November 14 for fellowship conside…"
+          },
+          {
+            "monthDay": "11-14",
+            "rawDate": "November 14",
+            "source": "admission",
+            "url": "https://cse.osu.edu/graduate/cse-graduate-admissions",
+            "snippet": "Staff Faculty & Staff Resources CSE Portal Contact Us Administrative Contacts Breadcrumb Home Graduate CSE Graduate Admissions CSE Graduate Admissions Graduate Program Application Deadlines Autumn 2026 Semester: December 15 (November 14 for fellowship conside…"
+          },
+          {
+            "monthDay": "07-01",
+            "rawDate": "July 1",
+            "source": "admission",
+            "url": "https://cse.osu.edu/graduate/cse-graduate-admissions",
+            "snippet": "Spring 2027 Semester Opens: July 1 Closes: October 1 We strongly encourage prospective students to apply well in advance, especially during peak periods (mid-November through December)"
+          },
+          {
+            "monthDay": "10-01",
+            "rawDate": "October 1",
+            "source": "admission",
+            "url": "https://cse.osu.edu/graduate/cse-graduate-admissions",
+            "snippet": "Spring 2027 Semester Opens: July 1 Closes: October 1 We strongly encourage prospective students to apply well in advance, especially during peak periods (mid-November through December)"
+          }
+        ]
+      },
+      "issueReasons": []
     },
     {
       "id": "umn-bs-cs",
@@ -8859,21 +8963,21 @@
           "error": null
         },
         "admission": {
-          "url": "https://admissions.tc.umn.edu/apply/freshman-admission",
+          "url": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
           "source": "umn-bs-cs:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://admissions.tc.umn.edu/apply/freshman-admission",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
           "error": null
         },
         "international": {
-          "url": "https://admissions.tc.umn.edu/apply/international-students",
+          "url": "https://admissions.tc.umn.edu/apply-international-student",
           "source": "umn-bs-cs:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://admissions.tc.umn.edu/apply/international-students",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://admissions.tc.umn.edu/apply-international-student",
           "error": null
         },
         "apply": {
@@ -8889,27 +8993,86 @@
       "deadlineEvidence": [
         {
           "source": "admission",
-          "url": "https://admissions.tc.umn.edu/apply/freshman-admission",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "url": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Students who submit a completed application by one of the three deadlines will receive an admissions decision by a specific date: November 1: Early Action I Deadline will receive an admission decision no later than January 31 December 1: Early Action II Deadl…",
+            "adline will receive an admission decision no later than March 31 Students whose admission applications are complete by the deadlines listed above will receive full consideration for the University Honors Program and scholarships"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
+        "status": "mismatch",
         "confidence": "low",
         "recommendedAction": "watch",
         "currentDeadlines": [
           "01-01"
         ],
-        "detectedDeadlines": [],
+        "detectedDeadlines": [
+          {
+            "monthDay": "01-31",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "03-31",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "11-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "12-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          }
+        ],
         "matchedDeadlines": [],
         "missingCurrentDeadlines": [
           "01-01"
         ],
-        "newCandidateDeadlines": [],
-        "candidateSources": []
-      }
+        "newCandidateDeadlines": [
+          "01-31",
+          "03-31",
+          "11-01",
+          "12-01"
+        ],
+        "candidateSources": [
+          {
+            "monthDay": "11-01",
+            "rawDate": "November 1",
+            "source": "admission",
+            "url": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
+            "snippet": "Students who submit a completed application by one of the three deadlines will receive an admissions decision by a specific date: November 1: Early Action I Deadline will receive an admission decision no later than January 31 December 1: Early Action II Deadl…"
+          },
+          {
+            "monthDay": "01-31",
+            "rawDate": "January 31",
+            "source": "admission",
+            "url": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
+            "snippet": "Students who submit a completed application by one of the three deadlines will receive an admissions decision by a specific date: November 1: Early Action I Deadline will receive an admission decision no later than January 31 December 1: Early Action II Deadl…"
+          },
+          {
+            "monthDay": "12-01",
+            "rawDate": "December 1",
+            "source": "admission",
+            "url": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
+            "snippet": "Students who submit a completed application by one of the three deadlines will receive an admissions decision by a specific date: November 1: Early Action I Deadline will receive an admission decision no later than January 31 December 1: Early Action II Deadl…"
+          },
+          {
+            "monthDay": "03-31",
+            "rawDate": "March 31",
+            "source": "admission",
+            "url": "https://admissions.tc.umn.edu/admissions/freshman-admission-university-minnesota-twin-cities",
+            "snippet": "adline will receive an admission decision no later than March 31 Students whose admission applications are complete by the deadlines listed above will receive full consideration for the University Honors Program and scholarships"
+          }
+        ]
+      },
+      "issueReasons": []
     },
     {
       "id": "umn-ms-cs",
@@ -8919,26 +9082,26 @@
         {
           "intake": "Fall",
           "opens": "09-01",
-          "deadline": "12-15"
+          "deadline": "03-01"
         }
       ],
       "links": {
         "program": {
-          "url": "https://cse.umn.edu/cs/graduate-programs",
+          "url": "https://cse.umn.edu/cs/ms-overview",
           "source": "umn-ms-cs:program",
           "ok": true,
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://cse.umn.edu/cs/graduate",
+          "finalUrl": "https://cse.umn.edu/cs/ms-overview",
           "error": null
         },
         "admission": {
-          "url": "https://cse.umn.edu/cs/graduate-admissions",
+          "url": "https://cse.umn.edu/cs/ms-admissions",
           "source": "umn-ms-cs:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://cse.umn.edu/cs/graduate-admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://cse.umn.edu/cs/ms-admissions",
           "error": null
         },
         "international": {
@@ -8951,39 +9114,56 @@
           "error": null
         },
         "apply": {
-          "url": "https://grad.umn.edu/admissions/apply",
+          "url": "https://grad.umn.edu/admissions/application-instructions",
           "source": "umn-ms-cs:apply",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://grad.umn.edu/admissions/apply",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://grad.umn.edu/admissions/application-instructions",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
           "source": "admission",
-          "url": "https://cse.umn.edu/cs/graduate-admissions",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "url": "https://cse.umn.edu/cs/ms-admissions",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "admissions Important dates and things to keep in mind Application deadline for fall is March 1"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
-        "confidence": "low",
-        "recommendedAction": "watch",
+        "status": "matched",
+        "confidence": "high",
+        "recommendedAction": "none",
         "currentDeadlines": [
-          "12-15"
+          "03-01"
         ],
-        "detectedDeadlines": [],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
-          "12-15"
+        "detectedDeadlines": [
+          {
+            "monthDay": "03-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          }
         ],
+        "matchedDeadlines": [
+          "03-01"
+        ],
+        "missingCurrentDeadlines": [],
         "newCandidateDeadlines": [],
-        "candidateSources": []
-      }
+        "candidateSources": [
+          {
+            "monthDay": "03-01",
+            "rawDate": "March 1",
+            "source": "admission",
+            "url": "https://cse.umn.edu/cs/ms-admissions",
+            "snippet": "admissions Important dates and things to keep in mind Application deadline for fall is March 1"
+          }
+        ]
+      },
+      "issueReasons": []
     },
     {
       "id": "cu-boulder-bs-cs",
@@ -9057,7 +9237,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken"
+      ]
     },
     {
       "id": "cu-boulder-ms-cs",
@@ -9131,7 +9314,12 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "admission-link-broken",
+        "international-link-broken",
+        "apply-link-broken"
+      ]
     },
     {
       "id": "uf-bs-cs",
@@ -9197,7 +9385,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "apply-link-protected"
+      ]
     },
     {
       "id": "uf-ms-cs",
@@ -9337,9 +9528,14 @@
       "program": "Master of Computer Science",
       "currentApplicationWindows": [
         {
-          "intake": "Fall",
+          "intake": "Fall Early",
           "opens": "09-01",
-          "deadline": "02-15"
+          "deadline": "05-01"
+        },
+        {
+          "intake": "Fall Final",
+          "opens": "09-01",
+          "deadline": "06-15"
         }
       ],
       "links": {
@@ -9353,30 +9549,30 @@
           "error": null
         },
         "admission": {
-          "url": "https://csweb.rice.edu/academics/graduate-programs/mcs/admissions",
+          "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
           "source": "rice-mcs:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://csweb.rice.edu/academics/graduate-programs/mcs/admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
           "error": null
         },
         "international": {
-          "url": "https://graduate.rice.edu/admissions/international-applicants",
+          "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
           "source": "rice-mcs:international",
-          "ok": false,
-          "status": 406,
-          "statusCategory": "broken",
-          "finalUrl": "https://graduate.rice.edu/admissions/international-applicants",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
           "error": null
         },
         "apply": {
-          "url": "https://graduate.rice.edu/admissions/how-to-apply",
+          "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/apply",
           "source": "rice-mcs:apply",
           "ok": true,
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://graduate.rice.edu/admissions/how-to-apply",
+          "finalUrl": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/apply",
           "error": null
         }
       },
@@ -9393,44 +9589,61 @@
         },
         {
           "source": "admission",
-          "url": "https://csweb.rice.edu/academics/graduate-programs/mcs/admissions",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "&GAD_SOURCE=7&GAD_CAMPAIGNID=23345751564 TOP-RANKED, IMMERSIVE ONLINE MASTER OF COMPUTER SCIENCE Admissions Requirements for the Online Master of Computer Science Apply for the Spring 2027 cohort by November 1, 2026",
+            "APPLY NOW GET MORE INFORMATION Body Online Master of Computer Science Degree Requirements UPCOMING DEADLINE: Apply to the Spring 2027 cohort by November 1, 2026",
+            "Upcoming Deadlines Fall 2026 Classes Start: August 24, 2026 Spring 2027 Application Deadline: November 1, 2026 Spring 2027 Classes Start: January 11, 2027 APPLY NOW Body What career-relevant skills and knowledge will I learn from Rice’s MCS program",
+            "LEARN MORE SEE MORE RECOMMENDED COURSES Body Important Dates SESSION EARLY APPLICATION DEADLINE (SCHOLARSHIP ELIGIBILITY) APPLICATION DEADLINE CLASSES START FALL 2026 May 1, 2026 June 15, 2026 August 24, 2026 SPRING 2027 — November 1, 2026 January 11, 2027 VI…"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "mismatch",
+        "status": "partial-match",
         "confidence": "medium",
-        "recommendedAction": "review",
+        "recommendedAction": "watch",
         "currentDeadlines": [
-          "02-15"
+          "05-01",
+          "06-15"
         ],
         "detectedDeadlines": [
           {
             "monthDay": "05-01",
-            "occurrences": 1,
-            "matchedCurrentRecord": false
+            "occurrences": 2,
+            "matchedCurrentRecord": true
           },
           {
             "monthDay": "06-15",
+            "occurrences": 2,
+            "matchedCurrentRecord": true
+          },
+          {
+            "monthDay": "08-24",
+            "occurrences": 2,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "01-11",
             "occurrences": 1,
             "matchedCurrentRecord": false
           },
           {
-            "monthDay": "08-24",
+            "monthDay": "11-01",
             "occurrences": 1,
             "matchedCurrentRecord": false
           }
         ],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
-          "02-15"
-        ],
-        "newCandidateDeadlines": [
+        "matchedDeadlines": [
           "05-01",
-          "06-15",
-          "08-24"
+          "06-15"
+        ],
+        "missingCurrentDeadlines": [],
+        "newCandidateDeadlines": [
+          "01-11",
+          "08-24",
+          "11-01"
         ],
         "candidateSources": [
           {
@@ -9453,9 +9666,45 @@
             "source": "program",
             "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs",
             "snippet": "GET MORE INFORMATION VIEW STUDENT EXPERIENCE Body Important Dates SESSION EARLY APPLICATION DEADLINE (Scholarship eligibility) APPLICATION DEADLINE CLASSES START FALL 2026 May 1, 2026 June 15, 2026 August 24, 2026 VIEW ADMISSIONS REQUIREMENTS APPLY NOW Body W…"
+          },
+          {
+            "monthDay": "11-01",
+            "rawDate": "November 1, 2026",
+            "source": "admission",
+            "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+            "snippet": "&GAD_SOURCE=7&GAD_CAMPAIGNID=23345751564 TOP-RANKED, IMMERSIVE ONLINE MASTER OF COMPUTER SCIENCE Admissions Requirements for the Online Master of Computer Science Apply for the Spring 2027 cohort by November 1, 2026"
+          },
+          {
+            "monthDay": "08-24",
+            "rawDate": "August 24, 2026",
+            "source": "admission",
+            "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+            "snippet": "Upcoming Deadlines Fall 2026 Classes Start: August 24, 2026 Spring 2027 Application Deadline: November 1, 2026 Spring 2027 Classes Start: January 11, 2027 APPLY NOW Body What career-relevant skills and knowledge will I learn from Rice’s MCS program"
+          },
+          {
+            "monthDay": "01-11",
+            "rawDate": "January 11, 2027",
+            "source": "admission",
+            "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+            "snippet": "Upcoming Deadlines Fall 2026 Classes Start: August 24, 2026 Spring 2027 Application Deadline: November 1, 2026 Spring 2027 Classes Start: January 11, 2027 APPLY NOW Body What career-relevant skills and knowledge will I learn from Rice’s MCS program"
+          },
+          {
+            "monthDay": "05-01",
+            "rawDate": "May 1, 2026",
+            "source": "admission",
+            "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+            "snippet": "LEARN MORE SEE MORE RECOMMENDED COURSES Body Important Dates SESSION EARLY APPLICATION DEADLINE (SCHOLARSHIP ELIGIBILITY) APPLICATION DEADLINE CLASSES START FALL 2026 May 1, 2026 June 15, 2026 August 24, 2026 SPRING 2027 — November 1, 2026 January 11, 2027 VI…"
+          },
+          {
+            "monthDay": "06-15",
+            "rawDate": "June 15, 2026",
+            "source": "admission",
+            "url": "https://csweb.rice.edu/academics/graduate-programs/online-mcs/admissions",
+            "snippet": "LEARN MORE SEE MORE RECOMMENDED COURSES Body Important Dates SESSION EARLY APPLICATION DEADLINE (SCHOLARSHIP ELIGIBILITY) APPLICATION DEADLINE CLASSES START FALL 2026 May 1, 2026 June 15, 2026 August 24, 2026 SPRING 2027 — November 1, 2026 January 11, 2027 VI…"
           }
         ]
-      }
+      },
+      "issueReasons": []
     },
     {
       "id": "harvard-ab-cs",
@@ -9667,7 +9916,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "yale-bs-cs",
@@ -9675,7 +9927,12 @@
       "program": "BS Computer Science",
       "currentApplicationWindows": [
         {
-          "intake": "Fall",
+          "intake": "Fall Early Action",
+          "opens": "08-01",
+          "deadline": "11-01"
+        },
+        {
+          "intake": "Fall Regular Decision",
           "opens": "08-01",
           "deadline": "01-02"
         }
@@ -9691,57 +9948,77 @@
           "error": null
         },
         "admission": {
-          "url": "https://admissions.yale.edu/applying-yale-college",
+          "url": "https://admissions.yale.edu/apply",
           "source": "yale-bs-cs:admission",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://admissions.yale.edu/applying-yale-college",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://admissions.yale.edu/apply",
           "error": null
         },
         "international": {
-          "url": "https://admissions.yale.edu/international-students",
+          "url": "https://admissions.yale.edu/international",
           "source": "yale-bs-cs:international",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://admissions.yale.edu/international-students",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://admissions.yale.edu/international",
           "error": null
         },
         "apply": {
-          "url": "https://admissions.yale.edu/applying-yale-college",
+          "url": "https://admissions.yale.edu/apply",
           "source": "yale-bs-cs:apply",
-          "ok": false,
-          "status": 404,
-          "statusCategory": "broken",
-          "finalUrl": "https://admissions.yale.edu/applying-yale-college",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://admissions.yale.edu/apply",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
           "source": "admission",
-          "url": "https://admissions.yale.edu/applying-yale-college",
-          "status": 404,
-          "statusCategory": "broken",
-          "snippets": []
+          "url": "https://admissions.yale.edu/apply",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Review all first-year application requirements Application deadlines First-year applicants opt to apply through one of three admissions programs: Single-Choice Early Action (Deadline: November 1) QuestBridge National College Match (Deadline: November 1) Regul…"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
-        "confidence": "low",
-        "recommendedAction": "watch",
+        "status": "matched",
+        "confidence": "high",
+        "recommendedAction": "none",
         "currentDeadlines": [
-          "01-02"
+          "01-02",
+          "11-01"
         ],
-        "detectedDeadlines": [],
-        "matchedDeadlines": [],
+        "detectedDeadlines": [
+          {
+            "monthDay": "11-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          }
+        ],
+        "matchedDeadlines": [
+          "11-01"
+        ],
         "missingCurrentDeadlines": [
           "01-02"
         ],
         "newCandidateDeadlines": [],
-        "candidateSources": []
-      }
+        "candidateSources": [
+          {
+            "monthDay": "11-01",
+            "rawDate": "November 1",
+            "source": "admission",
+            "url": "https://admissions.yale.edu/apply",
+            "snippet": "Review all first-year application requirements Application deadlines First-year applicants opt to apply through one of three admissions programs: Single-Choice Early Action (Deadline: November 1) QuestBridge National College Match (Deadline: November 1) Regul…"
+          }
+        ]
+      },
+      "issueReasons": []
     },
     {
       "id": "yale-phd-cs",
@@ -9807,7 +10084,10 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "princeton-ab-cs",
@@ -9906,7 +10186,11 @@
             "snippet": "1 Regular Decision March 1 Princeton's transfer application is due March 1"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "program-link-broken",
+        "deadline-review"
+      ]
     },
     {
       "id": "princeton-phd-cs",
@@ -9987,7 +10271,13 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-broken",
+        "admission-link-broken",
+        "international-link-protected",
+        "apply-link-protected"
+      ]
     },
     {
       "id": "brown-ab-scb-cs",
@@ -10218,7 +10508,10 @@
             "snippet": "Graduate Programs Notification Applicants should expect to be notified within four to eight weeks of the application deadline for their programs (February or March for a January 1 deadline)"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "brown-phd-cs",
@@ -10310,7 +10603,10 @@
             "snippet": "Graduate Programs Notification Applicants should expect to be notified within four to eight weeks of the application deadline for their programs (February or March for a January 1 deadline)"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "dartmouth-ab-cs",
@@ -11310,7 +11606,10 @@
             "snippet": "You can still apply after this deadline, up to December 15, 2025"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "uchicago-bs-cs",
@@ -13013,7 +13312,10 @@
             "snippet": "Your Applicant Portal Meet a Hokie Upcoming Programs, Events, and Deadlines Spring Open House will be April 25 th or April 26 th"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "vt-ms-cs",
@@ -13725,7 +14027,10 @@
             "snippet": "cia Descubre UC Berkeley Ayuda Financiera Secondary navigation MAP@Berkeley Sign Up for Our Email List Contact Us Apply to UC Berkeley Home / Apply to UC Berkeley How to apply The application opens August 1, and you may submit the application October 1 – Nove…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ucb-mims",
@@ -13806,7 +14111,12 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "program-link-protected",
+        "admission-link-protected",
+        "international-link-protected"
+      ]
     },
     {
       "id": "ucb-phd-eecs",
@@ -14313,7 +14623,10 @@
             "snippet": "Department Overview The UCSD Application for Graduate Admission opens for Fall 2026 admission from September 3, 2025 until December 23rd, 2025 at 5:00 p"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ucsd-phd-cs",
@@ -14405,7 +14718,10 @@
             "snippet": "Department Overview The UCSD Application for Graduate Admission opens for Fall 2026 admission from September 3, 2025 until December 23rd, 2025 at 5:00 p"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ucsd-ms-data-science",
@@ -14431,11 +14747,11 @@
         "admission": {
           "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
           "source": "ucsd-ms-data-science:admission",
-          "ok": false,
-          "status": null,
-          "statusCategory": "broken",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
           "finalUrl": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-          "error": "HTTPSConnectionPool(host='datascience.ucsd.edu', port=443): Read timed out."
+          "error": null
         },
         "international": {
           "url": "https://grad.ucsd.edu/admissions/requirements/international-students/english-proficiency.html",
@@ -14460,26 +14776,83 @@
         {
           "source": "admission",
           "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-          "status": null,
-          "statusCategory": "broken",
-          "snippets": []
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Dates and Deadlines: Fall 2026 Cohort Application Opens : October 1, 2025 Application Closes : December 3, 2025 Fall 2026 Quarter Begins : September 21, 2026 HDSI Graduate Admission Info Session Fall 2026 – Info Session Video – Recorded 11/14/25 Contact In or…"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
-        "confidence": "low",
+        "status": "partial-match",
+        "confidence": "medium",
         "recommendedAction": "watch",
         "currentDeadlines": [
           "12-03"
         ],
-        "detectedDeadlines": [],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
+        "detectedDeadlines": [
+          {
+            "monthDay": "09-21",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "10-01",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "11-14",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "12-03",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          }
+        ],
+        "matchedDeadlines": [
           "12-03"
         ],
-        "newCandidateDeadlines": [],
-        "candidateSources": []
-      }
+        "missingCurrentDeadlines": [],
+        "newCandidateDeadlines": [
+          "09-21",
+          "10-01",
+          "11-14"
+        ],
+        "candidateSources": [
+          {
+            "monthDay": "10-01",
+            "rawDate": "October 1, 2025",
+            "source": "admission",
+            "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
+            "snippet": "Dates and Deadlines: Fall 2026 Cohort Application Opens : October 1, 2025 Application Closes : December 3, 2025 Fall 2026 Quarter Begins : September 21, 2026 HDSI Graduate Admission Info Session Fall 2026 – Info Session Video – Recorded 11/14/25 Contact In or…"
+          },
+          {
+            "monthDay": "12-03",
+            "rawDate": "December 3, 2025",
+            "source": "admission",
+            "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
+            "snippet": "Dates and Deadlines: Fall 2026 Cohort Application Opens : October 1, 2025 Application Closes : December 3, 2025 Fall 2026 Quarter Begins : September 21, 2026 HDSI Graduate Admission Info Session Fall 2026 – Info Session Video – Recorded 11/14/25 Contact In or…"
+          },
+          {
+            "monthDay": "09-21",
+            "rawDate": "September 21, 2026",
+            "source": "admission",
+            "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
+            "snippet": "Dates and Deadlines: Fall 2026 Cohort Application Opens : October 1, 2025 Application Closes : December 3, 2025 Fall 2026 Quarter Begins : September 21, 2026 HDSI Graduate Admission Info Session Fall 2026 – Info Session Video – Recorded 11/14/25 Contact In or…"
+          },
+          {
+            "monthDay": "11-14",
+            "rawDate": "11/14/25",
+            "source": "admission",
+            "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
+            "snippet": "Dates and Deadlines: Fall 2026 Cohort Application Opens : October 1, 2025 Application Closes : December 3, 2025 Fall 2026 Quarter Begins : September 21, 2026 HDSI Graduate Admission Info Session Fall 2026 – Info Session Video – Recorded 11/14/25 Contact In or…"
+          }
+        ]
+      },
+      "issueReasons": []
     },
     {
       "id": "stonybrook-bs-cs",
@@ -14736,7 +15109,10 @@
             "snippet": "Program Spring 2027 International: October 1, 2026 No PhD Admissions for Spring 2027 Domestic: December 01, 2026 Fall 2027 International & Domestic March 15, 2027 (please note rolling decisions will be starting February 15, 2027 International & Domestic Decem…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "stonybrook-phd-cs",
@@ -14867,7 +15243,10 @@
             "snippet": "Program Spring 2027 International: October 1, 2026 No PhD Admissions for Spring 2027 Domestic: December 01, 2026 Fall 2027 International & Domestic March 15, 2027 (please note rolling decisions will be starting February 15, 2027 International & Domestic Decem…"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "stonybrook-ms-data-science",
@@ -15021,7 +15400,10 @@
             "snippet": "Fall 2026 Application Deadlines: – For international students: For those who are applying for financial support, all applications are due by December 15, 2025 to receive full consideration"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "international-link-broken"
+      ]
     },
     {
       "id": "utah-bs-cs",
@@ -15527,7 +15909,10 @@
             "snippet": "February 1st (Priority deadline) April 1st (Regular deadline) Late applications maybe considered on a rolling basis until all program seats are full or until June 30"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ub-bs-cs",
@@ -15840,7 +16225,10 @@
             "snippet": "Fall Priority Consideration : December 15 Spring Priority Consideration : October 15 International Applicants : May 1 PhD Admission Fall Admission : For early consideration for special scholarships, students are encouraged to apply by December 10th"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ub-phd-cs",
@@ -15965,7 +16353,10 @@
             "snippet": "Fall Priority Consideration : December 15 Spring Priority Consideration : October 15 International Applicants : May 1 PhD Admission Fall Admission : For early consideration for special scholarships, students are encouraged to apply by December 10th"
           }
         ]
-      }
+      },
+      "issueReasons": [
+        "deadline-review"
+      ]
     },
     {
       "id": "ub-ms-data-science",

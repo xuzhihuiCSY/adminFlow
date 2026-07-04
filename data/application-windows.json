@@ -58,8 +58,13 @@
   "ut-msds": [
     {
       "intake": "Fall",
-      "opens": null,
-      "deadline": "04-01"
+      "opens": "12-15",
+      "deadline": "04-15"
+    },
+    {
+      "intake": "Spring",
+      "opens": "06-01",
+      "deadline": "09-01"
     }
   ],
   "ut-mba": [
@@ -156,15 +161,15 @@
   "sdsu-bs-cs": [
     {
       "intake": "Fall",
-      "opens": "10-01",
-      "deadline": "12-01"
+      "opens": "08-01",
+      "deadline": "11-30"
     }
   ],
   "sdsu-mscs": [
     {
       "intake": "Fall",
-      "opens": "10-01",
-      "deadline": "03-01"
+      "opens": "08-01",
+      "deadline": "02-01"
     }
   ],
   "calpoly-bs-cs": [
@@ -486,7 +491,7 @@
     {
       "intake": "Fall",
       "opens": "09-01",
-      "deadline": "01-31"
+      "deadline": "02-02"
     }
   ],
   "unc-bs-cs": [
@@ -514,7 +519,7 @@
     {
       "intake": "Fall",
       "opens": "09-01",
-      "deadline": "12-15"
+      "deadline": "01-30"
     }
   ],
   "osu-bs-cse": [
@@ -529,6 +534,11 @@
       "intake": "Fall",
       "opens": "09-01",
       "deadline": "12-15"
+    },
+    {
+      "intake": "Spring",
+      "opens": "07-01",
+      "deadline": "10-01"
     }
   ],
   "umn-bs-cs": [
@@ -542,7 +552,7 @@
     {
       "intake": "Fall",
       "opens": "09-01",
-      "deadline": "12-15"
+      "deadline": "03-01"
     }
   ],
   "cu-boulder-bs-cs": [
@@ -582,9 +592,14 @@
   ],
   "rice-mcs": [
     {
-      "intake": "Fall",
+      "intake": "Fall Early",
       "opens": "09-01",
-      "deadline": "02-15"
+      "deadline": "05-01"
+    },
+    {
+      "intake": "Fall Final",
+      "opens": "09-01",
+      "deadline": "06-15"
     }
   ],
   "harvard-ab-cs": [
@@ -603,7 +618,12 @@
   ],
   "yale-bs-cs": [
     {
-      "intake": "Fall",
+      "intake": "Fall Early Action",
+      "opens": "08-01",
+      "deadline": "11-01"
+    },
+    {
+      "intake": "Fall Regular Decision",
       "opens": "08-01",
       "deadline": "01-02"
     }
