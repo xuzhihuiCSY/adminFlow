@@ -15,6 +15,7 @@ from utils import DATA_DIR, is_http_url, read_json, truncate, utc_now, write_jso
 PROGRAMS_PATH = DATA_DIR / "programs.json"
 WINDOWS_PATH = DATA_DIR / "application-windows.json"
 REPORT_PATH = DATA_DIR / "program-audit-report.json"
+OVERRIDES_PATH = DATA_DIR / "link-overrides.json"
 
 TIMEOUT_SECONDS = 12
 PROTECTED_STATUSES = {401, 403, 429}
@@ -107,6 +108,7 @@ def main() -> None:
     args = parse_args()
     programs = read_json(PROGRAMS_PATH)
     application_windows = read_json(WINDOWS_PATH)
+    link_overrides = load_link_overrides()
     previous_report = read_json(REPORT_PATH) if REPORT_PATH.exists() else None
     selected_program_ids = select_program_ids(programs, previous_report, args)
     audit_mode = "program-id" if args.program_id else args.mode
@@ -122,7 +124,7 @@ def main() -> None:
             continue
 
         current_windows = application_windows.get(program["id"], [])
-        link_audit = audit_program_links(program)
+        link_audit = audit_program_links(program, link_overrides, args.use_browser_fallback)
         evidence = collect_program_deadline_evidence(program)
         program_audits[program["id"]] = build_program_audit(program, current_windows, link_audit, evidence)
         audited_program_ids.append(program["id"])
@@ -136,6 +138,9 @@ def main() -> None:
     unique_link_results = summarize_unique_link_results(link_results)
     broken_links = [result for result in unique_link_results if result["statusCategory"] == "broken"]
     protected_links = [result for result in unique_link_results if result["statusCategory"] == "protected"]
+    verified_protected_links = [
+        result for result in unique_link_results if result["statusCategory"] == "protected-valid"
+    ]
     programs_with_evidence = [audit for audit in ordered_program_audits if audit["deadlineEvidence"]]
     programs_needing_deadline_review = [
         {
@@ -171,6 +176,7 @@ def main() -> None:
             "uniqueLinksChecked": len(unique_link_results),
             "programLinkChecks": len(link_results),
             "okLinks": len([result for result in unique_link_results if result["statusCategory"] == "ok"]),
+            "verifiedProtectedLinks": len(verified_protected_links),
             "protectedOrRateLimitedLinks": len(protected_links),
             "brokenLinks": len(broken_links),
             "programsWithDeadlineEvidence": len(programs_with_evidence),
@@ -180,6 +186,7 @@ def main() -> None:
         "linkAudit": {
             "brokenLinks": broken_links,
             "protectedOrRateLimitedLinks": protected_links,
+            "verifiedProtectedLinks": verified_protected_links,
         },
         "deadlineAudit": {
             "note": (
@@ -195,7 +202,8 @@ def main() -> None:
 
     print(
         f"Checked {len(unique_link_results)} unique links across {len(link_results)} program link checks: "
-        f"{len(broken_links)} broken, {len(protected_links)} protected/rate-limited."
+        f"{len(broken_links)} broken, {len(protected_links)} protected/rate-limited, "
+        f"{len(verified_protected_links)} verified protected."
     )
     print(f"Audited {len(audited_program_ids)} programs this run using mode: {audit_mode}.")
     print(f"Collected deadline evidence for {len(programs_with_evidence)} of {len(programs)} programs.")
@@ -215,6 +223,11 @@ def parse_args() -> argparse.Namespace:
         action="append",
         default=[],
         help="Audit only the given program id. Can be passed multiple times.",
+    )
+    parser.add_argument(
+        "--use-browser-fallback",
+        action="store_true",
+        help="Try a Playwright browser check for protected links when Playwright is installed.",
     )
     return parser.parse_args()
 
@@ -270,7 +283,26 @@ def has_legacy_issue(program: dict[str, Any]) -> bool:
     return has_link_issue or needs_deadline_review
 
 
-def audit_program_links(program: dict[str, Any]) -> dict[str, dict[str, Any]]:
+def load_link_overrides() -> dict[str, dict[str, Any]]:
+    if not OVERRIDES_PATH.exists():
+        return {}
+
+    data = read_json(OVERRIDES_PATH)
+    overrides: dict[str, dict[str, Any]] = {}
+
+    for item in data.get("protectedValidLinks", []):
+        if not isinstance(item, dict) or not is_http_url(item.get("url")):
+            continue
+        overrides[item["url"]] = item
+
+    return overrides
+
+
+def audit_program_links(
+    program: dict[str, Any],
+    link_overrides: dict[str, dict[str, Any]],
+    use_browser_fallback: bool,
+) -> dict[str, dict[str, Any]]:
     results: dict[str, dict[str, Any]] = {}
 
     for kind, url in (program.get("links") or {}).items():
@@ -284,19 +316,108 @@ def audit_program_links(program: dict[str, Any]) -> dict[str, dict[str, Any]]:
             }
             continue
 
-        results[kind] = check_link(url, f"{program['id']}:{kind}")
+        source = f"{program['id']}:{kind}"
+        results[kind] = check_link(url, source, link_overrides, use_browser_fallback)
 
     return results
 
 
-def check_link(url: str, source: str) -> dict[str, Any]:
+def check_link(
+    url: str,
+    source: str,
+    link_overrides: dict[str, dict[str, Any]],
+    use_browser_fallback: bool,
+) -> dict[str, Any]:
     head_result = request_url(url, "HEAD")
 
     if head_result["statusCategory"] == "ok":
         return {"url": url, "source": source, **strip_response_text(head_result)}
 
     get_result = request_url(url, "GET")
+    if get_result["statusCategory"] == "protected":
+        override = get_verified_protected_override(url, source, link_overrides)
+        if override:
+            return {
+                "url": url,
+                "source": source,
+                **strip_response_text(mark_verified_protected(get_result, override)),
+            }
+
+        if use_browser_fallback:
+            browser_result = check_link_with_browser(url)
+            if browser_result:
+                return {
+                    "url": url,
+                    "source": source,
+                    **strip_response_text(browser_result),
+                }
+
     return {"url": url, "source": source, **strip_response_text(get_result)}
+
+
+def get_verified_protected_override(
+    url: str,
+    source: str,
+    link_overrides: dict[str, dict[str, Any]],
+) -> dict[str, Any] | None:
+    override = link_overrides.get(url)
+    if not override:
+        return None
+
+    sources = override.get("sources") or []
+    if sources and source not in sources:
+        return None
+
+    return override
+
+
+def mark_verified_protected(result: dict[str, Any], override: dict[str, Any]) -> dict[str, Any]:
+    return {
+        **result,
+        "ok": True,
+        "statusCategory": "protected-valid",
+        "error": None,
+        "verification": {
+            "method": "manual-override",
+            "verifiedAt": override.get("verifiedAt"),
+            "reason": override.get("reason"),
+        },
+    }
+
+
+def check_link_with_browser(url: str) -> dict[str, Any] | None:
+    try:
+        from playwright.sync_api import Error as PlaywrightError
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return None
+
+    try:
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            page = browser.new_page()
+            response = page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_SECONDS * 1000)
+            final_url = page.url
+            browser.close()
+
+        if response and 200 <= response.status < 400:
+            return {
+                "ok": True,
+                "status": response.status,
+                "statusCategory": "protected-valid",
+                "finalUrl": final_url,
+                "error": None,
+                "text": "",
+                "verification": {
+                    "method": "browser-fallback",
+                    "verifiedAt": utc_now(),
+                    "reason": "Protected link opened successfully in a browser check.",
+                },
+            }
+    except PlaywrightError:
+        return None
+
+    return None
 
 
 def build_program_audit(
@@ -353,6 +474,7 @@ def summarize_unique_link_results(link_results: list[dict[str, Any]]) -> list[di
                 "statusCategory": result["statusCategory"],
                 "finalUrl": result["finalUrl"],
                 "error": result["error"],
+                "verification": result.get("verification"),
             }
             continue
 
@@ -364,6 +486,7 @@ def summarize_unique_link_results(link_results: list[dict[str, Any]]) -> list[di
                     "statusCategory": result["statusCategory"],
                     "finalUrl": result["finalUrl"],
                     "error": result["error"],
+                    "verification": result.get("verification"),
                 }
             )
 
@@ -377,12 +500,14 @@ def strip_response_text(result: dict[str, Any]) -> dict[str, Any]:
         "statusCategory": result["statusCategory"],
         "finalUrl": result["finalUrl"],
         "error": result["error"],
+        "verification": result.get("verification"),
     }
 
 
 def status_priority(status_category: str) -> int:
     return {
         "ok": 0,
+        "protected-valid": 0,
         "protected": 1,
         "invalid": 2,
         "broken": 3,

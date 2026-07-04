@@ -1,0 +1,47 @@
+{
+  "protectedValidLinks": [
+    {
+      "url": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-eng-major/",
+      "sources": [
+        "umich-bs-cs:program"
+      ],
+      "verifiedAt": "2026-07-03",
+      "reason": "Official University of Michigan CSE page blocks scripted requests with 403, but should remain the canonical program page."
+    },
+    {
+      "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
+      "sources": [
+        "umich-bs-cs:admission",
+        "umich-bs-cs:apply"
+      ],
+      "verifiedAt": "2026-07-03",
+      "reason": "Official University of Michigan admissions page blocks scripted requests with 403, but should remain the canonical admissions page."
+    },
+    {
+      "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+      "sources": [
+        "umich-bs-cs:international"
+      ],
+      "verifiedAt": "2026-07-03",
+      "reason": "Official University of Michigan international admissions page blocks scripted requests with 403, but should remain the canonical international applicant page."
+    },
+    {
+      "url": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
+      "sources": [
+        "umich-ms-cse:program"
+      ],
+      "verifiedAt": "2026-07-03",
+      "reason": "Official University of Michigan CSE graduate program page blocks scripted requests with 403, but should remain the canonical program page."
+    },
+    {
+      "url": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
+      "sources": [
+        "umich-ms-cse:admission",
+        "umich-ms-cse:international",
+        "umich-ms-cse:apply"
+      ],
+      "verifiedAt": "2026-07-03",
+      "reason": "Official University of Michigan CSE graduate admissions page blocks scripted requests with 403, but should remain the canonical application page."
+    }
+  ]
+}
