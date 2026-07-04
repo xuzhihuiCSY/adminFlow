@@ -116,10 +116,10 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
   const nextOpenDate = getNextApplicationOpenDate(program, now);
   const relevantWindow = getRelevantApplicationWindow(program, now);
   const schoolProfile = getSchoolProfile(program.school);
-  const applicationProcess = getApplicationProcess(program, language);
+  const applicationProcess = markFirstUniqueProcessLinks(getApplicationProcess(program, language));
   const localCopy = detailCopy[language];
   const similarPrograms = getSimilarPrograms(program);
-  const officialLinks = [
+  const officialLinks = getUniqueOfficialLinks([
     {
       label: t.programWebsite,
       href: program.links.program,
@@ -140,7 +140,7 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
       href: program.links.apply,
       icon: ExternalLink
     }
-  ];
+  ]);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
@@ -346,12 +346,14 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
                         </p>
                       </div>
                     </div>
-                    <Button asChild variant="outline" size="sm" className="justify-between">
-                      <a href={step.href} target="_blank" rel="noreferrer">
-                        {step.linkLabel}
-                        <ExternalLink className="h-4 w-4" aria-hidden="true" />
-                      </a>
-                    </Button>
+                    {step.showLink ? (
+                      <Button asChild variant="outline" size="sm" className="justify-between">
+                        <a href={step.href} target="_blank" rel="noreferrer">
+                          {step.linkLabel}
+                          <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                        </a>
+                      </Button>
+                    ) : null}
                   </li>
                 );
               })}
@@ -442,6 +444,65 @@ function getSimilarPrograms(program: Program) {
           item.program.toLowerCase().includes(program.program.split(" ")[0].toLowerCase()))
     )
     .slice(0, 3);
+}
+
+type ProcessStepWithLinkVisibility = ReturnType<typeof getApplicationProcess>[number] & {
+  showLink: boolean;
+};
+
+function markFirstUniqueProcessLinks(
+  steps: ReturnType<typeof getApplicationProcess>
+): ProcessStepWithLinkVisibility[] {
+  const seen = new Set<string>();
+
+  return steps.map((step) => {
+    const key = normalizeExternalHref(step.href);
+    const showLink = !seen.has(key);
+
+    seen.add(key);
+
+    return {
+      ...step,
+      showLink
+    };
+  });
+}
+
+type OfficialLink = {
+  label: string;
+  href: string;
+  icon: typeof GraduationCap;
+};
+
+function getUniqueOfficialLinks(links: OfficialLink[]) {
+  const seen = new Set<string>();
+
+  return links.filter((link) => {
+    const key = normalizeExternalHref(link.href);
+
+    if (seen.has(key)) {
+      return false;
+    }
+
+    seen.add(key);
+    return true;
+  });
+}
+
+function normalizeExternalHref(href: string) {
+  try {
+    const url = new URL(href);
+    url.hash = "";
+    url.hostname = url.hostname.toLowerCase();
+
+    if (url.pathname !== "/") {
+      url.pathname = url.pathname.replace(/\/+$/, "");
+    }
+
+    return url.toString();
+  } catch {
+    return href.trim().replace(/\/+$/, "");
+  }
 }
 
 function SchoolOverviewCard({ profile }: { profile: SchoolProfile | null }) {

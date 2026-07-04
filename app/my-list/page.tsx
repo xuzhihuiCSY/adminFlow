@@ -2,18 +2,21 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, BookmarkX, Download } from "lucide-react";
+import { ArrowLeft, BookmarkX, Download, ExternalLink, Trash2 } from "lucide-react";
 
 import {
   getFavoriteProgramIds,
   removeFavoriteProgramId
 } from "@/components/FavoriteButton";
 import { useLanguage } from "@/components/LanguageProvider";
-import ProgramCard from "@/components/ProgramCard";
+import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useCurrentDate } from "@/components/useCurrentDate";
+import { formatProgramDate, getAvailabilityLabel } from "@/lib/i18n";
 import {
+  getAvailabilityTone,
   getDaysUntilDeadline,
+  getProgramStatus,
   getRelevantApplicationWindow,
   programs,
   type Program
@@ -38,6 +41,12 @@ const pageCopy = {
     exportCsv: "导出 CSV",
     status: "状态",
     note: "备注",
+    program: "项目",
+    deadline: "截止日期",
+    actions: "操作",
+    officialApply: "官方申请",
+    details: "详情",
+    remove: "移除",
     notePlaceholder: "例如：需要问 advisor、TOEFL 不确定",
     statuses: {
       "to-confirm": "待确认",
@@ -53,6 +62,12 @@ const pageCopy = {
     exportCsv: "Export CSV",
     status: "Status",
     note: "Note",
+    program: "Program",
+    deadline: "Deadline",
+    actions: "Actions",
+    officialApply: "Official apply",
+    details: "Details",
+    remove: "Remove",
     notePlaceholder: "Example: ask advisor, TOEFL uncertain",
     statuses: {
       "to-confirm": "To confirm",
@@ -151,44 +166,101 @@ export default function MyListPage() {
                 {copy.due90}: {deadlineBuckets.due90}
               </span>
             </div>
-            <Button type="button" variant="outline" onClick={() => exportCsv(savedPrograms, tracker)}>
+            <Button type="button" variant="outline" onClick={() => exportCsv(savedPrograms, tracker, now)}>
               <Download className="h-4 w-4" aria-hidden="true" />
               {copy.exportCsv}
             </Button>
           </section>
-          <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {savedPrograms.map((program) => (
-              <div key={program.id} className="grid gap-3">
-                <ProgramCard program={program} now={now} />
-                <div className="rounded-lg border border-border bg-card p-4 shadow-soft">
-                  <label className="grid gap-1.5 text-sm font-medium">
-                    {copy.status}
-                    <select
-                      className="h-10 rounded-md border border-input bg-background px-3 text-sm font-normal outline-none transition focus:border-ring focus:ring-2 focus:ring-ring/20"
-                      value={tracker[program.id]?.status ?? "to-confirm"}
-                      onChange={(event) =>
-                        updateTracker(program.id, { status: event.target.value as ApplicationStatus })
-                      }
-                    >
-                      {Object.entries(copy.statuses).map(([value, label]) => (
-                        <option key={value} value={value}>
-                          {label}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                  <label className="mt-3 grid gap-1.5 text-sm font-medium">
-                    {copy.note}
-                    <textarea
-                      className="min-h-20 rounded-md border border-input bg-background px-3 py-2 text-sm font-normal outline-none transition focus:border-ring focus:ring-2 focus:ring-ring/20"
-                      onChange={(event) => updateTracker(program.id, { note: event.target.value })}
-                      placeholder={copy.notePlaceholder}
-                      value={tracker[program.id]?.note ?? ""}
-                    />
-                  </label>
-                </div>
-              </div>
-            ))}
+          <section className="overflow-hidden rounded-lg border border-border bg-card shadow-soft">
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[980px] border-collapse text-sm">
+                <thead className="bg-muted/70 text-left text-xs font-medium uppercase text-muted-foreground">
+                  <tr>
+                    <th className="px-4 py-3">{copy.program}</th>
+                    <th className="px-4 py-3">{copy.deadline}</th>
+                    <th className="px-4 py-3">{copy.status}</th>
+                    <th className="px-4 py-3">{copy.note}</th>
+                    <th className="px-4 py-3 text-right">{copy.actions}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {savedPrograms.map((program) => {
+                    const window = getRelevantApplicationWindow(program, now);
+                    const status = getProgramStatus(program, now);
+
+                    return (
+                      <tr key={program.id} className="border-t border-border align-top">
+                        <td className="px-4 py-4">
+                          <div className="font-semibold">{program.school}</div>
+                          <div className="mt-1 text-muted-foreground">{program.program}</div>
+                          <div className="mt-2 flex flex-wrap gap-2">
+                            <Badge variant={getAvailabilityTone(status)}>
+                              {getAvailabilityLabel(status, language)}
+                            </Badge>
+                            <Badge variant="muted">{program.degree}</Badge>
+                          </div>
+                        </td>
+                        <td className="px-4 py-4">
+                          <div className="font-medium">
+                            {window ? formatProgramDate(window.deadline, language) : "-"}
+                          </div>
+                          <div className="mt-1 text-xs text-muted-foreground">
+                            {window?.intake ?? "-"}
+                          </div>
+                        </td>
+                        <td className="px-4 py-4">
+                          <select
+                            className="h-10 w-44 rounded-md border border-input bg-background px-3 text-sm outline-none transition focus:border-ring focus:ring-2 focus:ring-ring/20"
+                            value={tracker[program.id]?.status ?? "to-confirm"}
+                            onChange={(event) =>
+                              updateTracker(program.id, {
+                                status: event.target.value as ApplicationStatus
+                              })
+                            }
+                          >
+                            {Object.entries(copy.statuses).map(([value, label]) => (
+                              <option key={value} value={value}>
+                                {label}
+                              </option>
+                            ))}
+                          </select>
+                        </td>
+                        <td className="px-4 py-4">
+                          <textarea
+                            className="min-h-16 w-72 rounded-md border border-input bg-background px-3 py-2 text-sm outline-none transition focus:border-ring focus:ring-2 focus:ring-ring/20"
+                            onChange={(event) => updateTracker(program.id, { note: event.target.value })}
+                            placeholder={copy.notePlaceholder}
+                            value={tracker[program.id]?.note ?? ""}
+                          />
+                        </td>
+                        <td className="px-4 py-4">
+                          <div className="flex justify-end gap-2">
+                            <Button asChild size="sm" variant="outline">
+                              <a href={program.links.apply} target="_blank" rel="noreferrer">
+                                <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                                {copy.officialApply}
+                              </a>
+                            </Button>
+                            <Button asChild size="sm" variant="outline">
+                              <Link href={`/program/${program.id}`}>{copy.details}</Link>
+                            </Button>
+                            <Button
+                              aria-label={`${copy.remove} ${program.school} ${program.program}`}
+                              onClick={() => removeFavoriteProgramId(program.id)}
+                              size="icon"
+                              type="button"
+                              variant="ghost"
+                            >
+                              <Trash2 className="h-4 w-4" aria-hidden="true" />
+                            </Button>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
           </section>
         </>
       ) : (
@@ -259,7 +331,7 @@ function countProgramsDueWithin(items: Program[], now: Date, days: number) {
   }).length;
 }
 
-function exportCsv(items: Program[], tracker: TrackerState) {
+function exportCsv(items: Program[], tracker: TrackerState, now: Date) {
   const rows = [
     ["School", "Program", "Status", "Note", "Deadline", "Apply URL"],
     ...items.map((program) => [
@@ -267,7 +339,7 @@ function exportCsv(items: Program[], tracker: TrackerState) {
       program.program,
       tracker[program.id]?.status ?? "to-confirm",
       tracker[program.id]?.note ?? "",
-      getRelevantApplicationWindow(program)?.deadline ?? "",
+      getRelevantApplicationWindow(program, now)?.deadline ?? "",
       program.links.apply
     ])
   ];

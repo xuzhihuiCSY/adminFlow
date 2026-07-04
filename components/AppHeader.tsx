@@ -31,18 +31,18 @@ export default function AppHeader() {
             {t.navPrograms}
           </Link>
           <Link
-            href="/rankings"
-            className="inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-accent hover:text-accent-foreground"
-          >
-            <Trophy className="h-4 w-4" aria-hidden="true" />
-            {t.navRankings}
-          </Link>
-          <Link
             href="/my-list"
             className="inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-accent hover:text-accent-foreground"
           >
             <ListChecks className="h-4 w-4" aria-hidden="true" />
             {t.navMyList}
+          </Link>
+          <Link
+            href="/rankings"
+            className="inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-muted-foreground transition hover:bg-accent hover:text-accent-foreground"
+          >
+            <Trophy className="h-4 w-4" aria-hidden="true" />
+            {t.navRankings}
           </Link>
           <LanguageToggle />
         </nav>
@@ -68,13 +68,13 @@ export default function AppHeader() {
             <MobileNavLink href="/" onClick={closeMenu}>
               {t.navPrograms}
             </MobileNavLink>
-            <MobileNavLink href="/rankings" onClick={closeMenu}>
-              <Trophy className="h-4 w-4" aria-hidden="true" />
-              {t.navRankings}
-            </MobileNavLink>
             <MobileNavLink href="/my-list" onClick={closeMenu}>
               <ListChecks className="h-4 w-4" aria-hidden="true" />
               {t.navMyList}
+            </MobileNavLink>
+            <MobileNavLink href="/rankings" onClick={closeMenu}>
+              <Trophy className="h-4 w-4" aria-hidden="true" />
+              {t.navRankings}
             </MobileNavLink>
             <div className="pt-2">
               <LanguageToggle className="w-full justify-center" />
