@@ -172,7 +172,7 @@
     "links": {
       "program": "https://www.cc.gatech.edu/degree-programs/bachelor-science-computer-science",
       "admission": "https://admission.gatech.edu/first-year",
-      "international": "https://admission.gatech.edu/international",
+      "international": "https://catalog.gatech.edu/admissions/ugrad/first-year/",
       "apply": "https://admission.gatech.edu/apply"
     }
   },
@@ -306,10 +306,10 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cs.ucdavis.edu/graduate",
-      "admission": "https://grad.ucdavis.edu/apply",
-      "international": "https://grad.ucdavis.edu/international-applicants",
-      "apply": "https://grad.ucdavis.edu/apply"
+      "program": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-graduate-group/computer-science-ms/",
+      "admission": "https://www.ucdavis.edu/admissions/graduate-school",
+      "international": "https://www.ucdavis.edu/admissions/graduate-school",
+      "apply": "https://www.ucdavis.edu/admissions/graduate-school"
     }
   },
   {
@@ -331,7 +331,7 @@
     "links": {
       "program": "https://gsm.ucdavis.edu/full-time-mba",
       "admission": "https://gsm.ucdavis.edu/full-time-mba/admissions",
-      "international": "https://grad.ucdavis.edu/international-applicants",
+      "international": "https://gsm.ucdavis.edu/full-time-mba/admissions/international-applicants",
       "apply": "https://gsm.ucdavis.edu/full-time-mba/admissions"
     }
   },
@@ -352,7 +352,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://cs.ucdavis.edu/undergraduate",
+      "program": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computer-science-bs/",
       "admission": "https://www.ucdavis.edu/admissions/undergraduate",
       "international": "https://www.ucdavis.edu/admissions/undergraduate/international",
       "apply": "https://apply.universityofcalifornia.edu/"
@@ -669,7 +669,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://www.fullerton.edu/ecs/cs/degree/bscs.php",
+      "program": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47269",
       "admission": "https://admissions.fullerton.edu/",
       "international": "https://admissions.fullerton.edu/intl/",
       "apply": "https://www.calstate.edu/apply"
@@ -691,7 +691,7 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
+      "program": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
       "admission": "https://admissions.fullerton.edu/prospectivestudent/graduate.php",
       "international": "https://admissions.fullerton.edu/intl/",
       "apply": "https://www.calstate.edu/apply"
@@ -1188,10 +1188,10 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/",
-      "admission": "https://admissions.umich.edu/apply/first-year-applicants",
-      "international": "https://admissions.umich.edu/apply/international-applicants",
-      "apply": "https://admissions.umich.edu/apply"
+      "program": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-eng-major/",
+      "admission": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
+      "international": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+      "apply": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines"
     }
   },
   {
@@ -1210,10 +1210,10 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/",
-      "admission": "https://cse.engin.umich.edu/academics/graduate/admissions/",
-      "international": "https://rackham.umich.edu/admissions/applying/international-applicants/",
-      "apply": "https://rackham.umich.edu/admissions/applying/"
+      "program": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
+      "admission": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
+      "international": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
+      "apply": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/"
     }
   },
   {
@@ -1346,9 +1346,9 @@
     ],
     "links": {
       "program": "https://www.cs.columbia.edu/education/ms/",
-      "admission": "https://www.engineering.columbia.edu/admissions/graduate-admissions",
-      "international": "https://www.engineering.columbia.edu/admissions/graduate-admissions/international-applicants",
-      "apply": "https://www.engineering.columbia.edu/admissions/graduate-admissions/apply"
+      "admission": "https://www.cs.columbia.edu/education/ms/appfaq/",
+      "international": "https://www.cs.columbia.edu/education/ms/appfaq/",
+      "apply": "https://www.cs.columbia.edu/education/ms/appfaq/"
     }
   },
   {
@@ -1593,10 +1593,10 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://cs.unc.edu/undergraduate/",
-      "admission": "https://admissions.unc.edu/apply/",
-      "international": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
-      "apply": "https://admissions.unc.edu/apply/"
+      "program": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+      "admission": "https://catalog.unc.edu/admissions/undergraduate/",
+      "international": "https://catalog.unc.edu/admissions/undergraduate/",
+      "apply": "https://catalog.unc.edu/admissions/undergraduate/"
     }
   },
   {
@@ -1615,10 +1615,10 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://cs.unc.edu/graduate/",
-      "admission": "https://gradschool.unc.edu/admissions/",
-      "international": "https://gradschool.unc.edu/admissions/international-students/",
-      "apply": "https://gradschool.unc.edu/admissions/"
+      "program": "https://catalog.unc.edu/graduate/schools-departments/computer-science/",
+      "admission": "https://catalog.unc.edu/admissions/graduate/",
+      "international": "https://catalog.unc.edu/admissions/graduate/",
+      "apply": "https://catalog.unc.edu/admissions/graduate/"
     }
   },
   {
@@ -1821,7 +1821,7 @@
       "program": "https://www.cise.ufl.edu/academics/undergraduate/",
       "admission": "https://admissions.ufl.edu/apply/freshman",
       "international": "https://admissions.ufl.edu/apply/international",
-      "apply": "https://admissions.ufl.edu/apply"
+      "apply": "https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/CPS_BSCS/"
     }
   },
   {
@@ -2847,9 +2847,9 @@
       "Essays"
     ],
     "links": {
-      "program": "https://www.ischool.berkeley.edu/programs/mims",
-      "admission": "https://www.ischool.berkeley.edu/programs/mims/admissions",
-      "international": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
+      "program": "https://grad.berkeley.edu/program/information-management-systems/",
+      "admission": "https://grad.berkeley.edu/program/information-management-systems/",
+      "international": "https://grad.berkeley.edu/admissions/application-process/requirements/",
       "apply": "https://grad.berkeley.edu/admissions/apply/"
     }
   },

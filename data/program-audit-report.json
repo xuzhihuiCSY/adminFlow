@@ -1,310 +1,87 @@
 {
-  "lastChecked": "2026-07-04T01:34:19Z",
+  "lastChecked": "2026-07-04T01:58:22Z",
   "auditMode": "program-id",
   "auditedPrograms": [
-    "csueb-bs-cs",
-    "wisc-bs-cs",
-    "umn-bs-cs",
-    "jhu-ms-cs",
-    "northwestern-bs-cs"
+    "gatech-bs-cs",
+    "ucd-mscs",
+    "ucd-mba",
+    "ucd-bs-cs",
+    "csuf-bs-cs",
+    "csuf-mscs",
+    "umich-bs-cs",
+    "umich-ms-cse",
+    "columbia-ms-cs",
+    "unc-bs-cs",
+    "unc-ms-cs",
+    "uf-bs-cs",
+    "ucb-mims"
   ],
   "summary": {
     "programsChecked": 158,
-    "programsAuditedThisRun": 5,
-    "uniqueLinksChecked": 467,
+    "programsAuditedThisRun": 13,
+    "uniqueLinksChecked": 458,
     "programLinkChecks": 632,
-    "okLinks": 439,
-    "protectedOrRateLimitedLinks": 28,
+    "okLinks": 453,
+    "protectedOrRateLimitedLinks": 5,
     "brokenLinks": 0,
-    "programsWithDeadlineEvidence": 99,
-    "programsMissingDeadlineEvidence": 59,
+    "programsWithDeadlineEvidence": 95,
+    "programsMissingDeadlineEvidence": 63,
     "programsNeedingDeadlineReview": 0
   },
   "linkAudit": {
     "brokenLinks": [],
     "protectedOrRateLimitedLinks": [
       {
-        "url": "https://admission.gatech.edu/international",
+        "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
         "sources": [
-          "gatech-bs-cs:international"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://admission.gatech.edu/international/",
-        "error": null
-      },
-      {
-        "url": "https://admissions.ufl.edu/apply",
-        "sources": [
-          "uf-bs-cs:apply"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://admissions.ufl.edu/apply/",
-        "error": null
-      },
-      {
-        "url": "https://admissions.umich.edu/apply",
-        "sources": [
+          "umich-bs-cs:admission",
           "umich-bs-cs:apply"
         ],
         "status": 403,
         "statusCategory": "protected",
-        "finalUrl": "https://admissions.umich.edu/apply",
+        "finalUrl": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
         "error": null
       },
       {
-        "url": "https://admissions.umich.edu/apply/first-year-applicants",
-        "sources": [
-          "umich-bs-cs:admission"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://admissions.umich.edu/apply/first-year-applicants",
-        "error": null
-      },
-      {
-        "url": "https://admissions.umich.edu/apply/international-applicants",
+        "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
         "sources": [
           "umich-bs-cs:international"
         ],
         "status": 403,
         "statusCategory": "protected",
-        "finalUrl": "https://admissions.umich.edu/apply/international-applicants",
+        "finalUrl": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
         "error": null
       },
       {
-        "url": "https://admissions.unc.edu/apply/",
+        "url": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
         "sources": [
-          "unc-bs-cs:admission",
-          "unc-bs-cs:apply"
+          "umich-ms-cse:admission",
+          "umich-ms-cse:international",
+          "umich-ms-cse:apply"
         ],
         "status": 403,
         "statusCategory": "protected",
-        "finalUrl": "https://admissions.unc.edu/apply/",
+        "finalUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
         "error": null
       },
       {
-        "url": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
-        "sources": [
-          "unc-bs-cs:international"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
-        "error": null
-      },
-      {
-        "url": "https://cs.ucdavis.edu/graduate",
-        "sources": [
-          "ucd-mscs:program"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://cs.ucdavis.edu/graduate",
-        "error": null
-      },
-      {
-        "url": "https://cs.ucdavis.edu/undergraduate",
-        "sources": [
-          "ucd-bs-cs:program"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://cs.ucdavis.edu/undergraduate",
-        "error": null
-      },
-      {
-        "url": "https://cs.unc.edu/graduate/",
-        "sources": [
-          "unc-ms-cs:program"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://cs.unc.edu/graduate/",
-        "error": null
-      },
-      {
-        "url": "https://cs.unc.edu/undergraduate/",
-        "sources": [
-          "unc-bs-cs:program"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://cs.unc.edu/undergraduate/",
-        "error": null
-      },
-      {
-        "url": "https://cse.engin.umich.edu/academics/graduate/admissions/",
-        "sources": [
-          "umich-ms-cse:admission"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/",
-        "error": null
-      },
-      {
-        "url": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/",
+        "url": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
         "sources": [
           "umich-ms-cse:program"
         ],
         "status": 403,
         "statusCategory": "protected",
-        "finalUrl": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/",
+        "finalUrl": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
         "error": null
       },
       {
-        "url": "https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/",
+        "url": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-eng-major/",
         "sources": [
           "umich-bs-cs:program"
         ],
         "status": 403,
         "statusCategory": "protected",
-        "finalUrl": "https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/",
-        "error": null
-      },
-      {
-        "url": "https://grad.ucdavis.edu/apply",
-        "sources": [
-          "ucd-mscs:admission",
-          "ucd-mscs:apply"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://grad.ucdavis.edu/apply",
-        "error": null
-      },
-      {
-        "url": "https://grad.ucdavis.edu/international-applicants",
-        "sources": [
-          "ucd-mscs:international",
-          "ucd-mba:international"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://grad.ucdavis.edu/international-applicants",
-        "error": null
-      },
-      {
-        "url": "https://gradschool.unc.edu/admissions/",
-        "sources": [
-          "unc-ms-cs:admission",
-          "unc-ms-cs:apply"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://gradschool.unc.edu/admissions/",
-        "error": null
-      },
-      {
-        "url": "https://gradschool.unc.edu/admissions/international-students/",
-        "sources": [
-          "unc-ms-cs:international"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://gradschool.unc.edu/admissions/international-students/",
-        "error": null
-      },
-      {
-        "url": "https://rackham.umich.edu/admissions/applying/",
-        "sources": [
-          "umich-ms-cse:apply"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://rackham.umich.edu/admissions/applying/",
-        "error": null
-      },
-      {
-        "url": "https://rackham.umich.edu/admissions/applying/international-applicants/",
-        "sources": [
-          "umich-ms-cse:international"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://rackham.umich.edu/admissions/applying/international-applicants/",
-        "error": null
-      },
-      {
-        "url": "https://www.engineering.columbia.edu/admissions/graduate-admissions",
-        "sources": [
-          "columbia-ms-cs:admission"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.engineering.columbia.edu/admissions/graduate-admissions",
-        "error": null
-      },
-      {
-        "url": "https://www.engineering.columbia.edu/admissions/graduate-admissions/apply",
-        "sources": [
-          "columbia-ms-cs:apply"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.engineering.columbia.edu/admissions/graduate-admissions/apply",
-        "error": null
-      },
-      {
-        "url": "https://www.engineering.columbia.edu/admissions/graduate-admissions/international-applicants",
-        "sources": [
-          "columbia-ms-cs:international"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.engineering.columbia.edu/admissions/graduate-admissions/international-applicants",
-        "error": null
-      },
-      {
-        "url": "https://www.fullerton.edu/ecs/cs/degree/bscs.php",
-        "sources": [
-          "csuf-bs-cs:program"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.fullerton.edu/ecs/cs/degree/bscs.php",
-        "error": null
-      },
-      {
-        "url": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
-        "sources": [
-          "csuf-mscs:program"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
-        "error": null
-      },
-      {
-        "url": "https://www.ischool.berkeley.edu/programs/mims",
-        "sources": [
-          "ucb-mims:program"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.ischool.berkeley.edu/programs/mims",
-        "error": null
-      },
-      {
-        "url": "https://www.ischool.berkeley.edu/programs/mims/admissions",
-        "sources": [
-          "ucb-mims:admission"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions",
-        "error": null
-      },
-      {
-        "url": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
-        "sources": [
-          "ucb-mims:international"
-        ],
-        "status": 403,
-        "statusCategory": "protected",
-        "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
+        "finalUrl": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-eng-major/",
         "error": null
       }
     ]
@@ -338,9 +115,19 @@
         "program": "BS Computer Science"
       },
       {
+        "id": "ucd-mscs",
+        "school": "UC Davis",
+        "program": "MS Computer Science"
+      },
+      {
         "id": "ucd-mba",
         "school": "UC Davis",
         "program": "MBA"
+      },
+      {
+        "id": "ucd-bs-cs",
+        "school": "UC Davis",
+        "program": "BS Computer Science"
       },
       {
         "id": "uci-phd-ics",
@@ -380,6 +167,16 @@
       {
         "id": "cpp-mscs",
         "school": "Cal Poly Pomona",
+        "program": "MS Computer Science"
+      },
+      {
+        "id": "csuf-bs-cs",
+        "school": "Cal State Fullerton",
+        "program": "BS Computer Science"
+      },
+      {
+        "id": "csuf-mscs",
+        "school": "Cal State Fullerton",
         "program": "MS Computer Science"
       },
       {
@@ -1228,12 +1025,12 @@
           "error": null
         },
         "international": {
-          "url": "https://admission.gatech.edu/international",
+          "url": "https://catalog.gatech.edu/admissions/ugrad/first-year/",
           "source": "gatech-bs-cs:international",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://admission.gatech.edu/international/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.gatech.edu/admissions/ugrad/first-year/",
           "error": null
         },
         "apply": {
@@ -1262,9 +1059,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "international-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "ut-msds",
@@ -1956,58 +1751,43 @@
       ],
       "links": {
         "program": {
-          "url": "https://cs.ucdavis.edu/graduate",
+          "url": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-graduate-group/computer-science-ms/",
           "source": "ucd-mscs:program",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://cs.ucdavis.edu/graduate",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-graduate-group/computer-science-ms/",
           "error": null
         },
         "admission": {
-          "url": "https://grad.ucdavis.edu/apply",
+          "url": "https://www.ucdavis.edu/admissions/graduate-school",
           "source": "ucd-mscs:admission",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://grad.ucdavis.edu/apply",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.ucdavis.edu/admissions/graduate-school",
           "error": null
         },
         "international": {
-          "url": "https://grad.ucdavis.edu/international-applicants",
+          "url": "https://www.ucdavis.edu/admissions/graduate-school",
           "source": "ucd-mscs:international",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://grad.ucdavis.edu/international-applicants",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.ucdavis.edu/admissions/graduate-school",
           "error": null
         },
         "apply": {
-          "url": "https://grad.ucdavis.edu/apply",
+          "url": "https://www.ucdavis.edu/admissions/graduate-school",
           "source": "ucd-mscs:apply",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://grad.ucdavis.edu/apply",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.ucdavis.edu/admissions/graduate-school",
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://cs.ucdavis.edu/graduate",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
-        },
-        {
-          "source": "admission",
-          "url": "https://grad.ucdavis.edu/apply",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -2023,12 +1803,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "program-link-protected",
-        "admission-link-protected",
-        "international-link-protected",
-        "apply-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "ucd-mba",
@@ -2061,12 +1836,12 @@
           "error": null
         },
         "international": {
-          "url": "https://grad.ucdavis.edu/international-applicants",
+          "url": "https://gsm.ucdavis.edu/full-time-mba/admissions/international-applicants",
           "source": "ucd-mba:international",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://grad.ucdavis.edu/international-applicants",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://gsm.ucdavis.edu/full-time-mba/admissions/international-applicants",
           "error": null
         },
         "apply": {
@@ -2095,9 +1870,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "international-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "ucd-bs-cs",
@@ -2112,12 +1885,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://cs.ucdavis.edu/undergraduate",
+          "url": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computer-science-bs/",
           "source": "ucd-bs-cs:program",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://cs.ucdavis.edu/undergraduate",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.ucdavis.edu/departments-programs-degrees/computer-science-engineering/computer-science-bs/",
           "error": null
         },
         "admission": {
@@ -2148,15 +1921,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://cs.ucdavis.edu/undergraduate",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -2172,9 +1937,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "program-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "uci-mcs",
@@ -3230,12 +2993,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://www.fullerton.edu/ecs/cs/degree/bscs.php",
+          "url": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47269",
           "source": "csuf-bs-cs:program",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.fullerton.edu/ecs/cs/degree/bscs.php",
+          "ok": true,
+          "status": 202,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47269",
           "error": null
         },
         "admission": {
@@ -3266,15 +3029,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://www.fullerton.edu/ecs/cs/degree/bscs.php",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -3290,9 +3045,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "program-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "csuf-mscs",
@@ -3307,12 +3060,12 @@
       ],
       "links": {
         "program": {
-          "url": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
+          "url": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
           "source": "csuf-mscs:program",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
+          "ok": true,
+          "status": 202,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.fullerton.edu/preview_program.php?catoid=101&poid=47271",
           "error": null
         },
         "admission": {
@@ -3343,15 +3096,7 @@
           "error": null
         }
       },
-      "deadlineEvidence": [
-        {
-          "source": "program",
-          "url": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
-        }
-      ],
+      "deadlineEvidence": [],
       "deadlineComparison": {
         "status": "no-date-candidates",
         "confidence": "low",
@@ -3367,9 +3112,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "program-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "csun-bs-cs",
@@ -5068,53 +4811,53 @@
       ],
       "links": {
         "program": {
-          "url": "https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/",
+          "url": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-eng-major/",
           "source": "umich-bs-cs:program",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/",
+          "finalUrl": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-eng-major/",
           "error": null
         },
         "admission": {
-          "url": "https://admissions.umich.edu/apply/first-year-applicants",
+          "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
           "source": "umich-bs-cs:admission",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://admissions.umich.edu/apply/first-year-applicants",
+          "finalUrl": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
           "error": null
         },
         "international": {
-          "url": "https://admissions.umich.edu/apply/international-applicants",
+          "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
           "source": "umich-bs-cs:international",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://admissions.umich.edu/apply/international-applicants",
+          "finalUrl": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
           "error": null
         },
         "apply": {
-          "url": "https://admissions.umich.edu/apply",
+          "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
           "source": "umich-bs-cs:apply",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://admissions.umich.edu/apply",
+          "finalUrl": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
           "source": "program",
-          "url": "https://cse.engin.umich.edu/academics/undergraduate/computer-science-eng/",
+          "url": "https://cse.engin.umich.edu/academics/undergraduate/majors/computer-science-eng-major/",
           "status": 403,
           "statusCategory": "protected",
           "snippets": []
         },
         {
           "source": "admission",
-          "url": "https://admissions.umich.edu/apply/first-year-applicants",
+          "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
           "status": 403,
           "statusCategory": "protected",
           "snippets": []
@@ -5155,53 +4898,53 @@
       ],
       "links": {
         "program": {
-          "url": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/",
+          "url": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
           "source": "umich-ms-cse:program",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/",
+          "finalUrl": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
           "error": null
         },
         "admission": {
-          "url": "https://cse.engin.umich.edu/academics/graduate/admissions/",
+          "url": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
           "source": "umich-ms-cse:admission",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/",
+          "finalUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
           "error": null
         },
         "international": {
-          "url": "https://rackham.umich.edu/admissions/applying/international-applicants/",
+          "url": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
           "source": "umich-ms-cse:international",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://rackham.umich.edu/admissions/applying/international-applicants/",
+          "finalUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
           "error": null
         },
         "apply": {
-          "url": "https://rackham.umich.edu/admissions/applying/",
+          "url": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
           "source": "umich-ms-cse:apply",
           "ok": false,
           "status": 403,
           "statusCategory": "protected",
-          "finalUrl": "https://rackham.umich.edu/admissions/applying/",
+          "finalUrl": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
           "source": "program",
-          "url": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/",
+          "url": "https://cse.engin.umich.edu/academics/graduate/graduate-programs/masters-in-cse/",
           "status": 403,
           "statusCategory": "protected",
           "snippets": []
         },
         {
           "source": "admission",
-          "url": "https://cse.engin.umich.edu/academics/graduate/admissions/",
+          "url": "https://cse.engin.umich.edu/academics/graduate/admissions/apply/",
           "status": 403,
           "statusCategory": "protected",
           "snippets": []
@@ -5673,62 +5416,88 @@
           "error": null
         },
         "admission": {
-          "url": "https://www.engineering.columbia.edu/admissions/graduate-admissions",
+          "url": "https://www.cs.columbia.edu/education/ms/appfaq/",
           "source": "columbia-ms-cs:admission",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.engineering.columbia.edu/admissions/graduate-admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.cs.columbia.edu/education/ms/appfaq/",
           "error": null
         },
         "international": {
-          "url": "https://www.engineering.columbia.edu/admissions/graduate-admissions/international-applicants",
+          "url": "https://www.cs.columbia.edu/education/ms/appfaq/",
           "source": "columbia-ms-cs:international",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.engineering.columbia.edu/admissions/graduate-admissions/international-applicants",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.cs.columbia.edu/education/ms/appfaq/",
           "error": null
         },
         "apply": {
-          "url": "https://www.engineering.columbia.edu/admissions/graduate-admissions/apply",
+          "url": "https://www.cs.columbia.edu/education/ms/appfaq/",
           "source": "columbia-ms-cs:apply",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.engineering.columbia.edu/admissions/graduate-admissions/apply",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://www.cs.columbia.edu/education/ms/appfaq/",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
           "source": "admission",
-          "url": "https://www.engineering.columbia.edu/admissions/graduate-admissions",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
+          "url": "https://www.cs.columbia.edu/education/ms/appfaq/",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "edu/graduate-admissions/application-requirements Fall 1st priority deadline: January 15 Fall 2nd final deadline: February 15 We strongly encourage all applicants to meet the 1st deadline"
+          ]
         }
       ],
       "deadlineComparison": {
-        "status": "no-date-candidates",
-        "confidence": "low",
+        "status": "partial-match",
+        "confidence": "medium",
         "recommendedAction": "watch",
         "currentDeadlines": [
           "02-15"
         ],
-        "detectedDeadlines": [],
-        "matchedDeadlines": [],
-        "missingCurrentDeadlines": [
+        "detectedDeadlines": [
+          {
+            "monthDay": "01-15",
+            "occurrences": 1,
+            "matchedCurrentRecord": false
+          },
+          {
+            "monthDay": "02-15",
+            "occurrences": 1,
+            "matchedCurrentRecord": true
+          }
+        ],
+        "matchedDeadlines": [
           "02-15"
         ],
-        "newCandidateDeadlines": [],
-        "candidateSources": []
+        "missingCurrentDeadlines": [],
+        "newCandidateDeadlines": [
+          "01-15"
+        ],
+        "candidateSources": [
+          {
+            "monthDay": "01-15",
+            "rawDate": "January 15",
+            "source": "admission",
+            "url": "https://www.cs.columbia.edu/education/ms/appfaq/",
+            "snippet": "edu/graduate-admissions/application-requirements Fall 1st priority deadline: January 15 Fall 2nd final deadline: February 15 We strongly encourage all applicants to meet the 1st deadline"
+          },
+          {
+            "monthDay": "02-15",
+            "rawDate": "February 15",
+            "source": "admission",
+            "url": "https://www.cs.columbia.edu/education/ms/appfaq/",
+            "snippet": "edu/graduate-admissions/application-requirements Fall 1st priority deadline: January 15 Fall 2nd final deadline: February 15 We strongly encourage all applicants to meet the 1st deadline"
+          }
+        ]
       },
-      "issueReasons": [
-        "admission-link-protected",
-        "international-link-protected",
-        "apply-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "nyu-bs-cs",
@@ -6655,56 +6424,61 @@
       ],
       "links": {
         "program": {
-          "url": "https://cs.unc.edu/undergraduate/",
+          "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
           "source": "unc-bs-cs:program",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://cs.unc.edu/undergraduate/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
           "error": null
         },
         "admission": {
-          "url": "https://admissions.unc.edu/apply/",
+          "url": "https://catalog.unc.edu/admissions/undergraduate/",
           "source": "unc-bs-cs:admission",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://admissions.unc.edu/apply/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/admissions/undergraduate/",
           "error": null
         },
         "international": {
-          "url": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
+          "url": "https://catalog.unc.edu/admissions/undergraduate/",
           "source": "unc-bs-cs:international",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/admissions/undergraduate/",
           "error": null
         },
         "apply": {
-          "url": "https://admissions.unc.edu/apply/",
+          "url": "https://catalog.unc.edu/admissions/undergraduate/",
           "source": "unc-bs-cs:apply",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://admissions.unc.edu/apply/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/admissions/undergraduate/",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
           "source": "program",
-          "url": "https://cs.unc.edu/undergraduate/",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
+          "url": "https://catalog.unc.edu/undergraduate/programs-study/computer-science-major-bs/",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "edu The University of North Carolina at Chapel Hill Catalog is updated once yearly during the early spring and is published on June 1"
+          ]
         },
         {
           "source": "admission",
-          "url": "https://admissions.unc.edu/apply/",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
+          "url": "https://catalog.unc.edu/admissions/undergraduate/",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Confirmation of Acceptance The University requires a nonrefundable enrollment deposit, due by May 1 for first-year admission and Carolina Global Launch admission or May 15 for transfer admission, or within one week of receipt of the admission decision for stu…",
+            "edu The University of North Carolina at Chapel Hill Catalog is updated once yearly during the early spring and is published on June 1"
+          ]
         }
       ],
       "deadlineComparison": {
@@ -6722,12 +6496,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "program-link-protected",
-        "admission-link-protected",
-        "international-link-protected",
-        "apply-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "unc-ms-cs",
@@ -6742,56 +6511,62 @@
       ],
       "links": {
         "program": {
-          "url": "https://cs.unc.edu/graduate/",
+          "url": "https://catalog.unc.edu/graduate/schools-departments/computer-science/",
           "source": "unc-ms-cs:program",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://cs.unc.edu/graduate/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/graduate/schools-departments/computer-science/",
           "error": null
         },
         "admission": {
-          "url": "https://gradschool.unc.edu/admissions/",
+          "url": "https://catalog.unc.edu/admissions/graduate/",
           "source": "unc-ms-cs:admission",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://gradschool.unc.edu/admissions/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/admissions/graduate/",
           "error": null
         },
         "international": {
-          "url": "https://gradschool.unc.edu/admissions/international-students/",
+          "url": "https://catalog.unc.edu/admissions/graduate/",
           "source": "unc-ms-cs:international",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://gradschool.unc.edu/admissions/international-students/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/admissions/graduate/",
           "error": null
         },
         "apply": {
-          "url": "https://gradschool.unc.edu/admissions/",
+          "url": "https://catalog.unc.edu/admissions/graduate/",
           "source": "unc-ms-cs:apply",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://gradschool.unc.edu/admissions/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.unc.edu/admissions/graduate/",
           "error": null
         }
       },
       "deadlineEvidence": [
         {
           "source": "program",
-          "url": "https://cs.unc.edu/graduate/",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
+          "url": "https://catalog.unc.edu/graduate/schools-departments/computer-science/",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "To ensure meeting that deadline, applicants are encouraged to take the Graduate Record Examination (GRE) no later than December 1",
+            "edu The University of North Carolina at Chapel Hill Catalog is updated once yearly during the early spring and is published on June 1"
+          ]
         },
         {
           "source": "admission",
-          "url": "https://gradschool.unc.edu/admissions/",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
+          "url": "https://catalog.unc.edu/admissions/graduate/",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "University awards loans and tuition enhancement grants to graduate students who qualify, based on information provided in the FAFSA (Free Application for Federal Student Aid) form due March 1",
+            "edu The University of North Carolina at Chapel Hill Catalog is updated once yearly during the early spring and is published on June 1"
+          ]
         }
       ],
       "deadlineComparison": {
@@ -6809,12 +6584,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "program-link-protected",
-        "admission-link-protected",
-        "international-link-protected",
-        "apply-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "uva-bs-cs",
@@ -7625,12 +7395,12 @@
           "error": null
         },
         "apply": {
-          "url": "https://admissions.ufl.edu/apply",
+          "url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/CPS_BSCS/",
           "source": "uf-bs-cs:apply",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://admissions.ufl.edu/apply/",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/CPS_BSCS/",
           "error": null
         }
       },
@@ -7650,9 +7420,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "apply-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "uf-ms-cs",
@@ -11800,30 +11568,30 @@
       ],
       "links": {
         "program": {
-          "url": "https://www.ischool.berkeley.edu/programs/mims",
+          "url": "https://grad.berkeley.edu/program/information-management-systems/",
           "source": "ucb-mims:program",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.ischool.berkeley.edu/programs/mims",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://grad.berkeley.edu/program/information-management-systems/",
           "error": null
         },
         "admission": {
-          "url": "https://www.ischool.berkeley.edu/programs/mims/admissions",
+          "url": "https://grad.berkeley.edu/program/information-management-systems/",
           "source": "ucb-mims:admission",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://grad.berkeley.edu/program/information-management-systems/",
           "error": null
         },
         "international": {
-          "url": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
+          "url": "https://grad.berkeley.edu/admissions/application-process/requirements/",
           "source": "ucb-mims:international",
-          "ok": false,
-          "status": 403,
-          "statusCategory": "protected",
-          "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
+          "ok": true,
+          "status": 200,
+          "statusCategory": "ok",
+          "finalUrl": "https://grad.berkeley.edu/admissions/application-process/requirements/",
           "error": null
         },
         "apply": {
@@ -11839,17 +11607,12 @@
       "deadlineEvidence": [
         {
           "source": "program",
-          "url": "https://www.ischool.berkeley.edu/programs/mims",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
-        },
-        {
-          "source": "admission",
-          "url": "https://www.ischool.berkeley.edu/programs/mims/admissions",
-          "status": 403,
-          "statusCategory": "protected",
-          "snippets": []
+          "url": "https://grad.berkeley.edu/program/information-management-systems/",
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Visit website Details Departments Information Application Deadline January 6, 2026 Degrees Awarded Masters / Professional Admit Terms Fall Degree Types M"
+          ]
         }
       ],
       "deadlineComparison": {
@@ -11867,11 +11630,7 @@
         "newCandidateDeadlines": [],
         "candidateSources": []
       },
-      "issueReasons": [
-        "program-link-protected",
-        "admission-link-protected",
-        "international-link-protected"
-      ]
+      "issueReasons": []
     },
     {
       "id": "ucb-phd-eecs",
