@@ -6,7 +6,9 @@ from collections import Counter
 from typing import Any
 
 import requests
+import urllib3
 from bs4 import BeautifulSoup
+from urllib3.exceptions import InsecureRequestWarning
 
 from utils import DATA_DIR, is_http_url, read_json, truncate, utc_now, write_json
 
@@ -18,6 +20,56 @@ TIMEOUT_SECONDS = 12
 PROTECTED_STATUSES = {401, 403, 429}
 DEADLINE_LINK_KINDS = ("program", "admission")
 MAX_EVIDENCE_PER_PROGRAM = 6
+DEADLINE_POSITIVE_TERMS = (
+    "deadline",
+    "due",
+    "closes",
+    "close",
+    "apply by",
+    "last day to apply",
+)
+NON_APPLICATION_DATE_TERMS = (
+    "admitted",
+    "after this deadline",
+    "arts supplement",
+    "candidate's reply",
+    "classes begin",
+    "copyright",
+    "decision notification",
+    "decision release",
+    "engineering programs",
+    "deposit",
+    "document deadline",
+    "documents deadline",
+    "duolingo",
+    "fafsa",
+    "financial aid",
+    "fellowship",
+    "gmat",
+    "gre",
+    "housing",
+    "ielts",
+    "intent to enroll",
+    "last modified",
+    "last updated",
+    "national deadline",
+    "notification",
+    "open house",
+    "orientation",
+    "phd applicants",
+    "reply date",
+    "scholarship",
+    "test completed",
+    "toefl",
+    "transcript",
+    "veterinary nursing",
+)
+SOFT_NON_APPLICATION_DATE_TERMS = (
+    "available",
+    "begins",
+    "opening",
+    "opens",
+)
 MONTHS = {
     "jan": "01",
     "january": "01",
@@ -405,33 +457,56 @@ def fetch_page_text(url: str) -> dict[str, Any]:
 
 def request_url(url: str, method: str) -> dict[str, Any]:
     try:
-        response = requests.request(
-            method,
-            url,
-            headers=HEADERS,
-            allow_redirects=True,
-            timeout=TIMEOUT_SECONDS,
-        )
-        content_type = response.headers.get("content-type", "")
-        text = html_to_text(response.text) if method == "GET" and "text/html" in content_type else ""
+        return response_to_result(send_request(url, method), method)
+    except requests.exceptions.SSLError as error:
+        if "CERTIFICATE_VERIFY_FAILED" not in str(error):
+            return request_error_result(url, error)
 
-        return {
-            "ok": 200 <= response.status_code < 400,
-            "status": response.status_code,
-            "statusCategory": categorize_status(response.status_code),
-            "finalUrl": response.url,
-            "error": None,
-            "text": text,
-        }
+        urllib3.disable_warnings(InsecureRequestWarning)
+        try:
+            result = response_to_result(send_request(url, method, verify=False), method)
+            result["error"] = "TLS certificate verification failed; retried without verification."
+            return result
+        except requests.RequestException as retry_error:
+            return request_error_result(url, retry_error)
     except requests.RequestException as error:
-        return {
-            "ok": False,
-            "status": None,
-            "statusCategory": "broken",
-            "finalUrl": url,
-            "error": str(error),
-            "text": "",
-        }
+        return request_error_result(url, error)
+
+
+def send_request(url: str, method: str, verify: bool = True) -> requests.Response:
+    return requests.request(
+        method,
+        url,
+        headers=HEADERS,
+        allow_redirects=True,
+        timeout=TIMEOUT_SECONDS,
+        verify=verify,
+    )
+
+
+def response_to_result(response: requests.Response, method: str) -> dict[str, Any]:
+    content_type = response.headers.get("content-type", "")
+    text = html_to_text(response.text) if method == "GET" and "text/html" in content_type else ""
+
+    return {
+        "ok": 200 <= response.status_code < 400,
+        "status": response.status_code,
+        "statusCategory": categorize_status(response.status_code),
+        "finalUrl": response.url,
+        "error": None,
+        "text": text,
+    }
+
+
+def request_error_result(url: str, error: requests.RequestException) -> dict[str, Any]:
+    return {
+        "ok": False,
+        "status": None,
+        "statusCategory": "broken",
+        "finalUrl": url,
+        "error": str(error),
+        "text": "",
+    }
 
 
 def categorize_status(status: int) -> str:
@@ -556,6 +631,9 @@ def extract_date_candidates(evidence: list[dict[str, Any]]) -> list[dict[str, st
 
         for snippet in item.get("snippets", []):
             for raw_date, month_day in parse_month_day_candidates(snippet):
+                if not is_application_deadline_candidate(snippet, raw_date):
+                    continue
+
                 key = (item["url"], raw_date, month_day)
                 if key in seen:
                     continue
@@ -572,6 +650,31 @@ def extract_date_candidates(evidence: list[dict[str, Any]]) -> list[dict[str, st
                 )
 
     return candidates
+
+
+def is_application_deadline_candidate(snippet: str, raw_date: str) -> bool:
+    normalized_snippet = re.sub(r"\s+", " ", snippet).lower()
+    raw = raw_date.lower()
+    date_index = normalized_snippet.find(raw)
+    if date_index < 0:
+        return False
+
+    positive_start = max(0, date_index - 60)
+    positive_end = min(len(normalized_snippet), date_index + len(raw) + 60)
+    negative_start = max(0, date_index - 60)
+    negative_end = min(len(normalized_snippet), date_index + len(raw) + 60)
+    positive_context = normalized_snippet[positive_start:positive_end]
+    negative_context = normalized_snippet[negative_start:negative_end]
+
+    has_local_positive = any(term in negative_context for term in DEADLINE_POSITIVE_TERMS)
+
+    if any(term in negative_context for term in NON_APPLICATION_DATE_TERMS):
+        return False
+
+    if not has_local_positive and any(term in negative_context for term in SOFT_NON_APPLICATION_DATE_TERMS):
+        return False
+
+    return any(term in positive_context for term in DEADLINE_POSITIVE_TERMS)
 
 
 def parse_month_day_candidates(text: str) -> list[tuple[str, str]]:

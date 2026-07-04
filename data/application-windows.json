@@ -15,6 +15,11 @@
   ],
   "uw-bs-cs": [
     {
+      "intake": "Winter",
+      "opens": "08-01",
+      "deadline": "09-01"
+    },
+    {
       "intake": "Fall",
       "opens": "09-01",
       "deadline": "11-15"
@@ -36,9 +41,14 @@
   ],
   "gatech-msanalytics": [
     {
-      "intake": "Fall",
+      "intake": "Fall Primary",
       "opens": "08-01",
-      "deadline": "02-01"
+      "deadline": "01-01"
+    },
+    {
+      "intake": "Fall Late",
+      "opens": "08-01",
+      "deadline": "03-01"
     }
   ],
   "gatech-phd-cs": [
@@ -92,7 +102,7 @@
     {
       "intake": "Fall",
       "opens": "08-01",
-      "deadline": "12-01"
+      "deadline": "11-30"
     }
   ],
   "ucd-mscs": [
@@ -253,7 +263,7 @@
     {
       "intake": "Fall",
       "opens": "10-01",
-      "deadline": "12-01"
+      "deadline": "05-31"
     }
   ],
   "fresno-bs-cs": [
@@ -336,8 +346,8 @@
   "cmu-ms-cs": [
     {
       "intake": "Fall",
-      "opens": "09-01",
-      "deadline": "12-10"
+      "opens": "09-03",
+      "deadline": "10-27"
     }
   ],
   "uiuc-bs-cs": [
@@ -363,9 +373,14 @@
   ],
   "purdue-ms-cs": [
     {
+      "intake": "Spring",
+      "opens": "07-01",
+      "deadline": "10-01"
+    },
+    {
       "intake": "Fall",
       "opens": "09-01",
-      "deadline": "12-20"
+      "deadline": "12-01"
     }
   ],
   "umich-bs-cs": [
@@ -393,7 +408,7 @@
     {
       "intake": "Fall",
       "opens": "09-01",
-      "deadline": "12-15"
+      "deadline": "12-05"
     }
   ],
   "cornell-bs-cs": [
@@ -454,7 +469,17 @@
   ],
   "wisc-bs-cs": [
     {
-      "intake": "Fall",
+      "intake": "Spring Regular Decision",
+      "opens": "08-01",
+      "deadline": "10-01"
+    },
+    {
+      "intake": "Fall Early Action",
+      "opens": "08-01",
+      "deadline": "11-01"
+    },
+    {
+      "intake": "Fall Regular Decision",
       "opens": "08-01",
       "deadline": "01-15"
     }
@@ -482,9 +507,14 @@
   ],
   "duke-bs-cs": [
     {
-      "intake": "Fall",
+      "intake": "Fall Early Decision",
       "opens": "08-01",
-      "deadline": "01-02"
+      "deadline": "11-02"
+    },
+    {
+      "intake": "Fall Regular Decision",
+      "opens": "08-01",
+      "deadline": "01-04"
     }
   ],
   "duke-ms-cs": [
@@ -543,7 +573,17 @@
   ],
   "umn-bs-cs": [
     {
-      "intake": "Fall",
+      "intake": "Fall Early Action I",
+      "opens": "08-01",
+      "deadline": "11-01"
+    },
+    {
+      "intake": "Fall Early Action II",
+      "opens": "08-01",
+      "deadline": "12-01"
+    },
+    {
+      "intake": "Fall Regular Decision",
       "opens": "08-01",
       "deadline": "01-01"
     }
@@ -637,7 +677,12 @@
   ],
   "princeton-ab-cs": [
     {
-      "intake": "Fall",
+      "intake": "Fall Early Action",
+      "opens": "08-15",
+      "deadline": "11-01"
+    },
+    {
+      "intake": "Fall Regular Decision",
       "opens": "08-01",
       "deadline": "01-01"
     }
@@ -651,7 +696,12 @@
   ],
   "brown-ab-scb-cs": [
     {
-      "intake": "Fall",
+      "intake": "Fall Early Decision",
+      "opens": "08-01",
+      "deadline": "11-01"
+    },
+    {
+      "intake": "Fall Regular Decision",
       "opens": "08-01",
       "deadline": "01-05"
     }
@@ -660,14 +710,14 @@
     {
       "intake": "Fall",
       "opens": "09-01",
-      "deadline": "02-01"
+      "deadline": "01-23"
     }
   ],
   "brown-phd-cs": [
     {
       "intake": "Fall",
       "opens": "09-01",
-      "deadline": "12-15"
+      "deadline": "01-01"
     }
   ],
   "dartmouth-ab-cs": [
@@ -714,6 +764,11 @@
   ],
   "jhu-ms-cs": [
     {
+      "intake": "Spring",
+      "opens": "08-01",
+      "deadline": "10-01"
+    },
+    {
       "intake": "Fall",
       "opens": "09-01",
       "deadline": "02-15"
@@ -721,9 +776,19 @@
   ],
   "northwestern-bs-cs": [
     {
-      "intake": "Fall",
+      "intake": "Fall QuestBridge",
       "opens": "08-01",
-      "deadline": "01-03"
+      "deadline": "10-01"
+    },
+    {
+      "intake": "Fall Early Decision",
+      "opens": "08-01",
+      "deadline": "11-01"
+    },
+    {
+      "intake": "Fall Regular Decision",
+      "opens": "08-01",
+      "deadline": "01-04"
     }
   ],
   "northwestern-ms-cs": [
@@ -1012,12 +1077,22 @@
   ],
   "utah-bs-cs": [
     {
+      "intake": "Spring",
+      "opens": "08-01",
+      "deadline": "11-01"
+    },
+    {
       "intake": "Fall",
       "opens": "08-01",
       "deadline": "04-01"
     }
   ],
   "utah-bs-data-science": [
+    {
+      "intake": "Spring",
+      "opens": "08-01",
+      "deadline": "11-01"
+    },
     {
       "intake": "Fall",
       "opens": "08-01",

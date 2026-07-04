@@ -329,10 +329,10 @@
       "Interview"
     ],
     "links": {
-      "program": "https://gsm.ucdavis.edu/mba-programs",
-      "admission": "https://gsm.ucdavis.edu/full-time-mba-admissions",
+      "program": "https://gsm.ucdavis.edu/full-time-mba",
+      "admission": "https://gsm.ucdavis.edu/full-time-mba/admissions",
       "international": "https://grad.ucdavis.edu/international-applicants",
-      "apply": "https://gsm.ucdavis.edu/apply"
+      "apply": "https://gsm.ucdavis.edu/full-time-mba/admissions"
     }
   },
   {
@@ -374,8 +374,8 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://ics.uci.edu/academics/graduate-programs/degree-programs/mcs/",
-      "admission": "https://ics.uci.edu/academics/graduate-programs/admissions/",
+      "program": "https://mcs.ics.uci.edu/",
+      "admission": "https://mcs.ics.uci.edu/how-to-apply/",
       "international": "https://grad.uci.edu/admissions/applying-to-uci/international-students/",
       "apply": "https://grad.uci.edu/admissions/applying-to-uci/"
     }
@@ -397,8 +397,8 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://ics.uci.edu/academics/graduate-programs/degree-programs/phd-informatics/",
-      "admission": "https://ics.uci.edu/academics/graduate-programs/admissions/",
+      "program": "https://informatics.ics.uci.edu/phd-informatics/",
+      "admission": "https://informatics.ics.uci.edu/graduate-application-process/",
       "international": "https://grad.uci.edu/admissions/applying-to-uci/international-students/",
       "apply": "https://grad.uci.edu/admissions/applying-to-uci/"
     }
@@ -420,7 +420,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://ics.uci.edu/academics/undergraduate-academic-programs/majors-minors-and-specializations/computer-science/",
+      "program": "https://cs.ics.uci.edu/undergraduate-programs/",
       "admission": "https://www.admissions.uci.edu/",
       "international": "https://www.admissions.uci.edu/apply/international-students.php",
       "apply": "https://apply.universityofcalifornia.edu/"
@@ -465,9 +465,9 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://www.sjsu.edu/cmpe/academic-programs/ms-software-engineering/",
+      "program": "https://www.sjsu.edu/msse/admissions/admission-requirements.php",
       "admission": "https://www.sjsu.edu/admissions/graduate/",
-      "international": "https://www.sjsu.edu/admissions/graduate/international/",
+      "international": "https://www.sjsu.edu/admissions/graduate/want-to-apply/international-steps-to-admission/index.php",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -490,7 +490,7 @@
     "links": {
       "program": "https://www.sjsu.edu/cs/programs/bs-computer-science.php",
       "admission": "https://www.sjsu.edu/admissions/freshman/",
-      "international": "https://www.sjsu.edu/admissions/international/",
+      "international": "https://www.sjsu.edu/admissions/international-freshman/index.php",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -558,7 +558,7 @@
     "links": {
       "program": "https://csc.calpoly.edu/",
       "admission": "https://www.calpoly.edu/admissions",
-      "international": "https://www.calpoly.edu/admissions/international-students",
+      "international": "https://www.calpoly.edu/admissions/international-student",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -581,7 +581,7 @@
     "links": {
       "program": "https://www.csulb.edu/hung-family-college-of-engineering/bachelor-of-science-computer-science",
       "admission": "https://www.csulb.edu/admissions",
-      "international": "https://www.csulb.edu/international/international-admissions",
+      "international": "https://www.csulb.edu/international",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -602,8 +602,8 @@
     ],
     "links": {
       "program": "https://www.csulb.edu/hung-family-college-of-engineering/master-of-science-computer-science",
-      "admission": "https://www.csulb.edu/admissions/graduate-studies",
-      "international": "https://www.csulb.edu/international/international-admissions",
+      "admission": "https://www.csulb.edu/admissions/graduate-programs-application-process",
+      "international": "https://www.csulb.edu/international/future-students/graduate-admissions-requirements",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -646,9 +646,9 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://www.cpp.edu/sci/computer-science/graduate-program.shtml",
+      "program": "https://www.cpp.edu/sci/computer-science/prospective-graduate-students/program-information.shtml",
       "admission": "https://www.cpp.edu/admissions/graduate/",
-      "international": "https://www.cpp.edu/admissions/international/",
+      "international": "https://www.cpp.edu/admissions/international/graduate.shtml",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -739,7 +739,7 @@
     "links": {
       "program": "https://www.csus.edu/college/engineering-computer-science/computer-science/",
       "admission": "https://www.csus.edu/apply/admissions/",
-      "international": "https://www.csus.edu/apply/international/",
+      "international": "https://www.csus.edu/international-programs-global-engagement/application-admissions-process/undergraduate.html",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -806,8 +806,8 @@
     ],
     "links": {
       "program": "https://www.csueastbay.edu/cs/",
-      "admission": "https://www.csueastbay.edu/admissions/",
-      "international": "https://www.csueastbay.edu/admissions/international/",
+      "admission": "https://www.csueastbay.edu/admissions/documents-deadlines-and-important-information/application-and-doc-deadlines/freshmen-students.html",
+      "international": "https://www.csueastbay.edu/iao/",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -829,8 +829,8 @@
     ],
     "links": {
       "program": "https://csm.fresnostate.edu/csci/",
-      "admission": "https://studentaffairs.fresnostate.edu/are/admissions/",
-      "international": "https://studentaffairs.fresnostate.edu/issp/future/international-admissions.html",
+      "admission": "https://studentaffairs.fresnostate.edu/are/futurestudent/freshmen/index.html",
+      "international": "https://cge.fresnostate.edu/international/future/undergrad/index.html",
       "apply": "https://www.calstate.edu/apply"
     }
   },
@@ -1077,8 +1077,8 @@
     "links": {
       "program": "https://www.csd.cs.cmu.edu/academics/masters/overview",
       "admission": "https://www.csd.cs.cmu.edu/academics/masters/admissions",
-      "international": "https://www.cmu.edu/oie/foreign-students/",
-      "apply": "https://gradadmissions.cmu.edu/apply/"
+      "international": "https://www.csd.cs.cmu.edu/academics/masters/admissions",
+      "apply": "https://www.cs.cmu.edu/education/graduate-admissions"
     }
   },
   {
@@ -1120,7 +1120,7 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://siebelschool.illinois.edu/academics/graduate/degree-program-options/ms-computer-science",
+      "program": "https://siebelschool.illinois.edu/academics/graduate/ms-program",
       "admission": "https://siebelschool.illinois.edu/admissions/graduate",
       "international": "https://grad.illinois.edu/admissions/instructions/04c",
       "apply": "https://grad.illinois.edu/admissions/apply"
@@ -1300,8 +1300,8 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://www.cs.cornell.edu/masters",
-      "admission": "https://www.cs.cornell.edu/masters/admissions",
+      "program": "https://www.cs.cornell.edu/master-engineering-computer-science",
+      "admission": "https://www.cs.cornell.edu/master-engineering-computer-science/apply",
       "international": "https://gradschool.cornell.edu/admissions/prepare/international-degree-equivalencies/",
       "apply": "https://gradschool.cornell.edu/admissions/apply/"
     }
@@ -1437,7 +1437,7 @@
     "links": {
       "program": "https://www.cs.usc.edu/academic-programs/masters/",
       "admission": "https://viterbigradadmission.usc.edu/",
-      "international": "https://viterbigradadmission.usc.edu/international-students/",
+      "international": "https://viterbigradadmission.usc.edu/programs/masters/faq/",
       "apply": "https://viterbigradadmission.usc.edu/apply/"
     }
   },
@@ -1525,9 +1525,9 @@
       "Recommendation Letters"
     ],
     "links": {
-      "program": "https://www.cis.upenn.edu/graduate/program-offerings/master-of-computer-and-information-technology/",
+      "program": "https://www.cis.upenn.edu/mse-in-cis/",
       "admission": "https://gradadm.seas.upenn.edu/how-to-apply/",
-      "international": "https://gradadm.seas.upenn.edu/how-to-apply/international-applicants/",
+      "international": "https://gradadm.seas.upenn.edu/",
       "apply": "https://gradadm.seas.upenn.edu/how-to-apply/"
     }
   },
@@ -1773,7 +1773,7 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science-computer-science",
+      "program": "https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science",
       "admission": "https://www.colorado.edu/admissions/apply",
       "international": "https://www.colorado.edu/admissions/international",
       "apply": "https://www.colorado.edu/admissions/apply"
@@ -1796,9 +1796,9 @@
     ],
     "links": {
       "program": "https://www.colorado.edu/cs/academics/graduate-programs/master-science-computer-science",
-      "admission": "https://www.colorado.edu/cs/academics/graduate-programs/admissions",
-      "international": "https://www.colorado.edu/graduateschool/admissions/international-students",
-      "apply": "https://www.colorado.edu/graduateschool/admissions/apply"
+      "admission": "https://www.colorado.edu/cs/admissions/graduate-admissions",
+      "international": "https://www.colorado.edu/graduateschool/admissions/where-begin/international-students",
+      "apply": "https://www.colorado.edu/cs/admissions/graduate-admissions/how-apply"
     }
   },
   {
@@ -1932,9 +1932,9 @@
     ],
     "links": {
       "program": "https://seas.harvard.edu/computer-science/graduate-program",
-      "admission": "https://gsas.harvard.edu/admissions/apply",
-      "international": "https://gsas.harvard.edu/admissions/international-applicants",
-      "apply": "https://gsas.harvard.edu/admissions/apply"
+      "admission": "https://gsas.harvard.edu/apply/applying-degree-programs",
+      "international": "https://gsas.harvard.edu/apply/applying-degree-programs/english-proficiency",
+      "apply": "https://gsas.harvard.edu/apply"
     }
   },
   {
@@ -1979,7 +1979,7 @@
     "links": {
       "program": "https://cpsc.yale.edu/academics/graduate-program",
       "admission": "https://cpsc.yale.edu/academics/graduate-program/admissions",
-      "international": "https://gsas.yale.edu/admissions/phdmasters-application-process/international-applicants",
+      "international": "https://gsas.yale.edu/admissions/phdmasters-application-process/guidance-international-students",
       "apply": "https://gsas.yale.edu/admissions/phdmasters-application-process"
     }
   },
@@ -2000,10 +2000,10 @@
       "Application Fee"
     ],
     "links": {
-      "program": "https://www.cs.princeton.edu/ugrad",
-      "admission": "https://admission.princeton.edu/how-apply",
+      "program": "https://www.cs.princeton.edu/ugrad/undergraduate-program",
+      "admission": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
       "international": "https://admission.princeton.edu/how-apply/international-students",
-      "apply": "https://admission.princeton.edu/how-apply"
+      "apply": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines"
     }
   },
   {
@@ -2023,10 +2023,10 @@
       "Research Interests"
     ],
     "links": {
-      "program": "https://www.cs.princeton.edu/grad",
-      "admission": "https://www.cs.princeton.edu/grad/admissions",
-      "international": "https://gradschool.princeton.edu/admission-onboarding/prepare/international-students",
-      "apply": "https://gradschool.princeton.edu/admission-onboarding/apply"
+      "program": "https://www.cs.princeton.edu/grad/graduate-program",
+      "admission": "https://www.cs.princeton.edu/grad/admissions-requirements",
+      "international": "https://www.cs.princeton.edu/grad/admissions-requirements",
+      "apply": "https://www.cs.princeton.edu/grad/admissions-requirements"
     }
   },
   {
@@ -3050,7 +3050,7 @@
     "links": {
       "program": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
       "admission": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
-      "international": "https://www.stonybrook.edu/grad/admissions/apply/graduate-programs.php",
+      "international": "https://www.stonybrook.edu/grad/life-at-sbu/international-students.html",
       "apply": "https://graduateadmissions.stonybrook.edu/apply/"
     }
   },
@@ -3073,7 +3073,7 @@
     "links": {
       "program": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
       "admission": "https://www.cs.stonybrook.edu/admissions/Graduate-Program",
-      "international": "https://www.stonybrook.edu/grad/admissions/apply/graduate-programs.php",
+      "international": "https://www.stonybrook.edu/grad/life-at-sbu/international-students.html",
       "apply": "https://graduateadmissions.stonybrook.edu/apply/"
     }
   },
@@ -3095,7 +3095,7 @@
     "links": {
       "program": "https://www.cs.stonybrook.edu/admissions/Graduate-Admissions-Data-Science",
       "admission": "https://www.cs.stonybrook.edu/admissions/Graduate-Admissions-Data-Science",
-      "international": "https://www.stonybrook.edu/grad/admissions/apply/graduate-programs.php",
+      "international": "https://www.stonybrook.edu/grad/life-at-sbu/international-students.html",
       "apply": "https://graduateadmissions.stonybrook.edu/apply/"
     }
   },
