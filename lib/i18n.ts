@@ -14,9 +14,9 @@ export const copy = {
     navMyList: "我的清单",
     languageToggle: "切换语言",
     heroBadge: "美国大学申请信息导航",
-    heroTitle: "帮中国学生快速确认美国大学项目是否开放申请、什么时候截止、官方申请入口在哪里。",
+    heroTitle: "少开几个官网，也能看清美国大学申请进度。",
     heroDescription:
-      "搜索精选项目样例，比较申请要求，并在本地保存感兴趣的项目。无需账号。",
+      "把项目是否开放、截止日期、GRE/TOEFL 要求和官方申请入口放在一个地方，帮你更快确认下一步该做什么。",
     filters: "筛选",
     searchLabel: "搜索项目",
     searchPlaceholder: "按学校、项目或州搜索",
@@ -102,9 +102,9 @@ export const copy = {
     navMyList: "My List",
     languageToggle: "Switch language",
     heroBadge: "US university application navigator",
-    heroTitle: "Confirm whether a US university program is open, when it closes, and where to apply.",
+    heroTitle: "Track US university applications without opening every school site.",
     heroDescription:
-      "Search a focused sample catalog, compare requirements, and save programs locally without an account.",
+      "See open status, deadlines, GRE/TOEFL requirements, and official application links in one focused workspace.",
     filters: "Filters",
     searchLabel: "Search programs",
     searchPlaceholder: "Search by school, program, or state",
