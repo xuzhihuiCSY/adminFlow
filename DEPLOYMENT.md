@@ -8,15 +8,16 @@ This project is set up for GitHub Actions data updates and AWS Amplify Hosting d
 
 The workflow:
 
-1. Installs Node dependencies with `npm ci`.
-2. Runs `npm run update:data`.
-3. Runs `npm run audit:data`.
-4. Builds the app with `npm run build`.
-5. Commits changed `data/*.json` files back to the branch.
+1. Installs Python dependencies with `pip install -r requirements.txt`.
+2. Runs `python scripts/update_university_data.py`.
+3. Runs `python scripts/audit_program_data.py`.
+4. Commits changed `data/*.json` files back to the branch.
 
-`scripts/update-university-data.mjs` currently refreshes CWUR ranking data, validates the local catalog JSON, and writes `data/update-report.json`.
+Amplify handles the Next.js build after the data commit reaches the connected branch.
 
-`scripts/audit-program-data.mjs` checks whether program links are reachable, collects deadline-related evidence from public program and admission pages, and writes `data/program-audit-report.json`. Deadline evidence is for review and is not automatically written to `data/application-windows.json`.
+`scripts/update_university_data.py` currently refreshes CWUR ranking data, validates the local catalog JSON, and writes `data/update-report.json`.
+
+`scripts/audit_program_data.py` checks whether program links are reachable, collects deadline-related evidence from public program and admission pages, and writes `data/program-audit-report.json`. Deadline evidence is for review and is not automatically written to `data/application-windows.json`.
 
 ## Amplify Hosting
 
@@ -33,8 +34,8 @@ Set `NEXT_PUBLIC_SITE_URL` in Amplify branch environment variables if the produc
 Run these before pushing deployment changes:
 
 ```bash
+pip install -r requirements.txt
 npm run update:data
 npm run audit:data
-npm run build
 npm run lint
 ```

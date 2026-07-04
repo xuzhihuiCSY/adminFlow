@@ -15,23 +15,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: "22"
-          cache: "npm"
+          python-version: "3.11"
+          cache: "pip"
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
 
       - name: Update catalog data
-        run: npm run update:data
+        run: python scripts/update_university_data.py
 
       - name: Audit deadlines and links
-        run: npm run audit:data
-
-      - name: Build
-        run: npm run build
+        run: python scripts/audit_program_data.py
 
       - name: Commit data changes
         shell: bash

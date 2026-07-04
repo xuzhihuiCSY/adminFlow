@@ -6,6 +6,8 @@ node_modules/
 .next/
 out/
 tsconfig.tsbuildinfo
+__pycache__/
+*.py[cod]
 
 .deploy/
 *.log

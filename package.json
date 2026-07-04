@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "audit:data": "node scripts/audit-program-data.mjs",
+    "audit:data": "python scripts/audit_program_data.py",
     "check:links": "node scripts/check-links.mjs",
-    "update:data": "node scripts/update-university-data.mjs",
+    "update:data": "python scripts/update_university_data.py",
     "start": "next start",
     "lint": "eslint ."
   },

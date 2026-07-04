@@ -1,13 +1,13 @@
 {
-  "lastChecked": "2026-07-03T23:35:40.180Z",
+  "lastChecked": "2026-07-03T23:59:46Z",
   "summary": {
     "programsChecked": 158,
     "uniqueLinksChecked": 469,
-    "okLinks": 378,
-    "protectedOrRateLimitedLinks": 22,
-    "brokenLinks": 69,
-    "programsWithDeadlineEvidence": 114,
-    "programsMissingDeadlineEvidence": 44
+    "okLinks": 370,
+    "protectedOrRateLimitedLinks": 31,
+    "brokenLinks": 68,
+    "programsWithDeadlineEvidence": 117,
+    "programsMissingDeadlineEvidence": 41
   },
   "linkAudit": {
     "brokenLinks": [
@@ -21,6 +21,19 @@
         "statusCategory": "broken",
         "finalUrl": "https://admissions.duke.edu/apply/international-students/",
         "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://admissions.purdue.edu/apply/apply.php",
+        "sources": [
+          "purdue-bs-cs:admission",
+          "purdue-bs-cs:apply"
+        ],
+        "ok": false,
+        "status": null,
+        "statusCategory": "broken",
+        "finalUrl": "https://admissions.purdue.edu/apply/apply.php",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "text": ""
       },
       {
@@ -44,18 +57,6 @@
         "status": 404,
         "statusCategory": "broken",
         "finalUrl": "https://admissions.tc.umn.edu/apply/international-students",
-        "error": null,
-        "text": ""
-      },
-      {
-        "url": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
-        "sources": [
-          "unc-bs-cs:international"
-        ],
-        "ok": false,
-        "status": 404,
-        "statusCategory": "broken",
-        "finalUrl": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
         "error": null,
         "text": ""
       },
@@ -277,30 +278,6 @@
         "text": ""
       },
       {
-        "url": "https://datascience.ucsd.edu/graduate/",
-        "sources": [
-          "ucsd-ms-data-science:program"
-        ],
-        "ok": false,
-        "status": null,
-        "statusCategory": "broken",
-        "finalUrl": "https://datascience.ucsd.edu/graduate/",
-        "error": "fetch failed",
-        "text": ""
-      },
-      {
-        "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-        "sources": [
-          "ucsd-ms-data-science:admission"
-        ],
-        "ok": false,
-        "status": null,
-        "statusCategory": "broken",
-        "finalUrl": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-        "error": "fetch failed",
-        "text": ""
-      },
-      {
         "url": "https://engineering.virginia.edu/admissions/graduate-admissions",
         "sources": [
           "uva-ms-cs:admission",
@@ -359,7 +336,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://gradadmissions.cmu.edu/apply/",
-        "error": "fetch failed",
+        "error": "HTTPSConnectionPool(host='gradadmissions.cmu.edu', port=443): Max retries exceeded with url: /apply/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000023BBE619D90>: Failed to resolve 'gradadmissions.cmu.edu' ([Errno 11001] getaddrinfo failed)\"))",
         "text": ""
       },
       {
@@ -383,7 +360,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://graddiversity.virginia.edu/international-students",
-        "error": "This operation was aborted",
+        "error": "HTTPSConnectionPool(host='graddiversity.virginia.edu', port=443): Read timed out. (read timeout=12)",
         "text": ""
       },
       {
@@ -493,7 +470,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://ics.uci.edu/academics/graduate-programs/admissions/",
-        "error": "fetch failed",
+        "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/graduate-programs/admissions/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))",
         "text": ""
       },
       {
@@ -505,7 +482,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://ics.uci.edu/academics/graduate-programs/degree-programs/mcs/",
-        "error": "fetch failed",
+        "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/graduate-programs/degree-programs/mcs/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))",
         "text": ""
       },
       {
@@ -517,7 +494,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://ics.uci.edu/academics/graduate-programs/degree-programs/phd-informatics/",
-        "error": "fetch failed",
+        "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/graduate-programs/degree-programs/phd-informatics/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))",
         "text": ""
       },
       {
@@ -529,7 +506,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://ics.uci.edu/academics/undergraduate-academic-programs/majors-minors-and-specializations/computer-science/",
-        "error": "fetch failed",
+        "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/undergraduate-academic-programs/majors-minors-and-specializations/computer-science/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))",
         "text": ""
       },
       {
@@ -590,7 +567,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://www.admissions.illinois.edu/apply",
-        "error": "fetch failed",
+        "error": "Exceeded 30 redirects.",
         "text": ""
       },
       {
@@ -602,7 +579,7 @@
         "status": null,
         "statusCategory": "broken",
         "finalUrl": "https://www.admissions.illinois.edu/apply/international",
-        "error": "fetch failed",
+        "error": "Exceeded 30 redirects.",
         "text": ""
       },
       {
@@ -787,6 +764,18 @@
         "text": ""
       },
       {
+        "url": "https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html",
+        "sources": [
+          "purdue-ms-cs:apply"
+        ],
+        "ok": false,
+        "status": null,
+        "statusCategory": "broken",
+        "finalUrl": "https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html",
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "text": ""
+      },
+      {
         "url": "https://www.sjsu.edu/admissions/graduate/international/",
         "sources": [
           "sjsu-msse:international"
@@ -911,6 +900,31 @@
         "text": ""
       },
       {
+        "url": "https://admissions.unc.edu/apply/",
+        "sources": [
+          "unc-bs-cs:admission",
+          "unc-bs-cs:apply"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://admissions.unc.edu/apply/",
+        "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
+        "sources": [
+          "unc-bs-cs:international"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
+        "error": null,
+        "text": ""
+      },
+      {
         "url": "https://cs.ucdavis.edu/graduate",
         "sources": [
           "ucd-mscs:program"
@@ -931,6 +945,30 @@
         "status": 403,
         "statusCategory": "protected",
         "finalUrl": "https://cs.ucdavis.edu/undergraduate",
+        "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://cs.unc.edu/graduate/",
+        "sources": [
+          "unc-ms-cs:program"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://cs.unc.edu/graduate/",
+        "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://cs.unc.edu/undergraduate/",
+        "sources": [
+          "unc-bs-cs:program"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://cs.unc.edu/undergraduate/",
         "error": null,
         "text": ""
       },
@@ -1017,6 +1055,31 @@
         "status": 403,
         "statusCategory": "protected",
         "finalUrl": "https://gradschool.princeton.edu/admission-onboarding/prepare/international-students",
+        "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://gradschool.unc.edu/admissions/",
+        "sources": [
+          "unc-ms-cs:admission",
+          "unc-ms-cs:apply"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://gradschool.unc.edu/admissions/",
+        "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://gradschool.unc.edu/admissions/international-students/",
+        "sources": [
+          "unc-ms-cs:international"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://gradschool.unc.edu/admissions/international-students/",
         "error": null,
         "text": ""
       },
@@ -1115,6 +1178,42 @@
         "finalUrl": "https://www.fullerton.edu/ecs/cs/degree/mscs.php",
         "error": null,
         "text": ""
+      },
+      {
+        "url": "https://www.ischool.berkeley.edu/programs/mims",
+        "sources": [
+          "ucb-mims:program"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://www.ischool.berkeley.edu/programs/mims",
+        "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://www.ischool.berkeley.edu/programs/mims/admissions",
+        "sources": [
+          "ucb-mims:admission"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions",
+        "error": null,
+        "text": ""
+      },
+      {
+        "url": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
+        "sources": [
+          "ucb-mims:international"
+        ],
+        "ok": false,
+        "status": 403,
+        "statusCategory": "protected",
+        "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
+        "error": null,
+        "text": ""
       }
     ]
   },
@@ -1139,11 +1238,6 @@
       {
         "id": "gatech-bs-cs",
         "school": "Georgia Tech",
-        "program": "BS Computer Science"
-      },
-      {
-        "id": "ucd-bs-cs",
-        "school": "UC Davis",
         "program": "BS Computer Science"
       },
       {
@@ -1220,16 +1314,6 @@
         "id": "usc-bs-cs",
         "school": "University of Southern California",
         "program": "BS Computer Science"
-      },
-      {
-        "id": "unc-bs-cs",
-        "school": "UNC Chapel Hill",
-        "program": "BS Computer Science"
-      },
-      {
-        "id": "unc-ms-cs",
-        "school": "UNC Chapel Hill",
-        "program": "MS Computer Science"
       },
       {
         "id": "uf-bs-cs",
@@ -1551,7 +1635,7 @@
           "url": "https://onlinemba.wsu.edu/",
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://mba.wsu.edu/",
+          "finalUrl": "https://mba.wsu.edu//",
           "error": null
         },
         "admission": {
@@ -1837,7 +1921,7 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "Financial Aid Employer Support Subscribe July 7, 2026 - The last deadline to apply to Working Professional or Executive MBA | Apply Now >> Here, You are what's next Admissions Learn how to put together your best application to join the next Evening MBA",
+            "ng Admissions Class Profile MBA Events Contact Us Connect with Students Career Impact Student Experience Tuition & Financial Aid Employer Support Subscribe July 7, 2026 - The last deadline to apply to Working Professional or Executive MBA | Apply Now >> Here,…",
             "Round 1 Application Due: October 15, 2025 Decision Delivered: December 16, 2025 Round 2 Application Due: January 15, 2026 Decision Delivered: March 26, 2026 Round 3 Application Due: April 1, 2026 Decision Delivered: May 14, 2026 Round 4 Application Due: May 2…"
           ]
         }
@@ -1946,7 +2030,7 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "cia Descubre UC Berkeley Ayuda Financiera Secondary navigation MAP@Berkeley Sign Up for Our Email List Contact Us Apply to UC Berkeley Home / Apply to UC Berkeley How to apply The application opens August 1, and you may submit the application October 1 &#8211"
+            "cia Descubre UC Berkeley Ayuda Financiera Secondary navigation MAP@Berkeley Sign Up for Our Email List Contact Us Apply to UC Berkeley Home / Apply to UC Berkeley How to apply The application opens August 1, and you may submit the application October 1 – Nove…"
           ]
         }
       ]
@@ -2048,6 +2132,13 @@
       },
       "deadlineEvidence": [
         {
+          "source": "program",
+          "url": "https://cs.ucdavis.edu/graduate",
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
+        },
+        {
           "source": "admission",
           "url": "https://grad.ucdavis.edu/apply",
           "status": 403,
@@ -2148,7 +2239,15 @@
           "error": null
         }
       },
-      "deadlineEvidence": []
+      "deadlineEvidence": [
+        {
+          "source": "program",
+          "url": "https://cs.ucdavis.edu/undergraduate",
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
+        }
+      ]
     },
     {
       "id": "uci-mcs",
@@ -2167,14 +2266,14 @@
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://ics.uci.edu/academics/graduate-programs/degree-programs/mcs/",
-          "error": "fetch failed"
+          "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/graduate-programs/degree-programs/mcs/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"
         },
         "admission": {
           "url": "https://ics.uci.edu/academics/graduate-programs/admissions/",
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://ics.uci.edu/academics/graduate-programs/admissions/",
-          "error": "fetch failed"
+          "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/graduate-programs/admissions/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"
         },
         "international": {
           "url": "https://grad.uci.edu/admissions/applying-to-uci/international-students/",
@@ -2225,14 +2324,14 @@
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://ics.uci.edu/academics/graduate-programs/degree-programs/phd-informatics/",
-          "error": "fetch failed"
+          "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/graduate-programs/degree-programs/phd-informatics/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"
         },
         "admission": {
           "url": "https://ics.uci.edu/academics/graduate-programs/admissions/",
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://ics.uci.edu/academics/graduate-programs/admissions/",
-          "error": "fetch failed"
+          "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/graduate-programs/admissions/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"
         },
         "international": {
           "url": "https://grad.uci.edu/admissions/applying-to-uci/international-students/",
@@ -2283,7 +2382,7 @@
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://ics.uci.edu/academics/undergraduate-academic-programs/majors-minors-and-specializations/computer-science/",
-          "error": "fetch failed"
+          "error": "HTTPSConnectionPool(host='ics.uci.edu', port=443): Max retries exceeded with url: /academics/undergraduate-academic-programs/majors-minors-and-specializations/computer-science/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"
         },
         "admission": {
           "url": "https://www.admissions.uci.edu/",
@@ -2571,9 +2670,7 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "Fall 2027 Steps to Apply Back to Top Spring 2027 Applications are accepted July 1–August 31, 2026 for select programs for spring 2027 admission",
-            "--> SDSU's San Diego campus and Imperial Valley campus (located 120 miles east of San Diego) will be accepting applications for spring 2025 from August 1 to September 30, 2024",
-            "--> The spring 2023 application deadline is September 30"
+            "Fall 2027 Steps to Apply Back to Top Spring 2027 Applications are accepted July 1–August 31, 2026 for select programs for spring 2027 admission"
           ]
         }
       ]
@@ -2972,8 +3069,7 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "A&R Featured News Spring 2020 Transcripts Available June 15, 2020 Official transcripts for the Spring 2020 semester are now available",
-            "Spring Recess Hours March 16-22, 2020 Monday * : 10:00 am-4:30 pm Tuesday: 10:00 am- 4:30 pm Wednesday: 10:00 am- 4:30 pm Thursday * : 10:00 am-4:30 pm Friday * : 10:00 am- 4:00 pm * Uni"
+            "A&R Featured News Spring 2020 Transcripts Available June 15, 2020 Official transcripts for the Spring 2020 semester are now available"
           ]
         }
       ]
@@ -3599,16 +3695,6 @@
           "status": 404,
           "statusCategory": "broken",
           "snippets": []
-        },
-        {
-          "source": "admission",
-          "url": "https://admission.stanford.edu/apply/",
-          "status": 200,
-          "statusCategory": "ok",
-          "snippets": [
-            "The application deadline is November 1 (Restrictive Early Action) or January 2 (Regular Decision)",
-            "The application deadline is March 15"
-          ]
         }
       ]
     },
@@ -3754,7 +3840,7 @@
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://gradadmissions.cmu.edu/apply/",
-          "error": "fetch failed"
+          "error": "HTTPSConnectionPool(host='gradadmissions.cmu.edu', port=443): Max retries exceeded with url: /apply/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x0000023BBE619D90>: Failed to resolve 'gradadmissions.cmu.edu' ([Errno 11001] getaddrinfo failed)\"))"
         }
       },
       "deadlineEvidence": [
@@ -3793,21 +3879,21 @@
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://www.admissions.illinois.edu/apply",
-          "error": "fetch failed"
+          "error": "Exceeded 30 redirects."
         },
         "international": {
           "url": "https://www.admissions.illinois.edu/apply/international",
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://www.admissions.illinois.edu/apply/international",
-          "error": "fetch failed"
+          "error": "Exceeded 30 redirects."
         },
         "apply": {
           "url": "https://www.admissions.illinois.edu/apply",
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://www.admissions.illinois.edu/apply",
-          "error": "fetch failed"
+          "error": "Exceeded 30 redirects."
         }
       },
       "deadlineEvidence": []
@@ -3884,10 +3970,10 @@
         },
         "admission": {
           "url": "https://admissions.purdue.edu/apply/apply.php",
-          "status": 200,
-          "statusCategory": "ok",
-          "finalUrl": "https://admissions.purdue.edu/become-student/apply/",
-          "error": null
+          "status": null,
+          "statusCategory": "broken",
+          "finalUrl": "https://admissions.purdue.edu/apply/apply.php",
+          "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
         },
         "international": {
           "url": "https://admissions.purdue.edu/apply/international-students.php",
@@ -3898,10 +3984,10 @@
         },
         "apply": {
           "url": "https://admissions.purdue.edu/apply/apply.php",
-          "status": 200,
-          "statusCategory": "ok",
-          "finalUrl": "https://admissions.purdue.edu/become-student/apply/",
-          "error": null
+          "status": null,
+          "statusCategory": "broken",
+          "finalUrl": "https://admissions.purdue.edu/apply/apply.php",
+          "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
         }
       },
       "deadlineEvidence": [
@@ -3922,7 +4008,7 @@
           "snippets": [
             "Veterinary nursing has a deadline of March 1",
             "Engineering programs have a priority deadline of March 31",
-            "ations Parents/Guardians Counselors Alumni and Friends COMMUNICATION plus_icon Annual Security Report Construction Emergency Information Technology Marketing and Communications Purdue News Purdue Hotline Timely Warnings Last modified: July 2, 2026 Copyright &…"
+            "ations Parents/Guardians Counselors Alumni and Friends COMMUNICATION plus_icon Annual Security Report Construction Emergency Information Technology Marketing and Communications Purdue News Purdue Hotline Timely Warnings Last modified: July 2, 2026 Copyright ©…"
           ]
         }
       ]
@@ -3957,15 +4043,15 @@
           "url": "https://www.purdue.edu/gradschool/admissions/how-to-apply/apply-toefl.html",
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://www.purdue.edu/academics/ogsps/admissions/how-to-apply/",
+          "finalUrl": "https://www.purdue.edu/academics/ogsps/admissions/how-to-apply/#english",
           "error": null
         },
         "apply": {
           "url": "https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html",
-          "status": 200,
-          "statusCategory": "ok",
-          "finalUrl": "https://www.purdue.edu/academics/ogsps/admissions/how-to-apply/",
-          "error": null
+          "status": null,
+          "statusCategory": "broken",
+          "finalUrl": "https://www.purdue.edu/gradschool/admissions/how-to-apply/index.html",
+          "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
         }
       },
       "deadlineEvidence": [
@@ -3975,8 +4061,7 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "October 1, 2025 Fall 2026 start&#8212",
-            "December 1, 2025 We are no longer accepting applications for Fall 2026",
+            "Online Application Form Cost of Attendance Deadlines to Submit Applications MS and PhD Spring 2026 start—October 1, 2025 Fall 2026 start—December 1, 2025 We are no longer accepting applications for Fall 2026",
             "Offers of admission for the fall semester will be sent via email and through the online application system prior to April 15 th",
             "Offers of admission for the spring semester will be sent via email and through the application system prior to December 1 st",
             "According to the Council of Graduate School's Resolution you are under no obligation to respond to fall offers of financial support prior to April 15",
@@ -4211,7 +4296,7 @@
       "links": {
         "program": {
           "url": "https://www.cs.cornell.edu/undergrad",
-          "status": 200,
+          "status": 202,
           "statusCategory": "ok",
           "finalUrl": "https://bowers.cornell.edu/programs?department=15&program_type%5B30%5D=30&program_type%5B29%5D=29&sort_bef_combine=title_ASC",
           "error": null
@@ -4424,9 +4509,9 @@
         },
         "international": {
           "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/international-applicants.html",
-          "status": 200,
+          "status": 202,
           "statusCategory": "ok",
-          "finalUrl": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/international-applicants.html",
+          "finalUrl": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/international-applicants.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1",
           "error": null
         },
         "apply": {
@@ -4640,7 +4725,7 @@
           "statusCategory": "ok",
           "snippets": [
             "First-Year Application and Materials Deadline Decision Plan Application Deadline Materials Deadline Decision Release Spring Regular Decision October 1 October 15 On or before December 31 Fall Early Action November 1 November 10 On or before January 31 Fall Re…",
-            "ll receive your admissions decision earlier but will not be required to commit until the national deadline of May 1",
+            "You’ll receive your admissions decision earlier but will not be required to commit until the national deadline of May 1",
             "Please note that we do not start processing fall term applications until September 1",
             "deadline of October 1, 2027"
           ]
@@ -4933,34 +5018,49 @@
       "links": {
         "program": {
           "url": "https://cs.unc.edu/undergraduate/",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://cs.unc.edu/undergraduate/",
           "error": null
         },
         "admission": {
           "url": "https://admissions.unc.edu/apply/",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://admissions.unc.edu/apply/",
           "error": null
         },
         "international": {
           "url": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
-          "status": 404,
-          "statusCategory": "broken",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://admissions.unc.edu/apply/types-of-applications/international-students/",
           "error": null
         },
         "apply": {
           "url": "https://admissions.unc.edu/apply/",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://admissions.unc.edu/apply/",
           "error": null
         }
       },
-      "deadlineEvidence": []
+      "deadlineEvidence": [
+        {
+          "source": "program",
+          "url": "https://cs.unc.edu/undergraduate/",
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
+        },
+        {
+          "source": "admission",
+          "url": "https://admissions.unc.edu/apply/",
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
+        }
+      ]
     },
     {
       "id": "unc-ms-cs",
@@ -4976,34 +5076,49 @@
       "links": {
         "program": {
           "url": "https://cs.unc.edu/graduate/",
-          "status": 200,
-          "statusCategory": "ok",
-          "finalUrl": "https://cs.unc.edu/graduate/graduate-overview/",
+          "status": 403,
+          "statusCategory": "protected",
+          "finalUrl": "https://cs.unc.edu/graduate/",
           "error": null
         },
         "admission": {
           "url": "https://gradschool.unc.edu/admissions/",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://gradschool.unc.edu/admissions/",
           "error": null
         },
         "international": {
           "url": "https://gradschool.unc.edu/admissions/international-students/",
-          "status": 200,
-          "statusCategory": "ok",
-          "finalUrl": "https://gradschool.unc.edu/event/international-students-mar26/",
+          "status": 403,
+          "statusCategory": "protected",
+          "finalUrl": "https://gradschool.unc.edu/admissions/international-students/",
           "error": null
         },
         "apply": {
           "url": "https://gradschool.unc.edu/admissions/",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://gradschool.unc.edu/admissions/",
           "error": null
         }
       },
-      "deadlineEvidence": []
+      "deadlineEvidence": [
+        {
+          "source": "program",
+          "url": "https://cs.unc.edu/graduate/",
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
+        },
+        {
+          "source": "admission",
+          "url": "https://gradschool.unc.edu/admissions/",
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
+        }
+      ]
     },
     {
       "id": "uva-bs-cs",
@@ -5090,7 +5205,7 @@
           "status": null,
           "statusCategory": "broken",
           "finalUrl": "https://graddiversity.virginia.edu/international-students",
-          "error": "This operation was aborted"
+          "error": "HTTPSConnectionPool(host='graddiversity.virginia.edu', port=443): Read timed out. (read timeout=12)"
         },
         "apply": {
           "url": "https://engineering.virginia.edu/admissions/graduate-admissions",
@@ -5601,7 +5716,7 @@
           "statusCategory": "ok",
           "snippets": [
             "E PROGRAMS Intelligent, 2025 TOP UNIVERSITY FOR TECHNICAL SKILLS CodeSignal's 2024 University Ranking Report GET MORE INFORMATION VIEW ADMISSIONS REQUIREMENTS Apply for Rice MCS's Fall 2026 Intakes For Fall 2026, the early application deadline is May 1, 2026…",
-            "GET MORE INFORMATION --> Important Dates SESSION EARLY APPLICATION DEADLINE (Scholarship eligibility) APPLICATION DEADLINE CLASSES START FALL 2026 May 1, 2026 June 15, 2026 August 24, 2026 VIEW ADMISSIONS REQUIREMENTS APPLY NOW Body WORLD-CLASS EDUCATORS Facu…"
+            "GET MORE INFORMATION VIEW STUDENT EXPERIENCE Body Important Dates SESSION EARLY APPLICATION DEADLINE (Scholarship eligibility) APPLICATION DEADLINE CLASSES START FALL 2026 May 1, 2026 June 15, 2026 August 24, 2026 VIEW ADMISSIONS REQUIREMENTS APPLY NOW Body W…"
           ]
         },
         {
@@ -6961,7 +7076,7 @@
           "statusCategory": "ok",
           "snippets": [
             "Undergraduate Campuses Important Dates Application for Admission Fall and Summer: Available August 1 Spring: Available June 1 For Early Action: Apply by November 1 in order to receive a decision by December 24 Recommended submission deadline for all applicati…",
-            "s October 14 deadline"
+            "If you have applied to the Accelerated Premedical-Medical Program , SAT or ACT scores are required for consideration and and must be submitted by program's October 14 deadline"
           ]
         }
       ]
@@ -6996,7 +7111,7 @@
           "url": "https://gradschool.psu.edu/graduate-admissions/how-to-apply/new-applicants/requirements-for-graduate-admission/",
           "status": 200,
           "statusCategory": "ok",
-          "finalUrl": "https://gradschool.psu.edu/admissions/prepare-to-apply",
+          "finalUrl": "https://gradschool.psu.edu/admissions/prepare-to-apply#Minimum-Requirements?",
           "error": null
         },
         "apply": {
@@ -7169,7 +7284,7 @@
           "statusCategory": "ok",
           "snippets": [
             "Start My Application Main Campus Application Deadlines Starting Semester Application Open Application Deadline Spring 2026 April 1, 2025 November 3, 2025 Fall 2026 August 1, 2025 June 1, 2026 (Regular Decision) Fall 2026 Enrollment Deadline: May 15, 2026 Firs…",
-            "STEP 3 Get Excited If you applied by our Early Action deadline of November 1, you&#x27",
+            "STEP 3 Get Excited If you applied by our Early Action deadline of November 1, you'll be among the first students to receive your admission decision in mid-January",
             "Applications received after November 1 will move to a Regular Decision deadline and be considered on a space-available basis"
           ]
         }
@@ -7602,12 +7717,12 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "Common Application ED Agreement Coalition, powered by Scoir ED Agreement Dates and Deadlines Dates and Deadlines Early Decision I Early Decision II Regular Decision Transfer Early Decision I ADMISSIONS October 4, 2025 — Preferred last day to take the SAT Reas…",
-            "referred last day to take the ACT* November 1, 2025 — Blair School of Music Application deadline November 1, 2025 — Deadline for completed application Mid-December — Admission decisions available December 31, 2025 — Deadline for matriculation deposit FINANCIA…",
-            "— Priority filing deadline for CSS Profile and FAFSA December 1, 2025 — Deadline for completed merit scholarship applications Mid-December 2025 — Preliminary financial aid offers available Late March 2026 — Updated financial aid offers available Early Decision",
-            "II ADMISSIONS December 6, 2025 — Preferred last day to take the SAT Reasoning Test* December 13, 2025 — Preferred last day to take the ACT* December 1, 2025 — Priority deadline for Blair School of Music applicants January 1, 2026 — Deadline for completed appl…",
-            "ion deposit FINANCIAL AID AND MERIT SCHOLARSHIPS December 1, 2025 — Deadline for completed merit scholarship applications January 2, 2026 — Priority filing deadline for submitting CSS Profile and FAFSA Mid-February 2026 — Preliminary financial aid offers avai…",
-            "SIONS December 6, 2025 — Preferred last day to take the SAT Reasoning Test* December 13, 2025 — Preferred last day to take the ACT* December 1, 2025 — Priority deadline for Blair School of Music applicants January 1, 2026 — Deadline for completed application…"
+            "Â Common Application ED Agreement Coalition, powered by Scoir ED Agreement Dates and Deadlines Dates and Deadlines Early Decision I Early Decision II Regular Decision Transfer Early Decision I ADMISSIONS October 4, 2025 â Preferred last day to take the SAT…",
+            " Preferred last day to take the ACT* November 1, 2025 â Blair School of Music Application deadline November 1, 2025 Â âÂ Deadline for completed application Mid-DecemberÂ â Admission decisions available December 31, 2025 â Deadline for matriculation…",
+            ", 2025 â Priority filing deadline for CSS Profile and FAFSA December 1, 2025 â Deadline for completedÂ merit scholarship applications Mid-December 2025 â Preliminary financial aid offers available Late March 2026 â Updated financial aid offers availab…",
+            "ision II ADMISSIONS December 6, 2025 â Preferred last day to take the SAT Reasoning Test* December 13, 2025 â Preferred last day to take the ACT* December 1, 2025 â Priority deadline for Blair School of Music applicants January 1, 2026 Â â Deadline fo…",
+            "triculation deposit FINANCIAL AIDÂ AND MERIT SCHOLARSHIPS December 1, 2025 â Deadline for completedÂ merit scholarship applications January 2, 2026 â Priority filing deadline for submitting CSS Profile and FAFSA Mid-February 2026 â Preliminary financial…",
+            "DMISSIONS December 6, 2025 â Preferred last day to take the SAT Reasoning Test* December 13, 2025 â Preferred last day to take the ACT* December 1, 2025 â Priority deadline for Blair School of Music applicants January 1, 2026 Â â Deadline for complete…"
           ]
         }
       ]
@@ -7746,7 +7861,7 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "cia Descubre UC Berkeley Ayuda Financiera Secondary navigation MAP@Berkeley Sign Up for Our Email List Contact Us Apply to UC Berkeley Home / Apply to UC Berkeley How to apply The application opens August 1, and you may submit the application October 1 &#8211"
+            "cia Descubre UC Berkeley Ayuda Financiera Secondary navigation MAP@Berkeley Sign Up for Our Email List Contact Us Apply to UC Berkeley Home / Apply to UC Berkeley How to apply The application opens August 1, and you may submit the application October 1 – Nove…"
           ]
         }
       ]
@@ -7765,22 +7880,22 @@
       "links": {
         "program": {
           "url": "https://www.ischool.berkeley.edu/programs/mims",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://www.ischool.berkeley.edu/programs/mims",
           "error": null
         },
         "admission": {
           "url": "https://www.ischool.berkeley.edu/programs/mims/admissions",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions",
           "error": null
         },
         "international": {
           "url": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
-          "status": 200,
-          "statusCategory": "ok",
+          "status": 403,
+          "statusCategory": "protected",
           "finalUrl": "https://www.ischool.berkeley.edu/programs/mims/admissions/testscores",
           "error": null
         },
@@ -7796,20 +7911,16 @@
         {
           "source": "program",
           "url": "https://www.ischool.berkeley.edu/programs/mims",
-          "status": 200,
-          "statusCategory": "ok",
-          "snippets": [
-            "C Events For the I School Community I School Research Exchange Alumni Events Littlest Bear Virtual 5K Run/Walk 2026 July 20, 2026, 12:00 am – July 26, 2026, 11:59 pm Cybersecurity Summer 2026 Capstone Project Showcase August 5, 2026, 4:00 pm – 6:30 pm Data Sc…"
-          ]
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
         },
         {
           "source": "admission",
           "url": "https://www.ischool.berkeley.edu/programs/mims/admissions",
-          "status": 200,
-          "statusCategory": "ok",
-          "snippets": [
-            "C Events For the I School Community I School Research Exchange Alumni Events Littlest Bear Virtual 5K Run/Walk 2026 July 20, 2026, 12:00 am – July 26, 2026, 11:59 pm Cybersecurity Summer 2026 Capstone Project Showcase August 5, 2026, 4:00 pm – 6:30 pm Data Sc…"
-          ]
+          "status": 403,
+          "statusCategory": "protected",
+          "snippets": []
         }
       ]
     },
@@ -8165,17 +8276,17 @@
       "links": {
         "program": {
           "url": "https://datascience.ucsd.edu/graduate/",
-          "status": null,
-          "statusCategory": "broken",
+          "status": 200,
+          "statusCategory": "ok",
           "finalUrl": "https://datascience.ucsd.edu/graduate/",
-          "error": "fetch failed"
+          "error": null
         },
         "admission": {
           "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-          "status": null,
-          "statusCategory": "broken",
+          "status": 200,
+          "statusCategory": "ok",
           "finalUrl": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-          "error": "fetch failed"
+          "error": null
         },
         "international": {
           "url": "https://grad.ucsd.edu/admissions/requirements/international-students/english-proficiency.html",
@@ -8194,18 +8305,13 @@
       },
       "deadlineEvidence": [
         {
-          "source": "program",
-          "url": "https://datascience.ucsd.edu/graduate/",
-          "status": null,
-          "statusCategory": "broken",
-          "snippets": []
-        },
-        {
           "source": "admission",
           "url": "https://datascience.ucsd.edu/graduate/graduate-admissions/",
-          "status": null,
-          "statusCategory": "broken",
-          "snippets": []
+          "status": 200,
+          "statusCategory": "ok",
+          "snippets": [
+            "Dates and Deadlines: Fall 2026 Cohort Application Opens : October 1, 2025 Application Closes : December 3, 2025 Fall 2026 Quarter Begins : September 21, 2026 HDSI Graduate Admission Info Session Fall 2026 – Info Session Video – Recorded 11/14/25 Contact In or…"
+          ]
         }
       ]
     },
@@ -8257,7 +8363,7 @@
           "status": 200,
           "statusCategory": "ok",
           "snippets": [
-            "First Year --> --> --> --> Application Deadline Extension The Fall 2026 first-year Regular Decision application and materials deadline has been extended to February 1, 2026",
+            "First Year Application Deadline Extension The Fall 2026 first-year Regular Decision application and materials deadline has been extended to February 1, 2026",
             "ENTRY TERM: Fall 2026 EARLY ACTION DEADLINE: November 1 REGULAR DECISION DEADLINE: January 15 ENTRY TERM: Spring 2026 PRIORITY DEADLINE: November 1 What We Look For in a First Year Applicant Stony Brook is a highly selective institution, seeking to enroll tho…",
             "First Year Deadlines Fall 2026 EARLY ACTION DEADLINE November 1 REGULAR DECISION DEADLINE January 15 STEP 1 Apply Online Ready to take the first step toward your future at SBU",
             "DEADLINE FOR HONORS CONSIDERATION The priority deadline to apply for Honors College, WISE, and University Scholars for Fall 2026 is November 1",
