@@ -37,5 +37,12 @@ Run these before pushing deployment changes:
 pip install -r requirements.txt
 npm run update:data
 npm run audit:data
+npm run audit:issues
 npm run lint
+```
+
+Use `npm run audit:issues` after a full report exists when you only want to recheck previously problematic programs. You can also audit a specific program with:
+
+```bash
+python scripts/audit_program_data.py --program-id uw-msds
 ```

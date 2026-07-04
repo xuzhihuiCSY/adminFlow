@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "audit:data": "python scripts/audit_program_data.py",
+    "audit:issues": "python scripts/audit_program_data.py --mode issues",
     "check:links": "node scripts/check-links.mjs",
     "update:data": "python scripts/update_university_data.py",
     "start": "next start",

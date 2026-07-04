@@ -1,7 +1,12 @@
 {
-  "lastChecked": "2026-07-04T00:28:34Z",
+  "lastChecked": "2026-07-04T00:32:30Z",
+  "auditMode": "program-id",
+  "auditedPrograms": [
+    "uw-msds"
+  ],
   "summary": {
     "programsChecked": 158,
+    "programsAuditedThisRun": 1,
     "uniqueLinksChecked": 469,
     "programLinkChecks": 632,
     "okLinks": 373,
@@ -1833,7 +1838,11 @@
         ],
         "newCandidateDeadlines": [],
         "candidateSources": []
-      }
+      },
+      "issueReasons": [
+        "admission-link-broken",
+        "international-link-broken"
+      ]
     },
     {
       "id": "uw-msim",

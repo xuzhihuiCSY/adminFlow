@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import re
 from collections import Counter
 from typing import Any
@@ -51,23 +52,39 @@ HEADERS = {
 
 
 def main() -> None:
+    args = parse_args()
     programs = read_json(PROGRAMS_PATH)
     application_windows = read_json(WINDOWS_PATH)
+    previous_report = read_json(REPORT_PATH) if REPORT_PATH.exists() else None
+    selected_program_ids = select_program_ids(programs, previous_report, args)
+    audit_mode = "program-id" if args.program_id else args.mode
 
-    program_audits = []
+    program_audits = {
+        audit["id"]: audit
+        for audit in (previous_report or {}).get("programs", [])
+        if isinstance(audit, dict) and audit.get("id")
+    }
+    audited_program_ids: list[str] = []
     for program in programs:
+        if selected_program_ids is not None and program["id"] not in selected_program_ids:
+            continue
+
         current_windows = application_windows.get(program["id"], [])
         link_audit = audit_program_links(program)
         evidence = collect_program_deadline_evidence(program)
-        program_audits.append(
-            build_program_audit(program, current_windows, link_audit, evidence)
-        )
+        program_audits[program["id"]] = build_program_audit(program, current_windows, link_audit, evidence)
+        audited_program_ids.append(program["id"])
 
-    link_results = flatten_program_link_results(program_audits)
+    ordered_program_audits = [
+        program_audits[program["id"]]
+        for program in programs
+        if program["id"] in program_audits
+    ]
+    link_results = flatten_program_link_results(ordered_program_audits)
     unique_link_results = summarize_unique_link_results(link_results)
     broken_links = [result for result in unique_link_results if result["statusCategory"] == "broken"]
     protected_links = [result for result in unique_link_results if result["statusCategory"] == "protected"]
-    programs_with_evidence = [audit for audit in program_audits if audit["deadlineEvidence"]]
+    programs_with_evidence = [audit for audit in ordered_program_audits if audit["deadlineEvidence"]]
     programs_needing_deadline_review = [
         {
             "id": audit["id"],
@@ -79,7 +96,7 @@ def main() -> None:
             "detectedDeadlines": audit["deadlineComparison"]["detectedDeadlines"],
             "recommendedAction": audit["deadlineComparison"]["recommendedAction"],
         }
-        for audit in program_audits
+        for audit in ordered_program_audits
         if audit["deadlineComparison"]["recommendedAction"] == "review"
     ]
     programs_missing_evidence = [
@@ -88,14 +105,17 @@ def main() -> None:
             "school": audit["school"],
             "program": audit["program"],
         }
-        for audit in program_audits
+        for audit in ordered_program_audits
         if not audit["deadlineEvidence"]
     ]
 
     report = {
         "lastChecked": utc_now(),
+        "auditMode": audit_mode,
+        "auditedPrograms": audited_program_ids,
         "summary": {
-            "programsChecked": len(programs),
+            "programsChecked": len(ordered_program_audits),
+            "programsAuditedThisRun": len(audited_program_ids),
             "uniqueLinksChecked": len(unique_link_results),
             "programLinkChecks": len(link_results),
             "okLinks": len([result for result in unique_link_results if result["statusCategory"] == "ok"]),
@@ -117,7 +137,7 @@ def main() -> None:
             "programsMissingEvidence": programs_missing_evidence,
             "programsNeedingReview": programs_needing_deadline_review,
         },
-        "programs": program_audits,
+        "programs": ordered_program_audits,
     }
     write_json(REPORT_PATH, report)
 
@@ -125,8 +145,79 @@ def main() -> None:
         f"Checked {len(unique_link_results)} unique links across {len(link_results)} program link checks: "
         f"{len(broken_links)} broken, {len(protected_links)} protected/rate-limited."
     )
+    print(f"Audited {len(audited_program_ids)} programs this run using mode: {audit_mode}.")
     print(f"Collected deadline evidence for {len(programs_with_evidence)} of {len(programs)} programs.")
     print(f"Flagged {len(programs_needing_deadline_review)} programs for deadline review.")
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Audit AdmitFlow program links and deadline evidence")
+    parser.add_argument(
+        "--mode",
+        choices=["all", "issues"],
+        default="all",
+        help="Audit every program, or only programs that were problematic in the previous report.",
+    )
+    parser.add_argument(
+        "--program-id",
+        action="append",
+        default=[],
+        help="Audit only the given program id. Can be passed multiple times.",
+    )
+    return parser.parse_args()
+
+
+def select_program_ids(
+    programs: list[dict[str, Any]],
+    previous_report: dict[str, Any] | None,
+    args: argparse.Namespace,
+) -> set[str] | None:
+    if args.program_id:
+        known_ids = {program["id"] for program in programs}
+        requested_ids = set(args.program_id)
+        unknown_ids = sorted(requested_ids - known_ids)
+        if unknown_ids:
+            raise SystemExit(f"Unknown program id(s): {', '.join(unknown_ids)}")
+        return requested_ids
+
+    if args.mode == "all":
+        return None
+
+    if not previous_report:
+        raise SystemExit("No previous data/program-audit-report.json found. Run with --mode all first.")
+
+    issue_ids = collect_issue_program_ids(previous_report)
+    if not issue_ids:
+        print("No issue programs found in previous report.")
+
+    return issue_ids
+
+
+def collect_issue_program_ids(report: dict[str, Any]) -> set[str]:
+    issue_ids: set[str] = set()
+
+    for program in report.get("programs", []):
+        if not isinstance(program, dict):
+            continue
+
+        if program.get("issueReasons") or has_legacy_issue(program):
+            issue_ids.add(program["id"])
+
+    return issue_ids
+
+
+def has_legacy_issue(program: dict[str, Any]) -> bool:
+    has_link_issue = any(
+        link.get("statusCategory") in {"broken", "protected", "invalid"}
+        for link in (program.get("links") or {}).values()
+        if isinstance(link, dict)
+    )
+    needs_deadline_review = (
+        (program.get("deadlineComparison") or {}).get("recommendedAction") == "review"
+    )
+    missing_deadline_evidence = not program.get("deadlineEvidence")
+
+    return has_link_issue or needs_deadline_review or missing_deadline_evidence
 
 
 def audit_program_links(program: dict[str, Any]) -> dict[str, dict[str, Any]]:
@@ -164,6 +255,8 @@ def build_program_audit(
     link_audit: dict[str, dict[str, Any]],
     evidence: list[dict[str, Any]],
 ) -> dict[str, Any]:
+    deadline_comparison = compare_deadline_candidates(current_windows, evidence)
+
     return {
         "id": program["id"],
         "school": program["school"],
@@ -171,7 +264,8 @@ def build_program_audit(
         "currentApplicationWindows": current_windows,
         "links": link_audit,
         "deadlineEvidence": evidence,
-        "deadlineComparison": compare_deadline_candidates(current_windows, evidence),
+        "deadlineComparison": deadline_comparison,
+        "issueReasons": get_program_issue_reasons(link_audit, evidence, deadline_comparison),
     }
 
 
@@ -243,6 +337,27 @@ def status_priority(status_category: str) -> int:
         "invalid": 2,
         "broken": 3,
     }.get(status_category, 3)
+
+
+def get_program_issue_reasons(
+    link_audit: dict[str, dict[str, Any]],
+    evidence: list[dict[str, Any]],
+    deadline_comparison: dict[str, Any],
+) -> list[str]:
+    reasons: list[str] = []
+
+    for kind, link in link_audit.items():
+        status_category = link.get("statusCategory")
+        if status_category in {"broken", "protected", "invalid"}:
+            reasons.append(f"{kind}-link-{status_category}")
+
+    if deadline_comparison.get("recommendedAction") == "review":
+        reasons.append("deadline-review")
+
+    if not evidence:
+        reasons.append("missing-deadline-evidence")
+
+    return reasons
 
 
 def collect_program_deadline_evidence(program: dict[str, Any]) -> list[dict[str, Any]]:
