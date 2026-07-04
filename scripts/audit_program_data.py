@@ -47,7 +47,6 @@ MONTHS = {
     "december": "12",
 }
 
-SESSION = requests.Session()
 HEADERS = {
     "User-Agent": "Mozilla/5.0 AdmitFlow data auditor (+https://admit-flow.com)",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -168,7 +167,7 @@ def check_links(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def check_link(item: dict[str, Any]) -> dict[str, Any]:
     head_result = request_url(item["url"], "HEAD")
 
-    if head_result["statusCategory"] == "ok" or head_result["status"] != 405:
+    if head_result["statusCategory"] == "ok":
         return {**item, **head_result}
 
     get_result = request_url(item["url"], "GET")
@@ -239,7 +238,7 @@ def fetch_page_text(url: str) -> dict[str, Any]:
 
 def request_url(url: str, method: str) -> dict[str, Any]:
     try:
-        response = SESSION.request(
+        response = requests.request(
             method,
             url,
             headers=HEADERS,
