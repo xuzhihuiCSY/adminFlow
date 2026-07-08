@@ -3,10 +3,12 @@
 import Link from "next/link";
 import {
   ArrowLeft,
+  BarChart3,
   Building2,
   CalendarDays,
   CheckCircle2,
   ClipboardList,
+  DollarSign,
   ExternalLink,
   Flag,
   FileText,
@@ -61,7 +63,7 @@ type ProgramDetailProps = {
 
 const detailCopy = {
   zh: {
-    applicationProcess: "申请流程",
+  applicationProcess: "申请流程",
     processNote: "流程按本项目的官方申请入口生成；不同学期或身份的特殊要求请以学校页面为准。",
     actionTitle: "申请行动",
     currentStatus: "当前状态",
@@ -72,7 +74,24 @@ const detailCopy = {
     officialReminder: "提交申请前请以学校官网为准。",
     reportIssue: "报告信息错误",
     similarPrograms: "相似项目",
-    viewProgram: "查看项目"
+    viewProgram: "查看项目",
+    costAndAid: "费用与统计",
+    tuitionOutOfState: "州外学费",
+    tuitionInState: "州内学费",
+    internationalStudentRate: "国际学生比例",
+    averageGrantAid: "平均资助金额（估算）",
+    undergraduateSize: "本科生规模",
+    meanEarnings10Years: "平均薪资（入学后10年）",
+    completionRate: "毕业率",
+    retentionRate: "新生保留率",
+    scorecardSource: "IPEDS / College Scorecard",
+    scorecardDisclaimer:
+      "以上为美国教育部 College Scorecard / IPEDS 公开统计口径，通常是学校层级数据，不一定等同于具体项目、国际学生或当前学年的实际账单。国际学生比例使用本科生 non-resident alien 统计口径；平均资助金额为年度就读成本减去平均净价的估算口径，主要反映获得联邦资助学生群体的 grant/scholarship aid；平均薪资为入学后 10 年、工作且未继续就读人群的统计。学费、杂费、奖学金和生活费请以学校官网最新信息为准。",
+    scholarshipTitle: "奖学金与资助入口",
+    scholarshipNote: "奖学金资格、金额和国际学生适用范围请以学校官网为准。",
+    educationUsaAid: "EducationUSA 奖学金/资助库",
+    schoolAidEntry: "学校官网录取/资助信息",
+    internationalAidEntry: "国际学生资助信息"
   },
   en: {
     applicationProcess: "Application Process",
@@ -87,7 +106,24 @@ const detailCopy = {
     officialReminder: "Confirm with the school website before applying.",
     reportIssue: "Report issue",
     similarPrograms: "Similar programs",
-    viewProgram: "View program"
+    viewProgram: "View program",
+    costAndAid: "Cost and aid stats",
+    tuitionOutOfState: "Out-of-state tuition",
+    tuitionInState: "In-state tuition",
+    internationalStudentRate: "International student rate",
+    averageGrantAid: "Average aid amount (estimated)",
+    undergraduateSize: "Undergraduate size",
+    meanEarnings10Years: "Mean earnings (10 years after entry)",
+    completionRate: "Completion rate",
+    retentionRate: "First-year retention",
+    scorecardSource: "IPEDS / College Scorecard",
+    scorecardDisclaimer:
+      "These figures use public U.S. Department of Education College Scorecard / IPEDS reporting and are generally school-level statistics. They may not equal the actual bill for a specific program, international student, or current academic year. International student rate uses the undergraduate non-resident alien reporting category; average aid amount is estimated as cost of attendance minus average net price, mainly reflecting grant/scholarship aid for students receiving federal aid; mean earnings are measured 10 years after entry among students who are working and not enrolled. Confirm tuition, fees, scholarships, and living costs on the school website.",
+    scholarshipTitle: "Scholarship and aid links",
+    scholarshipNote: "Scholarship eligibility, amount, and international-student availability must be confirmed on the school website.",
+    educationUsaAid: "EducationUSA financial aid search",
+    schoolAidEntry: "School official admission/aid page",
+    internationalAidEntry: "International student aid info"
   }
 } as const;
 
@@ -166,6 +202,7 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
           <h1 className="max-w-4xl text-4xl font-semibold tracking-normal sm:text-5xl">
             {program.program}
           </h1>
+          <OfficialLinksPanel links={officialLinks} title={t.officialLinks} />
         </div>
         <Card className="h-fit">
           <CardHeader>
@@ -366,6 +403,8 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
 
         <SchoolOverviewCard profile={schoolProfile} />
 
+        <CostAndAidCard profile={schoolProfile} />
+
         <Card>
           <CardHeader>
             <CardTitle>{t.applicationMaterials}</CardTitle>
@@ -382,24 +421,7 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
           </CardContent>
         </Card>
 
-        <Card className="lg:col-span-2">
-          <CardHeader>
-            <CardTitle>{t.officialLinks}</CardTitle>
-          </CardHeader>
-          <CardContent className="grid gap-3">
-            {officialLinks.map(({ label, href, icon: Icon }) => (
-              <Button key={label} asChild variant="outline" className="justify-between">
-                <a href={href} target="_blank" rel="noreferrer">
-                  <span className="inline-flex items-center gap-2">
-                    <Icon className="h-4 w-4" aria-hidden="true" />
-                    {label}
-                  </span>
-                  <ExternalLink className="h-4 w-4" aria-hidden="true" />
-                </a>
-              </Button>
-            ))}
-          </CardContent>
-        </Card>
+        <ScholarshipLinksCard program={program} />
 
         {similarPrograms.length > 0 ? (
           <Card className="lg:col-span-2">
@@ -489,6 +511,33 @@ function getUniqueOfficialLinks(links: OfficialLink[]) {
   });
 }
 
+function OfficialLinksPanel({
+  links,
+  title
+}: {
+  links: OfficialLink[];
+  title: string;
+}) {
+  return (
+    <section className="mt-8 max-w-4xl rounded-lg border border-border bg-card p-4 shadow-soft">
+      <h2 className="mb-3 text-sm font-semibold text-muted-foreground">{title}</h2>
+      <div className="grid gap-2 sm:grid-cols-2">
+        {links.map(({ label, href, icon: Icon }) => (
+          <Button key={`${label}-${href}`} asChild variant="outline" className="justify-between">
+            <a href={href} target="_blank" rel="noreferrer">
+              <span className="inline-flex min-w-0 items-center gap-2">
+                <Icon className="h-4 w-4 shrink-0" aria-hidden="true" />
+                <span className="truncate">{label}</span>
+              </span>
+              <ExternalLink className="h-4 w-4 shrink-0" aria-hidden="true" />
+            </a>
+          </Button>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function normalizeExternalHref(href: string) {
   try {
     const url = new URL(href);
@@ -546,6 +595,124 @@ function SchoolOverviewCard({ profile }: { profile: SchoolProfile | null }) {
   );
 }
 
+function CostAndAidCard({ profile }: { profile: SchoolProfile | null }) {
+  const { language, t } = useLanguage();
+  const copy = detailCopy[language];
+  const scorecard = profile?.scorecard;
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <DollarSign className="h-4 w-4" aria-hidden="true" />
+          {copy.costAndAid}
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="grid gap-4">
+        {scorecard ? (
+          <>
+            <div className="grid gap-3 sm:grid-cols-2">
+              <ProfileRow
+                label={copy.tuitionOutOfState}
+                value={formatCurrency(scorecard.tuitionOutOfState, language, t.noReliableData)}
+              />
+              <ProfileRow
+                label={copy.tuitionInState}
+                value={formatCurrency(scorecard.tuitionInState, language, t.noReliableData)}
+              />
+              <ProfileRow
+                label={copy.internationalStudentRate}
+                value={formatPercentValue(scorecard.internationalStudentRate, t.noReliableData)}
+              />
+              <ProfileRow
+                label={copy.averageGrantAid}
+                value={formatCurrency(scorecard.averageGrantAid, language, t.noReliableData)}
+              />
+              <ProfileRow
+                label={copy.undergraduateSize}
+                value={formatNumber(scorecard.undergraduateSize, language, t.noReliableData)}
+              />
+              <ProfileRow
+                label={copy.meanEarnings10Years}
+                value={formatCurrency(scorecard.meanEarnings10Years, language, t.noReliableData)}
+              />
+              <ProfileRow
+                label={copy.completionRate}
+                value={formatPercentValue(scorecard.completionRate, t.noReliableData)}
+              />
+              <ProfileRow
+                label={copy.retentionRate}
+                value={formatPercentValue(scorecard.retentionRate, t.noReliableData)}
+              />
+            </div>
+            <Button asChild variant="outline" className="justify-between">
+              <a href={scorecard.sourceUrl} target="_blank" rel="noreferrer">
+                <span>{copy.scorecardSource}</span>
+                <ExternalLink className="h-4 w-4" aria-hidden="true" />
+              </a>
+            </Button>
+            <p className="text-xs leading-5 text-muted-foreground">
+              {scorecard.sourceLabel} · {scorecard.updated}
+            </p>
+            <p className="rounded-md bg-muted p-3 text-xs leading-5 text-muted-foreground">
+              {copy.scorecardDisclaimer}
+            </p>
+          </>
+        ) : (
+          <p className="text-sm text-muted-foreground">{t.noReliableData}</p>
+        )}
+      </CardContent>
+    </Card>
+  );
+}
+
+function ScholarshipLinksCard({ program }: { program: Program }) {
+  const { language } = useLanguage();
+  const copy = detailCopy[language];
+  const links = getUniqueOfficialLinks([
+    {
+      label: copy.educationUsaAid,
+      href: "https://educationusa.state.gov/find-financial-aid",
+      icon: WalletCards
+    },
+    {
+      label: copy.schoolAidEntry,
+      href: program.links.admission,
+      icon: FileText
+    },
+    {
+      label: copy.internationalAidEntry,
+      href: program.links.international,
+      icon: Globe2
+    }
+  ]);
+
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle className="flex items-center gap-2">
+          <BarChart3 className="h-4 w-4" aria-hidden="true" />
+          {copy.scholarshipTitle}
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="grid gap-3">
+        <p className="text-sm leading-6 text-muted-foreground">{copy.scholarshipNote}</p>
+        {links.map(({ label, href, icon: Icon }) => (
+          <Button key={`${label}-${href}`} asChild variant="outline" className="justify-between">
+            <a href={href} target="_blank" rel="noreferrer">
+              <span className="inline-flex items-center gap-2">
+                <Icon className="h-4 w-4" aria-hidden="true" />
+                {label}
+              </span>
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
+          </Button>
+        ))}
+      </CardContent>
+    </Card>
+  );
+}
+
 function ProfileRow({ label, value }: { label: string; value: string }) {
   return (
     <div className="grid gap-1">
@@ -568,4 +735,28 @@ function getSourceTypeLabel(
   }
 
   return t.officialSource;
+}
+
+function formatCurrency(value: number | null, language: "zh" | "en", fallback: string) {
+  if (value === null) {
+    return fallback;
+  }
+
+  return new Intl.NumberFormat(language === "zh" ? "zh-CN" : "en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0
+  }).format(value);
+}
+
+function formatNumber(value: number | null, language: "zh" | "en", fallback: string) {
+  if (value === null) {
+    return fallback;
+  }
+
+  return new Intl.NumberFormat(language === "zh" ? "zh-CN" : "en-US").format(value);
+}
+
+function formatPercentValue(value: number | null, fallback: string) {
+  return value === null ? fallback : `${value}%`;
 }

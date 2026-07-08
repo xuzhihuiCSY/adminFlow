@@ -7,7 +7,25 @@
     "sourceLabel": "MIT Admissions statistics",
     "sourceUrl": "https://mitadmissions.org/apply/process/stats/",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "166683",
+      "sourceInstitution": "Massachusetts Institute of Technology",
+      "sourceLabel": "College Scorecard: Massachusetts Institute of Technology",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?166683-Massachusetts%20Institute%20of%20Technology",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 62396,
+      "tuitionInState": 62396,
+      "estimatedAttendance": 82730,
+      "averageGrantAid": 62619,
+      "undergraduateSize": 4535,
+      "internationalStudentRate": 11.7,
+      "admissionRate": 4.6,
+      "pellGrantRate": 19.3,
+      "meanEarnings10Years": 153600,
+      "completionRate": 96.4,
+      "retentionRate": 99.1
+    }
   },
   "Harvard University": {
     "schoolType": "Private",
@@ -17,7 +35,25 @@
     "sourceLabel": "Harvard Fact Book: College Admissions",
     "sourceUrl": "https://oira.harvard.edu/factbook/fact-book-admissions/",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "166027",
+      "sourceInstitution": "Harvard University",
+      "sourceLabel": "College Scorecard: Harvard University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?166027-Harvard%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 61676,
+      "tuitionInState": 61676,
+      "estimatedAttendance": 85540,
+      "averageGrantAid": 66474,
+      "undergraduateSize": 7601,
+      "internationalStudentRate": 14.6,
+      "admissionRate": 3.7,
+      "pellGrantRate": 16.4,
+      "meanEarnings10Years": 139100,
+      "completionRate": 97.6,
+      "retentionRate": 98.3
+    }
   },
   "Yale University": {
     "schoolType": "Private",
@@ -27,7 +63,25 @@
     "sourceLabel": "Yale admissions snapshot",
     "sourceUrl": "https://www.yale.edu/admissions",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "130794",
+      "sourceInstitution": "Yale University",
+      "sourceLabel": "College Scorecard: Yale University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?130794-Yale%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 67250,
+      "tuitionInState": 67250,
+      "estimatedAttendance": 88300,
+      "averageGrantAid": 64523,
+      "undergraduateSize": 6758,
+      "internationalStudentRate": 11.2,
+      "admissionRate": 3.9,
+      "pellGrantRate": 20.4,
+      "meanEarnings10Years": 124400,
+      "completionRate": 95.7,
+      "retentionRate": 98.8
+    }
   },
   "Princeton University": {
     "schoolType": "Private",
@@ -37,7 +91,25 @@
     "sourceLabel": "Princeton admission statistics",
     "sourceUrl": "https://admission.princeton.edu/apply/admission-statistics",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "186131",
+      "sourceInstitution": "Princeton University",
+      "sourceLabel": "College Scorecard: Princeton University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?186131-Princeton%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 62688,
+      "tuitionInState": 62688,
+      "estimatedAttendance": 84040,
+      "averageGrantAid": 77912,
+      "undergraduateSize": 5709,
+      "internationalStudentRate": 12.6,
+      "admissionRate": 4.6,
+      "pellGrantRate": 19.2,
+      "meanEarnings10Years": 116300,
+      "completionRate": 97.6,
+      "retentionRate": 98.4
+    }
   },
   "UC Berkeley": {
     "schoolType": "Public",
@@ -47,7 +119,25 @@
     "sourceLabel": "UC Berkeley first-year admit data",
     "sourceUrl": "https://admission.universityofcalifornia.edu/campuses-majors/berkeley/first-year-admit-data.html",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "110635",
+      "sourceInstitution": "University of California-Berkeley",
+      "sourceLabel": "College Scorecard: University of California-Berkeley",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110635-University%20of%20California-Berkeley",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 50547,
+      "tuitionInState": 16347,
+      "estimatedAttendance": 45619,
+      "averageGrantAid": 32138,
+      "undergraduateSize": 33068,
+      "internationalStudentRate": 9.8,
+      "admissionRate": 11,
+      "pellGrantRate": 28.6,
+      "meanEarnings10Years": 79000,
+      "completionRate": 92.8,
+      "retentionRate": 96.8
+    }
   },
   "UC Davis": {
     "schoolType": "Public",
@@ -57,7 +147,25 @@
     "sourceLabel": "UC Davis first-year admission statistics",
     "sourceUrl": "https://www.ucdavis.edu/admissions",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "110644",
+      "sourceInstitution": "University of California-Davis",
+      "sourceLabel": "College Scorecard: University of California-Davis",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110644-University%20of%20California-Davis",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 50974,
+      "tuitionInState": 16774,
+      "estimatedAttendance": 41238,
+      "averageGrantAid": 26497,
+      "undergraduateSize": 32253,
+      "internationalStudentRate": 12.9,
+      "admissionRate": 41.8,
+      "pellGrantRate": 31.4,
+      "meanEarnings10Years": 68100,
+      "completionRate": 85.7,
+      "retentionRate": 92.8
+    }
   },
   "UCLA": {
     "schoolType": "Public",
@@ -67,7 +175,25 @@
     "sourceLabel": "UC first-year application data",
     "sourceUrl": "https://admission.universityofcalifornia.edu/counselors/_files/documents/california-first-year-application-data.pdf",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "110662",
+      "sourceInstitution": "University of California-Los Angeles",
+      "sourceLabel": "College Scorecard: University of California-Los Angeles",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110662-University%20of%20California-Los%20Angeles",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 49403,
+      "tuitionInState": 15203,
+      "estimatedAttendance": 38614,
+      "averageGrantAid": 26066,
+      "undergraduateSize": 33475,
+      "internationalStudentRate": 7.7,
+      "admissionRate": 9,
+      "pellGrantRate": 28.2,
+      "meanEarnings10Years": 73200,
+      "completionRate": 92.6,
+      "retentionRate": 97.3
+    }
   },
   "UC Irvine": {
     "schoolType": "Public",
@@ -77,7 +203,25 @@
     "sourceLabel": "UC first-year application data",
     "sourceUrl": "https://admission.universityofcalifornia.edu/counselors/_files/documents/california-first-year-application-data.pdf",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "110653",
+      "sourceInstitution": "University of California-Irvine",
+      "sourceLabel": "College Scorecard: University of California-Irvine",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110653-University%20of%20California-Irvine",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 49922,
+      "tuitionInState": 15722,
+      "estimatedAttendance": 38632,
+      "averageGrantAid": 24381,
+      "undergraduateSize": 30197,
+      "internationalStudentRate": 12.3,
+      "admissionRate": 28.6,
+      "pellGrantRate": 36.1,
+      "meanEarnings10Years": 65800,
+      "completionRate": 86.9,
+      "retentionRate": 94.1
+    }
   },
   "UC San Diego": {
     "schoolType": "Public",
@@ -87,7 +231,25 @@
     "sourceLabel": "UC first-year application data",
     "sourceUrl": "https://admission.universityofcalifornia.edu/counselors/_files/documents/california-first-year-application-data.pdf",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "110680",
+      "sourceInstitution": "University of California-San Diego",
+      "sourceLabel": "College Scorecard: University of California-San Diego",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110680-University%20of%20California-San%20Diego",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 50958,
+      "tuitionInState": 16758,
+      "estimatedAttendance": 38701,
+      "averageGrantAid": 26231,
+      "undergraduateSize": 34948,
+      "internationalStudentRate": 11.1,
+      "admissionRate": 26.7,
+      "pellGrantRate": 34.2,
+      "meanEarnings10Years": 69600,
+      "completionRate": 86.1,
+      "retentionRate": 94
+    }
   },
   "Stanford University": {
     "schoolType": "Private",
@@ -97,7 +259,25 @@
     "sourceLabel": "Stanford undergraduate admission",
     "sourceUrl": "https://admission.stanford.edu/apply/",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "243744",
+      "sourceInstitution": "Stanford University",
+      "sourceLabel": "College Scorecard: Stanford University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?243744-Stanford%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 65910,
+      "tuitionInState": 65910,
+      "estimatedAttendance": 87833,
+      "averageGrantAid": 74026,
+      "undergraduateSize": 7554,
+      "internationalStudentRate": 12.8,
+      "admissionRate": 3.6,
+      "pellGrantRate": 19.2,
+      "meanEarnings10Years": 141300,
+      "completionRate": 91.9,
+      "retentionRate": 98.2
+    }
   },
   "Northeastern University": {
     "schoolType": "Private",
@@ -107,7 +287,25 @@
     "sourceLabel": "Northeastern admissions",
     "sourceUrl": "https://admissions.northeastern.edu/application-information/",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "167358",
+      "sourceInstitution": "Northeastern University",
+      "sourceLabel": "College Scorecard: Northeastern University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?167358-Northeastern%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 66162,
+      "tuitionInState": 66162,
+      "estimatedAttendance": 84641,
+      "averageGrantAid": 53726,
+      "undergraduateSize": 17326,
+      "internationalStudentRate": 13.6,
+      "admissionRate": 5.2,
+      "pellGrantRate": 12.3,
+      "meanEarnings10Years": 74200,
+      "completionRate": 90.5,
+      "retentionRate": 96.9
+    }
   },
   "Arizona State University": {
     "schoolType": "Public",
@@ -117,7 +315,25 @@
     "sourceLabel": "ASU admissions",
     "sourceUrl": "https://admission.asu.edu/apply",
     "updated": "2026-06-06",
-    "sourceType": "official"
+    "sourceType": "official",
+    "scorecard": {
+      "unitId": "104151",
+      "sourceInstitution": "Arizona State University Campus Immersion",
+      "sourceLabel": "College Scorecard: Arizona State University Campus Immersion",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?104151-Arizona%20State%20University%20Campus%20Immersion",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 33139,
+      "tuitionInState": 12223,
+      "estimatedAttendance": 30111,
+      "averageGrantAid": 15144,
+      "undergraduateSize": 64674,
+      "internationalStudentRate": 8,
+      "admissionRate": 89.9,
+      "pellGrantRate": 29,
+      "meanEarnings10Years": 55500,
+      "completionRate": 68,
+      "retentionRate": 86.6
+    }
   },
   "Cal Poly Pomona": {
     "schoolType": "Public",
@@ -127,7 +343,25 @@
     "sourceLabel": "College Scorecard: California State Polytechnic University-Pomona",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20Polytechnic%20University-Pomona",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110529",
+      "sourceInstitution": "California State Polytechnic University-Pomona",
+      "sourceLabel": "College Scorecard: California State Polytechnic University-Pomona",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110529-California%20State%20Polytechnic%20University-Pomona",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 20380,
+      "tuitionInState": 7780,
+      "estimatedAttendance": 23955,
+      "averageGrantAid": 12424,
+      "undergraduateSize": 25042,
+      "internationalStudentRate": 1.1,
+      "admissionRate": 75.2,
+      "pellGrantRate": 46.3,
+      "meanEarnings10Years": 58000,
+      "completionRate": 68.4,
+      "retentionRate": 87.4
+    }
   },
   "Cal Poly San Luis Obispo": {
     "schoolType": "Public",
@@ -137,7 +371,25 @@
     "sourceLabel": "College Scorecard: California Polytechnic State University-San Luis Obispo",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20Polytechnic%20State%20University-San%20Luis%20Obispo",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110422",
+      "sourceInstitution": "California Polytechnic State University-San Luis Obispo",
+      "sourceLabel": "College Scorecard: California Polytechnic State University-San Luis Obispo",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110422-California%20Polytechnic%20State%20University-San%20Luis%20Obispo",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 34665,
+      "tuitionInState": 13596,
+      "estimatedAttendance": 32265,
+      "averageGrantAid": 15600,
+      "undergraduateSize": 21996,
+      "internationalStudentRate": 0.7,
+      "admissionRate": 31.3,
+      "pellGrantRate": 19.2,
+      "meanEarnings10Years": 74300,
+      "completionRate": 86.4,
+      "retentionRate": 95.6
+    }
   },
   "Cal State East Bay": {
     "schoolType": "Public",
@@ -147,7 +399,25 @@
     "sourceLabel": "College Scorecard: California State University-East Bay",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-East%20Bay",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110574",
+      "sourceInstitution": "California State University-East Bay",
+      "sourceLabel": "College Scorecard: California State University-East Bay",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110574-California%20State%20University-East%20Bay",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 20183,
+      "tuitionInState": 7583,
+      "estimatedAttendance": 22850,
+      "averageGrantAid": 13530,
+      "undergraduateSize": 9809,
+      "internationalStudentRate": 2.5,
+      "admissionRate": 97.4,
+      "pellGrantRate": 44.4,
+      "meanEarnings10Years": 58200,
+      "completionRate": 48,
+      "retentionRate": 75.7
+    }
   },
   "Cal State Fullerton": {
     "schoolType": "Public",
@@ -157,7 +427,25 @@
     "sourceLabel": "College Scorecard: California State University-Fullerton",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Fullerton",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110565",
+      "sourceInstitution": "California State University-Fullerton",
+      "sourceLabel": "College Scorecard: California State University-Fullerton",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110565-California%20State%20University-Fullerton",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 20070,
+      "tuitionInState": 7470,
+      "estimatedAttendance": 18269,
+      "averageGrantAid": 11714,
+      "undergraduateSize": 38546,
+      "internationalStudentRate": 1,
+      "admissionRate": 90.5,
+      "pellGrantRate": 48.1,
+      "meanEarnings10Years": 51800,
+      "completionRate": 70.2,
+      "retentionRate": 82.4
+    }
   },
   "Cal State Long Beach": {
     "schoolType": "Public",
@@ -167,7 +455,25 @@
     "sourceLabel": "College Scorecard: California State University-Long Beach",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Long%20Beach",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110583",
+      "sourceInstitution": "California State University-Long Beach",
+      "sourceLabel": "College Scorecard: California State University-Long Beach",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110583-California%20State%20University-Long%20Beach",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 19950,
+      "tuitionInState": 7350,
+      "estimatedAttendance": 22679,
+      "averageGrantAid": 12239,
+      "undergraduateSize": 35924,
+      "internationalStudentRate": 2.2,
+      "admissionRate": 46.3,
+      "pellGrantRate": 50.2,
+      "meanEarnings10Years": 53000,
+      "completionRate": 68.9,
+      "retentionRate": 86.8
+    }
   },
   "Cal State Monterey Bay": {
     "schoolType": "Public",
@@ -177,7 +483,25 @@
     "sourceLabel": "College Scorecard: California State University-Monterey Bay",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Monterey%20Bay",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "409698",
+      "sourceInstitution": "California State University-Monterey Bay",
+      "sourceLabel": "College Scorecard: California State University-Monterey Bay",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?409698-California%20State%20University-Monterey%20Bay",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 20379,
+      "tuitionInState": 7779,
+      "estimatedAttendance": 26987,
+      "averageGrantAid": 13324,
+      "undergraduateSize": 6819,
+      "internationalStudentRate": 1.3,
+      "admissionRate": 97.4,
+      "pellGrantRate": 43.2,
+      "meanEarnings10Years": 47000,
+      "completionRate": 59.1,
+      "retentionRate": 79.9
+    }
   },
   "Cal State Northridge": {
     "schoolType": "Public",
@@ -187,7 +511,25 @@
     "sourceLabel": "College Scorecard: California State University-Northridge",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Northridge",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110608",
+      "sourceInstitution": "California State University-Northridge",
+      "sourceLabel": "College Scorecard: California State University-Northridge",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110608-California%20State%20University-Northridge",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 20058,
+      "tuitionInState": 7458,
+      "estimatedAttendance": 20485,
+      "averageGrantAid": 13464,
+      "undergraduateSize": 32691,
+      "internationalStudentRate": 2.9,
+      "admissionRate": 93.5,
+      "pellGrantRate": 56.1,
+      "meanEarnings10Years": 49700,
+      "completionRate": 57,
+      "retentionRate": 73.4
+    }
   },
   "Carnegie Mellon University": {
     "schoolType": "Private",
@@ -197,7 +539,25 @@
     "sourceLabel": "College Scorecard: Carnegie Mellon University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Carnegie%20Mellon%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "211440",
+      "sourceInstitution": "Carnegie Mellon University",
+      "sourceLabel": "College Scorecard: Carnegie Mellon University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?211440-Carnegie%20Mellon%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 66246,
+      "tuitionInState": 66246,
+      "estimatedAttendance": 83654,
+      "averageGrantAid": 51710,
+      "undergraduateSize": 7304,
+      "internationalStudentRate": 19.1,
+      "admissionRate": 11.7,
+      "pellGrantRate": 16,
+      "meanEarnings10Years": 103000,
+      "completionRate": 94.1,
+      "retentionRate": 98
+    }
   },
   "Columbia University": {
     "schoolType": "Private",
@@ -207,7 +567,25 @@
     "sourceLabel": "College Scorecard: Columbia University in the City of New York",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Columbia%20University%20in%20the%20City%20of%20New%20York",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "190150",
+      "sourceInstitution": "Columbia University in the City of New York",
+      "sourceLabel": "College Scorecard: Columbia University in the City of New York",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?190150-Columbia%20University%20in%20the%20City%20of%20New%20York",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 71845,
+      "tuitionInState": 71845,
+      "estimatedAttendance": 89472,
+      "averageGrantAid": 67882,
+      "undergraduateSize": 8973,
+      "internationalStudentRate": 19.7,
+      "admissionRate": 4,
+      "pellGrantRate": 22.7,
+      "meanEarnings10Years": 115600,
+      "completionRate": 96.1,
+      "retentionRate": 98
+    }
   },
   "Duke University": {
     "schoolType": "Private",
@@ -217,7 +595,25 @@
     "sourceLabel": "College Scorecard: Duke University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Duke%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "198419",
+      "sourceInstitution": "Duke University",
+      "sourceLabel": "College Scorecard: Duke University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?198419-Duke%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 68758,
+      "tuitionInState": 68758,
+      "estimatedAttendance": 87072,
+      "averageGrantAid": 57460,
+      "undergraduateSize": 6442,
+      "internationalStudentRate": 10.5,
+      "admissionRate": 5.7,
+      "pellGrantRate": 14,
+      "meanEarnings10Years": 114500,
+      "completionRate": 96.8,
+      "retentionRate": 97.9
+    }
   },
   "Fresno State": {
     "schoolType": "Public",
@@ -227,7 +623,25 @@
     "sourceLabel": "College Scorecard: California State University-Fresno",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Fresno",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110556",
+      "sourceInstitution": "California State University-Fresno",
+      "sourceLabel": "College Scorecard: California State University-Fresno",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110556-California%20State%20University-Fresno",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 19950,
+      "tuitionInState": 7350,
+      "estimatedAttendance": 20095,
+      "averageGrantAid": 13095,
+      "undergraduateSize": 21605,
+      "internationalStudentRate": 2.2,
+      "admissionRate": 95.3,
+      "pellGrantRate": 57,
+      "meanEarnings10Years": 48500,
+      "completionRate": 57,
+      "retentionRate": 81.6
+    }
   },
   "Brown University": {
     "schoolType": "Private",
@@ -237,7 +651,25 @@
     "sourceLabel": "Brown Admission by the Numbers",
     "sourceUrl": "https://admission.brown.edu/explore/brown-admission-numbers",
     "sourceType": "official",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "217156",
+      "sourceInstitution": "Brown University",
+      "sourceLabel": "College Scorecard: Brown University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?217156-Brown%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 71412,
+      "tuitionInState": 71412,
+      "estimatedAttendance": 87648,
+      "averageGrantAid": 62464,
+      "undergraduateSize": 7226,
+      "internationalStudentRate": 12.7,
+      "admissionRate": 5.4,
+      "pellGrantRate": 13.8,
+      "meanEarnings10Years": 89100,
+      "completionRate": 95.7,
+      "retentionRate": 98.8
+    }
   },
   "Dartmouth College": {
     "schoolType": "Private",
@@ -247,7 +679,25 @@
     "sourceLabel": "Dartmouth Class of 2029 admission announcement",
     "sourceUrl": "https://home.dartmouth.edu/news/2025/03/admissions-class-2029",
     "sourceType": "official",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "182670",
+      "sourceInstitution": "Dartmouth College",
+      "sourceLabel": "College Scorecard: Dartmouth College",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?182670-Dartmouth%20College",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 68268,
+      "tuitionInState": 68268,
+      "estimatedAttendance": 87793,
+      "averageGrantAid": 58274,
+      "undergraduateSize": 4541,
+      "internationalStudentRate": 15.1,
+      "admissionRate": 5.4,
+      "pellGrantRate": 14.4,
+      "meanEarnings10Years": 110200,
+      "completionRate": 95.5,
+      "retentionRate": 98.4
+    }
   },
   "Cornell University": {
     "schoolType": "Private",
@@ -257,7 +707,25 @@
     "sourceLabel": "Cornell admissions",
     "sourceUrl": "https://www.cornell.edu/admissions/",
     "sourceType": "official",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "190415",
+      "sourceInstitution": "Cornell University",
+      "sourceLabel": "College Scorecard: Cornell University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?190415-Cornell%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 69314,
+      "tuitionInState": 69314,
+      "estimatedAttendance": 88140,
+      "averageGrantAid": 59450,
+      "undergraduateSize": 15995,
+      "internationalStudentRate": 9.6,
+      "admissionRate": 8.8,
+      "pellGrantRate": 18.4,
+      "meanEarnings10Years": 101200,
+      "completionRate": 95.4,
+      "retentionRate": 98.4
+    }
   },
   "University of Pennsylvania": {
     "schoolType": "Private",
@@ -267,7 +735,25 @@
     "sourceLabel": "University of Pennsylvania Facts",
     "sourceUrl": "https://www.upenn.edu/about/facts",
     "sourceType": "official",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "215062",
+      "sourceInstitution": "University of Pennsylvania",
+      "sourceLabel": "College Scorecard: University of Pennsylvania",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?215062-University%20of%20Pennsylvania",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 68686,
+      "tuitionInState": 68686,
+      "estimatedAttendance": 89028,
+      "averageGrantAid": 60329,
+      "undergraduateSize": 10650,
+      "internationalStudentRate": 12.6,
+      "admissionRate": 5.4,
+      "pellGrantRate": 16.5,
+      "meanEarnings10Years": 131600,
+      "completionRate": 96.5,
+      "retentionRate": 98.9
+    }
   },
   "Georgia Tech": {
     "schoolType": "Public",
@@ -277,7 +763,25 @@
     "sourceLabel": "College Scorecard: Georgia Institute of Technology-Main Campus",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Georgia%20Institute%20of%20Technology-Main%20Campus",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "139755",
+      "sourceInstitution": "Georgia Institute of Technology-Main Campus",
+      "sourceLabel": "College Scorecard: Georgia Institute of Technology-Main Campus",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?139755-Georgia%20Institute%20of%20Technology-Main%20Campus",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 34484,
+      "tuitionInState": 12058,
+      "estimatedAttendance": 28167,
+      "averageGrantAid": 16051,
+      "undergraduateSize": 18785,
+      "internationalStudentRate": 8,
+      "admissionRate": 14.1,
+      "pellGrantRate": 13.9,
+      "meanEarnings10Years": 85900,
+      "completionRate": 94,
+      "retentionRate": 98.1
+    }
   },
   "New York University": {
     "schoolType": "Private",
@@ -287,7 +791,25 @@
     "sourceLabel": "College Scorecard: New York University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=New%20York%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "193900",
+      "sourceInstitution": "New York University",
+      "sourceLabel": "College Scorecard: New York University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?193900-New%20York%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 62796,
+      "tuitionInState": 62796,
+      "estimatedAttendance": 84374,
+      "averageGrantAid": 47324,
+      "undergraduateSize": 28663,
+      "internationalStudentRate": 26.1,
+      "admissionRate": 9.2,
+      "pellGrantRate": 17.9,
+      "meanEarnings10Years": 78600,
+      "completionRate": 87.6,
+      "retentionRate": 95.8
+    }
   },
   "Ohio State University": {
     "schoolType": "Public",
@@ -297,7 +819,25 @@
     "sourceLabel": "College Scorecard: Ohio State University-Main Campus",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Ohio%20State%20University-Main%20Campus",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "204796",
+      "sourceInstitution": "Ohio State University-Main Campus",
+      "sourceLabel": "College Scorecard: Ohio State University-Main Campus",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?204796-Ohio%20State%20University-Main%20Campus",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 40022,
+      "tuitionInState": 13244,
+      "estimatedAttendance": 30305,
+      "averageGrantAid": 12966,
+      "undergraduateSize": 45638,
+      "internationalStudentRate": 7.6,
+      "admissionRate": 60.6,
+      "pellGrantRate": 20.2,
+      "meanEarnings10Years": 53600,
+      "completionRate": 87.7,
+      "retentionRate": 94.2
+    }
   },
   "Purdue University": {
     "schoolType": "Public",
@@ -307,7 +847,25 @@
     "sourceLabel": "College Scorecard: Purdue University-Main Campus",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Purdue%20University-Main%20Campus",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "243780",
+      "sourceInstitution": "Purdue University-Main Campus",
+      "sourceLabel": "College Scorecard: Purdue University-Main Campus",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?243780-Purdue%20University-Main%20Campus",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 28794,
+      "tuitionInState": 9992,
+      "estimatedAttendance": 24591,
+      "averageGrantAid": 9991,
+      "undergraduateSize": 44503,
+      "internationalStudentRate": 9.9,
+      "admissionRate": 49.9,
+      "pellGrantRate": 13,
+      "meanEarnings10Years": 62200,
+      "completionRate": 83.1,
+      "retentionRate": 92.7
+    }
   },
   "Rice University": {
     "schoolType": "Private",
@@ -317,7 +875,25 @@
     "sourceLabel": "College Scorecard: Rice University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Rice%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "227757",
+      "sourceInstitution": "Rice University",
+      "sourceLabel": "College Scorecard: Rice University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?227757-Rice%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 64144,
+      "tuitionInState": 64144,
+      "estimatedAttendance": 79788,
+      "averageGrantAid": 66418,
+      "undergraduateSize": 4776,
+      "internationalStudentRate": 12.8,
+      "admissionRate": 8,
+      "pellGrantRate": 17,
+      "meanEarnings10Years": 91600,
+      "completionRate": 94.6,
+      "retentionRate": 97.4
+    }
   },
   "Sacramento State": {
     "schoolType": "Public",
@@ -327,7 +903,25 @@
     "sourceLabel": "College Scorecard: California State University-Sacramento",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20State%20University-Sacramento",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110617",
+      "sourceInstitution": "California State University-Sacramento",
+      "sourceLabel": "College Scorecard: California State University-Sacramento",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110617-California%20State%20University-Sacramento",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 20618,
+      "tuitionInState": 8018,
+      "estimatedAttendance": 22945,
+      "averageGrantAid": 13607,
+      "undergraduateSize": 28350,
+      "internationalStudentRate": 1.6,
+      "admissionRate": 94,
+      "pellGrantRate": 49.1,
+      "meanEarnings10Years": 54200,
+      "completionRate": 56.3,
+      "retentionRate": 81.9
+    }
   },
   "San Diego State University": {
     "schoolType": "Public",
@@ -337,7 +931,25 @@
     "sourceLabel": "College Scorecard: San Diego State University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=San%20Diego%20State%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "122409",
+      "sourceInstitution": "San Diego State University",
+      "sourceLabel": "College Scorecard: San Diego State University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?122409-San%20Diego%20State%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 21328,
+      "tuitionInState": 8728,
+      "estimatedAttendance": 27780,
+      "averageGrantAid": 12416,
+      "undergraduateSize": 35377,
+      "internationalStudentRate": 2,
+      "admissionRate": 36.2,
+      "pellGrantRate": 31.7,
+      "meanEarnings10Years": 55900,
+      "completionRate": 76.4,
+      "retentionRate": 90.6
+    }
   },
   "San Francisco State University": {
     "schoolType": "Public",
@@ -347,7 +959,25 @@
     "sourceLabel": "College Scorecard: San Francisco State University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=San%20Francisco%20State%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "122597",
+      "sourceInstitution": "San Francisco State University",
+      "sourceLabel": "College Scorecard: San Francisco State University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?122597-San%20Francisco%20State%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 20550,
+      "tuitionInState": 7950,
+      "estimatedAttendance": 26488,
+      "averageGrantAid": 14210,
+      "undergraduateSize": 18639,
+      "internationalStudentRate": 3.7,
+      "admissionRate": 96.4,
+      "pellGrantRate": 42.2,
+      "meanEarnings10Years": 54700,
+      "completionRate": 50.4,
+      "retentionRate": 82.7
+    }
   },
   "San Jose State University": {
     "schoolType": "Public",
@@ -357,7 +987,25 @@
     "sourceLabel": "College Scorecard: San Jose State University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=San%20Jose%20State%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "122755",
+      "sourceInstitution": "San Jose State University",
+      "sourceLabel": "College Scorecard: San Jose State University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?122755-San%20Jose%20State%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 21010,
+      "tuitionInState": 8410,
+      "estimatedAttendance": 26593,
+      "averageGrantAid": 12833,
+      "undergraduateSize": 27601,
+      "internationalStudentRate": 3.6,
+      "admissionRate": 84.6,
+      "pellGrantRate": 35.2,
+      "meanEarnings10Years": 63800,
+      "completionRate": 69.2,
+      "retentionRate": 86.8
+    }
   },
   "UNC Chapel Hill": {
     "schoolType": "Public",
@@ -367,7 +1015,25 @@
     "sourceLabel": "College Scorecard: University of North Carolina at Chapel Hill",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20North%20Carolina%20at%20Chapel%20Hill",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "199120",
+      "sourceInstitution": "University of North Carolina at Chapel Hill",
+      "sourceLabel": "College Scorecard: University of North Carolina at Chapel Hill",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?199120-University%20of%20North%20Carolina%20at%20Chapel%20Hill",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 41203,
+      "tuitionInState": 8994,
+      "estimatedAttendance": 26055,
+      "averageGrantAid": 14400,
+      "undergraduateSize": 20752,
+      "internationalStudentRate": 5.6,
+      "admissionRate": 15.3,
+      "pellGrantRate": 20,
+      "meanEarnings10Years": 68800,
+      "completionRate": 91.2,
+      "retentionRate": 96.6
+    }
   },
   "UT Austin": {
     "schoolType": "Public",
@@ -377,7 +1043,25 @@
     "sourceLabel": "College Scorecard: The University of Texas at Austin",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=The%20University%20of%20Texas%20at%20Austin",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "228778",
+      "sourceInstitution": "The University of Texas at Austin",
+      "sourceLabel": "College Scorecard: The University of Texas at Austin",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?228778-The%20University%20of%20Texas%20at%20Austin",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 44908,
+      "tuitionInState": 11688,
+      "estimatedAttendance": 31247,
+      "averageGrantAid": 11390,
+      "undergraduateSize": 42855,
+      "internationalStudentRate": 4.4,
+      "admissionRate": 26.6,
+      "pellGrantRate": 25.9,
+      "meanEarnings10Years": 73900,
+      "completionRate": 88.9,
+      "retentionRate": 96.7
+    }
   },
   "University of Colorado Boulder": {
     "schoolType": "Public",
@@ -387,7 +1071,25 @@
     "sourceLabel": "College Scorecard: University of Colorado Boulder",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Colorado%20Boulder",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "126614",
+      "sourceInstitution": "University of Colorado Boulder",
+      "sourceLabel": "College Scorecard: University of Colorado Boulder",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?126614-University%20of%20Colorado%20Boulder",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 44918,
+      "tuitionInState": 15666,
+      "estimatedAttendance": 37684,
+      "averageGrantAid": 12338,
+      "undergraduateSize": 31939,
+      "internationalStudentRate": 2.6,
+      "admissionRate": 78.1,
+      "pellGrantRate": 14.5,
+      "meanEarnings10Years": 59700,
+      "completionRate": 74.2,
+      "retentionRate": 90.2
+    }
   },
   "University of Florida": {
     "schoolType": "Public",
@@ -397,7 +1099,25 @@
     "sourceLabel": "College Scorecard: University of Florida",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Florida",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "134130",
+      "sourceInstitution": "University of Florida",
+      "sourceLabel": "College Scorecard: University of Florida",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?134130-University%20of%20Florida",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 28659,
+      "tuitionInState": 6381,
+      "estimatedAttendance": 22523,
+      "averageGrantAid": 15982,
+      "undergraduateSize": 35629,
+      "internationalStudentRate": 2.6,
+      "admissionRate": 24.2,
+      "pellGrantRate": 21.7,
+      "meanEarnings10Years": 65700,
+      "completionRate": 91.1,
+      "retentionRate": 97.7
+    }
   },
   "University of Illinois Urbana-Champaign": {
     "schoolType": "Public",
@@ -407,7 +1127,25 @@
     "sourceLabel": "College Scorecard: University of Illinois Urbana-Champaign",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Illinois%20Urbana-Champaign",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "145637",
+      "sourceInstitution": "University of Illinois Urbana-Champaign",
+      "sourceLabel": "College Scorecard: University of Illinois Urbana-Champaign",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?145637-University%20of%20Illinois%20Urbana-Champaign",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 35124,
+      "tuitionInState": 16004,
+      "estimatedAttendance": 33642,
+      "averageGrantAid": 19287,
+      "undergraduateSize": 36258,
+      "internationalStudentRate": 13.9,
+      "admissionRate": 42.4,
+      "pellGrantRate": 23.4,
+      "meanEarnings10Years": 70900,
+      "completionRate": 85.1,
+      "retentionRate": 94.8
+    }
   },
   "University of Maryland": {
     "schoolType": "Public",
@@ -417,7 +1155,25 @@
     "sourceLabel": "College Scorecard: University of Maryland-College Park",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Maryland-College%20Park",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "163286",
+      "sourceInstitution": "University of Maryland-College Park",
+      "sourceLabel": "College Scorecard: University of Maryland-College Park",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?163286-University%20of%20Maryland-College%20Park",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 41186,
+      "tuitionInState": 11809,
+      "estimatedAttendance": 29299,
+      "averageGrantAid": 13621,
+      "undergraduateSize": 30760,
+      "internationalStudentRate": 3.3,
+      "admissionRate": 44.8,
+      "pellGrantRate": 19.4,
+      "meanEarnings10Years": 70800,
+      "completionRate": 88.6,
+      "retentionRate": 96.2
+    }
   },
   "University of Michigan": {
     "schoolType": "Public",
@@ -427,7 +1183,25 @@
     "sourceLabel": "College Scorecard: University of Michigan-Ann Arbor",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Michigan-Ann%20Arbor",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "170976",
+      "sourceInstitution": "University of Michigan-Ann Arbor",
+      "sourceLabel": "College Scorecard: University of Michigan-Ann Arbor",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?170976-University%20of%20Michigan-Ann%20Arbor",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 60946,
+      "tuitionInState": 17736,
+      "estimatedAttendance": 34654,
+      "averageGrantAid": 21516,
+      "undergraduateSize": 34177,
+      "internationalStudentRate": 7.6,
+      "admissionRate": 15.6,
+      "pellGrantRate": 18.1,
+      "meanEarnings10Years": 79000,
+      "completionRate": 93.2,
+      "retentionRate": 97.5
+    }
   },
   "University of Minnesota Twin Cities": {
     "schoolType": "Public",
@@ -437,7 +1211,25 @@
     "sourceLabel": "College Scorecard: University of Minnesota-Twin Cities",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Minnesota-Twin%20Cities",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "174066",
+      "sourceInstitution": "University of Minnesota-Twin Cities",
+      "sourceLabel": "College Scorecard: University of Minnesota-Twin Cities",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?174066-University%20of%20Minnesota-Twin%20Cities",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 38362,
+      "tuitionInState": 17214,
+      "estimatedAttendance": 30061,
+      "averageGrantAid": 13283,
+      "undergraduateSize": 31855,
+      "internationalStudentRate": 6.2,
+      "admissionRate": 79.8,
+      "pellGrantRate": 17.7,
+      "meanEarnings10Years": 61200,
+      "completionRate": 85.3,
+      "retentionRate": 91.1
+    }
   },
   "University of Southern California": {
     "schoolType": "Private",
@@ -447,7 +1239,25 @@
     "sourceLabel": "College Scorecard: University of Southern California",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Southern%20California",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "123961",
+      "sourceInstitution": "University of Southern California",
+      "sourceLabel": "College Scorecard: University of Southern California",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?123961-University%20of%20Southern%20California",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 72097,
+      "tuitionInState": 72097,
+      "estimatedAttendance": 90300,
+      "averageGrantAid": 57560,
+      "undergraduateSize": 20443,
+      "internationalStudentRate": 13.3,
+      "admissionRate": 9.8,
+      "pellGrantRate": 22.2,
+      "meanEarnings10Years": 88800,
+      "completionRate": 91.8,
+      "retentionRate": 95.9
+    }
   },
   "University of Virginia": {
     "schoolType": "Public",
@@ -457,7 +1267,25 @@
     "sourceLabel": "College Scorecard: University of Virginia-Main Campus",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Virginia-Main%20Campus",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "234076",
+      "sourceInstitution": "University of Virginia-Main Campus",
+      "sourceLabel": "College Scorecard: University of Virginia-Main Campus",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?234076-University%20of%20Virginia-Main%20Campus",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 59512,
+      "tuitionInState": 21803,
+      "estimatedAttendance": 39926,
+      "averageGrantAid": 18361,
+      "undergraduateSize": 17597,
+      "internationalStudentRate": 4.8,
+      "admissionRate": 16.8,
+      "pellGrantRate": 15.6,
+      "meanEarnings10Years": 79400,
+      "completionRate": 95.6,
+      "retentionRate": 97.6
+    }
   },
   "University of Washington": {
     "schoolType": "Public",
@@ -467,7 +1295,25 @@
     "sourceLabel": "College Scorecard: University of Washington-Seattle Campus",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Washington-Seattle%20Campus",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "236948",
+      "sourceInstitution": "University of Washington-Seattle Campus",
+      "sourceLabel": "College Scorecard: University of Washington-Seattle Campus",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?236948-University%20of%20Washington-Seattle%20Campus",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 43209,
+      "tuitionInState": 12973,
+      "estimatedAttendance": 32446,
+      "averageGrantAid": 18355,
+      "undergraduateSize": 31942,
+      "internationalStudentRate": 11.7,
+      "admissionRate": 39.2,
+      "pellGrantRate": 14.9,
+      "meanEarnings10Years": 69600,
+      "completionRate": 85.2,
+      "retentionRate": 94.7
+    }
   },
   "University of Wisconsin-Madison": {
     "schoolType": "Public",
@@ -477,7 +1323,25 @@
     "sourceLabel": "College Scorecard: University of Wisconsin-Madison",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Wisconsin-Madison",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "240444",
+      "sourceInstitution": "University of Wisconsin-Madison",
+      "sourceLabel": "College Scorecard: University of Wisconsin-Madison",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?240444-University%20of%20Wisconsin-Madison",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 42103,
+      "tuitionInState": 11603,
+      "estimatedAttendance": 28679,
+      "averageGrantAid": 11325,
+      "undergraduateSize": 36902,
+      "internationalStudentRate": 10.3,
+      "admissionRate": 45.2,
+      "pellGrantRate": 15.9,
+      "meanEarnings10Years": 68000,
+      "completionRate": 89.6,
+      "retentionRate": 96.2
+    }
   },
   "Washington State University": {
     "schoolType": "Public",
@@ -487,7 +1351,25 @@
     "sourceLabel": "College Scorecard: Washington State University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Washington%20State%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "236939",
+      "sourceInstitution": "Washington State University",
+      "sourceLabel": "College Scorecard: Washington State University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?236939-Washington%20State%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 29950,
+      "tuitionInState": 13391,
+      "estimatedAttendance": 27648,
+      "averageGrantAid": 12677,
+      "undergraduateSize": 21099,
+      "internationalStudentRate": 2.3,
+      "admissionRate": 86.6,
+      "pellGrantRate": 27.4,
+      "meanEarnings10Years": 56600,
+      "completionRate": 60.5,
+      "retentionRate": 78.3
+    }
   },
   "Caltech": {
     "schoolType": "Private",
@@ -497,7 +1379,25 @@
     "sourceLabel": "College Scorecard: California Institute of Technology",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=California%20Institute%20of%20Technology",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110404",
+      "sourceInstitution": "California Institute of Technology",
+      "sourceLabel": "College Scorecard: California Institute of Technology",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110404-California%20Institute%20of%20Technology",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 65898,
+      "tuitionInState": 65898,
+      "estimatedAttendance": 86886,
+      "averageGrantAid": 70811,
+      "undergraduateSize": 987,
+      "internationalStudentRate": 14.1,
+      "admissionRate": 2.6,
+      "pellGrantRate": 18,
+      "meanEarnings10Years": 106300,
+      "completionRate": 94.4,
+      "retentionRate": 97.4
+    }
   },
   "Johns Hopkins University": {
     "schoolType": "Private",
@@ -507,7 +1407,25 @@
     "sourceLabel": "College Scorecard: Johns Hopkins University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Johns%20Hopkins%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "162928",
+      "sourceInstitution": "Johns Hopkins University",
+      "sourceLabel": "College Scorecard: Johns Hopkins University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?162928-Johns%20Hopkins%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 65230,
+      "tuitionInState": 65230,
+      "estimatedAttendance": 85947,
+      "averageGrantAid": 67138,
+      "undergraduateSize": 5693,
+      "internationalStudentRate": 15.2,
+      "admissionRate": 6.4,
+      "pellGrantRate": 19.5,
+      "meanEarnings10Years": 89300,
+      "completionRate": 93.8,
+      "retentionRate": 98.1
+    }
   },
   "Northwestern University": {
     "schoolType": "Private",
@@ -517,7 +1435,25 @@
     "sourceLabel": "College Scorecard: Northwestern University",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Northwestern%20University",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "147767",
+      "sourceInstitution": "Northwestern University",
+      "sourceLabel": "College Scorecard: Northwestern University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?147767-Northwestern%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 68322,
+      "tuitionInState": 68322,
+      "estimatedAttendance": 91250,
+      "averageGrantAid": 62083,
+      "undergraduateSize": 9201,
+      "internationalStudentRate": 11.6,
+      "admissionRate": 7.7,
+      "pellGrantRate": 18.6,
+      "meanEarnings10Years": 93400,
+      "completionRate": 95.1,
+      "retentionRate": 98.1
+    }
   },
   "University of Chicago": {
     "schoolType": "Private",
@@ -527,7 +1463,25 @@
     "sourceLabel": "College Scorecard: University of Chicago",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Chicago",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "144050",
+      "sourceInstitution": "University of Chicago",
+      "sourceLabel": "College Scorecard: University of Chicago",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?144050-University%20of%20Chicago",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 70662,
+      "tuitionInState": 70662,
+      "estimatedAttendance": 90360,
+      "averageGrantAid": 75500,
+      "undergraduateSize": 7569,
+      "internationalStudentRate": 17.6,
+      "admissionRate": 4.5,
+      "pellGrantRate": 15.3,
+      "meanEarnings10Years": 103000,
+      "completionRate": 95.9,
+      "retentionRate": 99.3
+    }
   },
   "UC Santa Barbara": {
     "schoolType": "Public",
@@ -537,7 +1491,25 @@
     "sourceLabel": "College Scorecard: University of California-Santa Barbara",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20California-Santa%20Barbara",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110705",
+      "sourceInstitution": "University of California-Santa Barbara",
+      "sourceLabel": "College Scorecard: University of California-Santa Barbara",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110705-University%20of%20California-Santa%20Barbara",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 50614,
+      "tuitionInState": 16414,
+      "estimatedAttendance": 41573,
+      "averageGrantAid": 25464,
+      "undergraduateSize": 23113,
+      "internationalStudentRate": 8.8,
+      "admissionRate": 33,
+      "pellGrantRate": 27.9,
+      "meanEarnings10Years": 62400,
+      "completionRate": 83,
+      "retentionRate": 93
+    }
   },
   "UC Santa Cruz": {
     "schoolType": "Public",
@@ -547,7 +1519,25 @@
     "sourceLabel": "College Scorecard: University of California-Santa Cruz",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20California-Santa%20Cruz",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "110714",
+      "sourceInstitution": "University of California-Santa Cruz",
+      "sourceLabel": "College Scorecard: University of California-Santa Cruz",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?110714-University%20of%20California-Santa%20Cruz",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 50205,
+      "tuitionInState": 16005,
+      "estimatedAttendance": 41179,
+      "averageGrantAid": 23289,
+      "undergraduateSize": 17940,
+      "internationalStudentRate": 3,
+      "admissionRate": 65.8,
+      "pellGrantRate": 31.6,
+      "meanEarnings10Years": 53800,
+      "completionRate": 75.1,
+      "retentionRate": 88
+    }
   },
   "Texas A&M University": {
     "schoolType": "Public",
@@ -557,7 +1547,25 @@
     "sourceLabel": "College Scorecard: Texas A&M University-College Station",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Texas%20A%26M%20University-College%20Station",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "228723",
+      "sourceInstitution": "Texas A&M University-College Station",
+      "sourceLabel": "College Scorecard: Texas A&M University-College Station",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?228723-Texas%20A%26M%20University-College%20Station",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 40124,
+      "tuitionInState": 13154,
+      "estimatedAttendance": 32696,
+      "averageGrantAid": 11381,
+      "undergraduateSize": 59615,
+      "internationalStudentRate": 1.1,
+      "admissionRate": 57.4,
+      "pellGrantRate": 19.6,
+      "meanEarnings10Years": 67800,
+      "completionRate": 83.9,
+      "retentionRate": 94.3
+    }
   },
   "Penn State": {
     "schoolType": "Public",
@@ -567,7 +1575,25 @@
     "sourceLabel": "College Scorecard: Pennsylvania State University-Main Campus",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Pennsylvania%20State%20University-Main%20Campus",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "214777",
+      "sourceInstitution": "Pennsylvania State University-Main Campus",
+      "sourceLabel": "College Scorecard: Pennsylvania State University-Main Campus",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?214777-Pennsylvania%20State%20University-Main%20Campus",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 41790,
+      "tuitionInState": 20644,
+      "estimatedAttendance": 39694,
+      "averageGrantAid": 6819,
+      "undergraduateSize": 42284,
+      "internationalStudentRate": 9.3,
+      "admissionRate": 60.6,
+      "pellGrantRate": 13.9,
+      "meanEarnings10Years": 57200,
+      "completionRate": 86.1,
+      "retentionRate": 92.6
+    }
   },
   "Rutgers University": {
     "schoolType": "Public",
@@ -577,7 +1603,25 @@
     "sourceLabel": "College Scorecard: Rutgers University-New Brunswick",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=Rutgers%20University-New%20Brunswick",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "186380",
+      "sourceInstitution": "Rutgers University-New Brunswick",
+      "sourceLabel": "College Scorecard: Rutgers University-New Brunswick",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?186380-Rutgers%20University-New%20Brunswick",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 37441,
+      "tuitionInState": 17929,
+      "estimatedAttendance": 36993,
+      "averageGrantAid": 12587,
+      "undergraduateSize": 37751,
+      "internationalStudentRate": 7.3,
+      "admissionRate": 58.2,
+      "pellGrantRate": 27.9,
+      "meanEarnings10Years": 68100,
+      "completionRate": 83.6,
+      "retentionRate": 93
+    }
   },
   "University of Arizona": {
     "schoolType": "Public",
@@ -587,7 +1631,25 @@
     "sourceLabel": "College Scorecard: University of Arizona",
     "sourceUrl": "https://collegescorecard.ed.gov/search/?search=University%20of%20Arizona",
     "sourceType": "government-third-party",
-    "updated": "2026-06-06"
+    "updated": "2026-06-06",
+    "scorecard": {
+      "unitId": "104179",
+      "sourceInstitution": "University of Arizona",
+      "sourceLabel": "College Scorecard: University of Arizona",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?104179-University%20of%20Arizona",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 42278,
+      "tuitionInState": 13926,
+      "estimatedAttendance": 29423,
+      "averageGrantAid": 12749,
+      "undergraduateSize": 42537,
+      "internationalStudentRate": 3.9,
+      "admissionRate": 86.1,
+      "pellGrantRate": 25.7,
+      "meanEarnings10Years": 56000,
+      "completionRate": 67.5,
+      "retentionRate": 82.8
+    }
   },
   "University of Massachusetts Amherst": {
     "schoolType": "Public",
@@ -597,7 +1659,25 @@
     "sourceLabel": "UMass Amherst admissions statistics",
     "sourceUrl": "https://www.umass.edu/admissions/admissions-statistics",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "166629",
+      "sourceInstitution": "University of Massachusetts-Amherst",
+      "sourceLabel": "College Scorecard: University of Massachusetts-Amherst",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?166629-University%20of%20Massachusetts-Amherst",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 40449,
+      "tuitionInState": 17772,
+      "estimatedAttendance": 34549,
+      "averageGrantAid": 12166,
+      "undergraduateSize": 23671,
+      "internationalStudentRate": 7.6,
+      "admissionRate": 59.7,
+      "pellGrantRate": 19.9,
+      "meanEarnings10Years": 57700,
+      "completionRate": 83.3,
+      "retentionRate": 91.9
+    }
   },
   "Virginia Tech": {
     "schoolType": "Public",
@@ -607,7 +1687,25 @@
     "sourceLabel": "Virginia Tech University DataCommons: Admissions",
     "sourceUrl": "https://udc.vt.edu/irdata/data/students/admission/index",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "233921",
+      "sourceInstitution": "Virginia Polytechnic Institute and State University",
+      "sourceLabel": "College Scorecard: Virginia Polytechnic Institute and State University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?233921-Virginia%20Polytechnic%20Institute%20and%20State%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 37764,
+      "tuitionInState": 15948,
+      "estimatedAttendance": 36951,
+      "averageGrantAid": 11998,
+      "undergraduateSize": 30923,
+      "internationalStudentRate": 4.6,
+      "admissionRate": 54.8,
+      "pellGrantRate": 15.3,
+      "meanEarnings10Years": 67100,
+      "completionRate": 86.2,
+      "retentionRate": 93.1
+    }
   },
   "Vanderbilt University": {
     "schoolType": "Private",
@@ -617,7 +1715,25 @@
     "sourceLabel": "Vanderbilt At A Glance",
     "sourceUrl": "https://admissions.vanderbilt.edu/profile/",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "221999",
+      "sourceInstitution": "Vanderbilt University",
+      "sourceLabel": "College Scorecard: Vanderbilt University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?221999-Vanderbilt%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 67498,
+      "tuitionInState": 67498,
+      "estimatedAttendance": 89590,
+      "averageGrantAid": 73744,
+      "undergraduateSize": 7208,
+      "internationalStudentRate": 11.2,
+      "admissionRate": 5.9,
+      "pellGrantRate": 20.2,
+      "meanEarnings10Years": 86200,
+      "completionRate": 93.5,
+      "retentionRate": 96.3
+    }
   },
   "Stony Brook University": {
     "schoolType": "Public",
@@ -627,7 +1743,25 @@
     "sourceLabel": "Stony Brook facts and rankings",
     "sourceUrl": "https://www.stonybrook.edu/about/facts-and-rankings/",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "196097",
+      "sourceInstitution": "Stony Brook University",
+      "sourceLabel": "College Scorecard: Stony Brook University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?196097-Stony%20Brook%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 32741,
+      "tuitionInState": 10931,
+      "estimatedAttendance": 30539,
+      "averageGrantAid": 11755,
+      "undergraduateSize": 18101,
+      "internationalStudentRate": 9.5,
+      "admissionRate": 49,
+      "pellGrantRate": 39.4,
+      "meanEarnings10Years": 62600,
+      "completionRate": 75.6,
+      "retentionRate": 89.8
+    }
   },
   "University of Utah": {
     "schoolType": "Public",
@@ -637,7 +1771,25 @@
     "sourceLabel": "University of Utah facts and figures",
     "sourceUrl": "https://brand.utah.edu/facts-and-figures/",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "230764",
+      "sourceInstitution": "University of Utah",
+      "sourceLabel": "College Scorecard: University of Utah",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?230764-University%20of%20Utah",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 30860,
+      "tuitionInState": 9620,
+      "estimatedAttendance": 25557,
+      "averageGrantAid": 9357,
+      "undergraduateSize": 27264,
+      "internationalStudentRate": 5.4,
+      "admissionRate": 86,
+      "pellGrantRate": 19.6,
+      "meanEarnings10Years": 63500,
+      "completionRate": 65.1,
+      "retentionRate": 86.2
+    }
   },
   "University at Buffalo": {
     "schoolType": "Public",
@@ -647,7 +1799,25 @@
     "sourceLabel": "University at Buffalo Office of Institutional Analysis: Admissions",
     "sourceUrl": "https://www.buffalo.edu/oia/facts-publications/factbook/student/admissions.html",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "196088",
+      "sourceInstitution": "University at Buffalo",
+      "sourceLabel": "College Scorecard: University at Buffalo",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?196088-University%20at%20Buffalo",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 31536,
+      "tuitionInState": 10936,
+      "estimatedAttendance": 30785,
+      "averageGrantAid": 9790,
+      "undergraduateSize": 20112,
+      "internationalStudentRate": 11.5,
+      "admissionRate": 74.2,
+      "pellGrantRate": 33.1,
+      "meanEarnings10Years": 62100,
+      "completionRate": 75.2,
+      "retentionRate": 85.2
+    }
   },
   "Boston University": {
     "schoolType": "Private",
@@ -657,7 +1827,25 @@
     "sourceLabel": "Boston University class profile",
     "sourceUrl": "https://www.bu.edu/admissions/why-bu/class-profile/",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "164988",
+      "sourceInstitution": "Boston University",
+      "sourceLabel": "College Scorecard: Boston University",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?164988-Boston%20University",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 68102,
+      "tuitionInState": 68102,
+      "estimatedAttendance": 86285,
+      "averageGrantAid": 61883,
+      "undergraduateSize": 18248,
+      "internationalStudentRate": 21.2,
+      "admissionRate": 11.1,
+      "pellGrantRate": 19.2,
+      "meanEarnings10Years": 75900,
+      "completionRate": 88.7,
+      "retentionRate": 94.7
+    }
   },
   "Indiana University Bloomington": {
     "schoolType": "Public",
@@ -667,7 +1855,25 @@
     "sourceLabel": "Indiana University Bloomington admissions deadlines",
     "sourceUrl": "https://admissions.indiana.edu/apply/deadlines.html",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "151351",
+      "sourceInstitution": "Indiana University-Bloomington",
+      "sourceLabel": "College Scorecard: Indiana University-Bloomington",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?151351-Indiana%20University-Bloomington",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 41891,
+      "tuitionInState": 12144,
+      "estimatedAttendance": 28801,
+      "averageGrantAid": 12537,
+      "undergraduateSize": 37806,
+      "internationalStudentRate": 4.5,
+      "admissionRate": 78.2,
+      "pellGrantRate": 16.8,
+      "meanEarnings10Years": 57800,
+      "completionRate": 80.2,
+      "retentionRate": 91.1
+    }
   },
   "University of Pittsburgh": {
     "schoolType": "Public",
@@ -677,6 +1883,24 @@
     "sourceLabel": "University of Pittsburgh first-year admissions",
     "sourceUrl": "https://admissions.pitt.edu/first-year-student/",
     "sourceType": "official",
-    "updated": "2026-06-11"
+    "updated": "2026-06-11",
+    "scorecard": {
+      "unitId": "215293",
+      "sourceInstitution": "University of Pittsburgh-Pittsburgh Campus",
+      "sourceLabel": "College Scorecard: University of Pittsburgh-Pittsburgh Campus",
+      "sourceUrl": "https://collegescorecard.ed.gov/school/?215293-University%20of%20Pittsburgh-Pittsburgh%20Campus",
+      "updated": "2026-06-10",
+      "tuitionOutOfState": 41430,
+      "tuitionInState": 21926,
+      "estimatedAttendance": 38105,
+      "averageGrantAid": 7671,
+      "undergraduateSize": 20370,
+      "internationalStudentRate": 4.5,
+      "admissionRate": 58.1,
+      "pellGrantRate": 14,
+      "meanEarnings10Years": 61200,
+      "completionRate": 85.5,
+      "retentionRate": 92
+    }
   }
 }

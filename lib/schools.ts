@@ -11,6 +11,24 @@ export type SchoolProfile = {
   sourceUrl: string;
   sourceType?: "official" | "government-third-party" | "third-party";
   updated: string;
+  scorecard?: {
+    unitId: string;
+    sourceInstitution: string;
+    sourceLabel: string;
+    sourceUrl: string;
+    updated: string;
+    tuitionOutOfState: number | null;
+    tuitionInState: number | null;
+    estimatedAttendance: number | null;
+    averageGrantAid: number | null;
+    undergraduateSize: number | null;
+    internationalStudentRate: number | null;
+    admissionRate: number | null;
+    pellGrantRate: number | null;
+    meanEarnings10Years: number | null;
+    completionRate: number | null;
+    retentionRate: number | null;
+  };
 };
 
 const schoolProfiles = schoolsData as Record<string, SchoolProfile>;

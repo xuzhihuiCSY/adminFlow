@@ -9,14 +9,14 @@ export const languageLabels: Record<Language, string> = {
 
 export const copy = {
   zh: {
-    navPrograms: "项目库",
+    navPrograms: "流程 / 项目库",
     navRankings: "学校排行",
     navMyList: "我的清单",
     languageToggle: "切换语言",
     heroBadge: "美国大学申请信息导航",
-    heroTitle: "少开几个官网，也能看清美国大学申请进度。",
+    heroTitle: "先看清美国留学流程，再开始筛学校。",
     heroDescription:
-      "把项目是否开放、截止日期、GRE/TOEFL 要求和官方申请入口放在一个地方，帮你更快确认下一步该做什么。",
+      "用一张 roadmap 梳理选校、预算、申请、签证和行前准备；准备进入选校阶段时，再用项目库对比开放状态、截止日期和官方申请入口。",
     filters: "筛选",
     searchLabel: "搜索项目",
     searchPlaceholder: "按学校、项目或州搜索",
@@ -97,14 +97,14 @@ export const copy = {
     varies: "视项目而定"
   },
   en: {
-    navPrograms: "Programs",
+    navPrograms: "Roadmap / Programs",
     navRankings: "Rankings",
     navMyList: "My List",
     languageToggle: "Switch language",
     heroBadge: "US university application navigator",
-    heroTitle: "Track US university applications without opening every school site.",
+    heroTitle: "Understand the US study process before shortlisting schools.",
     heroDescription:
-      "See open status, deadlines, GRE/TOEFL requirements, and official application links in one focused workspace.",
+      "Use the roadmap to move through research, funding, applications, student visa, and departure planning. When you are ready, compare program status, deadlines, and official application links in the catalog.",
     filters: "Filters",
     searchLabel: "Search programs",
     searchPlaceholder: "Search by school, program, or state",
