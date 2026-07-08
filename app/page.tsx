@@ -552,6 +552,10 @@ export default function HomePage() {
               <h2 className="text-xl font-semibold">{t.programs}</h2>
               <p className="text-sm text-muted-foreground">
                 {t.programCount(filteredPrograms.length, activeDegreePrograms.length)}
+                <span className="mx-2">·</span>
+                {language === "zh"
+                  ? `全库 ${programs.length} 个项目`
+                  : `${programs.length} total programs`}
               </p>
             </div>
             <div className="hidden rounded-lg border border-border bg-card p-1 shadow-soft lg:flex">

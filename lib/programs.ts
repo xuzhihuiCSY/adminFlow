@@ -144,6 +144,14 @@ function getWindowCandidates(program: Program, now = new Date()) {
     .sort((left, right) => left.opensDate.getTime() - right.opensDate.getTime());
 }
 
+function getWindowCandidatesForSchedule(window: ApplicationWindow, now = new Date()) {
+  const year = now.getFullYear();
+
+  return [year - 1, year, year + 1, year + 2]
+    .map((candidateYear) => buildWindow(window, candidateYear))
+    .sort((left, right) => left.opensDate.getTime() - right.opensDate.getTime());
+}
+
 export function getCurrentApplicationWindow(program: Program, now = new Date()) {
   const match = getWindowCandidates(program, now).find(
     (window) => now.getTime() >= window.opensDate.getTime() && now.getTime() <= window.deadlineDate.getTime()
@@ -165,7 +173,17 @@ export function getRelevantApplicationWindow(program: Program, now = new Date())
 }
 
 export function getWindowSchedule(program: Program, now = new Date()) {
-  return program.applicationWindows.map((window) => toPublicWindow(buildWindow(window, now.getFullYear())));
+  return program.applicationWindows.map((window) => {
+    const candidates = getWindowCandidatesForSchedule(window, now);
+    const current = candidates.find(
+      (candidate) =>
+        now.getTime() >= candidate.opensDate.getTime() &&
+        now.getTime() <= candidate.deadlineDate.getTime()
+    );
+    const next = candidates.find((candidate) => candidate.opensDate.getTime() > now.getTime());
+
+    return toPublicWindow(current ?? next ?? candidates[candidates.length - 1]);
+  });
 }
 
 function toPublicWindow(window: ReturnType<typeof buildWindow>): ComputedApplicationWindow {

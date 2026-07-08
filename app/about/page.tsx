@@ -6,6 +6,10 @@ import { BookOpenCheck, ExternalLink, GraduationCap, SearchCheck } from "lucide-
 import { useLanguage } from "@/components/LanguageProvider";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { programs } from "@/lib/programs";
+
+const catalogProgramCount = programs.length;
+const catalogSchoolCount = new Set(programs.map((program) => program.school)).size;
 
 const copy = {
   zh: {
@@ -63,6 +67,7 @@ const copy = {
 export default function AboutPage() {
   const { language } = useLanguage();
   const text = copy[language];
+  const scopeBody = getScopeBody(language, catalogProgramCount, catalogSchoolCount);
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6 lg:px-8">
@@ -105,7 +110,7 @@ export default function AboutPage() {
             ))}
           </ul>
         </section>
-        <ContentBlock title={text.scopeTitle} body={text.scope} />
+        <ContentBlock title={text.scopeTitle} body={scopeBody} />
         <ContentBlock title={text.audienceTitle} body={text.audience} />
         <p className="text-sm leading-6 text-muted-foreground">
           <ExternalLink className="mr-2 inline h-4 w-4" aria-hidden="true" />
@@ -114,6 +119,14 @@ export default function AboutPage() {
       </section>
     </main>
   );
+}
+
+function getScopeBody(language: "zh" | "en", programCount: number, schoolCount: number) {
+  if (language === "zh") {
+    return `当前目录覆盖 ${programCount} 个项目和 ${schoolCount} 所学校，重点是常见申请方向和能公开验证申请信息的学校。目录会继续扩展，但不会收录无法找到可靠来源或申请入口不清晰的项目。`;
+  }
+
+  return `The current catalog covers ${programCount} programs and ${schoolCount} schools, focused on common application paths and schools with publicly verifiable admissions information. The catalog will expand, but programs without reliable sources or clear application links are not included.`;
 }
 
 function ContentBlock({ title, body }: { title: string; body: string }) {
