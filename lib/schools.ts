@@ -1,5 +1,6 @@
 import schoolsData from "@/data/schools.json";
 import schoolRankingsData from "@/data/school-rankings.json";
+import schoolMottosData from "@/data/school-mottos.json";
 import { programs } from "@/lib/programs";
 
 export type SchoolProfile = {
@@ -33,6 +34,16 @@ export type SchoolProfile = {
 
 const schoolProfiles = schoolsData as Record<string, SchoolProfile>;
 
+export type SchoolMotto = {
+  original: string;
+  en: string;
+  zh: string;
+  sourceUrl: string;
+  unofficial?: boolean;
+};
+
+const schoolMottos = schoolMottosData as Record<string, SchoolMotto>;
+
 export type SchoolRankingSource = {
   name: string;
   edition: string;
@@ -63,6 +74,10 @@ export type SchoolRankingEntry = SchoolProfile & {
 
 export function getSchoolProfile(school: string) {
   return schoolProfiles[school] ?? null;
+}
+
+export function getSchoolMotto(school: string) {
+  return schoolMottos[school] ?? null;
 }
 
 export function getSchoolRankingSource() {
