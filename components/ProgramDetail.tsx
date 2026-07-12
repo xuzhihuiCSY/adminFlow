@@ -55,7 +55,7 @@ import {
   programs,
   type Program
 } from "@/lib/programs";
-import { getSchoolProfile, type SchoolProfile } from "@/lib/schools";
+import { getSchoolMotto, getSchoolProfile, type SchoolProfile } from "@/lib/schools";
 
 type ProgramDetailProps = {
   program: Program;
@@ -91,7 +91,9 @@ const detailCopy = {
     scholarshipNote: "奖学金资格、金额和国际学生适用范围请以学校官网为准。",
     educationUsaAid: "EducationUSA 奖学金/资助库",
     schoolAidEntry: "学校官网录取/资助信息",
-    internationalAidEntry: "国际学生资助信息"
+    internationalAidEntry: "国际学生资助信息",
+    mottoSource: "校训来源",
+    unofficialMotto: "非官方校训"
   },
   en: {
     applicationProcess: "Application Process",
@@ -123,7 +125,9 @@ const detailCopy = {
     scholarshipNote: "Scholarship eligibility, amount, and international-student availability must be confirmed on the school website.",
     educationUsaAid: "EducationUSA financial aid search",
     schoolAidEntry: "School official admission/aid page",
-    internationalAidEntry: "International student aid info"
+    internationalAidEntry: "International student aid info",
+    mottoSource: "Motto source",
+    unofficialMotto: "Unofficial motto"
   }
 } as const;
 
@@ -152,6 +156,7 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
   const nextOpenDate = getNextApplicationOpenDate(program, now);
   const relevantWindow = getRelevantApplicationWindow(program, now);
   const schoolProfile = getSchoolProfile(program.school);
+  const schoolMotto = getSchoolMotto(program.school);
   const applicationProcess = markFirstUniqueProcessLinks(getApplicationProcess(program, language));
   const localCopy = detailCopy[language];
   const similarPrograms = getSimilarPrograms(program);
@@ -199,6 +204,26 @@ export default function ProgramDetail({ program }: ProgramDetailProps) {
             <Badge variant="outline">{getStateLabel(program.state, language)}</Badge>
           </div>
           <p className="mb-2 text-base font-medium text-muted-foreground">{program.school}</p>
+          {schoolMotto ? (
+            <p className="mb-3 max-w-3xl text-sm italic leading-6 text-muted-foreground">
+              <span>{schoolMotto.original}</span>
+              <span aria-hidden="true"> · </span>
+              <span>{schoolMotto[language]}</span>
+              {schoolMotto.unofficial ? (
+                <span className="ml-2 not-italic">({localCopy.unofficialMotto})</span>
+              ) : null}
+              <a
+                href={schoolMotto.sourceUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="ml-2 inline-flex not-italic text-primary underline-offset-4 hover:underline"
+                aria-label={`${program.school} ${localCopy.mottoSource}`}
+                title={localCopy.mottoSource}
+              >
+                <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
+              </a>
+            </p>
+          ) : null}
           <h1 className="max-w-4xl text-4xl font-semibold tracking-normal sm:text-5xl">
             {program.program}
           </h1>
