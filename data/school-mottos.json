@@ -1,0 +1,339 @@
+{
+  "MIT": {
+    "original": "Mens et Manus",
+    "en": "Mind and Hand",
+    "zh": "心与手",
+    "sourceUrl": "https://news.mit.edu/1993/mens-manus-0714"
+  },
+  "Harvard University": {
+    "original": "Veritas",
+    "en": "Truth",
+    "zh": "真理",
+    "sourceUrl": "https://www.harvard.edu/about/history/shields/"
+  },
+  "Yale University": {
+    "original": "Lux et Veritas",
+    "en": "Light and Truth",
+    "zh": "光明与真理",
+    "sourceUrl": "https://salovey.yale.edu/writings-and-speeches/speeches/pursuing-truth-yale"
+  },
+  "Stanford University": {
+    "original": "Die Luft der Freiheit weht",
+    "en": "The wind of freedom blows",
+    "zh": "自由之风劲吹",
+    "unofficial": true,
+    "sourceUrl": "https://web.stanford.edu/dept/pres-provost/president/speeches/951005dieluft.html"
+  },
+  "Princeton University": {
+    "original": "Dei sub numine viget",
+    "en": "Under God's power she flourishes",
+    "zh": "在上帝的力量下蓬勃发展",
+    "sourceUrl": "https://princetoniana.princeton.edu/things-princeton/colors-shields"
+  },
+  "UC Berkeley": {
+    "original": "Fiat Lux",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_California,_Berkeley"
+  },
+  "Columbia University": {
+    "original": "In Lumine Tuo Videbimus Lumen",
+    "en": "In your light, we see the light",
+    "zh": "在你的光中，我们得见光明",
+    "sourceUrl": "https://news.columbia.edu/news/6-iconic-inscriptions-columbias-morningside-campus-you-should-know"
+  },
+  "Cornell University": {
+    "original": "I would found an institution where any person can find instruction in any study",
+    "en": "Any person, any study",
+    "zh": "任何人，任何学科",
+    "sourceUrl": "https://news.cornell.edu/stories/2007/08/cornells-any-person-any-study-named-best-college-motto"
+  },
+  "University of Pennsylvania": {
+    "original": "Leges Sine Moribus Vanae",
+    "en": "Laws without morals are useless",
+    "zh": "法律若无道德，便毫无意义",
+    "sourceUrl": "https://secretary.upenn.edu/trustees-governance/frequently-asked-questions"
+  },
+  "Brown University": {
+    "original": "In Deo Speramus",
+    "en": "In God we hope",
+    "zh": "我们寄希望于上帝",
+    "sourceUrl": "https://www.brown.edu/university-identity/sites/university-identity/files/Brown_Visual_Identity_Policy_2016-07-22.pdf"
+  },
+  "Arizona State University": {
+    "original": "Ditat Deus",
+    "en": "God enriches",
+    "zh": "上帝使人丰盛",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arizona_State_University"
+  },
+  "Boston University": {
+    "original": "Learning, Virtue, Piety",
+    "en": "Learning, Virtue, Piety",
+    "zh": "学识、德行与虔敬",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Boston_University"
+  },
+  "Cal Poly Pomona": {
+    "original": "Instrumentum Disciplinae",
+    "en": "Application of knowledge",
+    "zh": "学以致用",
+    "sourceUrl": "https://en.wikipedia.org/wiki/California_State_Polytechnic_University,_Pomona"
+  },
+  "Cal Poly San Luis Obispo": {
+    "original": "Discere Faciendo",
+    "en": "Learn by Doing",
+    "zh": "做中学",
+    "sourceUrl": "https://www.calpoly.edu/learn-by-doing"
+  },
+  "Cal State East Bay": {
+    "original": "Per Aspera Ad Astra",
+    "en": "Through adversity to the stars",
+    "zh": "历经艰难，终抵群星",
+    "sourceUrl": "https://en.wikipedia.org/wiki/California_State_University,_East_Bay"
+  },
+  "Cal State Fullerton": {
+    "original": "Vox Veritas Vita",
+    "en": "Voice, Truth, Life",
+    "zh": "声音、真理、生命",
+    "sourceUrl": "https://en.wikipedia.org/wiki/California_State_University,_Fullerton"
+  },
+  "Cal State Long Beach": {
+    "original": "Vox Veritas Vita",
+    "en": "Voice, Truth, Life",
+    "zh": "声音、真理、生命",
+    "sourceUrl": "https://en.wikipedia.org/wiki/California_State_University,_Long_Beach"
+  },
+  "Cal State Northridge": {
+    "original": "Vox Veritas Vita",
+    "en": "Voice, Truth, Life",
+    "zh": "声音、真理、生命",
+    "sourceUrl": "https://en.wikipedia.org/wiki/California_State_University,_Northridge"
+  },
+  "Caltech": {
+    "original": "The truth shall make you free",
+    "en": "The truth shall make you free",
+    "zh": "真理必使你自由",
+    "sourceUrl": "https://en.wikipedia.org/wiki/California_Institute_of_Technology"
+  },
+  "Carnegie Mellon University": {
+    "original": "My heart is in the work",
+    "en": "My heart is in the work",
+    "zh": "我心系于事业",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Carnegie_Mellon_University"
+  },
+  "Dartmouth College": {
+    "original": "Vox clamantis in deserto",
+    "en": "A voice crying out in the wilderness",
+    "zh": "旷野中的呼声",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Dartmouth_College"
+  },
+  "Duke University": {
+    "original": "Eruditio et Religio",
+    "en": "Knowledge and Faith",
+    "zh": "知识与信仰",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Duke_University"
+  },
+  "Fresno State": {
+    "original": "Lucem Accipe Ut Reddas",
+    "en": "Receive the light that you may give it forth",
+    "zh": "承受光明，并将其传扬",
+    "sourceUrl": "https://en.wikipedia.org/wiki/California_State_University,_Fresno"
+  },
+  "Georgia Tech": {
+    "original": "Progress and Service",
+    "en": "Progress and Service",
+    "zh": "进步与服务",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Georgia_Tech"
+  },
+  "Indiana University Bloomington": {
+    "original": "Lux et Veritas",
+    "en": "Light and Truth",
+    "zh": "光明与真理",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Indiana_University_Bloomington"
+  },
+  "Johns Hopkins University": {
+    "original": "Veritas vos liberabit",
+    "en": "The truth will set you free",
+    "zh": "真理使你自由",
+    "sourceUrl": "https://brand.jhu.edu/university-logo/"
+  },
+  "New York University": {
+    "original": "Perstare et Praestare",
+    "en": "To persevere and to excel",
+    "zh": "坚持不懈，追求卓越",
+    "sourceUrl": "https://www.nyu.edu/about/news-publications/nyu-stories/nyu-seal.html"
+  },
+  "Northeastern University": {
+    "original": "Lux, Veritas, Virtus",
+    "en": "Light, Truth, Courage",
+    "zh": "光明、真理与勇气",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Northeastern_University"
+  },
+  "Northwestern University": {
+    "original": "Quaecumque sunt vera",
+    "en": "Whatever things are true",
+    "zh": "凡是真实的",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Northwestern_University"
+  },
+  "Ohio State University": {
+    "original": "Disciplina in civitatem",
+    "en": "Education for citizenship",
+    "zh": "以教育培养公民",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ohio_State_University"
+  },
+  "Rice University": {
+    "original": "Letters, Science, Art",
+    "en": "Letters, Science, Art",
+    "zh": "人文、科学与艺术",
+    "sourceUrl": "https://brand.rice.edu/university-seal"
+  },
+  "Rutgers University": {
+    "original": "Sol iustitiae et occidentem illustra",
+    "en": "Sun of righteousness, shine upon the West also",
+    "zh": "正义之光，也请照耀西方",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rutgers_University"
+  },
+  "San Francisco State University": {
+    "original": "Experientia Docet",
+    "en": "Experience teaches",
+    "zh": "经验育人",
+    "sourceUrl": "https://en.wikipedia.org/wiki/San_Francisco_State_University"
+  },
+  "University of Arizona": {
+    "original": "Sursum",
+    "en": "Upwards",
+    "zh": "向上",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Arizona"
+  },
+  "University of Chicago": {
+    "original": "Crescat scientia; vita excolatur",
+    "en": "Let knowledge grow from more to more; and so be human life enriched",
+    "zh": "让知识日益增长，让人类生活更加丰富",
+    "sourceUrl": "https://www.uchicago.edu/en/who-we-are/history-and-traditions"
+  },
+  "University of Florida": {
+    "original": "Civium in moribus rei publicae salus",
+    "en": "The welfare of the state depends upon the morals of its citizens",
+    "zh": "国家福祉取决于公民的品德",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Florida"
+  },
+  "University of Illinois Urbana-Champaign": {
+    "original": "Learning and Labor",
+    "en": "Learning and Labor",
+    "zh": "学习与劳动",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Illinois_Urbana-Champaign"
+  },
+  "University of Maryland": {
+    "original": "Fatti maschii, parole femine",
+    "en": "Strong deeds, gentle words",
+    "zh": "行动坚定，言语温和",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Maryland,_College_Park"
+  },
+  "University of Massachusetts Amherst": {
+    "original": "Ense petit placidam sub libertate quietem",
+    "en": "By the sword we seek peace, but peace only under liberty",
+    "zh": "以剑求和平，但和平须以自由为本",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst"
+  },
+  "University of Michigan": {
+    "original": "Artes, Scientia, Veritas",
+    "en": "Arts, Knowledge, Truth",
+    "zh": "艺术、知识与真理",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Michigan"
+  },
+  "University of Minnesota Twin Cities": {
+    "original": "Commune vinculum omnibus artibus",
+    "en": "A common bond for all the arts",
+    "zh": "联结一切学艺的共同纽带",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Minnesota_Twin_Cities"
+  },
+  "University of Pittsburgh": {
+    "original": "Veritas et Virtus",
+    "en": "Truth and Virtue",
+    "zh": "真理与美德",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Pittsburgh"
+  },
+  "University of Southern California": {
+    "original": "Palmam qui meruit ferat",
+    "en": "Let whoever earns the palm bear it",
+    "zh": "让赢得荣誉者承载荣誉",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Southern_California"
+  },
+  "University of Washington": {
+    "original": "Lux sit",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_of_Washington"
+  },
+  "University of Wisconsin-Madison": {
+    "original": "Numen Lumen",
+    "en": "The divine within the universe, however manifested, is my light",
+    "zh": "宇宙中的神圣之光指引着我",
+    "sourceUrl": "https://www.wisc.edu/about/"
+  },
+  "Vanderbilt University": {
+    "original": "Crescere aude",
+    "en": "Dare to grow",
+    "zh": "勇于成长",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Vanderbilt_University"
+  },
+  "Virginia Tech": {
+    "original": "Ut Prosim",
+    "en": "That I May Serve",
+    "zh": "愿我服务众人",
+    "sourceUrl": "https://www.vt.edu/about/traditions.html"
+  },
+  "UC Davis": {
+    "original": "Fiat Lux",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://www.universityofcalifornia.edu/about-us"
+  },
+  "UC Irvine": {
+    "original": "Fiat Lux",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://www.universityofcalifornia.edu/about-us"
+  },
+  "UC San Diego": {
+    "original": "Fiat Lux",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://www.universityofcalifornia.edu/about-us"
+  },
+  "UC Santa Barbara": {
+    "original": "Fiat Lux",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://www.universityofcalifornia.edu/about-us"
+  },
+  "UC Santa Cruz": {
+    "original": "Fiat Lux",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://www.universityofcalifornia.edu/about-us"
+  },
+  "UCLA": {
+    "original": "Fiat Lux",
+    "en": "Let there be light",
+    "zh": "要有光",
+    "sourceUrl": "https://www.universityofcalifornia.edu/about-us"
+  },
+  "UNC Chapel Hill": {
+    "original": "Lux Libertas",
+    "en": "Light and Liberty",
+    "zh": "光明与自由",
+    "sourceUrl": "https://www.unc.edu/about/history-and-traditions/"
+  },
+  "UT Austin": {
+    "original": "Disciplina Praesidium Civitatis",
+    "en": "The cultivated mind is the guardian genius of democracy",
+    "zh": "受过教育的心灵是民主的守护者",
+    "sourceUrl": "https://www.utexas.edu/about/mission-and-values"
+  },
+  "University at Buffalo": {
+    "original": "Mens sana in corpore sano",
+    "en": "A sound mind in a sound body",
+    "zh": "健全的心智寓于健全的身体",
+    "sourceUrl": "https://en.wikipedia.org/wiki/University_at_Buffalo"
+  }
+}
