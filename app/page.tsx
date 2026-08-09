@@ -27,7 +27,6 @@ import {
 } from "lucide-react";
 
 import FavoriteButton from "@/components/FavoriteButton";
-import GoogleAdHolder from "@/components/GoogleAdHolder";
 import { useLanguage } from "@/components/LanguageProvider";
 import PaginationControls from "@/components/PaginationControls";
 import SearchBar from "@/components/SearchBar";
@@ -1006,9 +1005,6 @@ function SchoolCatalog({
         items={openPrograms}
         now={now}
       />
-      {openPrograms.length > 0 && notOpenPrograms.length > 0 ? (
-        <GoogleAdHolder className="my-1" />
-      ) : null}
       <ProgramGroup
         title={t.notOpenApplicationPrograms}
         countLabel={t.groupProgramCount(notOpenPrograms.length)}

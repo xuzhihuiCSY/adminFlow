@@ -24,11 +24,6 @@ const copy = {
           "“我的清单”保存在你的浏览器 localStorage 中，用于记录你主动收藏的项目 ID。清除浏览器数据或更换设备会移除这些本地记录。"
       },
       {
-        title: "广告和 Cookie",
-        body:
-          "如果网站启用 Google AdSense，Google 和其合作方可能使用 Cookie、网络信标、IP 地址或其他标识符来投放广告、限制广告频次、衡量效果或防止欺诈。你可以查看 Google 关于合作伙伴网站数据使用方式的说明。"
-      },
-      {
         title: "外部链接",
         body:
           "项目详情页会链接到大学、申请系统、排名来源和其他外部网站。外部网站有自己的隐私政策和内容政策；离开 AdmitFlow 后，请以对应网站的政策为准。"
@@ -39,7 +34,6 @@ const copy = {
           "如果你发现隐私问题、错误链接或希望我们删除某项非必要信息，请通过联系页面发送说明。"
       }
     ],
-    googleLink: "Google 如何使用来自合作伙伴网站或应用的数据",
     contact: "联系页面"
   },
   en: {
@@ -60,11 +54,6 @@ const copy = {
           "My List is stored in your browser localStorage and records only the program IDs you choose to save. Clearing browser data or changing devices removes those local records."
       },
       {
-        title: "Advertising and Cookies",
-        body:
-          "If Google AdSense is enabled, Google and its partners may use cookies, web beacons, IP addresses, or other identifiers to serve ads, limit ad frequency, measure performance, or prevent fraud. You can review Google's explanation of how it uses data on partner sites."
-      },
-      {
         title: "External Links",
         body:
           "Program detail pages link to universities, application systems, ranking sources, and other external sites. Those sites have their own privacy and content policies. After leaving AdmitFlow, review the policy of the site you visit."
@@ -75,7 +64,6 @@ const copy = {
           "If you find a privacy issue, broken link, or want to ask us to remove nonessential information, send details through the contact page."
       }
     ],
-    googleLink: "How Google uses data from partner sites or apps",
     contact: "contact page"
   }
 } as const;
@@ -103,15 +91,6 @@ export default function PrivacyPage() {
       </section>
 
       <p className="mt-8 text-sm leading-7 text-muted-foreground">
-        <a
-          href="https://policies.google.com/technologies/partner-sites"
-          target="_blank"
-          rel="noreferrer"
-          className="font-medium text-foreground underline-offset-4 hover:underline"
-        >
-          {text.googleLink}
-        </a>
-        {" · "}
         <Link href="/contact" className="font-medium text-foreground underline-offset-4 hover:underline">
           {text.contact}
         </Link>

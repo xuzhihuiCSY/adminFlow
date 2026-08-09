@@ -5,9 +5,6 @@ import AppHeader from "@/components/AppHeader";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import "./globals.css";
 
-const adsenseClient =
-  process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_CLIENT ?? "ca-pub-4558912554658127";
-
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://admit-flow.com"),
   title: {
@@ -31,14 +28,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN" suppressHydrationWarning>
-      <head>
-        <meta name="google-adsense-account" content={adsenseClient} />
-        <script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-          crossOrigin="anonymous"
-        ></script>
-      </head>
       <body className="min-h-screen font-sans antialiased">
         <LanguageProvider>
           <div className="flex min-h-screen flex-col">

@@ -19,7 +19,7 @@ const copy = {
       "AdmitFlow 页面链接或项目名称",
       "你认为需要修改的字段",
       "学校官方页面或可靠来源链接",
-      "如果是隐私或广告相关问题，请说明发生时间、页面和设备环境"
+      "如果是隐私相关问题，请说明发生时间、页面和设备环境"
     ],
     note:
       "AdmitFlow 仅代表我个人维护，不代表任何大学、机构或官方招生部门，也不提供录取保证、签证建议或付费申请代写服务。"
@@ -35,7 +35,7 @@ const copy = {
       "The AdmitFlow page link or program name",
       "The field you believe should be changed",
       "The official school page or reliable source link",
-      "For privacy or advertising issues, include the time, page, and device context"
+      "For privacy issues, include the time, page, and device context"
     ],
     note:
       "AdmitFlow is maintained by me personally. It does not represent any university, organization, or official admissions office, and it does not provide admission guarantees, visa advice, or paid application-writing services."
