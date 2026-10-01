@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-07-03T23:57:54Z",
+  "lastChecked": "2026-10-01T16:47:13Z",
   "catalog": {
     "programs": 158,
     "schools": 68,
@@ -15,10 +15,7 @@
       "Cal State East Bay",
       "Cal State Monterey Bay"
     ],
-    "updatedRankingKeys": [
-      "University of Illinois Urbana-Champaign",
-      "University of Wisconsin-Madison"
-    ]
+    "updatedRankingKeys": []
   },
   "validation": {
     "errors": [],
