@@ -1,11 +1,11 @@
 {
-  "lastVerified": "2026-10-01T16:53:11Z",
+  "lastVerified": "2026-11-01T16:34:57Z",
   "sourceSummary": "Official program, admissions, international student, and application pages are checked where available.",
   "summary": {
     "programsChecked": 158,
-    "brokenLinks": 8,
-    "protectedOrRateLimitedLinks": 12,
+    "brokenLinks": 13,
+    "protectedOrRateLimitedLinks": 15,
     "verifiedProtectedLinks": 5,
-    "programsNeedingDeadlineReview": 12
+    "programsNeedingDeadlineReview": 17
   }
 }
